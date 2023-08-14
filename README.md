@@ -10,6 +10,7 @@ Made using JLC2KiCadLib with manual touch ups.
 - Contains every basic resistor and capacitor value
 - Contains 3d models for 95%+ of the footprints
 - Datasheet Links
+- Kicad 7 Support
 
 
 ## Basic Usage
