@@ -20,9 +20,11 @@
   (fp_line (start -0.2 0.005055) (end 0.3 0.5)
     (stroke (width 0.254) (type solid)) (layer "F.SilkS") (tstamp 552c7527-a46e-4fe7-ae92-8bac87ca809c))
   (fp_line (start 0.3 -0.5) (end 0.3 0.5)
-    (stroke (width 0.254001) (type solid)) (layer "F.SilkS") (tstamp 4e24010c-563c-4513-9ee9-8428221af79e))
+    (stroke (width 0.254) (type solid)) (layer "F.SilkS") (tstamp 4e24010c-563c-4513-9ee9-8428221af79e))
   (fp_line (start 0.3 0.005055) (end -0.2 0.005055)
-    (stroke (width 0.254001) (type solid)) (layer "F.SilkS") (tstamp ce6ff748-2f4d-4cf1-b5a2-4db7f33f1765))
+    (stroke (width 0.254) (type solid)) (layer "F.SilkS") (tstamp ce6ff748-2f4d-4cf1-b5a2-4db7f33f1765))
+  (fp_rect (start -1.7 -0.7) (end 1.7 0.7)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 3ac1af78-34c1-4a53-9d61-0e52e7a1b34c))
   (pad "1" smd rect (at -1.100127 -0.000102 180) (size 1 1.250013) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 348b53c2-4e1f-42db-a7b9-25307ec5d89b))
   (pad "2" smd rect (at 1.100025 -0.000102 180) (size 1 1.250013) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9bced70f-a0f5-434e-ac29-bfbc905c7405))
   (model "C:/Users/Taranaki/Documents/Github/openRiverSense/hardware/openRiverSense_010/JLCPCB Components/jlcpcb-diodes/footprint/packages3d/LED0805-RD_RED.wrl"
