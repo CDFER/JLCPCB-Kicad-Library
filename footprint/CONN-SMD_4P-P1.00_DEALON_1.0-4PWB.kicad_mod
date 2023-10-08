@@ -93,7 +93,7 @@
   )
   (fp_circle (center -2 -4.75) (end -1.85 -4.75)
     (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 4cb7fee9-3d81-4ba2-9007-1342ff320710))
-  (fp_rect (start -3.1 -4.55) (end 3.1 -0.1)
+  (fp_rect (start -3.4 -5.55) (end 3.4 0)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp ea29bdb7-2ddf-4fe6-83a4-780ce4bff103))
   (pad "1" smd roundrect (at -1.5 -4.775) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 60f35e33-8e17-426f-a385-8d806ed4c577))
   (pad "2" smd roundrect (at -0.5 -4.775) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 033064d2-68d1-400b-a6f9-3aafb4853375))
@@ -102,7 +102,7 @@
   (pad "5" smd roundrect (at 2.8 -0.9) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e60a04f3-a810-4cd0-a1d0-f4f1660a7113))
   (pad "6" smd roundrect (at -2.8 -0.9) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6ec504f5-69f3-41f4-ac71-8df03c7e9d3b))
   (model "${KIPRJMOD}/JLCPCB-Kicad-Library/footprint/packages3d/CONN-SMD_4P-P1.00_DEALON_1.0-4PWB.wrl"
-    (offset (xyz 0 1.496034578 1.500123977))
+    (offset (xyz 0 4.5 1.500124))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
