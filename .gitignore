@@ -27,3 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Limit File size to 100MiB (Github Git File Size Limit)
+find . -size +100M | cat >> .gitignore
