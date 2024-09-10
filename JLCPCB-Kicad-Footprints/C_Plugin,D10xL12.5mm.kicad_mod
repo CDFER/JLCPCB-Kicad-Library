@@ -1,0 +1,180 @@
+(footprint "C_Plugin,D10xL12.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=12.5mm, Non-Polar Electrolytic Capacitor")
+	(tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 12.5mm Non-Polar Electrolytic Capacitor")
+	(property "Reference" "REF**"
+		(at 2.5 -6.25 0)
+		(layer "F.SilkS")
+		(uuid "dac7f192-73cc-4b17-8840-40dce13b653e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Radial_D10.0mm_H12.5mm_P5.00mm"
+		(at 2.5 6.25 0)
+		(layer "F.Fab")
+		(uuid "c377401f-780e-4b3b-ae0d-092a4aacfc42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7ef51b6-d2f4-47d5-8e30-195ba0859277")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "981553df-a23a-4a59-941e-99f849b037a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e1305d6-9b29-49b2-8251-ef3bf749cec7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.5 -1.7)
+		(end 0.5 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d45c6808-177e-42bb-b0d8-442f6243d4a8")
+	)
+	(fp_line
+		(start 0 -2.2)
+		(end 0 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b44c4c9-4183-427c-92b8-382cd1523f50")
+	)
+	(fp_line
+		(start 4.5 -1.7)
+		(end 5.5 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "098b0684-6598-469a-9705-d54c671073e6")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.62 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "31015ac3-1365-41c1-b186-d37b8ff1431e")
+	)
+	(fp_poly
+		(pts
+			(xy 6.6 -3) (xy 6.6 3.1) (xy 7.3 1.8) (xy 7.5 1) (xy 7.62 0) (xy 7.5 -1) (xy 7.2 -2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bb58d2b7-7595-4c7d-b595-4a4746a465de")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "64383e1f-78e6-410c-aa97-e680cfe8a4fc")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "862208ad-56bf-4412-af63-20b9825628fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "7adfedbd-cf12-428c-a176-3eabf0c976bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fb1fc9f-5ce6-40bc-b811-5acf1a86e1aa")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d6b6b8b-5aff-4d7d-87d4-89322e28dc25")
+	)
+	(model "C:/Users/Taranaki/Documents/Github/JLCPCB-Kicad-Library/JLCPCB-Kicad-Footprints/3dModels/C_Plugin,D10xL12.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
