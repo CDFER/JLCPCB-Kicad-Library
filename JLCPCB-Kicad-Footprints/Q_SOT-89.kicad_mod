@@ -1,0 +1,266 @@
+(footprint "SOT-89-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-89-3, http://ww1.microchip.com/downloads/en/DeviceDoc/3L_SOT-89_MB_C04-029C.pdf")
+	(tags "SOT-89-3")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "bf18b3b0-734e-466d-bfbe-3370076d744e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-89-3"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "449301ee-00aa-428d-bbe4-f4731cfe4c9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92a1fd6a-65ee-41ba-8173-8545d5a55f25")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b2aab79-e5e8-44c6-9a06-e7d6e11f9528")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d871ec90-2d54-4de4-8b31-516014d367c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.22 -2.36)
+		(end 1.36 -2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "338fe668-c124-489b-bc62-331c8de4c73d")
+	)
+	(fp_line
+		(start 1.36 -1.38)
+		(end 1.36 -2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2f7d5d0-0b4c-4a00-8927-ba167370ec62")
+	)
+	(fp_line
+		(start 1.36 1.38)
+		(end 1.36 2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bd2660d-7c5d-4459-8d16-bf8656589ecb")
+	)
+	(fp_line
+		(start 1.36 2.36)
+		(end -1.36 2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f76c3ab8-0d0b-4bde-bfff-3d51682d94fe")
+	)
+	(fp_poly
+		(pts
+			(xy -1.77 -2.21) (xy -2.01 -2.54) (xy -1.53 -2.54) (xy -1.77 -2.21)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "03f60025-a54a-4254-a246-33ce3be90d45")
+	)
+	(fp_line
+		(start -2.85 2.5)
+		(end -2.85 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ccf35cf-9ab6-4ebd-acf5-91ed7fd139ac")
+	)
+	(fp_line
+		(start -2.85 2.5)
+		(end 2.25 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb860ebb-567c-41e6-ba95-d70757aa819f")
+	)
+	(fp_line
+		(start 2.25 -2.5)
+		(end -2.85 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8964b4ee-fe9e-41a6-ba3b-9c64f1c1c58d")
+	)
+	(fp_line
+		(start 2.25 -2.5)
+		(end 2.25 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d61ba8ac-45a9-465f-8b17-fcba3f4af819")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -0.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c058663-c3e1-4da1-8c40-ca0d87eb5a7d")
+	)
+	(fp_line
+		(start -1.25 2.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68903d2d-8147-4d3e-8d7e-2068e8f4b246")
+	)
+	(fp_line
+		(start -0.25 -2.25)
+		(end 1.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74c60e4c-85c0-4a88-8906-61eac0bf098c")
+	)
+	(fp_line
+		(start 1.25 -2.25)
+		(end 1.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "007c426d-46f0-4826-bbb2-450a5c708f09")
+	)
+	(fp_line
+		(start 1.25 2.25)
+		(end -1.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45e9fb56-d1a2-4f42-a3e5-ac31afa228dd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 0 90)
+		(layer "F.Fab")
+		(uuid "f07753cd-a50d-4078-86e5-4f3757a27abf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.95 -1.5)
+		(size 1.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8e27f899-e72e-4822-b9ec-4934fd4c46a6")
+	)
+	(pad "2" smd custom
+		(at -1.8625 0)
+		(size 1.475 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 3.8625 0.8665) (xy 0.7375 0.8665) (xy 0.7375 -0.8665) (xy 3.8625 -0.8665)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f7565102-cb31-4481-a68c-8141056268b7")
+	)
+	(pad "3" smd roundrect
+		(at -1.95 1.5)
+		(size 1.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "86ea0c98-be91-4b04-8ec3-8d88d470d6d8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
