@@ -34,5 +34,8 @@ fp-info-cache
 # Kicad Project for Testing
 JLCPCB-Kicad
 
+__pycache__*
+
 # Limit File size to 100MiB (Github Git File Size Limit)
 find . -size +100M | cat >> .gitignore
+__pycache__
