@@ -1,8 +1,9 @@
 # handmadeLibrarySymbols.py
+import os
 
 
 def update_component_inplace(lcsc, libraryName, price, stock):
-    filename = f'JLCPCB-Kicad-Symbols\JLCPCB-{libraryName}.kicad_sym'
+    filename = os.path.join('JLCPCB-Kicad-Symbols', f'JLCPCB-{libraryName}.kicad_sym')
     with open(filename, "r") as file:
         lines = file.readlines()
 
@@ -14,7 +15,7 @@ def update_component_inplace(lcsc, libraryName, price, stock):
         if lcsc_found == False:
             if f"C{lcsc}" in line:
                 lcsc_found = True
-                print(f"Found {lcsc} on line {i} of {filename}")
+                # print(f"Found {lcsc} on line {i} of {filename}")
 
         else:
             if '(property "Price"' in line:
