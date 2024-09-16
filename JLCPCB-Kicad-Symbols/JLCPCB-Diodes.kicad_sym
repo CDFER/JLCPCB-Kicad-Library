@@ -28,7 +28,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN0603-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN0603-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -333,7 +333,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -540,7 +540,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -594,7 +594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9471"
+		(property "Stock" "9446"
 			(at 0 0 0)
 			(effects
 				(font
@@ -828,7 +828,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1610-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1610-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1035,7 +1035,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1089,7 +1089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "181"
+		(property "Stock" "26"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1259,7 +1259,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1313,7 +1313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1649"
+		(property "Stock" "1447"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1440,6 +1440,230 @@
 			)
 		)
 	)
+	(symbol "TVS-Bi,SMF5.0CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide no)
+			)
+		)
+		(property "Value" "SMF5.0CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide no)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312041000_hongjiacheng-SMF5-0CA_C19077498.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "27.4A 7.3V 200W 6.4V Bidirectional 5V SOD-123FL  ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077498"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.024USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "40674"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMF5.0CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMF5.0CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMF5.0CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMF5.0CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMF5.0CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TVS-Uni,SMAJ15A"
 		(pin_numbers hide)
 		(pin_names
@@ -1466,7 +1690,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1520,7 +1744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3246"
+		(property "Stock" "3237"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1727,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "531"
+		(property "Stock" "478"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1897,7 +2121,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DB-1"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DB-1"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2045,7 +2269,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DBS"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DBS"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2099,7 +2323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "83889"
+		(property "Stock" "83563"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2247,7 +2471,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DF-S"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DF-S"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2395,7 +2619,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "GBU"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_GBU"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2543,7 +2767,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "GBU"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_GBU"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2597,7 +2821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "982"
+		(property "Stock" "977"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2745,7 +2969,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "MBF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_MBF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2893,7 +3117,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "MBS"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_MBS"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -2947,7 +3171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "275354"
+		(property "Stock" "272509"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3095,7 +3319,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3149,7 +3373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "642247"
+		(property "Stock" "636277"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3363,7 +3587,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3417,7 +3641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17800"
+		(property "Stock" "17840"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3631,7 +3855,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3685,7 +3909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "64262"
+		(property "Stock" "63562"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3899,7 +4123,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -3953,7 +4177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "53330"
+		(property "Stock" "53270"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4167,7 +4391,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4221,7 +4445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34937"
+		(property "Stock" "34822"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4435,7 +4659,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -4489,7 +4713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "32676"
+		(property "Stock" "32626"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4971,7 +5195,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "A-405"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_A-405"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5176,7 +5400,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DO-15"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-15"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5381,7 +5605,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DO-27"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-27"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5586,7 +5810,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5640,7 +5864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1513873"
+		(property "Stock" "1477555"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5836,7 +6060,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -5890,7 +6114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11722"
+		(property "Stock" "11710"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6041,7 +6265,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -6095,7 +6319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "126482"
+		(property "Stock" "126442"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6291,7 +6515,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -6496,7 +6720,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -6550,7 +6774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6054"
+		(property "Stock" "5985"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6701,7 +6925,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -7460,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11769"
+		(property "Stock" "11749"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7861,7 +8085,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMBF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMBF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -8066,7 +8290,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMBF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMBF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -9600,7 +9824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34660"
+		(property "Stock" "34506"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9751,7 +9975,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -9805,7 +10029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "730244"
+		(property "Stock" "712864"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10001,7 +10225,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -10055,7 +10279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "59144"
+		(property "Stock" "59044"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10251,7 +10475,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -10305,7 +10529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60455"
+		(property "Stock" "59727"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10661,7 +10885,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -10715,7 +10939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5000"
+		(property "Stock" "9722"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10866,7 +11090,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -11071,7 +11295,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -11276,7 +11500,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -11481,7 +11705,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -11535,7 +11759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3895"
+		(property "Stock" "3856"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11686,7 +11910,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -11891,7 +12115,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -11945,7 +12169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6216"
+		(property "Stock" "6201"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12096,7 +12320,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -12150,7 +12374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10618"
+		(property "Stock" "10579"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12301,7 +12525,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -12355,7 +12579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10957"
+		(property "Stock" "10942"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12506,7 +12730,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -12828,7 +13052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34061"
+		(property "Stock" "33999"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13042,7 +13266,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -13247,7 +13471,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -13301,7 +13525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9159"
+		(property "Stock" "8886"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13452,7 +13676,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -13720,7 +13944,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -13925,7 +14149,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DO-214AC(SMA)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-214AC(SMA)"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -13979,7 +14203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7545"
+		(property "Stock" "7538"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14130,7 +14354,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DO-247"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-247"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -14335,7 +14559,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -14540,7 +14764,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -14745,7 +14969,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -14950,7 +15174,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -15218,7 +15442,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -15486,7 +15710,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -15691,7 +15915,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -15896,7 +16120,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -16101,7 +16325,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -16306,7 +16530,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -16511,7 +16735,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMB(DO-214AA)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -16565,7 +16789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7679"
+		(property "Stock" "7595"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16779,7 +17003,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMBF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMBF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -17189,7 +17413,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -17243,7 +17467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "42453"
+		(property "Stock" "42403"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17394,7 +17618,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DO-27"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-27"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -17603,7 +17827,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -17812,7 +18036,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -17866,7 +18090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "443048"
+		(property "Stock" "397843"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18066,7 +18290,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -18120,7 +18344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1106234"
+		(property "Stock" "1091350"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18320,7 +18544,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -18374,7 +18598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "719212"
+		(property "Stock" "717014"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18556,7 +18780,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -18610,7 +18834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "572812"
+		(property "Stock" "560465"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18792,7 +19016,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -18846,7 +19070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6714"
+		(property "Stock" "6701"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19001,7 +19225,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -19055,7 +19279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50964"
+		(property "Stock" "50914"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19264,7 +19488,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -19318,7 +19542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "54888"
+		(property "Stock" "54840"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19527,7 +19751,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -19581,7 +19805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70454"
+		(property "Stock" "71142"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19790,7 +20014,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -19844,7 +20068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35499"
+		(property "Stock" "35257"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20053,7 +20277,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -20107,7 +20331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "72565"
+		(property "Stock" "72287"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20316,7 +20540,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -20370,7 +20594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "106688"
+		(property "Stock" "106602"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20579,7 +20803,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -20633,7 +20857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "61863"
+		(property "Stock" "60358"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20842,7 +21066,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -20896,7 +21120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "90952"
+		(property "Stock" "90316"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21105,7 +21329,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -21314,7 +21538,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -21568,7 +21792,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMAF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -21622,7 +21846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4678"
+		(property "Stock" "4474"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21876,7 +22100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "69103"
+		(property "Stock" "69025"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22139,7 +22363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "76920"
+		(property "Stock" "76623"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22402,7 +22626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9125"
+		(property "Stock" "10301"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22611,7 +22835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11402"
+		(property "Stock" "11397"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22766,7 +22990,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMB(DO-214AA)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -22820,7 +23044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5286"
+		(property "Stock" "5186"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22975,7 +23199,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMBF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMBF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -23184,7 +23408,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMBF"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMBF"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -23447,7 +23671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2078"
+		(property "Stock" "1983"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23656,7 +23880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14264"
+		(property "Stock" "17104"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23919,7 +24143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13795"
+		(property "Stock" "16795"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24128,7 +24352,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMC(DO-214AB)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMC(DO-214AB)"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -24182,7 +24406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8833"
+		(property "Stock" "8813"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24418,7 +24642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "369216"
+		(property "Stock" "362773"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24654,7 +24878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "173352"
+		(property "Stock" "160100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25153,7 +25377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "66632"
+		(property "Stock" "66502"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25416,7 +25640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "89560"
+		(property "Stock" "89440"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25679,7 +25903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "51488"
+		(property "Stock" "45386"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26506,7 +26730,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -26560,7 +26784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27730"
+		(property "Stock" "27641"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26769,7 +26993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "208469"
+		(property "Stock" "208155"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27005,7 +27229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "670869"
+		(property "Stock" "644759"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27241,7 +27465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "42994"
+		(property "Stock" "42821"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27450,7 +27674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "217999"
+		(property "Stock" "217759"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27713,7 +27937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "106910"
+		(property "Stock" "106947"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27967,7 +28191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "325986"
+		(property "Stock" "324974"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28230,7 +28454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "84895"
+		(property "Stock" "84690"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28493,7 +28717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23361"
+		(property "Stock" "23241"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28747,7 +28971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9574"
+		(property "Stock" "9130"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29264,7 +29488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "183665"
+		(property "Stock" "183439"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29527,7 +29751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "43839"
+		(property "Stock" "43719"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30244,7 +30468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "41348"
+		(property "Stock" "41157"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30498,7 +30722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20614"
+		(property "Stock" "19952"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30752,7 +30976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6194"
+		(property "Stock" "6104"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30961,7 +31185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7016"
+		(property "Stock" "6683"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31325,7 +31549,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-523F"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-523F"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -31534,7 +31758,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -31588,7 +31812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10060"
+		(property "Stock" "9998"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31743,7 +31967,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -31952,7 +32176,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -32161,7 +32385,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -32370,7 +32594,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -32424,7 +32648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10640"
+		(property "Stock" "10480"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32579,7 +32803,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -32788,7 +33012,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -32842,7 +33066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5464"
+		(property "Stock" "10430"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33042,7 +33266,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -33096,7 +33320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4690"
+		(property "Stock" "4681"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33251,7 +33475,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -33505,7 +33729,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -33714,7 +33938,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -33768,7 +33992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "742"
+		(property "Stock" "688"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33923,7 +34147,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -34132,7 +34356,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -34186,7 +34410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14048"
+		(property "Stock" "13989"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34341,7 +34565,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -34395,7 +34619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24638"
+		(property "Stock" "24384"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34550,7 +34774,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -34604,7 +34828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17064"
+		(property "Stock" "22049"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34759,7 +34983,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -35022,7 +35246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11978"
+		(property "Stock" "11836"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36067,7 +36291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5502"
+		(property "Stock" "5483"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36640,7 +36864,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -36849,7 +37073,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -37058,7 +37282,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -37267,7 +37491,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -37476,7 +37700,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -37530,7 +37754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9623"
+		(property "Stock" "9554"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37685,7 +37909,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -37894,7 +38118,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -37948,7 +38172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12549"
+		(property "Stock" "12525"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38103,7 +38327,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -38157,7 +38381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9489"
+		(property "Stock" "9474"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38312,7 +38536,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -38521,7 +38745,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -38775,7 +38999,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -38984,7 +39208,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -39238,7 +39462,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -39501,7 +39725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2391"
+		(property "Stock" "2291"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39964,7 +40188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12791"
+		(property "Stock" "12725"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40218,7 +40442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11311"
+		(property "Stock" "11265"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40472,7 +40696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8667"
+		(property "Stock" "8567"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40726,7 +40950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5769"
+		(property "Stock" "5749"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41144,7 +41368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3026"
+		(property "Stock" "3023"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41562,7 +41786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5985"
+		(property "Stock" "5935"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42189,7 +42413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1353330"
+		(property "Stock" "1318277"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42734,7 +42958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "431075"
+		(property "Stock" "426135"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43011,7 +43235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1004686"
+		(property "Stock" "967327"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43288,7 +43512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "297237"
+		(property "Stock" "297032"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43770,7 +43994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "75612"
+		(property "Stock" "75622"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44047,7 +44271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20079"
+		(property "Stock" "19979"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44315,7 +44539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6157"
+		(property "Stock" "6045"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44583,7 +44807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35798"
+		(property "Stock" "34548"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44860,7 +45084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10612"
+		(property "Stock" "10452"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45011,7 +45235,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DO-41 (DO-204AL)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-41 (DO-204AL)"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -45217,7 +45441,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -45271,7 +45495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2858"
+		(property "Stock" "2844"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45423,7 +45647,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -45477,7 +45701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12246"
+		(property "Stock" "17246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45629,7 +45853,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -45835,7 +46059,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -45871,7 +46095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.032USD"
+		(property "Price" "0.033USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46041,7 +46265,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -46301,7 +46525,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -46507,7 +46731,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -46561,7 +46785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8066"
+		(property "Stock" "8043"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46713,7 +46937,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -46919,7 +47143,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -47125,7 +47349,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -47179,7 +47403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3180"
+		(property "Stock" "3194"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47331,7 +47555,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -47537,7 +47761,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -47591,7 +47815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17278"
+		(property "Stock" "21899"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47797,7 +48021,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -48057,7 +48281,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -48111,7 +48335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30378"
+		(property "Stock" "30368"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48317,7 +48541,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA(DO-214AC)"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -48577,7 +48801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9815"
+		(property "Stock" "5975"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48783,7 +49007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13431"
+		(property "Stock" "16379"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48989,7 +49213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30079"
+		(property "Stock" "27559"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49455,7 +49679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "104288"
+		(property "Stock" "100976"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49661,7 +49885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16606"
+		(property "Stock" "16434"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50333,7 +50557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "106211"
+		(property "Stock" "101050"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50745,7 +50969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3830"
+		(property "Stock" "3800"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50951,7 +51175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "37378"
+		(property "Stock" "37289"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51157,7 +51381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4456"
+		(property "Stock" "4441"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51981,7 +52205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6239"
+		(property "Stock" "6038"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53217,7 +53441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9596"
+		(property "Stock" "6596"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53629,7 +53853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15292"
+		(property "Stock" "15035"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53835,7 +54059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5719"
+		(property "Stock" "5635"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54247,7 +54471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2725"
+		(property "Stock" "2671"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54865,7 +55089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5510"
+		(property "Stock" "5383"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55071,7 +55295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2224"
+		(property "Stock" "2209"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55483,7 +55707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22554"
+		(property "Stock" "22454"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56361,7 +56585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14517"
+		(property "Stock" "14439"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56979,7 +57203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19991"
+		(property "Stock" "19951"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57239,7 +57463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "45929"
+		(property "Stock" "45944"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57651,7 +57875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3673"
+		(property "Stock" "3559"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57857,7 +58081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14270"
+		(property "Stock" "14205"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58063,7 +58287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "101250"
+		(property "Stock" "101200"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58269,7 +58493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3966"
+		(property "Stock" "3996"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59819,7 +60043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25533"
+		(property "Stock" "25434"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60025,7 +60249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25540"
+		(property "Stock" "25525"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60231,7 +60455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16841"
+		(property "Stock" "16826"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61055,7 +61279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24612"
+		(property "Stock" "24208"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61261,7 +61485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13729"
+		(property "Stock" "13710"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62085,7 +62309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16403"
+		(property "Stock" "16303"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62291,7 +62515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31698"
+		(property "Stock" "31683"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63115,7 +63339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5945"
+		(property "Stock" "5845"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63939,7 +64163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8022"
+		(property "Stock" "7924"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64459,7 +64683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5909"
+		(property "Stock" "5890"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65955,7 +66179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7256"
+		(property "Stock" "6625"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66161,7 +66385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7571"
+		(property "Stock" "7506"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66779,7 +67003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5217"
+		(property "Stock" "5202"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67397,7 +67621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6103"
+		(property "Stock" "6088"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67809,7 +68033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5196"
+		(property "Stock" "5181"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69457,7 +69681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5871"
+		(property "Stock" "5837"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69869,7 +70093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14601"
+		(property "Stock" "14551"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70129,7 +70353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4909"
+		(property "Stock" "4879"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70335,7 +70559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6145"
+		(property "Stock" "6130"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70541,7 +70765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3343"
+		(property "Stock" "3328"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71213,7 +71437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5449"
+		(property "Stock" "5425"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73999,7 +74223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2652"
+		(property "Stock" "2637"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78075,7 +78299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40401"
+		(property "Stock" "40351"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78541,7 +78765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23065"
+		(property "Stock" "22975"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78747,7 +78971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19462"
+		(property "Stock" "19442"
 			(at 0 0 0)
 			(effects
 				(font
@@ -79159,7 +79383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25240"
+		(property "Stock" "25190"
 			(at 0 0 0)
 			(effects
 				(font
@@ -79365,7 +79589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8328"
+		(property "Stock" "8308"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80091,7 +80315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2928"
+		(property "Stock" "2908"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80503,7 +80727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28200"
+		(property "Stock" "28240"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80709,7 +80933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14668"
+		(property "Stock" "14653"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80915,7 +81139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12069"
+		(property "Stock" "11857"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81121,7 +81345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24870"
+		(property "Stock" "24839"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81381,7 +81605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2621"
+		(property "Stock" "2601"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81587,7 +81811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9182"
+		(property "Stock" "9268"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81999,7 +82223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8659"
+		(property "Stock" "8559"
 			(at 0 0 0)
 			(effects
 				(font
@@ -82205,7 +82429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11145"
+		(property "Stock" "10983"
 			(at 0 0 0)
 			(effects
 				(font
@@ -82411,7 +82635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13792"
+		(property "Stock" "13770"
 			(at 0 0 0)
 			(effects
 				(font
@@ -82617,7 +82841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "219"
+		(property "Stock" "168"
 			(at 0 0 0)
 			(effects
 				(font
@@ -82823,7 +83047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7292"
+		(property "Stock" "6296"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83647,7 +83871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1645"
+		(property "Stock" "1642"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83853,7 +84077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3750"
+		(property "Stock" "3724"
 			(at 0 0 0)
 			(effects
 				(font
@@ -84525,7 +84749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17405"
+		(property "Stock" "17335"
 			(at 0 0 0)
 			(effects
 				(font
@@ -84937,7 +85161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8282"
+		(property "Stock" "8242"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85555,7 +85779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9224"
+		(property "Stock" "9174"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85761,7 +85985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4407"
+		(property "Stock" "4387"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85967,7 +86191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15651"
+		(property "Stock" "15625"
 			(at 0 0 0)
 			(effects
 				(font
@@ -87409,7 +87633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2842"
+		(property "Stock" "2792"
 			(at 0 0 0)
 			(effects
 				(font
@@ -88287,7 +88511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5515"
+		(property "Stock" "5495"
 			(at 0 0 0)
 			(effects
 				(font
@@ -88959,7 +89183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3015"
+		(property "Stock" "2989"
 			(at 0 0 0)
 			(effects
 				(font
@@ -89425,7 +89649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2319"
+		(property "Stock" "2293"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90357,7 +90581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "47457"
+		(property "Stock" "47391"
 			(at 0 0 0)
 			(effects
 				(font
@@ -93099,7 +93323,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -93153,7 +93377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2895651"
+		(property "Stock" "2852688"
 			(at 0 0 0)
 			(effects
 				(font
@@ -93340,7 +93564,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -93394,7 +93618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "912637"
+		(property "Stock" "881851"
 			(at 0 0 0)
 			(effects
 				(font
@@ -93635,7 +93859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "225288"
+		(property "Stock" "224200"
 			(at 0 0 0)
 			(effects
 				(font
@@ -93876,7 +94100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "216902"
+		(property "Stock" "215977"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94063,7 +94287,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_0603"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -94117,7 +94341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "488388"
+		(property "Stock" "480619"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94457,7 +94681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1261125"
+		(property "Stock" "1250127"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94698,7 +94922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1450750"
+		(property "Stock" "1426416"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95074,7 +95298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "87"
+		(property "Stock" "78"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95516,7 +95740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "271"
+		(property "Stock" "262"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95703,7 +95927,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "Plugin,D=3.3mm"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_Plugin,D=3.3mm"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -96052,7 +96276,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "Plugin,D=3mm"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_Plugin,D=3mm"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -96395,7 +96619,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "Plugin,D=4.9mm"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_Plugin,D=4.9mm"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -96636,7 +96860,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "Plugin,D=5mm"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_Plugin,D=5mm"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -96979,7 +97203,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMD,3.4x1.6mm"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMD,3.4x1.6mm"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -97220,7 +97444,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMD3528"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMD3528"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -97274,7 +97498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1914"
+		(property "Stock" "1884"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97569,7 +97793,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN0603-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN0603-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -97623,7 +97847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14544"
+		(property "Stock" "14519"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97793,7 +98017,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN0603-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN0603-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -98017,7 +98241,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN0603-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN0603-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -98241,7 +98465,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -98295,7 +98519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5063"
+		(property "Stock" "5041"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98546,7 +98770,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -98770,7 +98994,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -98824,7 +99048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14517"
+		(property "Stock" "14329"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98994,7 +99218,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -99048,7 +99272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18078"
+		(property "Stock" "17648"
 			(at 0 0 0)
 			(effects
 				(font
@@ -99218,7 +99442,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -99442,7 +99666,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -99666,7 +99890,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -99890,7 +100114,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -100114,7 +100338,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -100338,7 +100562,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -100392,7 +100616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9118"
+		(property "Stock" "8718"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100562,7 +100786,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -100616,7 +100840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14301"
+		(property "Stock" "14101"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100786,7 +101010,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -101010,7 +101234,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1006-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1006-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -101234,7 +101458,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1610-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1610-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -101441,7 +101665,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1610-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1610-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -101729,7 +101953,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1610-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1610-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -101936,7 +102160,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1610-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1610-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -102143,7 +102367,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "DFN1610-2L"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DFN1610-2L"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -102350,7 +102574,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -102404,7 +102628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "65"
+		(property "Stock" "2550"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102557,7 +102781,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -102611,7 +102835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21592"
+		(property "Stock" "21488"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102781,7 +103005,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -102835,7 +103059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10390"
+		(property "Stock" "10376"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103005,7 +103229,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -103059,7 +103283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "83"
+		(property "Stock" "4383"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103212,7 +103436,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -103266,7 +103490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4854"
+		(property "Stock" "9822"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103436,7 +103660,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -103490,7 +103714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11391"
+		(property "Stock" "11371"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103660,7 +103884,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -103714,7 +103938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19107"
+		(property "Stock" "19095"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103884,7 +104108,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -104108,7 +104332,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -104162,7 +104386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "42"
+		(property "Stock" "3607"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104315,7 +104539,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -104369,7 +104593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23800"
+		(property "Stock" "23374"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104539,7 +104763,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -104593,7 +104817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15290"
+		(property "Stock" "15652"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104763,7 +104987,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -104817,7 +105041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28241"
+		(property "Stock" "32681"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104987,7 +105211,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -105211,7 +105435,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -105265,7 +105489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4071"
+		(property "Stock" "4010"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105418,7 +105642,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SMA"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -105472,7 +105696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15030"
+		(property "Stock" "14822"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105696,7 +105920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "406"
+		(property "Stock" "204"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105903,7 +106127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9129"
+		(property "Stock" "11941"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106127,7 +106351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20364"
+		(property "Stock" "17497"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106351,7 +106575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1699"
+		(property "Stock" "1652"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106558,7 +106782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5000"
+		(property "Stock" "7976"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106989,7 +107213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34"
+		(property "Stock" "8182"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107196,7 +107420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2967"
+		(property "Stock" "5499"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107403,7 +107627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12560"
+		(property "Stock" "12353"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107627,7 +107851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20314"
+		(property "Stock" "20304"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107834,7 +108058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23009"
+		(property "Stock" "22801"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108058,7 +108282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2958"
+		(property "Stock" "5786"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108265,7 +108489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7697"
+		(property "Stock" "7549"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108489,7 +108713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33"
+		(property "Stock" "2442"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108696,7 +108920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15524"
+		(property "Stock" "18306"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108920,7 +109144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5865"
+		(property "Stock" "8147"
 			(at 0 0 0)
 			(effects
 				(font
@@ -109127,7 +109351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16300"
+		(property "Stock" "16014"
 			(at 0 0 0)
 			(effects
 				(font
@@ -109575,7 +109799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5768"
+		(property "Stock" "6011"
 			(at 0 0 0)
 			(effects
 				(font
@@ -109782,7 +110006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5829"
+		(property "Stock" "7974"
 			(at 0 0 0)
 			(effects
 				(font
@@ -109989,7 +110213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15218"
+		(property "Stock" "17510"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110213,7 +110437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5843"
+		(property "Stock" "7628"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110420,7 +110644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18816"
+		(property "Stock" "21733"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110644,7 +110868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8533"
+		(property "Stock" "8523"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110868,7 +111092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20183"
+		(property "Stock" "23146"
 			(at 0 0 0)
 			(effects
 				(font
@@ -111092,7 +111316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17158"
+		(property "Stock" "20101"
 			(at 0 0 0)
 			(effects
 				(font
@@ -111299,7 +111523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1704"
+		(property "Stock" "4459"
 			(at 0 0 0)
 			(effects
 				(font
@@ -111506,7 +111730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14197"
+		(property "Stock" "16998"
 			(at 0 0 0)
 			(effects
 				(font
@@ -111954,7 +112178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7659"
+		(property "Stock" "7438"
 			(at 0 0 0)
 			(effects
 				(font
@@ -112178,7 +112402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6000"
+		(property "Stock" "8851"
 			(at 0 0 0)
 			(effects
 				(font
@@ -112385,7 +112609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23369"
+		(property "Stock" "26369"
 			(at 0 0 0)
 			(effects
 				(font
@@ -112609,7 +112833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8350"
+		(property "Stock" "8313"
 			(at 0 0 0)
 			(effects
 				(font
@@ -112833,7 +113057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9921"
+		(property "Stock" "12771"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113057,7 +113281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3909"
+		(property "Stock" "5714"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113264,7 +113488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "175"
+		(property "Stock" "151"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113488,7 +113712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9200"
+		(property "Stock" "12202"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113712,7 +113936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12004"
+		(property "Stock" "15014"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113936,7 +114160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13883"
+		(property "Stock" "13828"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114384,7 +114608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2984"
+		(property "Stock" "5834"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114537,7 +114761,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -114761,7 +114985,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -114815,7 +115039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17231"
+		(property "Stock" "17216"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114985,7 +115209,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -115039,7 +115263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18026"
+		(property "Stock" "17991"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115209,7 +115433,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -115263,7 +115487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14763"
+		(property "Stock" "14723"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115433,7 +115657,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -115640,7 +115864,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -115694,7 +115918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2175"
+		(property "Stock" "2112"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115864,7 +116088,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -115918,7 +116142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14746"
+		(property "Stock" "14678"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116088,7 +116312,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -116142,7 +116366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13136"
+		(property "Stock" "13116"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116295,7 +116519,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -116609,7 +116833,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -116663,7 +116887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21344"
+		(property "Stock" "21146"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116833,7 +117057,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -116887,7 +117111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5084"
+		(property "Stock" "4975"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117057,7 +117281,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -117111,7 +117335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23974"
+		(property "Stock" "23891"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117281,7 +117505,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -117505,7 +117729,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -117559,7 +117783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15457"
+		(property "Stock" "15466"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117712,7 +117936,7 @@
 				(hide no)
 			)
 		)
-		(property "Footprint" "SOD-123FL"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -117766,7 +117990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14475"
+		(property "Stock" "14368"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118592,7 +118816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15482"
+		(property "Stock" "15433"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119040,7 +119264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2807"
+		(property "Stock" "2787"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119345,7 +119569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5279"
+		(property "Stock" "5128"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120000,7 +120224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8712"
+		(property "Stock" "8606"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121391,7 +121615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5759"
+		(property "Stock" "5745"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121615,7 +121839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2190"
+		(property "Stock" "2164"
 			(at 0 0 0)
 			(effects
 				(font
@@ -122908,7 +123132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11236"
+		(property "Stock" "11216"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123339,7 +123563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "39732"
+		(property "Stock" "39712"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123787,7 +124011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1253"
+		(property "Stock" "1203"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123994,7 +124218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5987"
+		(property "Stock" "5947"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125046,7 +125270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60488"
+		(property "Stock" "59325"
 			(at 0 0 0)
 			(effects
 				(font
