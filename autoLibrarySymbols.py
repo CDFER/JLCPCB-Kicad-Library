@@ -203,7 +203,6 @@ def generate_kicad_symbol(
     elif mode == "Diodes":
         if secondary_mode == "Bridge-Rectifier":
             symbol += generate_rectangle("-2.54 2.54", "2.54 -2.54", name=name, index=0)
-
         elif secondary_mode == "TVS-Bi":
             symbol += generate_polyline(
                 ["-1.27 2.54", "0 0", "1.27 2.54", "-1.27 2.54"], name=name, index=0
