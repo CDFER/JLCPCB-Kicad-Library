@@ -1,4 +1,4 @@
-(footprint "LED_0603_1608Metric"
+(footprint "D_0603"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "292741c4-f38a-46be-96b4-e8e4adda1eb8")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,9 +63,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
+	(solder_mask_margin 0.038)
 	(attr smd)
 	(fp_line
 		(start -1.485 -0.735)

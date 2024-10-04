@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.68 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "748b2e42-8a67-4fcd-8eff-aa3682e30072")
 		(effects
 			(font
@@ -66,27 +67,8 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.038)
 	(attr smd)
-	(fp_line
-		(start -0.261252 -0.735)
-		(end 0.261252 -0.735)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e5b89156-25fd-4982-832b-7a101d828db8")
-	)
-	(fp_line
-		(start -0.261252 0.735)
-		(end 0.261252 0.735)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a1537c18-e148-4e80-abe3-76952c047734")
-	)
 	(fp_line
 		(start -1.7 -0.98)
 		(end 1.7 -0.98)

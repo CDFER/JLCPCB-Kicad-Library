@@ -1,8 +1,5 @@
 # librarySymbols.py
 
-symbolNames = []
-
-
 def generate_header(name):
     symbol = f'\t(symbol "{name}"'
     symbol += "\n\t\t(pin_numbers hide)"
@@ -70,7 +67,8 @@ def generate_kicad_symbol(
     manufacturerPartID,
     attributes,
     units,
-    footprints_lookup
+    footprints_lookup,
+    names_lookup
 ):
     if mode == "Resistors":
         ref_designator = "R"
@@ -141,19 +139,21 @@ def generate_kicad_symbol(
     #         missing_footprints[missing_footprint] += 1
     #     else:
     #         missing_footprints[missing_footprint] = 1
-    if name in symbolNames:
-        if name + ",(2)" not in symbolNames:
+    if name in names_lookup:
+        if name + ",(2)" not in names_lookup:
             name = name + ",(2)"
-        elif name + ",(3)" not in symbolNames:
+        elif name + ",(3)" not in names_lookup:
             name = name + ",(3)"
-        elif name + ",(4)" not in symbolNames:
+        elif name + ",(4)" not in names_lookup:
             name = name + ",(4)"
-        elif name + ",(5)" not in symbolNames:
+        elif name + ",(5)" not in names_lookup:
             name = name + ",(5)"
+        elif name + ",(6)" not in names_lookup:
+            name = name + ",(6)"
         else:
             print("more than 5 symbols with the same name...")
 
-    symbolNames.append(name)
+    names_lookup.append(name)
     
 
     footprint = f"JLCPCB-Kicad-Footprints:{ref_designator}_{footprint}"

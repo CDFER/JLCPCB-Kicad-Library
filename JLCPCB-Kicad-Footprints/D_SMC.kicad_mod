@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.1 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "c8caea66-08e5-487e-ae5f-af5449caa1b7")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,9 +63,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
+	(solder_mask_margin 0.038)
 	(attr smd)
 	(fp_line
 		(start -4.91 -3.25)

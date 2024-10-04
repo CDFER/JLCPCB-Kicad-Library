@@ -1,4 +1,4 @@
-(footprint "R_Array_Concave_4x0603"
+(footprint "R_0603x4"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.6 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "047a05ae-ee78-43c7-9969-1ad80036db99")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,30 +63,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
+	(solder_mask_margin 0.038)
 	(attr smd)
-	(fp_line
-		(start 0.4 -1.72)
-		(end -0.4 -1.72)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c140df80-eb49-4b76-902c-1b1ec458df27")
-	)
-	(fp_line
-		(start 0.4 1.72)
-		(end -0.4 1.72)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7f443a2c-c55a-43dc-b854-2f0792f3fa7e")
-	)
 	(fp_line
 		(start -1.55 -1.88)
 		(end -1.55 1.87)
