@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "CDFER")
 	(generator_version "8.0")
-	(symbol "Plugin,D10xL12mm,2uF"
+	(symbol "Plugin,D10xL12mm,8.2uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -19,7 +19,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2uF"
+		(property "Value" "8.2uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.222USD"
+		(property "Price" "0.225USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136,7 +136,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,D10xL12mm,2uF_0_1"
+		(symbol "Plugin,D10xL12mm,8.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -151,7 +151,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,D10xL12mm,2uF_0_1"
+		(symbol "Plugin,D10xL12mm,8.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -166,7 +166,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,D10xL12mm,2uF_1_1"
+		(symbol "Plugin,D10xL12mm,8.2uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -267,7 +267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.152USD"
+		(property "Price" "0.153USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -470,7 +470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.12USD"
+		(property "Price" "0.121USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -488,7 +488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "849"
+		(property "Stock" "819"
 			(at 0 0 0)
 			(effects
 				(font
@@ -673,7 +673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.168USD"
+		(property "Price" "0.17USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -876,7 +876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.151USD"
+		(property "Price" "0.153USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1079,7 +1079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.226USD"
+		(property "Price" "0.229USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1282,7 +1282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.234USD"
+		(property "Price" "0.237USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1485,7 +1485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.729USD"
+		(property "Price" "0.739USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1688,7 +1688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.67USD"
+		(property "Price" "0.68USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1706,7 +1706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "886"
+		(property "Stock" "876"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1891,7 +1891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.649USD"
+		(property "Price" "0.658USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1909,7 +1909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "73"
+		(property "Stock" "63"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2327,7 +2327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.07USD"
+		(property "Price" "0.071USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2671,6 +2671,209 @@
 			)
 		)
 	)
+	(symbol "SMD,D8xL10.5mm,220uF"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide no)
+			)
+		)
+		(property "Value" "220uF"
+			(at 3.556 -1.524 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide no)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:C_SMD,D8xL10.5mm"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203221030_HRK-GVT1V227M0810CNVC_C2983323.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220uF 35V 175mA@120Hz ±20% SMD,D8xL10.5mm  Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2983323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.073USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "481"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Aluminum Electrolytic Capacitors - SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HRK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "GVT1V227M0810CNVC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMD,D8xL10.5mm,220uF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0.635)
+					(xy 1.27 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMD,D8xL10.5mm,220uF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -0.635)
+					(xy 1.27 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMD,D8xL10.5mm,220uF_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Plugin,33pF"
 		(pin_numbers hide)
 		(pin_names
@@ -2733,7 +2936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.075USD"
+		(property "Price" "0.076USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2936,7 +3139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.043USD"
+		(property "Price" "0.044USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3077,7 +3280,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5.08mm,7nF"
+	(symbol "Plugin,P=5.08mm,4.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -3094,7 +3297,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -3157,7 +3360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "82"
+		(property "Stock" "33"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3211,7 +3414,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5.08mm,7nF_0_1"
+		(symbol "Plugin,P=5.08mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -3226,7 +3429,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5.08mm,7nF_0_1"
+		(symbol "Plugin,P=5.08mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -3241,7 +3444,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5.08mm,7nF_1_1"
+		(symbol "Plugin,P=5.08mm,4.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -3563,7 +3766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1836"
+		(property "Stock" "1556"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3686,7 +3889,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,7nF"
+	(symbol "Plugin,P=5mm,4.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -3703,7 +3906,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -3748,7 +3951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.073USD"
+		(property "Price" "0.074USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3820,7 +4023,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,7nF_0_1"
+		(symbol "Plugin,P=5mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -3835,7 +4038,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,7nF_0_1"
+		(symbol "Plugin,P=5mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -3850,7 +4053,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,7nF_1_1"
+		(symbol "Plugin,P=5mm,4.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -3889,7 +4092,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,7nF"
+	(symbol "Plugin,P=5mm,4.7nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -3906,7 +4109,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -3951,7 +4154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.074USD"
+		(property "Price" "0.075USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4023,7 +4226,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,7nF_0_1"
+		(symbol "Plugin,P=5mm,4.7nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -4038,7 +4241,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,7nF_0_1"
+		(symbol "Plugin,P=5mm,4.7nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -4053,7 +4256,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,7nF_1_1"
+		(symbol "Plugin,P=5mm,4.7nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -4498,7 +4701,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,100pF"
+	(symbol "Plugin,P=5mm,100pF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -4560,7 +4763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.062USD"
+		(property "Price" "0.063USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4578,7 +4781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1197"
+		(property "Stock" "1137"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4632,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,100pF_0_1"
+		(symbol "Plugin,P=5mm,100pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -4647,7 +4850,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,100pF_0_1"
+		(symbol "Plugin,P=5mm,100pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -4662,7 +4865,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,100pF_1_1"
+		(symbol "Plugin,P=5mm,100pF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -4701,7 +4904,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,100pF"
+	(symbol "Plugin,P=5mm,100pF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -4781,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1929"
+		(property "Stock" "1849"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4835,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,100pF_0_1"
+		(symbol "Plugin,P=5mm,100pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -4850,7 +5053,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,100pF_0_1"
+		(symbol "Plugin,P=5mm,100pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -4865,7 +5068,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,100pF_1_1"
+		(symbol "Plugin,P=5mm,100pF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -4904,7 +5107,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,1nF"
+	(symbol "Plugin,P=5mm,1nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -5038,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,1nF_0_1"
+		(symbol "Plugin,P=5mm,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -5053,7 +5256,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,1nF_0_1"
+		(symbol "Plugin,P=5mm,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -5068,7 +5271,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,1nF_1_1"
+		(symbol "Plugin,P=5mm,1nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -5107,7 +5310,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,1nF"
+	(symbol "Plugin,P=5mm,1nF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -5187,7 +5390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "229"
+		(property "Stock" "124"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5286,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,1nF_0_1"
+		(symbol "Plugin,P=5mm,1nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -5301,7 +5504,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,1nF_0_1"
+		(symbol "Plugin,P=5mm,1nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -5316,7 +5519,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,1nF_1_1"
+		(symbol "Plugin,P=5mm,1nF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -5417,7 +5620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.069USD"
+		(property "Price" "0.07USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5435,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8"
+		(property "Stock" "1508"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5558,7 +5761,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,10nF"
+	(symbol "Plugin,P=5mm,10nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -5620,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.07USD"
+		(property "Price" "0.071USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5692,7 +5895,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,10nF_0_1"
+		(symbol "Plugin,P=5mm,10nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -5707,7 +5910,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,10nF_0_1"
+		(symbol "Plugin,P=5mm,10nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -5722,7 +5925,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,10nF_1_1"
+		(symbol "Plugin,P=5mm,10nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -5964,7 +6167,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,22pF"
+	(symbol "Plugin,P=5mm,22pF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -6026,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.06USD"
+		(property "Price" "0.061USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6044,7 +6247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "180"
+		(property "Stock" "160"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6098,7 +6301,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,22pF_0_1"
+		(symbol "Plugin,P=5mm,22pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -6113,7 +6316,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,22pF_0_1"
+		(symbol "Plugin,P=5mm,22pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -6128,7 +6331,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,22pF_1_1"
+		(symbol "Plugin,P=5mm,22pF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -6167,7 +6370,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,22pF"
+	(symbol "Plugin,P=5mm,22pF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -6301,7 +6504,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,22pF_0_1"
+		(symbol "Plugin,P=5mm,22pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -6316,7 +6519,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,22pF_0_1"
+		(symbol "Plugin,P=5mm,22pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -6331,7 +6534,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,22pF_1_1"
+		(symbol "Plugin,P=5mm,22pF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -6432,7 +6635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.052USD"
+		(property "Price" "0.053USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6573,7 +6776,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,220pF"
+	(symbol "Plugin,P=5mm,220pF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -6635,7 +6838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.058USD"
+		(property "Price" "0.059USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6752,7 +6955,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,220pF_0_1"
+		(symbol "Plugin,P=5mm,220pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -6767,7 +6970,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,220pF_0_1"
+		(symbol "Plugin,P=5mm,220pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -6782,7 +6985,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,220pF_1_1"
+		(symbol "Plugin,P=5mm,220pF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -6821,7 +7024,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,220pF"
+	(symbol "Plugin,P=5mm,220pF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -6883,7 +7086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.068USD"
+		(property "Price" "0.069USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6955,7 +7158,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,220pF_0_1"
+		(symbol "Plugin,P=5mm,220pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -6970,7 +7173,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,220pF_0_1"
+		(symbol "Plugin,P=5mm,220pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -6985,7 +7188,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,220pF_1_1"
+		(symbol "Plugin,P=5mm,220pF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -7024,7 +7227,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,2nF"
+	(symbol "Plugin,P=5mm,2.2nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -7041,7 +7244,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -7086,7 +7289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.066USD"
+		(property "Price" "0.067USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7104,7 +7307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "547"
+		(property "Stock" "517"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7158,7 +7361,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,2nF_0_1"
+		(symbol "Plugin,P=5mm,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -7173,7 +7376,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,2nF_0_1"
+		(symbol "Plugin,P=5mm,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -7188,7 +7391,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,2nF_1_1"
+		(symbol "Plugin,P=5mm,2.2nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -7227,7 +7430,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,2nF"
+	(symbol "Plugin,P=5mm,2.2nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -7244,7 +7447,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -7289,7 +7492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.106USD"
+		(property "Price" "0.107USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7361,7 +7564,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,2nF_0_1"
+		(symbol "Plugin,P=5mm,2.2nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -7376,7 +7579,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,2nF_0_1"
+		(symbol "Plugin,P=5mm,2.2nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -7391,7 +7594,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,2nF_1_1"
+		(symbol "Plugin,P=5mm,2.2nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -7633,7 +7836,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,470pF"
+	(symbol "Plugin,P=5mm,470pF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -7695,7 +7898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.068USD"
+		(property "Price" "0.069USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7713,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "392"
+		(property "Stock" "352"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7767,7 +7970,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_0_1"
+		(symbol "Plugin,P=5mm,470pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -7782,7 +7985,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_0_1"
+		(symbol "Plugin,P=5mm,470pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -7797,7 +8000,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_1_1"
+		(symbol "Plugin,P=5mm,470pF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -7836,7 +8039,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,470pF"
+	(symbol "Plugin,P=5mm,470pF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -7970,7 +8173,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_0_1"
+		(symbol "Plugin,P=5mm,470pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -7985,7 +8188,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_0_1"
+		(symbol "Plugin,P=5mm,470pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -8000,7 +8203,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_1_1"
+		(symbol "Plugin,P=5mm,470pF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -8039,7 +8242,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=5mm,470pF"
+	(symbol "Plugin,P=5mm,470pF,(4)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -8173,7 +8376,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_0_1"
+		(symbol "Plugin,P=5mm,470pF,(4)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -8188,7 +8391,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_0_1"
+		(symbol "Plugin,P=5mm,470pF,(4)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -8203,7 +8406,210 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=5mm,470pF_1_1"
+		(symbol "Plugin,P=5mm,470pF,(4)_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Plugin,P=7.5mm,2.2nF"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide no)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 3.556 -1.524 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide no)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:C_Plugin,P=7.5mm"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109301030_SHM-DCG222M39Y5UU6JK7A0_C2896116.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±20% 2.2nF Y5U 4kV Plugin,P=7.5mm  Through Hole Ceramic Capacitors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2896116"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.135USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "504"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Ceramic Disc Capacitors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "DCG222M39Y5UU6JK7A0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Plugin,P=7.5mm,2.2nF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0.635)
+					(xy 1.27 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Plugin,P=7.5mm,2.2nF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -0.635)
+					(xy 1.27 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Plugin,P=7.5mm,2.2nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -8304,7 +8710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.131USD"
+		(property "Price" "0.132USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8693,7 +9099,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,10nF"
+	(symbol "Plugin,P=7.5mm,10nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -8755,7 +9161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.07USD"
+		(property "Price" "0.071USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8827,7 +9233,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,10nF_0_1"
+		(symbol "Plugin,P=7.5mm,10nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -8842,7 +9248,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,10nF_0_1"
+		(symbol "Plugin,P=7.5mm,10nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -8857,7 +9263,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,10nF_1_1"
+		(symbol "Plugin,P=7.5mm,10nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -8896,7 +9302,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,2nF"
+	(symbol "Plugin,P=7.5mm,2.2nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -8913,7 +9319,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -9030,7 +9436,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -9045,7 +9451,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -9060,7 +9466,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_1_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -9099,7 +9505,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,2nF"
+	(symbol "Plugin,P=7.5mm,2.2nF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -9116,7 +9522,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -9161,7 +9567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.067USD"
+		(property "Price" "0.068USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9179,7 +9585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "320"
+		(property "Stock" "280"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9233,7 +9639,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -9248,7 +9654,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -9263,7 +9669,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_1_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -9302,7 +9708,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,2nF"
+	(symbol "Plugin,P=7.5mm,2.2nF,(4)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -9319,7 +9725,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -9364,7 +9770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.107USD"
+		(property "Price" "0.108USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9382,7 +9788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "220"
+		(property "Stock" "211"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9436,7 +9842,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(4)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -9451,7 +9857,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(4)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -9466,7 +9872,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_1_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(4)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -9505,7 +9911,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,470pF"
+	(symbol "Plugin,P=7.5mm,470pF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -9567,7 +9973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.053USD"
+		(property "Price" "0.054USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9639,7 +10045,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,470pF_0_1"
+		(symbol "Plugin,P=7.5mm,470pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -9654,7 +10060,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,470pF_0_1"
+		(symbol "Plugin,P=7.5mm,470pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -9669,7 +10075,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,470pF_1_1"
+		(symbol "Plugin,P=7.5mm,470pF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -9708,7 +10114,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,470pF"
+	(symbol "Plugin,P=7.5mm,470pF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -9770,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.064USD"
+		(property "Price" "0.065USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9842,7 +10248,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,470pF_0_1"
+		(symbol "Plugin,P=7.5mm,470pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -9857,7 +10263,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,470pF_0_1"
+		(symbol "Plugin,P=7.5mm,470pF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -9872,7 +10278,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,470pF_1_1"
+		(symbol "Plugin,P=7.5mm,470pF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -9911,7 +10317,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,7nF"
+	(symbol "Plugin,P=7.5mm,4.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -9928,7 +10334,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -9973,7 +10379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.102USD"
+		(property "Price" "0.103USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10045,7 +10451,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_0_1"
+		(symbol "Plugin,P=7.5mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -10060,7 +10466,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_0_1"
+		(symbol "Plugin,P=7.5mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -10075,7 +10481,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_1_1"
+		(symbol "Plugin,P=7.5mm,4.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -10114,7 +10520,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,10nF"
+	(symbol "Plugin,P=7.5mm,10nF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -10176,7 +10582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.1USD"
+		(property "Price" "0.101USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10248,7 +10654,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,10nF_0_1"
+		(symbol "Plugin,P=7.5mm,10nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -10263,7 +10669,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,10nF_0_1"
+		(symbol "Plugin,P=7.5mm,10nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -10278,7 +10684,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,10nF_1_1"
+		(symbol "Plugin,P=7.5mm,10nF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -10397,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8609"
+		(property "Stock" "8448"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10600,7 +11006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1510360"
+		(property "Stock" "1216965"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10839,7 +11245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10833675"
+		(property "Stock" "5816915"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11078,7 +11484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "85859"
+		(property "Stock" "69753"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11317,7 +11723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "207332"
+		(property "Stock" "137752"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11476,7 +11882,7 @@
 			)
 		)
 	)
-	(symbol "0402,2nF"
+	(symbol "0402,2.2nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -11493,7 +11899,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -11556,7 +11962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "478696"
+		(property "Stock" "244234"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11646,7 +12052,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,2nF_0_1"
+		(symbol "0402,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -11661,7 +12067,7 @@
 				)
 			)
 		)
-		(symbol "0402,2nF_0_1"
+		(symbol "0402,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -11676,7 +12082,7 @@
 				)
 			)
 		)
-		(symbol "0402,2nF_1_1"
+		(symbol "0402,2.2nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -11795,7 +12201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "383746"
+		(property "Stock" "309121"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12034,7 +12440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "549230"
+		(property "Stock" "435440"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12193,7 +12599,7 @@
 			)
 		)
 	)
-	(symbol "0402,7nF"
+	(symbol "0402,4.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -12210,7 +12616,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -12273,7 +12679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "420198"
+		(property "Stock" "345030"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12363,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,7nF_0_1"
+		(symbol "0402,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -12378,7 +12784,7 @@
 				)
 			)
 		)
-		(symbol "0402,7nF_0_1"
+		(symbol "0402,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -12393,7 +12799,7 @@
 				)
 			)
 		)
-		(symbol "0402,7nF_1_1"
+		(symbol "0402,4.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -12432,7 +12838,7 @@
 			)
 		)
 	)
-	(symbol "0402,8nF"
+	(symbol "0402,6.8nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -12449,7 +12855,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "8nF"
+		(property "Value" "6.8nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -12512,7 +12918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "94950"
+		(property "Stock" "73999"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12602,7 +13008,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,8nF_0_1"
+		(symbol "0402,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -12617,7 +13023,7 @@
 				)
 			)
 		)
-		(symbol "0402,8nF_0_1"
+		(symbol "0402,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -12632,7 +13038,7 @@
 				)
 			)
 		)
-		(symbol "0402,8nF_1_1"
+		(symbol "0402,6.8nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -12751,7 +13157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2568457"
+		(property "Stock" "1991395"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12990,7 +13396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "499653"
+		(property "Stock" "265719"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13229,7 +13635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1751345"
+		(property "Stock" "1511896"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13468,7 +13874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "664698"
+		(property "Stock" "171208"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13707,7 +14113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "126990"
+		(property "Stock" "38526"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13857,7 +14263,7 @@
 			)
 		)
 	)
-	(symbol "0402,5pF"
+	(symbol "0402,1.5pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -13874,7 +14280,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "5pF"
+		(property "Value" "1.5pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -13937,7 +14343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "252420"
+		(property "Stock" "215751"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14018,7 +14424,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,5pF_0_1"
+		(symbol "0402,1.5pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -14033,7 +14439,7 @@
 				)
 			)
 		)
-		(symbol "0402,5pF_0_1"
+		(symbol "0402,1.5pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -14048,7 +14454,7 @@
 				)
 			)
 		)
-		(symbol "0402,5pF_1_1"
+		(symbol "0402,1.5pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -14167,7 +14573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4527287"
+		(property "Stock" "4313306"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14406,7 +14812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1538488"
+		(property "Stock" "983737"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14645,7 +15051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "328820"
+		(property "Stock" "279616"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14804,7 +15210,7 @@
 			)
 		)
 	)
-	(symbol "0402,2pF"
+	(symbol "0402,2.2pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -14821,7 +15227,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2pF"
+		(property "Value" "2.2pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -14884,7 +15290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60645"
+		(property "Stock" "16467"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14965,7 +15371,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,2pF_0_1"
+		(symbol "0402,2.2pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -14980,7 +15386,7 @@
 				)
 			)
 		)
-		(symbol "0402,2pF_0_1"
+		(symbol "0402,2.2pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -14995,7 +15401,7 @@
 				)
 			)
 		)
-		(symbol "0402,2pF_1_1"
+		(symbol "0402,2.2pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -15034,7 +15440,7 @@
 			)
 		)
 	)
-	(symbol "0402,7pF"
+	(symbol "0402,2.7pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -15051,7 +15457,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7pF"
+		(property "Value" "2.7pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -15114,7 +15520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "165436"
+		(property "Stock" "93214"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15195,7 +15601,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,7pF_0_1"
+		(symbol "0402,2.7pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -15210,7 +15616,7 @@
 				)
 			)
 		)
-		(symbol "0402,7pF_0_1"
+		(symbol "0402,2.7pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -15225,7 +15631,7 @@
 				)
 			)
 		)
-		(symbol "0402,7pF_1_1"
+		(symbol "0402,2.7pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -15344,7 +15750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1548831"
+		(property "Stock" "1417081"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15503,7 +15909,7 @@
 			)
 		)
 	)
-	(symbol "0402,3pF"
+	(symbol "0402,3.3pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -15520,7 +15926,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "3pF"
+		(property "Value" "3.3pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -15583,7 +15989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "190797"
+		(property "Stock" "92532"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15664,7 +16070,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,3pF_0_1"
+		(symbol "0402,3.3pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -15679,7 +16085,7 @@
 				)
 			)
 		)
-		(symbol "0402,3pF_0_1"
+		(symbol "0402,3.3pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -15694,7 +16100,7 @@
 				)
 			)
 		)
-		(symbol "0402,3pF_1_1"
+		(symbol "0402,3.3pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -15813,7 +16219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "388518"
+		(property "Stock" "282239"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15972,7 +16378,7 @@
 			)
 		)
 	)
-	(symbol "0402,7pF"
+	(symbol "0402,4.7pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -15989,7 +16395,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7pF"
+		(property "Value" "4.7pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -16052,7 +16458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "165605"
+		(property "Stock" "126727"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16133,7 +16539,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,7pF_0_1"
+		(symbol "0402,4.7pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -16148,7 +16554,7 @@
 				)
 			)
 		)
-		(symbol "0402,7pF_0_1"
+		(symbol "0402,4.7pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -16163,7 +16569,7 @@
 				)
 			)
 		)
-		(symbol "0402,7pF_1_1"
+		(symbol "0402,4.7pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -16282,7 +16688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "195728"
+		(property "Stock" "172466"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16441,7 +16847,7 @@
 			)
 		)
 	)
-	(symbol "0402,8pF"
+	(symbol "0402,6.8pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -16458,7 +16864,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "8pF"
+		(property "Value" "6.8pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -16521,7 +16927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "305706"
+		(property "Stock" "264458"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16602,7 +17008,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,8pF_0_1"
+		(symbol "0402,6.8pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -16617,7 +17023,7 @@
 				)
 			)
 		)
-		(symbol "0402,8pF_0_1"
+		(symbol "0402,6.8pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -16632,7 +17038,7 @@
 				)
 			)
 		)
-		(symbol "0402,8pF_1_1"
+		(symbol "0402,6.8pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -16874,7 +17280,7 @@
 			)
 		)
 	)
-	(symbol "0402,2uF"
+	(symbol "0402,2.2uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -16891,7 +17297,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2uF"
+		(property "Value" "2.2uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -16936,7 +17342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.005USD"
+		(property "Price" "0.006USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16954,7 +17360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2477905"
+		(property "Stock" "2021169"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17044,7 +17450,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,2uF_0_1"
+		(symbol "0402,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -17059,7 +17465,7 @@
 				)
 			)
 		)
-		(symbol "0402,2uF_0_1"
+		(symbol "0402,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -17074,7 +17480,7 @@
 				)
 			)
 		)
-		(symbol "0402,2uF_1_1"
+		(symbol "0402,2.2uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -17193,7 +17599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "32108"
+		(property "Stock" "18296"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17432,7 +17838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20192"
+		(property "Stock" "15334"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17671,7 +18077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3101701"
+		(property "Stock" "2511712"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17892,7 +18298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.007USD"
+		(property "Price" "0.008USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17910,7 +18316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8994831"
+		(property "Stock" "6727025"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18149,7 +18555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "585951"
+		(property "Stock" "493521"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18308,7 +18714,7 @@
 			)
 		)
 	)
-	(symbol "0402,7uF"
+	(symbol "0402,4.7uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -18325,7 +18731,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7uF"
+		(property "Value" "4.7uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -18388,7 +18794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "523583"
+		(property "Stock" "780925"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18478,7 +18884,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,7uF_0_1"
+		(symbol "0402,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -18493,7 +18899,7 @@
 				)
 			)
 		)
-		(symbol "0402,7uF_0_1"
+		(symbol "0402,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -18508,7 +18914,7 @@
 				)
 			)
 		)
-		(symbol "0402,7uF_1_1"
+		(symbol "0402,4.7uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -18547,7 +18953,7 @@
 			)
 		)
 	)
-	(symbol "0402,3nF"
+	(symbol "0402,3.3nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -18564,7 +18970,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "3nF"
+		(property "Value" "3.3nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -18627,7 +19033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "78981"
+		(property "Stock" "41789"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18717,7 +19123,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,3nF_0_1"
+		(symbol "0402,3.3nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -18732,7 +19138,7 @@
 				)
 			)
 		)
-		(symbol "0402,3nF_0_1"
+		(symbol "0402,3.3nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -18747,7 +19153,7 @@
 				)
 			)
 		)
-		(symbol "0402,3nF_1_1"
+		(symbol "0402,3.3nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -18786,7 +19192,7 @@
 			)
 		)
 	)
-	(symbol "0402,25pF"
+	(symbol "0402,6pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -18803,7 +19209,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "25pF"
+		(property "Value" "6pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -18866,7 +19272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "512521"
+		(property "Stock" "512471"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18920,7 +19326,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,25pF_0_1"
+		(symbol "0402,6pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -18935,7 +19341,7 @@
 				)
 			)
 		)
-		(symbol "0402,25pF_0_1"
+		(symbol "0402,6pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -18950,7 +19356,7 @@
 				)
 			)
 		)
-		(symbol "0402,25pF_1_1"
+		(symbol "0402,6pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -19069,7 +19475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "336484"
+		(property "Stock" "572263"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19308,7 +19714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "514495"
+		(property "Stock" "317991"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19547,7 +19953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1925042"
+		(property "Stock" "3320832"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19706,7 +20112,7 @@
 			)
 		)
 	)
-	(symbol "0402,100nF"
+	(symbol "0402,100nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -19786,7 +20192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4059522"
+		(property "Stock" "2585730"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19876,7 +20282,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,100nF_0_1"
+		(symbol "0402,100nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -19891,7 +20297,7 @@
 				)
 			)
 		)
-		(symbol "0402,100nF_0_1"
+		(symbol "0402,100nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -19906,7 +20312,7 @@
 				)
 			)
 		)
-		(symbol "0402,100nF_1_1"
+		(symbol "0402,100nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -19945,7 +20351,7 @@
 			)
 		)
 	)
-	(symbol "0402,10uF"
+	(symbol "0402,10uF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -20025,7 +20431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15974"
+		(property "Stock" "15954"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20079,7 +20485,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402,10uF_0_1"
+		(symbol "0402,10uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -20094,7 +20500,7 @@
 				)
 			)
 		)
-		(symbol "0402,10uF_0_1"
+		(symbol "0402,10uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -20109,7 +20515,7 @@
 				)
 			)
 		)
-		(symbol "0402,10uF_1_1"
+		(symbol "0402,10uF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -20228,7 +20634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2226057"
+		(property "Stock" "2709552"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20467,7 +20873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "324871"
+		(property "Stock" "123294"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20626,7 +21032,7 @@
 			)
 		)
 	)
-	(symbol "0603,5nF"
+	(symbol "0603,1.5nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -20643,7 +21049,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "5nF"
+		(property "Value" "1.5nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -20706,7 +21112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1186878"
+		(property "Stock" "1153955"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20796,7 +21202,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,5nF_0_1"
+		(symbol "0603,1.5nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -20811,7 +21217,7 @@
 				)
 			)
 		)
-		(symbol "0603,5nF_0_1"
+		(symbol "0603,1.5nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -20826,7 +21232,7 @@
 				)
 			)
 		)
-		(symbol "0603,5nF_1_1"
+		(symbol "0603,1.5nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -20945,7 +21351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "58840"
+		(property "Stock" "44495"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21184,7 +21590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18475"
+		(property "Stock" "12310"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21423,7 +21829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "244501"
+		(property "Stock" "388560"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21582,7 +21988,7 @@
 			)
 		)
 	)
-	(symbol "0603,2nF"
+	(symbol "0603,2.2nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -21599,7 +22005,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -21662,7 +22068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "673314"
+		(property "Stock" "537906"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21752,7 +22158,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,2nF_0_1"
+		(symbol "0603,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -21767,7 +22173,7 @@
 				)
 			)
 		)
-		(symbol "0603,2nF_0_1"
+		(symbol "0603,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -21782,7 +22188,7 @@
 				)
 			)
 		)
-		(symbol "0603,2nF_1_1"
+		(symbol "0603,2.2nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -21821,7 +22227,7 @@
 			)
 		)
 	)
-	(symbol "0603,7nF"
+	(symbol "0603,2.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -21838,7 +22244,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "2.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -21901,7 +22307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18643"
+		(property "Stock" "10277"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21991,7 +22397,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,7nF_0_1"
+		(symbol "0603,2.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -22006,7 +22412,7 @@
 				)
 			)
 		)
-		(symbol "0603,7nF_0_1"
+		(symbol "0603,2.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -22021,7 +22427,7 @@
 				)
 			)
 		)
-		(symbol "0603,7nF_1_1"
+		(symbol "0603,2.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -22060,7 +22466,7 @@
 			)
 		)
 	)
-	(symbol "0603,3nF"
+	(symbol "0603,3.3nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -22077,7 +22483,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "3nF"
+		(property "Value" "3.3nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -22140,7 +22546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "287526"
+		(property "Stock" "246556"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22230,7 +22636,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,3nF_0_1"
+		(symbol "0603,3.3nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -22245,7 +22651,7 @@
 				)
 			)
 		)
-		(symbol "0603,3nF_0_1"
+		(symbol "0603,3.3nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -22260,7 +22666,7 @@
 				)
 			)
 		)
-		(symbol "0603,3nF_1_1"
+		(symbol "0603,3.3nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -22379,7 +22785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70122"
+		(property "Stock" "56604"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22618,7 +23024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "689306"
+		(property "Stock" "558101"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22857,7 +23263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "134482"
+		(property "Stock" "533016"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23096,7 +23502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "257875"
+		(property "Stock" "411272"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23335,7 +23741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "182900"
+		(property "Stock" "155347"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23494,7 +23900,7 @@
 			)
 		)
 	)
-	(symbol "0603,8nF"
+	(symbol "0603,6.8nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -23511,7 +23917,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "8nF"
+		(property "Value" "6.8nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -23574,7 +23980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "893202"
+		(property "Stock" "848751"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23664,7 +24070,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,8nF_0_1"
+		(symbol "0603,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -23679,7 +24085,7 @@
 				)
 			)
 		)
-		(symbol "0603,8nF_0_1"
+		(symbol "0603,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -23694,7 +24100,7 @@
 				)
 			)
 		)
-		(symbol "0603,8nF_1_1"
+		(symbol "0603,6.8nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -23813,7 +24219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "876881"
+		(property "Stock" "678482"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24052,7 +24458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "334461"
+		(property "Stock" "216240"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24291,7 +24697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "178055"
+		(property "Stock" "83408"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24530,7 +24936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1260576"
+		(property "Stock" "1002579"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24769,7 +25175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "895800"
+		(property "Stock" "599926"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25008,7 +25414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "326654"
+		(property "Stock" "239917"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25247,7 +25653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "509073"
+		(property "Stock" "324841"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25486,7 +25892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "240903"
+		(property "Stock" "369522"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25645,7 +26051,7 @@
 			)
 		)
 	)
-	(symbol "0603,7pF"
+	(symbol "0603,4.7pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -25662,7 +26068,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7pF"
+		(property "Value" "4.7pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -25725,7 +26131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "505753"
+		(property "Stock" "458841"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25806,7 +26212,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,7pF_0_1"
+		(symbol "0603,4.7pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -25821,7 +26227,7 @@
 				)
 			)
 		)
-		(symbol "0603,7pF_0_1"
+		(symbol "0603,4.7pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -25836,7 +26242,7 @@
 				)
 			)
 		)
-		(symbol "0603,7pF_1_1"
+		(symbol "0603,4.7pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -25955,7 +26361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "512122"
+		(property "Stock" "388825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26114,7 +26520,7 @@
 			)
 		)
 	)
-	(symbol "0603,8pF"
+	(symbol "0603,6.8pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -26131,7 +26537,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "8pF"
+		(property "Value" "6.8pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -26194,7 +26600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "975395"
+		(property "Stock" "954554"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26275,7 +26681,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,8pF_0_1"
+		(symbol "0603,6.8pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -26290,7 +26696,7 @@
 				)
 			)
 		)
-		(symbol "0603,8pF_0_1"
+		(symbol "0603,6.8pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -26305,7 +26711,7 @@
 				)
 			)
 		)
-		(symbol "0603,8pF_1_1"
+		(symbol "0603,6.8pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -26344,7 +26750,7 @@
 			)
 		)
 	)
-	(symbol "0603,2pF"
+	(symbol "0603,8.2pF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -26361,7 +26767,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2pF"
+		(property "Value" "8.2pF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -26424,7 +26830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "52457"
+		(property "Stock" "42737"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26505,7 +26911,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,2pF_0_1"
+		(symbol "0603,8.2pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -26520,7 +26926,7 @@
 				)
 			)
 		)
-		(symbol "0603,2pF_0_1"
+		(symbol "0603,8.2pF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -26535,7 +26941,7 @@
 				)
 			)
 		)
-		(symbol "0603,2pF_1_1"
+		(symbol "0603,8.2pF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -26654,7 +27060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33538263"
+		(property "Stock" "41269241"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26893,7 +27299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1698846"
+		(property "Stock" "1156768"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27114,7 +27520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.007USD"
+		(property "Price" "0.008USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27132,7 +27538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2552832"
+		(property "Stock" "4768752"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27291,7 +27697,7 @@
 			)
 		)
 	)
-	(symbol "0603,7uF"
+	(symbol "0603,4.7uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -27308,7 +27714,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7uF"
+		(property "Value" "4.7uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -27371,7 +27777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1365763"
+		(property "Stock" "1840311"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27461,7 +27867,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,7uF_0_1"
+		(symbol "0603,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -27476,7 +27882,7 @@
 				)
 			)
 		)
-		(symbol "0603,7uF_0_1"
+		(symbol "0603,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -27491,7 +27897,7 @@
 				)
 			)
 		)
-		(symbol "0603,7uF_1_1"
+		(symbol "0603,4.7uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -27610,7 +28016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3769457"
+		(property "Stock" "3614935"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27849,7 +28255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "329309"
+		(property "Stock" "166906"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28088,7 +28494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "422714"
+		(property "Stock" "331324"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28309,7 +28715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
+		(property "Price" "0.007USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28327,7 +28733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "109652"
+		(property "Stock" "493733"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28486,7 +28892,7 @@
 			)
 		)
 	)
-	(symbol "0603,2uF"
+	(symbol "0603,2.2uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -28503,7 +28909,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2uF"
+		(property "Value" "2.2uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -28548,7 +28954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.008USD"
+		(property "Price" "0.009USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28566,7 +28972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1295247"
+		(property "Stock" "1634054"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28656,7 +29062,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,2uF_0_1"
+		(symbol "0603,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -28671,7 +29077,7 @@
 				)
 			)
 		)
-		(symbol "0603,2uF_0_1"
+		(symbol "0603,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -28686,7 +29092,7 @@
 				)
 			)
 		)
-		(symbol "0603,2uF_1_1"
+		(symbol "0603,2.2uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -28805,7 +29211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50054"
+		(property "Stock" "41083"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29044,7 +29450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21550"
+		(property "Stock" "58151"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29283,7 +29689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "144255"
+		(property "Stock" "89409"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29513,7 +29919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "287967"
+		(property "Stock" "665645"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29752,7 +30158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "48546"
+		(property "Stock" "20097"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29991,7 +30397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1139552"
+		(property "Stock" "1128862"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30141,7 +30547,7 @@
 			)
 		)
 	)
-	(symbol "0603,7nF"
+	(symbol "0603,4.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -30158,7 +30564,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -30221,7 +30627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "518236"
+		(property "Stock" "397433"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30311,7 +30717,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,7nF_0_1"
+		(symbol "0603,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -30326,7 +30732,7 @@
 				)
 			)
 		)
-		(symbol "0603,7nF_0_1"
+		(symbol "0603,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -30341,7 +30747,7 @@
 				)
 			)
 		)
-		(symbol "0603,7nF_1_1"
+		(symbol "0603,4.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -30460,7 +30866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4544431"
+		(property "Stock" "3740363"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30699,7 +31105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1423313"
+		(property "Stock" "641694"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30858,7 +31264,7 @@
 			)
 		)
 	)
-	(symbol "0603,10uF"
+	(symbol "0603,10uF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -30938,7 +31344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "976822"
+		(property "Stock" "2385937"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31028,7 +31434,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,10uF_0_1"
+		(symbol "0603,10uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -31043,7 +31449,7 @@
 				)
 			)
 		)
-		(symbol "0603,10uF_0_1"
+		(symbol "0603,10uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -31058,7 +31464,7 @@
 				)
 			)
 		)
-		(symbol "0603,10uF_1_1"
+		(symbol "0603,10uF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -31177,7 +31583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "210203"
+		(property "Stock" "159511"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31336,7 +31742,7 @@
 			)
 		)
 	)
-	(symbol "0603,2nF"
+	(symbol "0603,8.2nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -31353,7 +31759,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "8.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -31416,7 +31822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "71665"
+		(property "Stock" "58954"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31506,7 +31912,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,2nF_0_1"
+		(symbol "0603,8.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -31521,7 +31927,7 @@
 				)
 			)
 		)
-		(symbol "0603,2nF_0_1"
+		(symbol "0603,8.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -31536,7 +31942,7 @@
 				)
 			)
 		)
-		(symbol "0603,2nF_1_1"
+		(symbol "0603,8.2nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -31575,7 +31981,7 @@
 			)
 		)
 	)
-	(symbol "0603,22pF"
+	(symbol "0603,22pF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -31745,7 +32151,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603,22pF_0_1"
+		(symbol "0603,22pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -31760,7 +32166,7 @@
 				)
 			)
 		)
-		(symbol "0603,22pF_0_1"
+		(symbol "0603,22pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -31775,7 +32181,7 @@
 				)
 			)
 		)
-		(symbol "0603,22pF_1_1"
+		(symbol "0603,22pF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -31894,7 +32300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1046717"
+		(property "Stock" "767328"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32133,7 +32539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20276"
+		(property "Stock" "28834"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32292,7 +32698,7 @@
 			)
 		)
 	)
-	(symbol "0805,5nF"
+	(symbol "0805,1.5nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -32309,7 +32715,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "5nF"
+		(property "Value" "1.5nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -32372,7 +32778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24949"
+		(property "Stock" "30634"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32462,7 +32868,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,5nF_0_1"
+		(symbol "0805,1.5nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -32477,7 +32883,7 @@
 				)
 			)
 		)
-		(symbol "0805,5nF_0_1"
+		(symbol "0805,1.5nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -32492,7 +32898,7 @@
 				)
 			)
 		)
-		(symbol "0805,5nF_1_1"
+		(symbol "0805,1.5nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -32611,7 +33017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "148682"
+		(property "Stock" "99026"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32850,7 +33256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "44172"
+		(property "Stock" "70484"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33071,7 +33477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.016USD"
+		(property "Price" "0.015USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33089,7 +33495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28034"
+		(property "Stock" "60483"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33328,7 +33734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "271227"
+		(property "Stock" "227261"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33487,7 +33893,7 @@
 			)
 		)
 	)
-	(symbol "0805,7nF"
+	(symbol "0805,4.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -33504,7 +33910,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -33567,7 +33973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "372254"
+		(property "Stock" "304225"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33657,7 +34063,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,7nF_0_1"
+		(symbol "0805,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -33672,7 +34078,7 @@
 				)
 			)
 		)
-		(symbol "0805,7nF_0_1"
+		(symbol "0805,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -33687,7 +34093,7 @@
 				)
 			)
 		)
-		(symbol "0805,7nF_1_1"
+		(symbol "0805,4.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -33726,7 +34132,7 @@
 			)
 		)
 	)
-	(symbol "0805,8nF"
+	(symbol "0805,6.8nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -33743,7 +34149,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "8nF"
+		(property "Value" "6.8nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -33806,7 +34212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "48153"
+		(property "Stock" "18373"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33896,7 +34302,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,8nF_0_1"
+		(symbol "0805,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -33911,7 +34317,7 @@
 				)
 			)
 		)
-		(symbol "0805,8nF_0_1"
+		(symbol "0805,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -33926,7 +34332,7 @@
 				)
 			)
 		)
-		(symbol "0805,8nF_1_1"
+		(symbol "0805,6.8nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -33965,7 +34371,7 @@
 			)
 		)
 	)
-	(symbol "0805,7uF"
+	(symbol "0805,4.7uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -33982,7 +34388,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7uF"
+		(property "Value" "4.7uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -34045,7 +34451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1228912"
+		(property "Stock" "947962"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34135,7 +34541,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,7uF_0_1"
+		(symbol "0805,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -34150,7 +34556,7 @@
 				)
 			)
 		)
-		(symbol "0805,7uF_0_1"
+		(symbol "0805,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -34165,7 +34571,7 @@
 				)
 			)
 		)
-		(symbol "0805,7uF_1_1"
+		(symbol "0805,4.7uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -34284,7 +34690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "259527"
+		(property "Stock" "387384"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34523,7 +34929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "210092"
+		(property "Stock" "183049"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34762,7 +35168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "52930"
+		(property "Stock" "38016"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35001,7 +35407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "162424"
+		(property "Stock" "123110"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35240,7 +35646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "198944"
+		(property "Stock" "357972"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35479,7 +35885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "165782"
+		(property "Stock" "314010"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35718,7 +36124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "125299"
+		(property "Stock" "194295"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35957,7 +36363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "54954"
+		(property "Stock" "39801"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36196,7 +36602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4002627"
+		(property "Stock" "4653007"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36435,7 +36841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "176854"
+		(property "Stock" "499181"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36674,7 +37080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "663388"
+		(property "Stock" "473116"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36833,7 +37239,7 @@
 			)
 		)
 	)
-	(symbol "0805,2nF"
+	(symbol "0805,2.2nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -36850,7 +37256,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -36895,7 +37301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.029USD"
+		(property "Price" "0.03USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36913,7 +37319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "57875"
+		(property "Stock" "80257"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37003,7 +37409,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,2nF_0_1"
+		(symbol "0805,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -37018,7 +37424,7 @@
 				)
 			)
 		)
-		(symbol "0805,2nF_0_1"
+		(symbol "0805,2.2nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -37033,7 +37439,7 @@
 				)
 			)
 		)
-		(symbol "0805,2nF_1_1"
+		(symbol "0805,2.2nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -37152,7 +37558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1418941"
+		(property "Stock" "3015617"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37391,7 +37797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1236859"
+		(property "Stock" "2927287"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37630,7 +38036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "753683"
+		(property "Stock" "567397"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37789,7 +38195,7 @@
 			)
 		)
 	)
-	(symbol "0805,100nF"
+	(symbol "0805,100nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -37869,7 +38275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9058943"
+		(property "Stock" "6551017"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37959,7 +38365,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,100nF_0_1"
+		(symbol "0805,100nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -37974,7 +38380,7 @@
 				)
 			)
 		)
-		(symbol "0805,100nF_0_1"
+		(symbol "0805,100nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -37989,7 +38395,7 @@
 				)
 			)
 		)
-		(symbol "0805,100nF_1_1"
+		(symbol "0805,100nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -38090,7 +38496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.013USD"
+		(property "Price" "0.014USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38108,7 +38514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "87560"
+		(property "Stock" "66298"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38347,7 +38753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13491"
+		(property "Stock" "28893"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38568,7 +38974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.008USD"
+		(property "Price" "0.009USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38586,7 +38992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20212"
+		(property "Stock" "103780"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38825,7 +39231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "113349"
+		(property "Stock" "83606"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38984,7 +39390,7 @@
 			)
 		)
 	)
-	(symbol "0805,2uF"
+	(symbol "0805,2.2uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -39001,7 +39407,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2uF"
+		(property "Value" "2.2uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -39064,7 +39470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "254604"
+		(property "Stock" "95075"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39154,7 +39560,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,2uF_0_1"
+		(symbol "0805,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -39169,7 +39575,7 @@
 				)
 			)
 		)
-		(symbol "0805,2uF_0_1"
+		(symbol "0805,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -39184,7 +39590,7 @@
 				)
 			)
 		)
-		(symbol "0805,2uF_1_1"
+		(symbol "0805,2.2uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -39223,7 +39629,7 @@
 			)
 		)
 	)
-	(symbol "0805,10uF"
+	(symbol "0805,10uF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -39303,7 +39709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "884668"
+		(property "Stock" "622247"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39393,7 +39799,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,10uF_0_1"
+		(symbol "0805,10uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -39408,7 +39814,7 @@
 				)
 			)
 		)
-		(symbol "0805,10uF_0_1"
+		(symbol "0805,10uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -39423,7 +39829,7 @@
 				)
 			)
 		)
-		(symbol "0805,10uF_1_1"
+		(symbol "0805,10uF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -39462,7 +39868,7 @@
 			)
 		)
 	)
-	(symbol "0805,7uF"
+	(symbol "0805,4.7uF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -39479,7 +39885,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7uF"
+		(property "Value" "4.7uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -39596,7 +40002,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,7uF_0_1"
+		(symbol "0805,4.7uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -39611,7 +40017,7 @@
 				)
 			)
 		)
-		(symbol "0805,7uF_0_1"
+		(symbol "0805,4.7uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -39626,7 +40032,7 @@
 				)
 			)
 		)
-		(symbol "0805,7uF_1_1"
+		(symbol "0805,4.7uF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -39665,7 +40071,7 @@
 			)
 		)
 	)
-	(symbol "0805,22pF"
+	(symbol "0805,22pF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -39727,7 +40133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.011USD"
+		(property "Price" "0.012USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39799,7 +40205,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0805,22pF_0_1"
+		(symbol "0805,22pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -39814,7 +40220,7 @@
 				)
 			)
 		)
-		(symbol "0805,22pF_0_1"
+		(symbol "0805,22pF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -39829,7 +40235,7 @@
 				)
 			)
 		)
-		(symbol "0805,22pF_1_1"
+		(symbol "0805,22pF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -39948,7 +40354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "135054"
+		(property "Stock" "101492"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40187,7 +40593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "196130"
+		(property "Stock" "427764"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40408,7 +40814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.029USD"
+		(property "Price" "0.03USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40426,7 +40832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36054"
+		(property "Stock" "28874"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40665,7 +41071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "26357"
+		(property "Stock" "29620"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40904,7 +41310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1997804"
+		(property "Stock" "1611018"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41063,7 +41469,7 @@
 			)
 		)
 	)
-	(symbol "1206,22uF"
+	(symbol "1206,22uF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -41125,7 +41531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.043USD"
+		(property "Price" "0.044USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41143,7 +41549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "922301"
+		(property "Stock" "544454"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41233,7 +41639,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "1206,22uF_0_1"
+		(symbol "1206,22uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -41248,7 +41654,7 @@
 				)
 			)
 		)
-		(symbol "1206,22uF_0_1"
+		(symbol "1206,22uF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -41263,7 +41669,7 @@
 				)
 			)
 		)
-		(symbol "1206,22uF_1_1"
+		(symbol "1206,22uF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -41364,7 +41770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.032USD"
+		(property "Price" "0.033USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41382,7 +41788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1169735"
+		(property "Stock" "1512927"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41603,7 +42009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.059USD"
+		(property "Price" "0.06USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41621,7 +42027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "208900"
+		(property "Stock" "862036"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41860,7 +42266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "753274"
+		(property "Stock" "553809"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42019,7 +42425,7 @@
 			)
 		)
 	)
-	(symbol "1206,7uF"
+	(symbol "1206,4.7uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -42036,7 +42442,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7uF"
+		(property "Value" "4.7uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -42099,7 +42505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "277642"
+		(property "Stock" "452359"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42189,7 +42595,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "1206,7uF_0_1"
+		(symbol "1206,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -42204,7 +42610,7 @@
 				)
 			)
 		)
-		(symbol "1206,7uF_0_1"
+		(symbol "1206,4.7uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -42219,7 +42625,7 @@
 				)
 			)
 		)
-		(symbol "1206,7uF_1_1"
+		(symbol "1206,4.7uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -42258,7 +42664,7 @@
 			)
 		)
 	)
-	(symbol "1206,1nF"
+	(symbol "1206,1nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -42320,7 +42726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.033USD"
+		(property "Price" "0.034USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42338,7 +42744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11195"
+		(property "Stock" "11996"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42428,7 +42834,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "1206,1nF_0_1"
+		(symbol "1206,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -42443,7 +42849,7 @@
 				)
 			)
 		)
-		(symbol "1206,1nF_0_1"
+		(symbol "1206,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -42458,7 +42864,7 @@
 				)
 			)
 		)
-		(symbol "1206,1nF_1_1"
+		(symbol "1206,1nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -42497,7 +42903,7 @@
 			)
 		)
 	)
-	(symbol "1206,2uF"
+	(symbol "1206,2.2uF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -42514,7 +42920,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2uF"
+		(property "Value" "2.2uF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -42559,7 +42965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.03USD"
+		(property "Price" "0.031USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42577,7 +42983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "137226"
+		(property "Stock" "85835"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42667,7 +43073,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "1206,2uF_0_1"
+		(symbol "1206,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -42682,7 +43088,7 @@
 				)
 			)
 		)
-		(symbol "1206,2uF_0_1"
+		(symbol "1206,2.2uF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -42697,7 +43103,7 @@
 				)
 			)
 		)
-		(symbol "1206,2uF_1_1"
+		(symbol "1206,2.2uF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -42798,7 +43204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.065USD"
+		(property "Price" "0.066USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42816,7 +43222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "244111"
+		(property "Stock" "192051"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42975,7 +43381,7 @@
 			)
 		)
 	)
-	(symbol "1206,22uF"
+	(symbol "1206,22uF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -43055,7 +43461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7161"
+		(property "Stock" "5609"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43109,7 +43515,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "1206,22uF_0_1"
+		(symbol "1206,22uF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -43124,7 +43530,7 @@
 				)
 			)
 		)
-		(symbol "1206,22uF_0_1"
+		(symbol "1206,22uF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -43139,7 +43545,7 @@
 				)
 			)
 		)
-		(symbol "1206,22uF_1_1"
+		(symbol "1206,22uF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -43381,6 +43787,209 @@
 			)
 		)
 	)
+	(symbol "1812,100nF"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide no)
+			)
+		)
+		(property "Value" "100nF"
+			(at 3.556 -1.524 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide no)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:C_1812"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "nan"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1812  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3013473"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.223USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1910"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PSA(Prosperity Dielectrics)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "MT43X104K631EGE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1812,100nF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0.635)
+					(xy 1.27 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1812,100nF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -0.635)
+					(xy 1.27 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1812,100nF_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "1825,10nF"
 		(pin_numbers hide)
 		(pin_names
@@ -43443,7 +44052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.439USD"
+		(property "Price" "0.445USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43461,7 +44070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "233"
+		(property "Stock" "213"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43646,7 +44255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.137USD"
+		(property "Price" "0.139USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43849,7 +44458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.206USD"
+		(property "Price" "0.208USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44052,7 +44661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.516USD"
+		(property "Price" "0.523USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44070,7 +44679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "290"
+		(property "Stock" "260"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44193,209 +44802,6 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=37.5mm,7uF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.032 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide no)
-			)
-		)
-		(property "Value" "7uF"
-			(at 3.556 -1.524 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide no)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:C_Plugin,P=37.5mm"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203092030_Jimson-MPC475K1100D01_C2908135.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7uF -40°C~+85°C ±10% 1.1kV Plugin,P=37.5mm  Polypropylene Film Capacitors (CBB) ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2908135"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "1.103USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "9"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Polypropylene Film Capacitors (CBB)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Jimson"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part ID" "MPC475K1100D01"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Plugin,P=37.5mm,7uF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 0.635)
-					(xy 1.27 0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,P=37.5mm,7uF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -0.635)
-					(xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,P=37.5mm,7uF_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.175)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.175)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Plugin,P=7.5mm,220nF"
 		(pin_numbers hide)
 		(pin_names
@@ -44458,7 +44864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.084USD"
+		(property "Price" "0.085USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44661,7 +45067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.211USD"
+		(property "Price" "0.213USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44679,7 +45085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7751"
+		(property "Stock" "7726"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44864,7 +45270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.152USD"
+		(property "Price" "0.153USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45067,7 +45473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.107USD"
+		(property "Price" "0.108USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45208,7 +45614,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=10mm,8nF"
+	(symbol "Plugin,P=10mm,6.8nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -45225,7 +45631,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "8nF"
+		(property "Value" "6.8nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -45270,7 +45676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.239USD"
+		(property "Price" "0.242USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45288,7 +45694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40"
+		(property "Stock" "20"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45342,7 +45748,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=10mm,8nF_0_1"
+		(symbol "Plugin,P=10mm,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -45357,7 +45763,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,8nF_0_1"
+		(symbol "Plugin,P=10mm,6.8nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -45372,7 +45778,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,8nF_1_1"
+		(symbol "Plugin,P=10mm,6.8nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -45491,7 +45897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12988"
+		(property "Stock" "12938"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45676,7 +46082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.084USD"
+		(property "Price" "0.085USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45924,7 +46330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.095USD"
+		(property "Price" "0.096USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46065,7 +46471,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=10mm,7nF"
+	(symbol "Plugin,P=10mm,4.7nF"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -46082,255 +46488,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
-			(at 3.556 -1.524 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide no)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:C_Plugin,P=10mm"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203111830_SHM-DCF472M46Y5UG6BL0A0_C2919211.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7nF ±20% Y1 250V Plugin,P=10mm  Safety Capacitors ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2919211"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.127USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Suppression Capacitors"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part ID" "DCF472M46Y5UG6BL0A0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-40°C~+125°C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Subclass" "Y1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±20%"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage(AC)" "250V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "4.7nF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Plugin,P=10mm,7nF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 0.635)
-					(xy 1.27 0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,P=10mm,7nF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -0.635)
-					(xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,P=10mm,7nF_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.175)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.175)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Plugin,P=10mm,7nF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.032 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide no)
-			)
-		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -46375,7 +46533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.144USD"
+		(property "Price" "0.145USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46447,7 +46605,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=10mm,7nF_0_1"
+		(symbol "Plugin,P=10mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -46462,7 +46620,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,7nF_0_1"
+		(symbol "Plugin,P=10mm,4.7nF_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -46477,7 +46635,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,7nF_1_1"
+		(symbol "Plugin,P=10mm,4.7nF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -46516,7 +46674,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=10mm,7nF"
+	(symbol "Plugin,P=10mm,4.7nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -46533,7 +46691,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -46578,7 +46736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.136USD"
+		(property "Price" "0.138USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46650,7 +46808,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=10mm,7nF_0_1"
+		(symbol "Plugin,P=10mm,4.7nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -46665,7 +46823,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,7nF_0_1"
+		(symbol "Plugin,P=10mm,4.7nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -46680,7 +46838,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,7nF_1_1"
+		(symbol "Plugin,P=10mm,4.7nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -46719,7 +46877,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=10mm,1nF"
+	(symbol "Plugin,P=10mm,1nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -46781,7 +46939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.076USD"
+		(property "Price" "0.077USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46853,7 +47011,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_0_1"
+		(symbol "Plugin,P=10mm,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -46868,7 +47026,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_0_1"
+		(symbol "Plugin,P=10mm,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -46883,7 +47041,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_1_1"
+		(symbol "Plugin,P=10mm,1nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -46922,7 +47080,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=10mm,1nF"
+	(symbol "Plugin,P=10mm,1nF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -46984,7 +47142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.076USD"
+		(property "Price" "0.077USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47002,7 +47160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "466"
+		(property "Stock" "226"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47056,7 +47214,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_0_1"
+		(symbol "Plugin,P=10mm,1nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -47071,7 +47229,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_0_1"
+		(symbol "Plugin,P=10mm,1nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -47086,7 +47244,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_1_1"
+		(symbol "Plugin,P=10mm,1nF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -47125,7 +47283,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=10mm,1nF"
+	(symbol "Plugin,P=10mm,1nF,(4)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -47187,7 +47345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.081USD"
+		(property "Price" "0.082USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47259,7 +47417,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_0_1"
+		(symbol "Plugin,P=10mm,1nF,(4)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -47274,7 +47432,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_0_1"
+		(symbol "Plugin,P=10mm,1nF,(4)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -47289,7 +47447,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=10mm,1nF_1_1"
+		(symbol "Plugin,P=10mm,1nF,(4)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -47328,7 +47486,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,2nF"
+	(symbol "Plugin,P=10mm,4.7nF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -47345,7 +47503,210 @@
 				(hide no)
 			)
 		)
-		(property "Value" "2nF"
+		(property "Value" "4.7nF"
+			(at 3.556 -1.524 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide no)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:C_Plugin,P=10mm"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205161616_SHM-DCF472M46Y5VGCVL0L0_C3008298.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Plugin,P=10mm  Safety Capacitors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3008298"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.135USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Suppression Capacitors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "DCF472M46Y5VGCVL0L0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Plugin,P=10mm,4.7nF,(3)_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0.635)
+					(xy 1.27 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Plugin,P=10mm,4.7nF,(3)_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -0.635)
+					(xy 1.27 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Plugin,P=10mm,4.7nF,(3)_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.175)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Plugin,P=7.5mm,2.2nF,(5)"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide no)
+			)
+		)
+		(property "Value" "2.2nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -47390,7 +47751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.068USD"
+		(property "Price" "0.069USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47462,7 +47823,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(5)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -47477,7 +47838,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_0_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(5)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -47492,7 +47853,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,2nF_1_1"
+		(symbol "Plugin,P=7.5mm,2.2nF,(5)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -47593,7 +47954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.084USD"
+		(property "Price" "0.085USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47734,7 +48095,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,1nF"
+	(symbol "Plugin,P=7.5mm,1nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -47796,7 +48157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.087USD"
+		(property "Price" "0.088USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47868,7 +48229,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,1nF_0_1"
+		(symbol "Plugin,P=7.5mm,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -47883,7 +48244,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,1nF_0_1"
+		(symbol "Plugin,P=7.5mm,1nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -47898,7 +48259,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,1nF_1_1"
+		(symbol "Plugin,P=7.5mm,1nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -47937,7 +48298,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,1nF"
+	(symbol "Plugin,P=7.5mm,1nF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -47999,7 +48360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.086USD"
+		(property "Price" "0.087USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48071,7 +48432,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,1nF_0_1"
+		(symbol "Plugin,P=7.5mm,1nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -48086,7 +48447,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,1nF_0_1"
+		(symbol "Plugin,P=7.5mm,1nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -48101,7 +48462,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,1nF_1_1"
+		(symbol "Plugin,P=7.5mm,1nF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -48140,7 +48501,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,7nF"
+	(symbol "Plugin,P=7.5mm,4.7nF,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -48157,7 +48518,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -48202,7 +48563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.099USD"
+		(property "Price" "0.1USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48274,7 +48635,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_0_1"
+		(symbol "Plugin,P=7.5mm,4.7nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -48289,7 +48650,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_0_1"
+		(symbol "Plugin,P=7.5mm,4.7nF,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -48304,7 +48665,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_1_1"
+		(symbol "Plugin,P=7.5mm,4.7nF,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -48343,7 +48704,7 @@
 			)
 		)
 	)
-	(symbol "Plugin,P=7.5mm,7nF"
+	(symbol "Plugin,P=7.5mm,4.7nF,(3)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -48360,7 +48721,7 @@
 				(hide no)
 			)
 		)
-		(property "Value" "7nF"
+		(property "Value" "4.7nF"
 			(at 3.556 -1.524 0)
 			(effects
 				(font
@@ -48405,7 +48766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.1USD"
+		(property "Price" "0.101USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48477,7 +48838,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_0_1"
+		(symbol "Plugin,P=7.5mm,4.7nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0.635)
@@ -48492,7 +48853,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_0_1"
+		(symbol "Plugin,P=7.5mm,4.7nF,(3)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -0.635)
@@ -48507,7 +48868,7 @@
 				)
 			)
 		)
-		(symbol "Plugin,P=7.5mm,7nF_1_1"
+		(symbol "Plugin,P=7.5mm,4.7nF,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.175)
@@ -48608,7 +48969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.088USD"
+		(property "Price" "0.089USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48626,7 +48987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "689837"
+		(property "Stock" "977576"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48886,7 +49247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.13USD"
+		(property "Price" "0.132USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48904,7 +49265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "188785"
+		(property "Stock" "488438"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49164,7 +49525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "1.278USD"
+		(property "Price" "1.296USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49182,7 +49543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "494"
+		(property "Stock" "484"
 			(at 0 0 0)
 			(effects
 				(font

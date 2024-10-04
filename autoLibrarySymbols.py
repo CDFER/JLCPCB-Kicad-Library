@@ -1,5 +1,7 @@
 # librarySymbols.py
 
+symbolNames = []
+
 
 def generate_header(name):
     symbol = f'\t(symbol "{name}"'
@@ -139,6 +141,20 @@ def generate_kicad_symbol(
     #         missing_footprints[missing_footprint] += 1
     #     else:
     #         missing_footprints[missing_footprint] = 1
+    if name in symbolNames:
+        if name + ",(2)" not in symbolNames:
+            name = name + ",(2)"
+        elif name + ",(3)" not in symbolNames:
+            name = name + ",(3)"
+        elif name + ",(4)" not in symbolNames:
+            name = name + ",(4)"
+        elif name + ",(5)" not in symbolNames:
+            name = name + ",(5)"
+        else:
+            print("more than 5 symbols with the same name...")
+
+    symbolNames.append(name)
+    
 
     footprint = f"JLCPCB-Kicad-Footprints:{ref_designator}_{footprint}"
 
