@@ -117,6 +117,30 @@ def generate_kicad_symbol(
         )
         name = f"{value},{cleaned_manufacturerPartID}"
         value = cleaned_manufacturerPartID
+        
+    elif mode == "Crystals":
+        ref_designator = "X"
+        name = f"{value},{footprint}"
+        ref_position = "2.032 0 0"
+        value_position = "3.556 -1.524 0"
+        value_autoplace = True
+        
+    elif mode == "Variable-Resistors":
+        if secondary_mode == "NTC":
+            ref_designator = "RT"
+            name = f"NTC,{value},{footprint}"
+        if secondary_mode == "MOV":
+            ref_designator = "RV"
+            name = f"MOV,{footprint}"
+        if secondary_mode == "Fuse":
+            ref_designator = "F"
+            name = f"Fuse,{value}"
+        if secondary_mode == "Fuse,Resettable":
+            ref_designator = "F"
+            name = f"Fuse,Resettable,{value}"
+        ref_position = "2.032 0 0"
+        value_position = "3.556 -1.524 0"
+        value_autoplace = True
 
     else:
         ref_designator = "NA"
@@ -1288,6 +1312,30 @@ def generate_kicad_symbol(
 			)
 		)"""
             symbol+=inductor
+
+    elif mode == "Crystals":
+        symbol += generate_rectangle("2.54 -1.016", "-2.54 1.016", name=name, index=0)
+        symbol += generate_polyline(["-1.27 2.54", "1.27 2.54"], name=name, index=0)
+        symbol += generate_polyline(["-1.27 -2.54", "1.27 -2.54"], name=name, index=0)
+        for i in range(1, units + 1):
+            symbol += generate_pin_pair(
+                "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
+            )
+            
+    elif mode == "Variable-Resistors":
+        if secondary_mode == "Fuse" or secondary_mode == "Fuse,Resettable":
+            symbol += generate_rectangle("-1.016 2.54", "1.016 -2.54", name=name, index=0)
+            for i in range(1, units + 1):
+                symbol += generate_pin_pair(
+                    "passive line", name, i, "3.81", i, (units * 2) - (i - 1)
+                )
+        else:
+            symbol += generate_rectangle("-1.016 2.54", "1.016 -2.54", name=name, index=0)
+            symbol += generate_polyline(["-1.905 2.54", "-1.905 1.27", "1.905 -1.27"], name=name, index=0)
+            for i in range(1, units + 1):
+                symbol += generate_pin_pair(
+                    "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
+                )
 
     symbol += "\n\t)"
     return symbol
