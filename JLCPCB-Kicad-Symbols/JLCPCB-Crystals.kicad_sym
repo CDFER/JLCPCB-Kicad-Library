@@ -82,7 +82,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "81022"
+		(property "Stock" "31460"
 			(at 0 0 0)
 			(effects
 				(font
@@ -352,7 +352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "109786"
+		(property "Stock" "95488"
 			(at 0 0 0)
 			(effects
 				(font
@@ -622,7 +622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "279500"
+		(property "Stock" "252816"
 			(at 0 0 0)
 			(effects
 				(font
@@ -892,7 +892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "209388"
+		(property "Stock" "197562"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1162,7 +1162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "148779"
+		(property "Stock" "133092"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1432,7 +1432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1162"
+		(property "Stock" "762"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "171944"
+		(property "Stock" "149906"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2188,7 +2188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1370"
+		(property "Stock" "1348"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2286,222 +2286,6 @@
 			)
 		)
 		(symbol "16MHz,8pF,SMD2520-4P_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "12MHz,16pF,SMD3225-4P"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "X"
-			(at 2.032 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide no)
-			)
-		)
-		(property "Value" "12MHz,16pF"
-			(at 3.556 -1.524 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide no)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:X_SMD3225-4P"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203221830_Suzhou-Liming-Elec-3225-12-16-10-10-A_C2981641.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "12MHz 16pF ±10ppm SMD3225-4P  Crystals ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2981641"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.09USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resonators/Oscillators,Crystals"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Suzhou Liming Elec"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part ID" "3225-12-16-10-10/A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "X_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "12MHz,16pF,SMD3225-4P_0_1"
-			(rectangle
-				(start 2.54 -1.016)
-				(end -2.54 1.016)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "12MHz,16pF,SMD3225-4P_0_1"
-			(polyline
-				(pts
-					(xy -1.27 2.54)
-					(xy 1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "12MHz,16pF,SMD3225-4P_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -2.54)
-					(xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "12MHz,16pF,SMD3225-4P_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
