@@ -2,1711 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "CBM8091AST5"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CBM8091AST5"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Corebai-Microelectronics-CBM8091AST5_C476385.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-23-5  Operational Amplifier ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C476385"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2845"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.41USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C476385"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CBM8091AST5_0_1"
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 90)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "IN+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "IN-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LM2904DR2G"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2904DR2G"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811012110_onsemi-LM2904DR2G_C18229.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 45nA 1MHz SOIC-8 Operational Amplifier ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C18229"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "11846"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.131USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C18229"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LM2904DR2G_0_1"
-			(rectangle
-				(start -12.7 6.858)
-				(end 12.7 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -11.43 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -11.43 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 3.81 0)
-				(length 2.54)
-				(name "OUT/A"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 1.27 0)
-				(length 2.54)
-				(name "-IN/A"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 -1.27 0)
-				(length 2.54)
-				(name "+IN/A"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 -3.81 0)
-				(length 2.54)
-				(name "VEE/GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 -3.81 180)
-				(length 2.54)
-				(name "+IN/B"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 -1.27 180)
-				(length 2.54)
-				(name "-IN/B"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 1.27 180)
-				(length 2.54)
-				(name "OUT/B"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 3.81 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LM324DT"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM324DT"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809051220_STMicroelectronics-LM324DT_C71035.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 20nA 0.4V/us 1.3MHz SOIC-14 Operational Amplifier ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C71035"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "67799"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.113USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C71035"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LM324DT_1_1"
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.1073 1800)
-				(effects
-					(font
-						(size 0.254 0.254)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUT1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -7.62 90)
-				(length 5.08)
-				(name "VCC-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "IN1-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "IN1+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 7.62 270)
-				(length 5.08)
-				(name "VCC+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LM324DT_2_1"
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.27 1800)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "IN2+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "IN2-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUT2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LM324DT_3_1"
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.11 1800)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "IN3+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUT3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "IN3-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LM324DT_4_1"
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.11 1800)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "IN4+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "IN4-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUT4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LM358DR2G"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358DR2G"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_onsemi-LM358DR2G_C7950.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 45nA 1MHz SOIC-8 Operational Amplifier ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7950"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "93999"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.115USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C7950"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LM358DR2G_0_1"
-			(rectangle
-				(start -10.16 6.858)
-				(end 10.16 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 3.81 0)
-				(length 2.54)
-				(name "1OUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 1.27 0)
-				(length 2.54)
-				(name "1IN-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -1.27 0)
-				(length 2.54)
-				(name "1IN+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -3.81 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -3.81 180)
-				(length 2.54)
-				(name "2IN+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -1.27 180)
-				(length 2.54)
-				(name "2IN-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 1.27 180)
-				(length 2.54)
-				(name "2OUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 3.81 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LM358_C2829430"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358_C2829430"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403291730_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--LM358_C2829430.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual channel 1MHz 5mV SOP-8  Operational Amplifier ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2829430"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1508"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.076USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C2829430"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LM358_C2829430_1_1"
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUTA"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "INA-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "INA+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 90)
-				(length 5.08)
-				(name "-VS"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 5.08)
-				(name "+VS"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LM358_C2829430_2_1"
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "INB+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "INB-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUTB"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LM393DR2G"
+	(symbol "Comparator, LM393DR2G"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1791,7 +87,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM393DR2G_0_1"
+		(symbol "Comparator, LM393DR2G_0_1"
 			(rectangle
 				(start -12.7 6.858)
 				(end 12.7 -6.858)
@@ -1971,257 +267,7 @@
 			)
 		)
 	)
-	(symbol "LMV321IDBVR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV321IDBVR"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809151123_Texas-Instruments-LMV321IDBVR_C7972.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single 15nA 1V/us 1MHz SOT-23-5 Operational Amplifier ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7972"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "73770"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.084USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C7972"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LMV321IDBVR_0_1"
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -3.048) (xy -2.794 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 2.032) (xy -2.794 2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 2.54) (xy -3.302 1.524)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy -5.08 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -7.62 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 7.62 270)
-				(length 5.08)
-				(name "V+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LMV331ICT"
+	(symbol "Comparator, LMV331ICT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2306,7 +352,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LMV331ICT_0_1"
+		(symbol "Comparator, LMV331ICT_0_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -2471,7 +517,2495 @@
 			)
 		)
 	)
-	(symbol "MCP6002-E/P"
+	(symbol "Comparator, TLV7211AIDCKR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV7211AIDCKR"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SC-70-6_L2.0-W1.3-P0.65-LS2.1-BR"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309010926_Texas-Instruments-TLV7211AIDCKR_C206012.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5mV 0.04pA SC-70-6  Comparators ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C206012"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "50"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.377USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C206012"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Comparator, TLV7211AIDCKR_0_1"
+			(polyline
+				(pts
+					(xy -5.08 -7.62) (xy -2.54 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 5.08)
+				(name "VCC+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "IN+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "IN-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "VCC-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -7.62 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Digital Potentiometer, SPI, MCP4131-104E/SN"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4131-104E{slash}SN"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210172130_Microchip-Tech-MCP4131-104E-SN_C636034.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "±20% SPI 100kΩ 1.8V~5.5V SOIC-8-150mil  Digital Potentiometers ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C636034"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "927"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.015USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C636034"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Digital Potentiometer, SPI, MCP4131-104E/SN_0_1"
+			(rectangle
+				(start -10.16 6.35)
+				(end 10.16 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -8.89 5.08)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 3.81 0)
+				(length 2.54)
+				(name "CS#"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -1.27 0)
+				(length 2.54)
+				(name "SDI/SDO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -3.81 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -3.81 180)
+				(length 2.54)
+				(name "P0A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -1.27 180)
+				(length 2.54)
+				(name "P0W"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 1.27 180)
+				(length 2.54)
+				(name "P0B"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 3.81 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, CBM8091AST5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CBM8091AST5"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Corebai-Microelectronics-CBM8091AST5_C476385.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-23-5  Operational Amplifier ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C476385"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2845"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.41USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C476385"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Op-Amp, CBM8091AST5_0_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "IN+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "IN-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, LM2904DR2G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2904DR2G"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811012110_onsemi-LM2904DR2G_C18229.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 45nA 1MHz SOIC-8 Operational Amplifier ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18229"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "11846"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.131USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C18229"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Op-Amp, LM2904DR2G_0_1"
+			(rectangle
+				(start -12.7 6.858)
+				(end 12.7 -6.858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -11.43 5.588)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -11.43 5.588)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 3.81 0)
+				(length 2.54)
+				(name "OUT/A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 1.27 0)
+				(length 2.54)
+				(name "-IN/A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(name "+IN/A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -3.81 0)
+				(length 2.54)
+				(name "VEE/GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -3.81 180)
+				(length 2.54)
+				(name "+IN/B"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -1.27 180)
+				(length 2.54)
+				(name "-IN/B"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 1.27 180)
+				(length 2.54)
+				(name "OUT/B"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, LM324DT"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324DT"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809051220_STMicroelectronics-LM324DT_C71035.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20nA 0.4V/us 1.3MHz SOIC-14 Operational Amplifier ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71035"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "67799"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.113USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C71035"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Op-Amp, LM324DT_1_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "0"
+				(at -1.27 -1.1073 1800)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUT1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name "VCC-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "IN1-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "IN1+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name "VCC+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Op-Amp, LM324DT_2_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "0"
+				(at -1.27 -1.27 1800)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "IN2+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "IN2-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUT2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Op-Amp, LM324DT_3_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "0"
+				(at -1.27 -1.11 1800)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "IN3+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUT3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "IN3-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Op-Amp, LM324DT_4_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "0"
+				(at -1.27 -1.11 1800)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "IN4+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "IN4-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUT4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, LM358"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358_C2829430"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403291730_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--LM358_C2829430.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual channel 1MHz 5mV SOP-8  Operational Amplifier ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2829430"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1508"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.076USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2829430"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Op-Amp, LM358_1_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUTA"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "INA-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "INA+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "-VS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 5.08)
+				(name "+VS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Op-Amp, LM358_2_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "INB+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "INB-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUTB"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, LM358DR2G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358DR2G"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_onsemi-LM358DR2G_C7950.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 45nA 1MHz SOIC-8 Operational Amplifier ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7950"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "93999"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.115USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C7950"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Op-Amp, LM358DR2G_0_1"
+			(rectangle
+				(start -10.16 6.858)
+				(end 10.16 -6.858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -8.89 5.588)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -8.89 5.588)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 3.81 0)
+				(length 2.54)
+				(name "1OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "1IN-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -1.27 0)
+				(length 2.54)
+				(name "1IN+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -3.81 180)
+				(length 2.54)
+				(name "2IN+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -1.27 180)
+				(length 2.54)
+				(name "2IN-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 1.27 180)
+				(length 2.54)
+				(name "2OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, LMV321IDBVR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV321IDBVR"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809151123_Texas-Instruments-LMV321IDBVR_C7972.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 15nA 1V/us 1MHz SOT-23-5 Operational Amplifier ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7972"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "73770"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.084USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C7972"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Op-Amp, LMV321IDBVR_0_1"
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.048) (xy -2.794 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.032) (xy -2.794 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 2.54) (xy -3.302 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, MCP6002-E/P"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2556,7 +3090,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MCP6002-E/P_1_1"
+		(symbol "Op-Amp, MCP6002-E/P_1_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -2720,7 +3254,7 @@
 				)
 			)
 		)
-		(symbol "MCP6002-E/P_2_1"
+		(symbol "Op-Amp, MCP6002-E/P_2_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -2825,7 +3359,7 @@
 			)
 		)
 	)
-	(symbol "MCP6002T-I/SN"
+	(symbol "Op-Amp, MCP6002T-I/SN"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2910,7 +3444,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MCP6002T-I/SN_0_1"
+		(symbol "Op-Amp, MCP6002T-I/SN_0_1"
 			(rectangle
 				(start -10.16 6.858)
 				(end 10.16 -6.858)
@@ -3090,7 +3624,7 @@
 			)
 		)
 	)
-	(symbol "MCP6044T-I/SL"
+	(symbol "Op-Amp, MCP6044T-I/SL"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3175,7 +3709,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MCP6044T-I/SL_1_1"
+		(symbol "Op-Amp, MCP6044T-I/SL_1_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -3339,7 +3873,7 @@
 				)
 			)
 		)
-		(symbol "MCP6044T-I/SL_2_1"
+		(symbol "Op-Amp, MCP6044T-I/SL_2_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -3443,7 +3977,7 @@
 				)
 			)
 		)
-		(symbol "MCP6044T-I/SL_3_1"
+		(symbol "Op-Amp, MCP6044T-I/SL_3_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -3547,7 +4081,7 @@
 				)
 			)
 		)
-		(symbol "MCP6044T-I/SL_4_1"
+		(symbol "Op-Amp, MCP6044T-I/SL_4_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -3652,7 +4186,7 @@
 			)
 		)
 	)
-	(symbol "MCP6272-E/MS"
+	(symbol "Op-Amp, MCP6272-E/MS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3737,7 +4271,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MCP6272-E/MS_1_1"
+		(symbol "Op-Amp, MCP6272-E/MS_1_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.286) (xy -2.54 -2.286)
@@ -3901,7 +4435,7 @@
 				)
 			)
 		)
-		(symbol "MCP6272-E/MS_2_1"
+		(symbol "Op-Amp, MCP6272-E/MS_2_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -4006,7 +4540,361 @@
 			)
 		)
 	)
-	(symbol "NE5532DR"
+	(symbol "Op-Amp, MCP6282T-E/MS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6282T-E{slash}MS"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:MSOP-8_L3.0-W3.0-P0.65-LS4.9-BL-1"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210180130_Microchip-Tech-MCP6282T-E-MS_C625524.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual channel 1pA 5MHz MSOP-8  Operational Amplifier ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C625524"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "100"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.598USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C625524"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Op-Amp, MCP6282T-E/MS_1_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "VOUT_A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "VIN_A-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "VIN_A+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Op-Amp, MCP6282T-E/MS_2_1"
+			(polyline
+				(pts
+					(xy -4.064 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -1.778) (xy -3.302 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "VIN_B+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "VIN_B-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "VOUT_B"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Op-Amp, NE5532DR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4091,7 +4979,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NE5532DR_1_1"
+		(symbol "Op-Amp, NE5532DR_1_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -4231,7 +5119,7 @@
 				)
 			)
 		)
-		(symbol "NE5532DR_2_1"
+		(symbol "Op-Amp, NE5532DR_2_1"
 			(polyline
 				(pts
 					(xy -4.064 -2.54) (xy -2.54 -2.54)
@@ -4336,7 +5224,7 @@
 			)
 		)
 	)
-	(symbol "OP07CDR"
+	(symbol "Op-Amp, OP07CDR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4421,7 +5309,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "OP07CDR_0_1"
+		(symbol "Op-Amp, OP07CDR_0_1"
 			(polyline
 				(pts
 					(xy -4.064 -3.81) (xy -2.54 -3.81)
@@ -4676,7 +5564,7 @@
 			)
 		)
 	)
-	(symbol "TL072CDT"
+	(symbol "Op-Amp, TL072CDT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4761,7 +5649,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TL072CDT_0_1"
+		(symbol "Op-Amp, TL072CDT_0_1"
 			(rectangle
 				(start -10.16 6.858)
 				(end 10.16 -6.858)
@@ -4941,7 +5829,7 @@
 			)
 		)
 	)
-	(symbol "TLV7211AIDCKR"
+	(symbol "Switch, CD4051BM96"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4953,7 +5841,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV7211AIDCKR"
+		(property "Value" "CD4051BM96"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -4961,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SC-70-6_L2.0-W1.3-P0.65-LS2.1-BR"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -4971,7 +5859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309010926_Texas-Instruments-TLV7211AIDCKR_C206012.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809261612_Texas-Instruments-CD4051BM96_C21379.pdf"
 			(at -2.286 0.127 0)
 			(effects
 				(font
@@ -4981,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5mV 0.04pA SC-70-6  Comparators ROHS"
+		(property "Description" "1 240Ω SOIC-16-150mil Analog Switches, Multiplexers ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4990,7 +5878,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C206012"
+		(property "LCSC" "C21379"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4999,7 +5887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50"
+		(property "Stock" "81590"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5008,7 +5896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "1.377USD"
+		(property "Price" "0.149USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5017,7 +5905,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "C206012"
+		(property "ki_keywords" "C21379"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5026,95 +5914,22 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLV7211AIDCKR_0_1"
-			(polyline
-				(pts
-					(xy -5.08 -7.62) (xy -2.54 -3.81)
-				)
+		(symbol "Switch, CD4051BM96_0_1"
+			(rectangle
+				(start -24.13 11.43)
+				(end 24.13 -11.43)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
-				(at 10.16 0 180)
+				(at -29.21 8.89 0)
 				(length 5.08)
-				(name "OUT"
+				(name "CHANNELS_4"
 					(effects
 						(font
 							(size 1 1)
@@ -5129,10 +5944,136 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 10.16 270)
+			(pin unspecified line
+				(at 29.21 -6.35 180)
 				(length 5.08)
-				(name "VCC+"
+				(name "B"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 29.21 -3.81 180)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 29.21 -1.27 180)
+				(length 5.08)
+				(name "CHANNELS_IN/OUT_3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 29.21 1.27 180)
+				(length 5.08)
+				(name "CHANNELS_IN/OUT_0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 29.21 3.81 180)
+				(length 5.08)
+				(name "CHANNELS_IN/OUT_1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 29.21 6.35 180)
+				(length 5.08)
+				(name "CHANNELS_IN/OUT_2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 29.21 8.89 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -29.21 6.35 0)
+				(length 5.08)
+				(name "IN/OUT_6"
 					(effects
 						(font
 							(size 1 1)
@@ -5147,10 +6088,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -10.16 -2.54 0)
+			(pin unspecified line
+				(at -29.21 3.81 0)
 				(length 5.08)
-				(name "IN+"
+				(name "COM_OUT/IN"
 					(effects
 						(font
 							(size 1 1)
@@ -5166,9 +6107,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 2.54 0)
+				(at -29.21 1.27 0)
 				(length 5.08)
-				(name "IN-"
+				(name "CHANNELS_7"
 					(effects
 						(font
 							(size 1 1)
@@ -5183,10 +6124,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -10.16 90)
+			(pin unspecified line
+				(at -29.21 -1.27 0)
 				(length 5.08)
-				(name "VCC-"
+				(name "IN/OUT_5"
 					(effects
 						(font
 							(size 1 1)
@@ -5202,9 +6143,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -7.62 0)
+				(at -29.21 -3.81 0)
 				(length 5.08)
-				(name "NC"
+				(name "INH"
 					(effects
 						(font
 							(size 1 1)
@@ -5212,6 +6153,1074 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -29.21 -6.35 0)
+				(length 5.08)
+				(name "VEE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -29.21 -8.89 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 29.21 -8.89 180)
+				(length 5.08)
+				(name "C"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Switch, CD4052BM96"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4052BM96"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-CD4052BM96_C6521.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 240Ω Single Pole Four Throw (SP4T) SOIC-16 Analog Switches, Multiplexers ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6521"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "34284"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.195USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C6521"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Switch, CD4052BM96_0_1"
+			(rectangle
+				(start -24.13 11.43)
+				(end 24.13 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -22.86 10.16)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 8.89 0)
+				(length 2.54)
+				(name "Y_CH_0_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 -6.35 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 -3.81 180)
+				(length 2.54)
+				(name "X_CH_3_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 -1.27 180)
+				(length 2.54)
+				(name "X_CH_0_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 1.27 180)
+				(length 2.54)
+				(name "X_COMIN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 3.81 180)
+				(length 2.54)
+				(name "X_CH_1_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 6.35 180)
+				(length 2.54)
+				(name "X_CH_2_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 8.89 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 6.35 0)
+				(length 2.54)
+				(name "Y_CH_2_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 3.81 0)
+				(length 2.54)
+				(name "Y_COMOUT/IN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 1.27 0)
+				(length 2.54)
+				(name "Y_CH_3_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 -1.27 0)
+				(length 2.54)
+				(name "Y_CH_1_IN/OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 -3.81 0)
+				(length 2.54)
+				(name "INH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 -6.35 0)
+				(length 2.54)
+				(name "VEE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -26.67 -8.89 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 26.67 -8.89 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Switch, FSA5157L6X"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FSA5157L6X"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:UFDFN-6_L1.45-W1.0-P0.50-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_onsemi-FSA5157L6X_C124470.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "360mΩ 1 SPDT(SPDT) UFDFN-6  Analog Switches, Multiplexers ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C124470"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "5145"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.43USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C124470"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Switch, FSA5157L6X_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -5.08 3.81)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "B0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "B1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Switch, MC14551BDG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC14551BDG"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210210130_onsemi-MC14551BDG_C233584.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "280Ω 4 SPDT(SPDT) SOIC-16  Analog Switches, Multiplexers ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C233584"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.13USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C233584"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Switch, MC14551BDG_0_1"
+			(rectangle
+				(start -10.16 12.7)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -8.89 11.43)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "W1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "Z0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "Z1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "Z"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "W"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "W0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "X0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "X1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "X"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "Y"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "Y0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "VEE"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "CONTROL"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1 1)
