@@ -1,5 +1,7 @@
 # handmadeLibrarySymbols.py
 import os
+import pandas as pd
+import re
 
 stock_price_str = """		(property "Stock" "1"
 			(at 0 0 0)
@@ -70,3 +72,30 @@ def update_component_inplace(lcsc, libraryName, price, stock, datasheet = None, 
 		with open(filename, "w") as file:
 			file.writelines(lines)
 			return True
+
+def update_library_stock_inplace(libraryName):
+    df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
+    filename = os.path.join("JLCPCB-Kicad-Symbols", f"JLCPCB-{libraryName}.kicad_sym")
+    with open(filename, "r") as file:
+        lines = file.readlines()
+    
+    no_stock = False
+    
+    for i, line in enumerate(lines):
+        if f'(property "LCSC" "C' in line:
+            # print(f"LCSC Found on line {i} {line}")
+            numbers = [int(num) for num in re.findall('\\d+', line)]
+            lcsc = numbers[0]
+            
+            rows = df[df['lcsc'] == lcsc]
+            if len(rows) == 0:
+                no_stock = True
+                print(f"Error: No Stock found for https://jlcpcb.com/partdetail/C{lcsc}")
+            
+        elif '(property "Stock"' in line and no_stock == True:
+            lines[i] = f'		(property "Stock" "0"\n'
+            no_stock = False
+            
+    with open(filename, "w") as file:
+        file.writelines(lines)
+        return

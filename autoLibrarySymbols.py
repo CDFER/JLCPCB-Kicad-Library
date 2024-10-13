@@ -247,9 +247,7 @@ def generate_kicad_symbol(
             )
 
     elif mode == "Diodes":
-        if secondary_mode == "Bridge-Rectifier":
-            symbol += generate_rectangle("-2.54 2.54", "2.54 -2.54", name=name, index=0)
-        elif secondary_mode == "TVS-Bi":
+        if secondary_mode == "TVS-Bi":
             symbol += generate_polyline(
                 ["-1.27 2.54", "0 0", "1.27 2.54", "-1.27 2.54"], name=name, index=0
             )
@@ -265,82 +263,6 @@ def generate_kicad_symbol(
                 symbol += generate_pin_pair(
                     "passive line", name, i, "3.81", (units * 2) - (i - 1), i
                 )
-        elif secondary_mode == "LED-Bi-Colour":
-            symbol += generate_polyline(
-                ["-3.175 -1.27", "-0.635 -1.27"], name=name, index=0
-            )
-            symbol += generate_polyline(
-                ["3.175 1.27", "0.635 1.27"], name=name, index=0
-            )
-            symbol += generate_polyline(
-                ["-3.175 1.27", "-1.905 -1.27", "-0.635 1.27", "-3.175 1.27"],
-                name=name,
-                index=0,
-            )
-            symbol += generate_polyline(
-                ["-1.905 -1.27", "-1.905 -2.54", "1.905 -2.54", "1.905 -1.27"],
-                name=name,
-                index=0,
-            )
-            symbol += generate_polyline(
-                ["-1.905 1.27", "-1.905 2.54", "1.905 2.54", "1.905 1.27"],
-                name=name,
-                index=0,
-            )
-            symbol += generate_polyline(
-                ["3.175 -1.27", "1.905 1.27", "0.635 -1.27", "3.175 -1.27"],
-                name=name,
-                index=0,
-            )
-            symbol += generate_polyline(
-                [
-                    "-3.81 -1.27",
-                    "-5.334 0.254",
-                    "-5.334 -0.254",
-                    "-5.334 0.254",
-                    "-4.826 0.254",
-                ],
-                name=name,
-                index=0,
-                stroke={"width": 0.127, "type": "default"},
-            )
-            symbol += generate_polyline(
-                [
-                    "-3.81 0",
-                    "-5.334 1.524",
-                    "-5.334 1.016",
-                    "-5.334 1.524",
-                    "-4.826 1.524",
-                ],
-                name=name,
-                index=0,
-                stroke={"width": 0.127, "type": "default"},
-            )
-            symbol += generate_polyline(
-                [
-                    "3.81 0",
-                    "5.334 -1.524",
-                    "5.334 -1.016",
-                    "5.334 -1.524",
-                    "4.826 -1.524",
-                ],
-                name=name,
-                index=0,
-                stroke={"width": 0.127, "type": "default"},
-            )
-            symbol += generate_polyline(
-                [
-                    "3.81 1.27",
-                    "5.334 -0.254",
-                    "5.334 0.254",
-                    "5.334 -0.254",
-                    "4.826 -0.254",
-                ],
-                name=name,
-                index=0,
-                stroke={"width": 0.127, "type": "default"},
-            )
-            symbol += generate_pin_pair("passive line", name, 1, "1.27", 1, 2)
         elif secondary_mode == "Zener13":
             symbol += generate_polyline(
                 ["-1.27 1.27", "0.00 -1.27", "1.27 1.27", "-1.27 1.27"],
