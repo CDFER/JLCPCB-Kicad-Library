@@ -91,6 +91,12 @@ def generate_kicad_symbol(
         value_autoplace = True
         if secondary_mode == "LED" or secondary_mode == "LED-Bi-Colour":
             name = f"{secondary_mode},{footprint},{value}"
+        elif secondary_mode == "Zener13":
+            name = f"Zener,{manufacturerPartID}"
+            value = manufacturerPartID
+        elif secondary_mode == "Schottky13":
+            name = f"Schottky,{manufacturerPartID}"
+            value = manufacturerPartID
         else:
             name = f"{value},{manufacturerPartID}"
             value = manufacturerPartID
@@ -335,6 +341,39 @@ def generate_kicad_symbol(
                 stroke={"width": 0.127, "type": "default"},
             )
             symbol += generate_pin_pair("passive line", name, 1, "1.27", 1, 2)
+        elif secondary_mode == "Zener13":
+            symbol += generate_polyline(
+                ["-1.27 1.27", "0.00 -1.27", "1.27 1.27", "-1.27 1.27"],
+                name=name,
+                index=0,
+            )
+            symbol += generate_polyline(
+                ["-1.27 -1.27", "1.27 -1.27", "1.27 -0.762"], name=name, index=0
+            )
+            symbol += generate_pin_pair(
+                "passive line", name, 1, "3.81", 1, 3
+            )
+        elif secondary_mode == "Schottky13":
+            symbol += generate_polyline(
+                ["-1.27 1.27", "0.00 -1.27", "1.27 1.27", "-1.27 1.27"],
+                name=name,
+                index=0,
+            )
+            symbol += generate_polyline(
+                [
+                    "0.635 -1.905",
+                    "1.27 -1.905",
+                    "1.27 -1.27",
+                    "-1.27 -1.27",
+                    "-1.27 -0.635",
+                    "-0.635 -0.635",
+                ],
+                name=name,
+                index=0,
+            )
+            symbol += generate_pin_pair(
+                "passive line", name, 1, "3.81", 1, 3
+            )
         else:
             symbol += generate_polyline(
                 ["-1.27 1.27", "0.00 -1.27", "1.27 1.27", "-1.27 1.27"],
@@ -358,6 +397,7 @@ def generate_kicad_symbol(
                 symbol += generate_polyline(
                     ["-1.27 -1.27", "1.27 -1.27", "1.27 -0.762"], name=name, index=0
                 )
+
             elif secondary_mode == "TVS-Uni":
                 symbol += generate_polyline(
                     ["-1.905 -1.905", "-1.27 -1.27", "1.27 -1.27", "1.905 -0.635"],
