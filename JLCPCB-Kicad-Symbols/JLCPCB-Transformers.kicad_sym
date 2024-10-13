@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 1.27 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "WBA0805D102PT-HF"
-			(at 0 -2.54 0)
+			(at 0 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89,55 +89,9 @@
 		)
 		(symbol "Common Mode Filter, 0.15A, WBA0805D102PT-HF_0_1"
 			(arc
-				(start -4.2927 149.7503)
-				(mid -3.2769 148.7341)
-				(end -2.2607 149.7498)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -3.302 2.667)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.2217 155.8124)
-				(mid -4.2373 154.796)
-				(end -3.221 153.7804)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -3.175 -2.286)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -2.138 149.751)
-				(mid -1.1222 148.739)
-				(end -0.106 149.7504)
+				(start -3.81 2.5345)
+				(mid -2.54 1.27)
+				(end -1.27 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -147,9 +101,21 @@
 				)
 			)
 			(arc
-				(start -1.0289 155.8119)
-				(mid -2.0401 154.7956)
-				(end -1.0283 153.7799)
+				(start -1.27 -2.5345)
+				(mid -2.54 -1.27)
+				(end -3.81 -2.5345)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 2.5345)
+				(mid 0 1.27)
+				(end 1.27 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -160,7 +126,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 2.667) (xy -4.318 2.667)
+					(xy -5.08 2.54) (xy -3.81 2.54)
 				)
 				(stroke
 					(width 0)
@@ -172,7 +138,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.318 -2.413) (xy -5.08 -2.413)
+					(xy -3.81 -2.54) (xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -208,7 +174,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.318 -2.413) (xy 5.08 -2.413)
+					(xy 3.81 -2.54) (xy 5.207 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -220,7 +186,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.318 2.667) (xy 5.08 2.667)
+					(xy 3.81 2.54) (xy 5.207 2.54)
 				)
 				(stroke
 					(width 0)
@@ -231,9 +197,9 @@
 				)
 			)
 			(arc
-				(start 0.0126 149.751)
-				(mid 1.0283 148.7391)
-				(end 2.0446 149.7504)
+				(start 1.27 -2.5345)
+				(mid 0 -1.27)
+				(end -1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -243,9 +209,9 @@
 				)
 			)
 			(arc
-				(start 1.1217 155.8119)
-				(mid 0.106 154.7956)
-				(end 1.1224 153.7799)
+				(start 1.27 2.5345)
+				(mid 2.54 1.27)
+				(end 3.81 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -255,21 +221,9 @@
 				)
 			)
 			(arc
-				(start 2.2054 149.7505)
-				(mid 3.2211 148.7386)
-				(end 4.2374 149.7499)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.2765 155.8125)
-				(mid 2.2607 154.7963)
-				(end 3.277 153.7805)
+				(start 3.81 -2.5345)
+				(mid 2.54 -1.27)
+				(end 1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -357,7 +311,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +319,7 @@
 			)
 		)
 		(property "Value" "AMCW2012S-2-900T"
-			(at 0 -2.54 0)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,9 +415,9 @@
 				)
 			)
 			(arc
-				(start -3.81 149.8603)
-				(mid -2.54 148.5958)
-				(end -1.27 149.8603)
+				(start -3.81 2.5345)
+				(mid -2.54 1.27)
+				(end -1.27 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -473,9 +427,9 @@
 				)
 			)
 			(arc
-				(start -2.54 156.2103)
-				(mid -3.8044 154.9403)
-				(end -2.54 153.6703)
+				(start -1.27 -2.5345)
+				(mid -2.54 -1.27)
+				(end -3.81 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -485,9 +439,9 @@
 				)
 			)
 			(arc
-				(start -1.27 149.8603)
-				(mid 0 148.5958)
-				(end 1.27 149.8603)
+				(start -1.27 2.5345)
+				(mid 0 1.27)
+				(end 1.27 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -521,9 +475,9 @@
 				)
 			)
 			(arc
-				(start 0 156.2103)
-				(mid -1.2645 154.9403)
-				(end 0 153.6703)
+				(start 1.27 -2.5345)
+				(mid 0 -1.27)
+				(end -1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -533,9 +487,9 @@
 				)
 			)
 			(arc
-				(start 1.27 149.8603)
-				(mid 2.54 148.5958)
-				(end 3.81 149.8603)
+				(start 1.27 2.5345)
+				(mid 2.54 1.27)
+				(end 3.81 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -545,9 +499,9 @@
 				)
 			)
 			(arc
-				(start 2.54 156.2103)
-				(mid 1.2755 154.9403)
-				(end 2.54 153.6703)
+				(start 3.81 -2.5345)
+				(mid 2.54 -1.27)
+				(end 1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -567,24 +521,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.89 -2.54 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1 1)
@@ -629,13 +565,33 @@
 				)
 			)
 		)
+		(symbol "Common Mode Filter, 0.3A, AMCW2012S-2-900T_1_1"
+			(pin unspecified line
+				(at 8.89 -2.54 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol "Common Mode Filter, 1.4A, PSMCAQ1050-222P"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +599,7 @@
 			)
 		)
 		(property "Value" "PSMCAQ1050-222P"
-			(at 0 -2.54 0)
+			(at 0 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,55 +673,9 @@
 		)
 		(symbol "Common Mode Filter, 1.4A, PSMCAQ1050-222P_0_1"
 			(arc
-				(start -4.2927 149.7503)
-				(mid -3.2769 148.7341)
-				(end -2.2607 149.7498)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -3.302 2.667)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -3.2217 155.8124)
-				(mid -4.2373 154.796)
-				(end -3.221 153.7804)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -3.175 -2.286)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start -2.138 149.751)
-				(mid -1.1222 148.739)
-				(end -0.106 149.7504)
+				(start -3.81 2.5345)
+				(mid -2.54 1.27)
+				(end -1.27 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -775,9 +685,21 @@
 				)
 			)
 			(arc
-				(start -1.0289 155.8119)
-				(mid -2.0401 154.7956)
-				(end -1.0283 153.7799)
+				(start -1.27 -2.5345)
+				(mid -2.54 -1.27)
+				(end -3.81 -2.5345)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 2.5345)
+				(mid 0 1.27)
+				(end 1.27 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -788,7 +710,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 2.667) (xy -4.318 2.667)
+					(xy -5.08 2.54) (xy -3.81 2.54)
 				)
 				(stroke
 					(width 0)
@@ -800,7 +722,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.318 -2.413) (xy -5.08 -2.413)
+					(xy -3.81 -2.54) (xy -5.207 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -836,7 +758,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.318 -2.413) (xy 5.08 -2.413)
+					(xy 3.81 -2.54) (xy 5.207 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -848,7 +770,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.318 2.667) (xy 5.08 2.667)
+					(xy 3.81 2.54) (xy 5.207 2.54)
 				)
 				(stroke
 					(width 0)
@@ -859,9 +781,9 @@
 				)
 			)
 			(arc
-				(start 0.0126 149.751)
-				(mid 1.0283 148.7391)
-				(end 2.0446 149.7504)
+				(start 1.27 -2.5345)
+				(mid 0 -1.27)
+				(end -1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -871,9 +793,9 @@
 				)
 			)
 			(arc
-				(start 1.1217 155.8119)
-				(mid 0.106 154.7956)
-				(end 1.1224 153.7799)
+				(start 1.27 2.5345)
+				(mid 2.54 1.27)
+				(end 3.81 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -883,21 +805,9 @@
 				)
 			)
 			(arc
-				(start 2.2054 149.7505)
-				(mid 3.2211 148.7386)
-				(end 4.2374 149.7499)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.2765 155.8125)
-				(mid 2.2607 154.7963)
-				(end 3.277 153.7805)
+				(start 3.81 -2.5345)
+				(mid 2.54 -1.27)
+				(end 1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -985,7 +895,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +903,7 @@
 			)
 		)
 		(property "Value" "PDMFAT22148D-102MLB-6P"
-			(at 0 -2.54 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,9 +988,9 @@
 				)
 			)
 			(arc
-				(start -4.8255 152.6918)
-				(mid -3.5935 151.3849)
-				(end -2.2866 152.6168)
+				(start -3.2125 -3.8095)
+				(mid -1.9055 -2.5775)
+				(end -3.1375 -1.2706)
 				(stroke
 					(width 0)
 					(type default)
@@ -1090,9 +1000,9 @@
 				)
 			)
 			(arc
-				(start -4.8255 155.2318)
-				(mid -3.5935 153.9249)
-				(end -2.2866 155.1568)
+				(start -3.2125 -1.2694)
+				(mid -1.9056 -0.0375)
+				(end -3.1375 1.2695)
 				(stroke
 					(width 0)
 					(type default)
@@ -1102,9 +1012,9 @@
 				)
 			)
 			(arc
-				(start -2.2866 150.0768)
-				(mid -3.5185 151.3837)
-				(end -4.8255 150.1518)
+				(start -3.2125 1.2706)
+				(mid -1.9056 2.5025)
+				(end -3.1375 3.8095)
 				(stroke
 					(width 0)
 					(type default)
@@ -1125,9 +1035,9 @@
 				)
 			)
 			(arc
-				(start -1.2694 151.1678)
-				(mid -0.0375 149.8609)
-				(end 1.2694 151.0928)
+				(start -0.0375 -5.0795)
+				(mid 1.2695 -3.8475)
+				(end 0.0375 -2.5406)
 				(stroke
 					(width 0)
 					(type default)
@@ -1137,9 +1047,9 @@
 				)
 			)
 			(arc
-				(start -1.2694 153.7078)
-				(mid -0.0375 152.4009)
-				(end 1.2694 153.6328)
+				(start -0.0375 -2.5395)
+				(mid 1.2695 -1.3075)
+				(end 0.0375 -0.0006)
 				(stroke
 					(width 0)
 					(type default)
@@ -1149,9 +1059,21 @@
 				)
 			)
 			(arc
-				(start -1.2694 156.2478)
-				(mid -0.0375 154.9409)
-				(end 1.2694 156.1728)
+				(start -0.0375 0.0005)
+				(mid 1.2695 1.2325)
+				(end 0.0375 2.5394)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.0375 2.5405)
+				(mid 1.2695 3.7725)
+				(end 0.0375 5.0794)
 				(stroke
 					(width 0)
 					(type default)
@@ -1234,7 +1156,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -5.08) (xy -3.556 -5.08) (xy -3.556 -4.064)
+					(xy -5.08 -5.08) (xy -3.175 -5.08) (xy -3.175 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -1246,68 +1168,8 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 5.08) (xy -5.08 3.556) (xy -3.556 3.556)
+					(xy -5.08 5.08) (xy -5.08 3.81) (xy -3.175 3.81)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.2694 148.5528)
-				(mid 0.0374 149.854)
-				(end -1.2694 148.6278)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.452 149.4883)
-				(mid 5.4559 147.6962)
-				(end 7.248 147.6923)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.452 152.0283)
-				(mid 5.4559 150.2362)
-				(end 7.248 150.2323)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.452 154.5683)
-				(mid 5.4559 152.7762)
-				(end 7.248 152.7723)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.452 157.1083)
-				(mid 5.4559 155.3162)
-				(end 7.248 155.3123)
 				(stroke
 					(width 0)
 					(type default)
@@ -1325,6 +1187,54 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(arc
+				(start 6.3875 -2.5405)
+				(mid 5.0805 -3.7725)
+				(end 6.3125 -5.0794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.3875 -0.0005)
+				(mid 5.0805 -1.2325)
+				(end 6.3125 -2.5394)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.3875 2.5395)
+				(mid 5.0805 1.3075)
+				(end 6.3125 0.0006)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.3875 5.0795)
+				(mid 5.0805 3.8475)
+				(end 6.3125 2.5406)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin unspecified line
@@ -1442,7 +1352,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1360,7 @@
 			)
 		)
 		(property "Value" "YLM1211-202T"
-			(at 0 -2.54 0)
+			(at 0.254 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,6 +1433,18 @@
 			)
 		)
 		(symbol "Common Mode Filter, 4.0A, YLM1211-202T_0_1"
+			(arc
+				(start -3.81 2.5345)
+				(mid -2.54 1.27)
+				(end -1.27 2.5345)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center -3.302 -2.286)
 				(radius 0.127)
@@ -1546,9 +1468,9 @@
 				)
 			)
 			(arc
-				(start -2.9067 148.8542)
-				(mid -2.0463 150.0009)
-				(end -3.1893 150.8664)
+				(start -1.27 -2.5345)
+				(mid -2.54 -1.27)
+				(end -3.81 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -1558,33 +1480,9 @@
 				)
 			)
 			(arc
-				(start -2.0419 154.799)
-				(mid -2.9073 155.942)
-				(end -4.0541 155.0816)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.8747 148.8542)
-				(mid -0.0143 150.0009)
-				(end -1.1573 150.8664)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.0099 154.799)
-				(mid -0.8753 155.942)
-				(end -2.0221 155.0816)
+				(start -1.27 2.5345)
+				(mid 0 1.27)
+				(end 1.27 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -1618,9 +1516,9 @@
 				)
 			)
 			(arc
-				(start 1.1573 148.8542)
-				(mid 2.0176 150.0009)
-				(end 0.8747 150.8664)
+				(start 1.27 -2.5345)
+				(mid 0 -1.27)
+				(end -1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -1630,9 +1528,9 @@
 				)
 			)
 			(arc
-				(start 2.0221 154.799)
-				(mid 1.1566 155.9421)
-				(end 0.0099 155.0816)
+				(start 1.27 2.5345)
+				(mid 2.54 1.27)
+				(end 3.81 2.5345)
 				(stroke
 					(width 0)
 					(type default)
@@ -1642,21 +1540,9 @@
 				)
 			)
 			(arc
-				(start 3.1893 148.8542)
-				(mid 4.0496 150.0009)
-				(end 2.9067 150.8664)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 4.0541 154.799)
-				(mid 3.1886 155.9421)
-				(end 2.0419 155.0816)
+				(start 3.81 -2.5345)
+				(mid 2.54 -1.27)
+				(end 1.27 -2.5345)
 				(stroke
 					(width 0)
 					(type default)

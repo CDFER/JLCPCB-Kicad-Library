@@ -746,7 +746,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "DB"
-			(at 0 1.27 0)
+			(at 0 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +754,7 @@
 			)
 		)
 		(property "Value" "GBU810_C2891286"
-			(at 0 -2.54 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,9 +868,29 @@
 				)
 			)
 			(pin unspecified line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Bridge Rectifier, GBU810_1_1"
+			(pin unspecified line
 				(at -5.08 2.54 0)
 				(length 2.54)
-				(name "&#126;"
+				(name "AC"
 					(effects
 						(font
 							(size 1 1)
@@ -888,7 +908,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "&#126;"
+				(name "AC"
 					(effects
 						(font
 							(size 1 1)
@@ -896,24 +916,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -2.54 0)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1 1)
