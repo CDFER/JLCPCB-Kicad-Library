@@ -1,4 +1,4 @@
-(footprint "SOT-89-3"
+(footprint "Q_SOT-89"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.5 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "bf18b3b0-734e-466d-bfbe-3370076d744e")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -252,7 +256,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "86ea0c98-be91-4b04-8ec3-8d88d470d6d8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.step"
 		(offset
 			(xyz 0 0 0)
 		)

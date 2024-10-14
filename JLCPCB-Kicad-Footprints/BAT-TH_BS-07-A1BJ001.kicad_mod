@@ -1,26 +1,146 @@
-(module "BAT-TH_BS-07-A1BJ001" (layer F.Cu) (tedit 66ECCF7C)
-  (descr "BAT-TH_BS-07-A1BJ001 footprint")
-  (tags "BAT-TH_BS-07-A1BJ001 footprint C2979167")
-  (attr through_hole)
-  (fp_text reference REF** (at 1.321488 -4.9) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value BAT-TH_BS-07-A1BJ001 (at 1.321488 4.9) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_arc (start -1.999944 0) (end 9.303073 2.9) (angle 331.223) (layer F.SilkS) (width 0.254001))
-  (fp_circle (center 12.931064 -11.599746) (end 12.961062 -11.599746) (layer F.SilkS) (width 0.059995))
-  (fp_line (start 13.043028 2.9) (end 9.303073 2.9) (layer F.SilkS) (width 0.254001))
-  (fp_line (start 13.043028 -2.9) (end 9.303073 -2.9) (layer F.SilkS) (width 0.254001))
-  (fp_line (start 13.043028 -2.9) (end 13.043028 2.9) (layer F.SilkS) (width 0.254001))
-  (pad 1 thru_hole circle (at 10.400051 0) (size 2 2) (drill 1.500025) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at -10.400051 0) (size 2 2) (drill 1.500025) (layers *.Cu *.Mask))
-  (fp_text user REF** (at 1.321488 6.9) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model JLCPCB-Kicad-Library/JLCPCB-Kicad-Footprints/3dModels/BAT-TH_BS-07-A1BJ001.step
-    (at (xyz -0.012321 0 -0.15748))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BAT-TH_BS-07-A1BJ001"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BAT-TH_BS-07-A1BJ001 footprint")
+	(tags "BAT-TH_BS-07-A1BJ001 footprint C2979167")
+	(property "Reference" "REF**"
+		(at 1.321488 -4.9 0)
+		(layer "F.SilkS")
+		(uuid "79f9c5cd-7f75-4ee2-9e6b-51b01acdfba5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT-TH_BS-07-A1BJ001"
+		(at 1.321488 4.9 0)
+		(layer "F.Fab")
+		(uuid "7cbacd1d-89d6-40c0-b4ec-da6e701b498f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4e1b6ed-5e2f-4b2d-8fb8-26a3b3591f75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60cd64c3-b1fc-4d9c-aea1-75c89c26c584")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f7c4fa2-9a91-4029-b713-c44aab256f97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 13.043028 -2.9)
+		(end 9.303073 -2.9)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9863a286-ca8e-4c51-a186-57af2460e3b4")
+	)
+	(fp_line
+		(start 13.043028 -2.9)
+		(end 13.043028 2.9)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ba01b40-614b-481f-bf15-b51e08fc70bc")
+	)
+	(fp_line
+		(start 13.043028 2.9)
+		(end 9.303073 2.9)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f863d4fd-7900-48fa-add1-e7d437d28177")
+	)
+	(fp_arc
+		(start 9.303073 2.9)
+		(mid -13.669057 -0.000288)
+		(end 9.303216 -2.899443)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0da27feb-a7e3-4382-a2ee-49f4bc466133")
+	)
+	(fp_text user "REF**"
+		(at 1.321488 6.9 0)
+		(layer "F.Fab")
+		(uuid "cc19584b-0c9f-43ba-816b-7ed5d1db96c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 10.400051 0)
+		(size 2 2)
+		(drill 1.500025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad462f94-4e3d-4b73-bb0b-6dba3fcc4cea")
+	)
+	(pad "2" thru_hole circle
+		(at -10.400051 0)
+		(size 2 2)
+		(drill 1.500025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbe5b7ad-2e5a-49f7-adb5-f490f427b272")
+	)
+	(model "/3dModels/BAT-TH_BS-07-A1BJ001.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

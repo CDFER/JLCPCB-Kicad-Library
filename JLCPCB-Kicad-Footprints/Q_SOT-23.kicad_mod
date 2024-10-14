@@ -1,4 +1,4 @@
-(footprint "SOT-23"
+(footprint "Q_SOT-23"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.4 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "9fe2104c-69cb-4a21-bc78-3cb9bae0175d")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -238,7 +242,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "392331a0-1938-40c3-8191-a45c4418869f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 		(offset
 			(xyz 0 0 0)
 		)
