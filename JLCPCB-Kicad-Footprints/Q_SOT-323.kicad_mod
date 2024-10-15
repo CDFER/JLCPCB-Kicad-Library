@@ -1,0 +1,220 @@
+(footprint "Q_SOT-323"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint")
+	(tags "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322")
+	(property "Reference" "REF**"
+		(at 0 -3.126213 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "25aea921-d46b-4e25-b673-6b5c6eb6ea39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR"
+		(at 0 3.126213 0)
+		(layer "F.Fab")
+		(uuid "f5a6587d-7eec-465e-adb6-44dc2b71f6fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "067a90fe-1f92-4a5c-b84d-6dca45483f0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff7221f5-8ec1-4982-b4ec-ae5234173b45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcf09a06-9762-45fc-bbeb-be8c6bfa9c72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.701194 -1.126213)
+		(end -0.701194 -0.410592)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d26a0404-dae4-488a-b396-0990a6b1ee39")
+	)
+	(fp_line
+		(start -0.701194 1.126213)
+		(end -0.701194 0.410592)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1375a01-c4db-4926-8969-af3a8eb417fe")
+	)
+	(fp_line
+		(start 0.701194 -1.126213)
+		(end -0.701194 -1.126213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23669195-f4f6-4968-b7ca-90d2f546f6e9")
+	)
+	(fp_line
+		(start 0.701194 -0.239395)
+		(end 0.701194 0.239395)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f0e35be-8995-4e47-92d9-2dd8979dfa10")
+	)
+	(fp_line
+		(start 0.701194 1.126213)
+		(end -0.701194 1.126213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0bc4935-1046-4ab0-ab0a-44a68fe6d933")
+	)
+	(fp_circle
+		(center 1 1)
+		(end 1.029997 1)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6bb5961a-2f96-4c91-8766-d1a0a4a28402")
+	)
+	(fp_line
+		(start -0.7 -1.1)
+		(end 0.7 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "79c0eee0-e96e-40f9-b84b-77ade057854f")
+	)
+	(fp_line
+		(start -0.7 1.1)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "889e7cb4-ba8b-490e-9c55-f60e47423b74")
+	)
+	(fp_line
+		(start 0.7 -1.1)
+		(end 0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "addbb719-d119-4292-bc32-5f46888dcaff")
+	)
+	(fp_line
+		(start 0.7 1.1)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "18397f2c-af59-49d2-bc71-a7fe96d490d2")
+	)
+	(fp_circle
+		(center 1.450089 0.649987)
+		(end 1.550165 0.649987)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "83ddb055-755d-42c4-87c9-fa26a0de84a6")
+	)
+	(fp_text user "REF**"
+		(at 0 5.126213 0)
+		(layer "F.Fab")
+		(uuid "ef9b9ecb-e779-43a1-b70d-45d8a7ceedd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.897892 0.649987)
+		(size 0.935992 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "024c7f64-348c-451d-b62f-48814b0286a8")
+	)
+	(pad "2" smd rect
+		(at 0.897892 -0.649987)
+		(size 0.935992 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a61ac1c6-c327-43e9-83b6-270fa5d20374")
+	)
+	(pad "3" smd rect
+		(at -0.897892 0)
+		(size 0.935992 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4ce5310c-a84f-4873-bc08-c0cfba833ac5")
+	)
+	(model "/3dModels/SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR.step"
+		(offset
+			(xyz 0 0 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

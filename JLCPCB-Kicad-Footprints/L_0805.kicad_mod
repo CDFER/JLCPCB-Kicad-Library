@@ -1,4 +1,4 @@
-(footprint "L_0805_2012Metric"
+(footprint "L_0805"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.55 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "85198dd5-2d2e-41e2-bfe6-aeeac1c35a43")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

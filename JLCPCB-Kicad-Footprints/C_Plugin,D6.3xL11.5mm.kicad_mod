@@ -1,0 +1,172 @@
+(footprint "C_Plugin,D6.3xL11.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-TH_BD6.3-P2.60-D0.6-FD-1 footprint")
+	(tags "CAP-TH_BD6.3-P2.60-D0.6-FD-1 footprint C2895790")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bad4ba7c-953c-4614-b616-0bc35341bdd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-TH_BD6.3-P2.60-D0.6-FD-1"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "55a5a05a-aa2b-4168-ad39-b9a7d64f64b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b50353a7-8da4-4f18-b3f6-697819605708")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68ef4d13-47f1-4627-943b-28ef5d99cf52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c07083b3-7c81-405d-b4c7-cfea8bdcf582")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -3.150114 0)
+		(mid -0.000001 -3.150115)
+		(end 3.150114 -0.000002)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0da489da-a29e-4349-b8cb-126d2251309e")
+	)
+	(fp_arc
+		(start 3.150114 0)
+		(mid 0 3.150114)
+		(end -3.150114 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd1359dc-974a-4b8e-a9e1-baa5691cd26d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.150114 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e3ac06e3-81e9-4ea4-b572-add1543a5c54")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b5cd93c2-78d7-4b0c-a8bd-28e6a3733a5f")
+	)
+	(fp_text user "-"
+		(at 1.016002 -0.889002 0)
+		(layer "F.SilkS")
+		(uuid "8106877d-1a8c-48a4-8f74-a19d7c590e14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -2.032004 -1.016002 0)
+		(layer "F.SilkS")
+		(uuid "9e289799-e43f-4d5e-9b8b-b18db14feb2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "REF**"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "df224105-c985-4ef4-b1a5-f3832a40dd30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.299975 0)
+		(size 1.750013 1.750013)
+		(drill 1.100025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7742305a-c1d5-4175-bd35-5a8199f5b442")
+	)
+	(pad "2" thru_hole circle
+		(at 1.299975 0)
+		(size 1.750013 1.750013)
+		(drill 1.100025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13c03d29-4d72-434a-bd59-b24d9d57f40c")
+	)
+	(model "/3dModels/CAP-TH_BD6.3-P2.60-D0.6-FD-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

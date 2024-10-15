@@ -1,0 +1,133 @@
+(footprint "L_SMD,4.5x4x3.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_L4.5-W4.0_CD43 footprint")
+	(tags "IND-SMD_L4.5-W4.0_CD43 footprint C2880035")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6232568f-068f-4155-b877-4f78a3fcd2f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L4.5-W4.0_CD43"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "c52e64b8-66a1-44f9-b2ee-61b339de145b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d23094-6243-4bcf-99ff-dd967d16aced")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "947285aa-2c44-4926-b1d5-29b6b1152e70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "636afc98-a6e2-4e65-bf33-a301015f0ae9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.254001 -2)
+		(end 0.254001 -2)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19a13032-d574-481c-80e7-f0fd87eeccf4")
+	)
+	(fp_line
+		(start -0.254001 2)
+		(end 0.254001 2)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69f27d4a-460d-454e-8fcc-b759599bac14")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c86f7e42-2558-4076-b948-55c80a3ccbef")
+	)
+	(fp_text user "REF**"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "9bf107bd-b24d-4fec-9707-f8ae0f840f48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.649987 0 90)
+		(size 4.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ace8b1ed-c930-4271-b142-0647e53f3049")
+	)
+	(pad "2" smd rect
+		(at 1.649987 0 90)
+		(size 4.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f04e5bc4-2542-44cf-950e-eca80db6934b")
+	)
+	(model "/3dModels/IND-SMD_L4.5-W4.0_CD43.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
