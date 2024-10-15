@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "PL133-27GC-R"
-			(at 0 -2.54 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89,19 +89,8 @@
 		)
 		(symbol "Clock Fanout Buffer, PL133-27GC-R_0_1"
 			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 2.54)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -111,7 +100,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "FIN"
 					(effects
@@ -129,7 +118,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "CLK1"
 					(effects
@@ -147,7 +136,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -165,7 +154,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "CLK0"
 					(effects
@@ -183,7 +172,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -201,7 +190,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OE"
 					(effects
@@ -219,7 +208,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "EP"
 					(effects
@@ -250,8 +239,8 @@
 				)
 			)
 		)
-		(property "Value" "74HCT1G08GW,125"
-			(at 0 -2.54 0)
+		(property "Value" "74HCT1G08GW"
+			(at -0.508 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,8 +439,8 @@
 				)
 			)
 		)
-		(property "Value" "74HC08D,653"
-			(at 0 -2.54 0)
+		(property "Value" "74HC08D"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +813,7 @@
 			)
 		)
 		(property "Value" "NC7S02P5X"
-			(at 0 -2.54 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,19 +887,8 @@
 		)
 		(symbol "Gate, NOR, 1 Channel, NC7S02P5X_0_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -5.08 3.81)
-				(radius 0.381)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -920,7 +898,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -938,7 +916,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -956,7 +934,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -974,7 +952,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "Y"
 					(effects
@@ -992,7 +970,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1023,7 +1001,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC04D,653"
+		(property "Value" "74HC04D"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1747,7 +1725,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC245D,653"
+		(property "Value" "74HC245D"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1822,30 +1800,8 @@
 		)
 		(symbol "Level Shifter, 8 Channel, 74HC245D,653_0_1"
 			(rectangle
-				(start -7.62 14.478)
-				(end 7.62 -14.478)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 13.208)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 13.208)
-				(radius 0.381)
+				(start -7.62 15.24)
+				(end 7.62 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -1855,7 +1811,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 11.43 0)
+				(at -10.16 12.7 0)
 				(length 2.54)
 				(name "DIR"
 					(effects
@@ -1873,7 +1829,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -11.43 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1891,7 +1847,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -11.43 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "B7"
 					(effects
@@ -1909,7 +1865,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -8.89 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "B6"
 					(effects
@@ -1927,7 +1883,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "B5"
 					(effects
@@ -1945,7 +1901,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "B4"
 					(effects
@@ -1963,7 +1919,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "B3"
 					(effects
@@ -1981,7 +1937,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "B2"
 					(effects
@@ -1999,7 +1955,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "B1"
 					(effects
@@ -2017,7 +1973,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 6.35 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "B0"
 					(effects
@@ -2035,7 +1991,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 8.89 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "OE#"
 					(effects
@@ -2053,7 +2009,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 8.89 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -2071,7 +2027,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 11.43 180)
+				(at 10.16 12.7 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2089,7 +2045,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 6.35 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -2107,7 +2063,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -2125,7 +2081,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "A3"
 					(effects
@@ -2143,7 +2099,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "A4"
 					(effects
@@ -2161,7 +2117,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "A5"
 					(effects
@@ -2179,7 +2135,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -6.35 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "A6"
 					(effects
@@ -2197,7 +2153,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -8.89 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "A7"
 					(effects
@@ -2229,7 +2185,7 @@
 			)
 		)
 		(property "Value" "SN74LVC4245APWR"
-			(at 0 -2.54 0)
+			(at 0 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,8 +2259,8 @@
 		)
 		(symbol "Level Shifter, 8 Channel, TSN74LVC4245APWR_0_1"
 			(rectangle
-				(start -7.62 16.51)
-				(end 7.62 -16.51)
+				(start -7.62 17.78)
+				(end 7.62 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -2314,7 +2270,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 13.97 0)
+				(at -12.7 15.24 0)
 				(length 5.08)
 				(name "VCCA"
 					(effects
@@ -2332,7 +2288,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -8.89 0)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "A8"
 					(effects
@@ -2350,7 +2306,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -11.43 0)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2368,7 +2324,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -13.97 0)
+				(at -12.7 -12.7 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2386,7 +2342,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -13.97 180)
+				(at 12.7 -12.7 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2404,7 +2360,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -11.43 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "B8"
 					(effects
@@ -2422,7 +2378,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -8.89 180)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "B7"
 					(effects
@@ -2440,7 +2396,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -6.35 180)
+				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "B6"
 					(effects
@@ -2458,7 +2414,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "B5"
 					(effects
@@ -2476,7 +2432,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "B4"
 					(effects
@@ -2494,7 +2450,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "B3"
 					(effects
@@ -2512,7 +2468,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 11.43 0)
+				(at -12.7 12.7 0)
 				(length 5.08)
 				(name "DIR"
 					(effects
@@ -2530,7 +2486,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "B2"
 					(effects
@@ -2548,7 +2504,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 6.35 180)
+				(at 12.7 7.62 180)
 				(length 5.08)
 				(name "B1"
 					(effects
@@ -2566,7 +2522,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 8.89 180)
+				(at 12.7 10.16 180)
 				(length 5.08)
 				(name "OE#"
 					(effects
@@ -2584,7 +2540,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 11.43 180)
+				(at 12.7 12.7 180)
 				(length 5.08)
 				(name "VCCB"
 					(effects
@@ -2602,7 +2558,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 13.97 180)
+				(at 12.7 15.24 180)
 				(length 5.08)
 				(name "VCCB"
 					(effects
@@ -2620,7 +2576,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 8.89 0)
+				(at -12.7 10.16 0)
 				(length 5.08)
 				(name "A1"
 					(effects
@@ -2638,7 +2594,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 6.35 0)
+				(at -12.7 7.62 0)
 				(length 5.08)
 				(name "A2"
 					(effects
@@ -2656,7 +2612,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 5.08)
 				(name "A3"
 					(effects
@@ -2674,7 +2630,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 5.08)
 				(name "A4"
 					(effects
@@ -2692,7 +2648,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 5.08)
 				(name "A5"
 					(effects
@@ -2710,7 +2666,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "A6"
 					(effects
@@ -2728,7 +2684,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -6.35 0)
+				(at -12.7 -5.08 0)
 				(length 5.08)
 				(name "A7"
 					(effects
@@ -2759,7 +2715,7 @@
 				)
 			)
 		)
-		(property "Value" "PCF8563T{slash}5,518"
+		(property "Value" "PCF8563T"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -2834,30 +2790,8 @@
 		)
 		(symbol "Real Time Clock, I2C, 0.3uA, PCF8563T/5,518_0_1"
 			(rectangle
-				(start -11.43 6.858)
-				(end 11.43 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -10.16 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -10.16 5.588)
-				(radius 0.381)
+				(start -12.7 7.62)
+				(end 12.7 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2867,7 +2801,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "OSCO"
 					(effects
@@ -2885,7 +2819,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "INT#"
 					(effects
@@ -2903,7 +2837,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -2921,7 +2855,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -2939,7 +2873,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -2957,7 +2891,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "CLKOUT"
 					(effects
@@ -2975,7 +2909,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 3.81 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -2993,7 +2927,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 3.81 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "OSCI"
 					(effects
@@ -3099,19 +3033,8 @@
 		)
 		(symbol "Real Time Clock, I2C, 0.4uA, PT7C4372ALEX_0_1"
 			(rectangle
-				(start -11.43 6.35)
-				(end 11.43 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -10.16 5.08)
-				(radius 0.381)
+				(start -12.7 7.62)
+				(end 12.7 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3121,7 +3044,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 3.81 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "INTB#"
 					(effects
@@ -3139,7 +3062,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -3157,7 +3080,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -3175,7 +3098,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3193,7 +3116,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "INTA#"
 					(effects
@@ -3211,7 +3134,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "OSCOUT"
 					(effects
@@ -3229,7 +3152,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "OSCIN"
 					(effects
@@ -3247,7 +3170,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 3.81 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "Vcc"
 					(effects
@@ -3278,8 +3201,8 @@
 				)
 			)
 		)
-		(property "Value" "MCP79400-I{slash}MS"
-			(at 0 -2.54 0)
+		(property "Value" "MCP79400"
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,19 +3276,8 @@
 		)
 		(symbol "Real Time Clock, I2C, 1.2uA, MCP79400-I/MS_0_1"
 			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.08)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3375,7 +3287,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "X1"
 					(effects
@@ -3393,7 +3305,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "X2"
 					(effects
@@ -3411,7 +3323,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -3429,7 +3341,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -3447,7 +3359,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -3465,7 +3377,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -3483,7 +3395,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "MFP"
 					(effects
@@ -3501,7 +3413,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -3607,19 +3519,8 @@
 		)
 		(symbol "Real Time Clock, SPI, 0.3uA, DS1302ZN+_0_1"
 			(rectangle
-				(start -8.89 6.35)
-				(end 8.89 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -7.62 5.08)
-				(radius 0.381)
+				(start -10.16 7.62)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3629,7 +3530,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "VCC2"
 					(effects
@@ -3647,7 +3548,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "X1"
 					(effects
@@ -3665,7 +3566,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "X2"
 					(effects
@@ -3683,7 +3584,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3701,7 +3602,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "CE"
 					(effects
@@ -3719,7 +3620,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "I/O"
 					(effects
@@ -3737,7 +3638,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -3755,7 +3656,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VCC1"
 					(effects
@@ -3779,7 +3680,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3688,7 @@
 			)
 		)
 		(property "Value" "A1221LUA-T"
-			(at 0 -2.54 0)
+			(at -0.254 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +3762,7 @@
 		)
 		(symbol "Sensor, Hall Effect, A1221LUA-T_0_1"
 			(rectangle
-				(start -3.81 5.08)
+				(start -5.08 5.08)
 				(end 3.81 -5.08)
 				(stroke
 					(width 0)
@@ -3871,19 +3772,8 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -2.54 3.81)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin unspecified line
-				(at -6.35 2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -3901,7 +3791,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -6.35 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3919,7 +3809,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -6.35 -2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -3950,8 +3840,8 @@
 				)
 			)
 		)
-		(property "Value" "74HC595D,118"
-			(at 0 -2.54 0)
+		(property "Value" "74HC595D"
+			(at 0 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,19 +3915,8 @@
 		)
 		(symbol "Shift Register, 1 In, 8 Out, 74HC595D,118_0_1"
 			(rectangle
-				(start -7.62 11.43)
-				(end 7.62 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 10.16)
-				(radius 0.381)
+				(start -7.62 12.7)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -4047,7 +3926,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 8.89 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "Q1"
 					(effects
@@ -4065,7 +3944,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "MR#"
 					(effects
@@ -4083,7 +3962,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "SHCP"
 					(effects
@@ -4101,7 +3980,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "STCP"
 					(effects
@@ -4119,7 +3998,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OE#"
 					(effects
@@ -4137,7 +4016,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "DS"
 					(effects
@@ -4155,7 +4034,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 6.35 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "Q0"
 					(effects
@@ -4173,7 +4052,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 8.89 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -4191,7 +4070,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 6.35 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "Q2"
 					(effects
@@ -4209,7 +4088,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "Q3"
 					(effects
@@ -4227,7 +4106,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "Q4"
 					(effects
@@ -4245,7 +4124,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "Q5"
 					(effects
@@ -4263,7 +4142,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "Q6"
 					(effects
@@ -4281,7 +4160,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -6.35 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "Q7"
 					(effects
@@ -4299,7 +4178,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -8.89 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4317,7 +4196,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -8.89 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "Q7S"
 					(effects
@@ -4348,8 +4227,8 @@
 				)
 			)
 		)
-		(property "Value" "74HC165D,653"
-			(at 0 -2.54 0)
+		(property "Value" "74HC165D"
+			(at 0 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,19 +4302,8 @@
 		)
 		(symbol "Shift Register, 8 In, 1 Out, 74HC165D,653_0_1"
 			(rectangle
-				(start -6.35 11.43)
-				(end 6.35 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -5.08 10.16)
-				(radius 0.381)
+				(start -7.62 12.7)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -4445,7 +4313,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 8.89 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "PL#"
 					(effects
@@ -4463,7 +4331,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "DS"
 					(effects
@@ -4481,7 +4349,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -4499,7 +4367,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -4517,7 +4385,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -4535,7 +4403,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -4553,7 +4421,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 6.35 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "CE#"
 					(effects
@@ -4571,7 +4439,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 8.89 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -4589,7 +4457,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 6.35 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "CP"
 					(effects
@@ -4607,7 +4475,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -4625,7 +4493,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "D5"
 					(effects
@@ -4643,7 +4511,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "D6"
 					(effects
@@ -4661,7 +4529,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "D7"
 					(effects
@@ -4679,7 +4547,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -6.35 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "Q7#"
 					(effects
@@ -4697,7 +4565,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -8.89 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4715,7 +4583,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -8.89 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "Q7"
 					(effects
@@ -4747,7 +4615,7 @@
 			)
 		)
 		(property "Value" "NE555DR"
-			(at 0 -2.54 0)
+			(at 0 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4690,7 @@
 		(symbol "Timer, 555_0_1"
 			(rectangle
 				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -4832,7 +4700,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -12.7 90)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4850,7 +4718,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "TRIG"
 					(effects
@@ -4868,7 +4736,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 2.54 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -4904,7 +4772,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "CONT"
 					(effects
@@ -4922,7 +4790,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "THRES"
 					(effects
@@ -4940,7 +4808,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "DISCH"
 					(effects

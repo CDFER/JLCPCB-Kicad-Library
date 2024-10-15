@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 -5.842 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "WBA0805D102PT-HF"
-			(at 0 -4.064 0)
+			(at -0.254 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,9 +232,22 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Common Mode Filter, 0.15A, WBA0805D102PT-HF_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
+				(at -7.64 2.54 0)
+				(length 2.56)
 				(name "1"
 					(effects
 						(font
@@ -251,8 +264,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 2.54 180)
-				(length 5.08)
+				(at 7.64 2.54 180)
+				(length 2.56)
 				(name "2"
 					(effects
 						(font
@@ -269,8 +282,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -2.54 180)
-				(length 5.08)
+				(at 7.64 -2.54 180)
+				(length 2.56)
 				(name "3"
 					(effects
 						(font
@@ -287,8 +300,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
+				(at -7.64 -2.54 0)
+				(length 2.56)
 				(name "4"
 					(effects
 						(font
@@ -319,7 +332,7 @@
 			)
 		)
 		(property "Value" "AMCW2012S-2-900T"
-			(at 0 -4.826 0)
+			(at 0.254 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,6 +465,18 @@
 			)
 			(polyline
 				(pts
+					(xy -3.81 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -3.81 -0.508) (xy 3.81 -0.508)
 				)
 				(stroke
@@ -465,6 +490,42 @@
 			(polyline
 				(pts
 					(xy -3.81 0.508) (xy 3.81 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.81 2.54)
 				)
 				(stroke
 					(width 0)
@@ -510,9 +571,22 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Common Mode Filter, 0.3A, AMCW2012S-2-900T_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
-				(at -8.89 -2.54 0)
-				(length 5.08)
+				(at -7.62 -2.54 0)
+				(length 2.56)
 				(name "1"
 					(effects
 						(font
@@ -529,8 +603,26 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 2.54 180)
-				(length 5.08)
+				(at 7.62 -2.54 180)
+				(length 2.56)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 2.54 180)
+				(length 2.56)
 				(name "3"
 					(effects
 						(font
@@ -547,8 +639,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 2.54 0)
-				(length 5.08)
+				(at -7.62 2.54 0)
+				(length 2.56)
 				(name "4"
 					(effects
 						(font
@@ -557,26 +649,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Common Mode Filter, 0.3A, AMCW2012S-2-900T_1_1"
-			(pin unspecified line
-				(at 8.89 -2.54 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1 1)
@@ -599,7 +671,7 @@
 			)
 		)
 		(property "Value" "PSMCAQ1050-222P"
-			(at 0 -4.064 0)
+			(at 0.254 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,9 +888,22 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Common Mode Filter, 1.4A, PSMCAQ1050-222P_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
+				(at -7.6 2.54 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -835,8 +920,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
+				(at -7.6 -2.54 0)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -853,8 +938,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -2.54 180)
-				(length 5.08)
+				(at 7.6 -2.54 180)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -871,8 +956,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 2.54 180)
-				(length 5.08)
+				(at 7.6 2.54 180)
+				(length 2.54)
 				(name "4"
 					(effects
 						(font
@@ -1346,6 +1431,19 @@
 				)
 			)
 		)
+		(symbol "Common Mode Filter, 15A, PDMFAT22148D-102MLB-6P_1_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 10.16 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "Common Mode Filter, 4.0A, YLM1211-202T"
 		(exclude_from_sim no)
@@ -1360,7 +1458,7 @@
 			)
 		)
 		(property "Value" "YLM1211-202T"
-			(at 0.254 -4.572 0)
+			(at 0.254 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,6 +1591,54 @@
 			)
 			(polyline
 				(pts
+					(xy -3.81 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -3.556 -0.508) (xy 3.81 -0.508)
 				)
 				(stroke
@@ -1506,6 +1652,30 @@
 			(polyline
 				(pts
 					(xy -3.556 0.508) (xy 3.81 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.81 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1551,9 +1721,22 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Common Mode Filter, 4.0A, YLM1211-202T_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
-				(at -5.08 2.54 0)
-				(length 1.016)
+				(at -7.62 2.54 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -1570,8 +1753,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -2.54 0)
-				(length 1.016)
+				(at -7.62 -2.54 0)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -1588,8 +1771,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 5.08 -2.54 180)
-				(length 1.016)
+				(at 7.62 -2.54 180)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -1606,8 +1789,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 5.08 2.54 180)
-				(length 1.016)
+				(at 7.62 2.54 180)
+				(length 2.54)
 				(name "4"
 					(effects
 						(font
@@ -1630,7 +1813,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 1.27 0)
+			(at -0.508 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +1821,7 @@
 			)
 		)
 		(property "Value" "ZHT102"
-			(at 0 -2.54 0)
+			(at -1.524 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1858,7 @@
 			)
 		)
 		(property "LCSC" "C2935357"
-			(at 0 0 0)
+			(at 1.27 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1867,7 @@
 			)
 		)
 		(property "Stock" "1977"
-			(at 0 0 0)
+			(at 1.27 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1876,7 @@
 			)
 		)
 		(property "Price" "0.436USD"
-			(at 0 0 0)
+			(at 1.27 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,8 +1895,8 @@
 		)
 		(symbol "Current Sense Transformer, ZHT102_0_1"
 			(rectangle
-				(start -8.89 3.81)
-				(end 3.81 -3.81)
+				(start -7.62 5.08)
+				(end 5.08 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -1723,7 +1906,7 @@
 				)
 			)
 			(circle
-				(center -5.08 0)
+				(center -3.81 1.27)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -1734,7 +1917,7 @@
 				)
 			)
 			(circle
-				(center 2.54 2.54)
+				(center 3.81 3.81)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -1745,7 +1928,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 1.27 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -1763,7 +1946,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 -1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "OUT"
 					(effects

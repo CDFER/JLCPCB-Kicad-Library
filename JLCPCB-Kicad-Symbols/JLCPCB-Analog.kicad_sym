@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "LM393DR2G"
-			(at 0 -2.54 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 			)
 		)
 		(property "LCSC" "C7955"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			)
 		)
 		(property "Stock" "42897"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,7 +70,7 @@
 			)
 		)
 		(property "Price" "0.105USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89,30 +89,8 @@
 		)
 		(symbol "Comparator, LM393DR2G_0_1"
 			(rectangle
-				(start -12.7 6.858)
-				(end 12.7 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -11.43 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -11.43 5.588)
-				(radius 0.381)
+				(start -12.7 7.62)
+				(end 12.7 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -122,7 +100,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 3.81 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "OUT/A"
 					(effects
@@ -140,7 +118,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "IN/A/2"
 					(effects
@@ -158,7 +136,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "IN/A"
 					(effects
@@ -176,7 +154,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -194,7 +172,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "IN/B"
 					(effects
@@ -212,7 +190,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "IN/B/2"
 					(effects
@@ -230,7 +208,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "OUT/B"
 					(effects
@@ -248,7 +226,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 3.81 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -272,7 +250,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 4.572 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +258,7 @@
 			)
 		)
 		(property "Value" "LMV331ICT"
-			(at 0 -2.54 0)
+			(at 8.89 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,18 +391,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
@@ -516,13 +482,27 @@
 				)
 			)
 		)
+		(symbol "Comparator, LMV331ICT_1_1"
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "Comparator, TLV7211AIDCKR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.54 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +510,7 @@
 			)
 		)
 		(property "Value" "TLV7211AIDCKR"
-			(at 0 -2.54 0)
+			(at 8.89 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,42 +597,6 @@
 			)
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
@@ -666,18 +610,6 @@
 			(polyline
 				(pts
 					(xy 0 5.08) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -796,20 +728,34 @@
 				)
 			)
 		)
+		(symbol "Comparator, TLV7211AIDCKR_1_1"
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "Digital Potentiometer, SPI, MCP4131-104E/SN"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCP4131-104E{slash}SN"
+		(property "Value" "MCP4131"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -847,7 +793,7 @@
 			)
 		)
 		(property "LCSC" "C636034"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +802,7 @@
 			)
 		)
 		(property "Stock" "907"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +811,7 @@
 			)
 		)
 		(property "Price" "1.015USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,8 +830,8 @@
 		)
 		(symbol "Digital Potentiometer, SPI, MCP4131-104E/SN_0_1"
 			(rectangle
-				(start -10.16 6.35)
-				(end 10.16 -6.35)
+				(start -10.16 7.62)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -895,7 +841,7 @@
 				)
 			)
 			(circle
-				(center -8.89 5.08)
+				(center -8.89 6.35)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -906,7 +852,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "CS#"
 					(effects
@@ -924,7 +870,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -942,7 +888,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "SDI/SDO"
 					(effects
@@ -960,7 +906,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -978,7 +924,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "P0A"
 					(effects
@@ -996,7 +942,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "P0W"
 					(effects
@@ -1014,7 +960,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "P0B"
 					(effects
@@ -1032,7 +978,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1056,7 +1002,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 1.778 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1010,7 @@
 			)
 		)
 		(property "Value" "CBM8091AST5"
-			(at 0 -2.54 0)
+			(at 8.128 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,42 +1085,6 @@
 		(symbol "Op-Amp, CBM8091AST5_0_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
@@ -1188,18 +1098,6 @@
 			(polyline
 				(pts
 					(xy 0 5.08) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -1300,13 +1198,27 @@
 				)
 			)
 		)
+		(symbol "Op-Amp, CBM8091AST5_1_1"
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "Op-Amp, LM2904DR2G"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1226,7 @@
 			)
 		)
 		(property "Value" "LM2904DR2G"
-			(at 0 -2.54 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1263,7 @@
 			)
 		)
 		(property "LCSC" "C18229"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1272,7 @@
 			)
 		)
 		(property "Stock" "18270"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1281,7 @@
 			)
 		)
 		(property "Price" "0.131USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,8 +1300,8 @@
 		)
 		(symbol "Op-Amp, LM2904DR2G_0_1"
 			(rectangle
-				(start -12.7 6.858)
-				(end 12.7 -6.858)
+				(start -12.7 8.128)
+				(end 12.7 -5.588)
 				(stroke
 					(width 0)
 					(type default)
@@ -1399,7 +1311,7 @@
 				)
 			)
 			(circle
-				(center -11.43 5.588)
+				(center -11.43 6.858)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -1410,7 +1322,7 @@
 				)
 			)
 			(circle
-				(center -11.43 5.588)
+				(center -11.43 6.858)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -1421,7 +1333,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 3.81 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "OUT/A"
 					(effects
@@ -1439,7 +1351,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "-IN/A"
 					(effects
@@ -1457,7 +1369,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "+IN/A"
 					(effects
@@ -1475,7 +1387,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "VEE/GND"
 					(effects
@@ -1493,7 +1405,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "+IN/B"
 					(effects
@@ -1511,7 +1423,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "-IN/B"
 					(effects
@@ -1529,7 +1441,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "OUT/B"
 					(effects
@@ -1547,7 +1459,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 3.81 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1571,7 +1483,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.032 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1491,7 @@
 			)
 		)
 		(property "Value" "LM324DT"
-			(at 0 -2.54 0)
+			(at 5.842 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +1566,7 @@
 		(symbol "Op-Amp, LM324DT_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1666,19 +1578,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
+					(xy 0 2.54) (xy 0 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1697,15 +1597,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.1073 1800)
-				(effects
-					(font
-						(size 0.254 0.254)
-					)
+					(type background)
 				)
 			)
 			(pin unspecified line
@@ -1727,7 +1619,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -7.62 90)
+				(at 0 -10.16 90)
 				(length 5.08)
 				(name "VCC-"
 					(effects
@@ -1781,7 +1673,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 7.62 270)
+				(at 0 10.16 270)
 				(length 5.08)
 				(name "VCC+"
 					(effects
@@ -1802,42 +1694,6 @@
 		(symbol "Op-Amp, LM324DT_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -1845,15 +1701,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.27 1800)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
+					(type background)
 				)
 			)
 			(pin unspecified line
@@ -1914,42 +1762,6 @@
 		(symbol "Op-Amp, LM324DT_3_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -1957,15 +1769,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.11 1800)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
+					(type background)
 				)
 			)
 			(pin unspecified line
@@ -2026,42 +1830,6 @@
 		(symbol "Op-Amp, LM324DT_4_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -2069,15 +1837,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(text "0"
-				(at -1.27 -1.11 1800)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
+					(type background)
 				)
 			)
 			(pin unspecified line
@@ -2141,15 +1901,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.794 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM358_C2829430"
-			(at 0 -2.54 0)
+		(property "Value" "LM358"
+			(at 5.08 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,42 +1984,6 @@
 		(symbol "Op-Amp, LM358_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
@@ -2291,7 +2015,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
@@ -2388,42 +2112,6 @@
 		(symbol "Op-Amp, LM358_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -2431,7 +2119,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
@@ -2495,7 +2183,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2191,7 @@
 			)
 		)
 		(property "Value" "LM358DR2G"
-			(at 0 -2.54 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2228,7 @@
 			)
 		)
 		(property "LCSC" "C7950"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2237,7 @@
 			)
 		)
 		(property "Stock" "93591"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2246,7 @@
 			)
 		)
 		(property "Price" "0.115USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,8 +2265,8 @@
 		)
 		(symbol "Op-Amp, LM358DR2G_0_1"
 			(rectangle
-				(start -10.16 6.858)
-				(end 10.16 -6.858)
+				(start -10.16 8.128)
+				(end 10.16 -5.588)
 				(stroke
 					(width 0)
 					(type default)
@@ -2588,7 +2276,7 @@
 				)
 			)
 			(circle
-				(center -8.89 5.588)
+				(center -8.89 6.858)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -2599,7 +2287,7 @@
 				)
 			)
 			(circle
-				(center -8.89 5.588)
+				(center -8.89 6.858)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -2610,7 +2298,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "1OUT"
 					(effects
@@ -2628,7 +2316,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "1IN-"
 					(effects
@@ -2646,7 +2334,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "1IN+"
 					(effects
@@ -2664,7 +2352,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2682,7 +2370,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "2IN+"
 					(effects
@@ -2700,7 +2388,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "2IN-"
 					(effects
@@ -2718,7 +2406,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "2OUT"
 					(effects
@@ -2736,7 +2424,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2760,7 +2448,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.032 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2456,7 @@
 			)
 		)
 		(property "Value" "LMV321IDBVR"
-			(at 0 -2.54 0)
+			(at 7.874 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,78 +2529,6 @@
 			)
 		)
 		(symbol "Op-Amp, LMV321IDBVR_0_1"
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -3.048) (xy -2.794 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 2.032) (xy -2.794 2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 2.54) (xy -3.302 1.524)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy -5.08 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin input line
 				(at -10.16 2.54 0)
 				(length 5.08)
@@ -2924,24 +2540,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -7.62 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1 1)
@@ -2985,9 +2583,65 @@
 					)
 				)
 			)
+		)
+		(symbol "Op-Amp, LMV321IDBVR_1_1"
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 90)
+				(length 2.56)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 			(pin unspecified line
 				(at 0 7.62 270)
-				(length 5.08)
+				(length 2.56)
 				(name "V+"
 					(effects
 						(font
@@ -3010,15 +2664,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 1.524 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCP6002-E{slash}P"
-			(at 0 -2.54 0)
+		(property "Value" "MCP6002"
+			(at 5.334 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,42 +2747,6 @@
 		(symbol "Op-Amp, MCP6002-E/P_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
@@ -3160,7 +2778,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
@@ -3184,7 +2802,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VINA-"
+				(name "INA-"
 					(effects
 						(font
 							(size 1 1)
@@ -3202,7 +2820,7 @@
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VINA+"
+				(name "INA+"
 					(effects
 						(font
 							(size 1 1)
@@ -3257,42 +2875,6 @@
 		(symbol "Op-Amp, MCP6002-E/P_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -3300,13 +2882,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VINB+"
+				(name "INB+"
 					(effects
 						(font
 							(size 1 1)
@@ -3324,7 +2906,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VINB-"
+				(name "INB-"
 					(effects
 						(font
 							(size 1 1)
@@ -3364,15 +2946,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCP6002T-I{slash}SN"
-			(at 0 -2.54 0)
+		(property "Value" "MCP6002T"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +2991,7 @@
 			)
 		)
 		(property "LCSC" "C7377"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3000,7 @@
 			)
 		)
 		(property "Stock" "54592"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3009,7 @@
 			)
 		)
 		(property "Price" "0.286USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,30 +3028,8 @@
 		)
 		(symbol "Op-Amp, MCP6002T-I/SN_0_1"
 			(rectangle
-				(start -10.16 6.858)
-				(end 10.16 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 5.588)
-				(radius 0.381)
+				(start -10.16 7.62)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3479,7 +3039,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "OUTA"
 					(effects
@@ -3497,7 +3057,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "-INA"
 					(effects
@@ -3515,7 +3075,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "+INA"
 					(effects
@@ -3533,7 +3093,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "-VSS"
 					(effects
@@ -3551,7 +3111,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "+INB"
 					(effects
@@ -3569,7 +3129,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "-INB"
 					(effects
@@ -3587,7 +3147,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "OUTB"
 					(effects
@@ -3605,7 +3165,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -3629,15 +3189,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.032 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCP6044T-I{slash}SL"
-			(at 0 -2.54 0)
+		(property "Value" "MCP6044T"
+			(at 6.35 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,42 +3272,6 @@
 		(symbol "Op-Amp, MCP6044T-I/SL_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
@@ -3779,13 +3303,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUTA"
+				(name "OUTA"
 					(effects
 						(font
 							(size 1 1)
@@ -3821,7 +3345,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VINA–"
+				(name "INA–"
 					(effects
 						(font
 							(size 1 1)
@@ -3839,7 +3363,7 @@
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VINA+"
+				(name "INA+"
 					(effects
 						(font
 							(size 1 1)
@@ -3876,42 +3400,6 @@
 		(symbol "Op-Amp, MCP6044T-I/SL_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -3919,13 +3407,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VINB+"
+				(name "INB+"
 					(effects
 						(font
 							(size 1 1)
@@ -3943,7 +3431,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VINB–"
+				(name "INB–"
 					(effects
 						(font
 							(size 1 1)
@@ -3961,7 +3449,7 @@
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUTB"
+				(name "OUTB"
 					(effects
 						(font
 							(size 1 1)
@@ -3980,42 +3468,6 @@
 		(symbol "Op-Amp, MCP6044T-I/SL_3_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -4023,13 +3475,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VINC+"
+				(name "INC+"
 					(effects
 						(font
 							(size 1 1)
@@ -4047,7 +3499,7 @@
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUTC"
+				(name "OUTC"
 					(effects
 						(font
 							(size 1 1)
@@ -4065,7 +3517,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VINC–"
+				(name "INC–"
 					(effects
 						(font
 							(size 1 1)
@@ -4084,42 +3536,6 @@
 		(symbol "Op-Amp, MCP6044T-I/SL_4_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -4127,13 +3543,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VIND+"
+				(name "IND+"
 					(effects
 						(font
 							(size 1 1)
@@ -4151,7 +3567,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VIND–"
+				(name "IND–"
 					(effects
 						(font
 							(size 1 1)
@@ -4169,7 +3585,7 @@
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUTD"
+				(name "OUTD"
 					(effects
 						(font
 							(size 1 1)
@@ -4191,15 +3607,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.54 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCP6272-E{slash}MS"
-			(at 0 -2.54 0)
+		(property "Value" "MCP6272"
+			(at 6.096 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,42 +3690,6 @@
 		(symbol "Op-Amp, MCP6272-E/MS_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.286) (xy -2.54 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.794) (xy -2.54 2.794)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.524) (xy -3.302 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
@@ -4341,13 +3721,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUTA"
+				(name "OUTA"
 					(effects
 						(font
 							(size 1 1)
@@ -4365,7 +3745,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VINA-"
+				(name "INA-"
 					(effects
 						(font
 							(size 1 1)
@@ -4383,7 +3763,7 @@
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VINA+"
+				(name "INA+"
 					(effects
 						(font
 							(size 1 1)
@@ -4438,42 +3818,6 @@
 		(symbol "Op-Amp, MCP6272-E/MS_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -4481,13 +3825,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VINB+"
+				(name "INB+"
 					(effects
 						(font
 							(size 1 1)
@@ -4505,7 +3849,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VINB-"
+				(name "INB-"
 					(effects
 						(font
 							(size 1 1)
@@ -4523,7 +3867,7 @@
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUTB"
+				(name "OUTB"
 					(effects
 						(font
 							(size 1 1)
@@ -4545,15 +3889,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.032 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCP6282T-E{slash}MS"
-			(at 0 -2.54 0)
+		(property "Value" "MCP6282T"
+			(at 6.35 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,42 +3972,6 @@
 		(symbol "Op-Amp, MCP6282T-E/MS_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -2.54) (xy 0 -5.08)
 				)
 				(stroke
@@ -4695,13 +4003,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUT_A"
+				(name "OUTA"
 					(effects
 						(font
 							(size 1 1)
@@ -4719,7 +4027,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VIN_A-"
+				(name "INA-"
 					(effects
 						(font
 							(size 1 1)
@@ -4737,7 +4045,7 @@
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VIN_A+"
+				(name "INA+"
 					(effects
 						(font
 							(size 1 1)
@@ -4792,42 +4100,6 @@
 		(symbol "Op-Amp, MCP6282T-E/MS_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -4835,13 +4107,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
 				(at -10.16 -2.54 0)
 				(length 5.08)
-				(name "VIN_B+"
+				(name "INB+"
 					(effects
 						(font
 							(size 1 1)
@@ -4859,7 +4131,7 @@
 			(pin unspecified line
 				(at -10.16 2.54 0)
 				(length 5.08)
-				(name "VIN_B-"
+				(name "INB-"
 					(effects
 						(font
 							(size 1 1)
@@ -4877,7 +4149,7 @@
 			(pin output line
 				(at 10.16 0 180)
 				(length 5.08)
-				(name "VOUT_B"
+				(name "OUTB"
 					(effects
 						(font
 							(size 1 1)
@@ -4899,7 +4171,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 3.81 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4179,7 @@
 			)
 		)
 		(property "Value" "NE5532DR"
-			(at 0 -2.54 0)
+			(at 8.128 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +4254,7 @@
 		(symbol "Op-Amp, NE5532DR_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -4994,19 +4266,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
+					(xy 0 2.54) (xy 0 5.08)
 				)
 				(stroke
 					(width 0)
@@ -5025,7 +4285,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
@@ -5084,8 +4344,8 @@
 			)
 			(pin unspecified line
 				(at 0 -7.62 90)
-				(length 5.08)
-				(name "VCC-/GND"
+				(length 2.56)
+				(name "GND"
 					(effects
 						(font
 							(size 1 1)
@@ -5102,8 +4362,8 @@
 			)
 			(pin unspecified line
 				(at 0 7.62 270)
-				(length 5.08)
-				(name "VCC+"
+				(length 2.56)
+				(name "VCC"
 					(effects
 						(font
 							(size 1 1)
@@ -5122,42 +4382,6 @@
 		(symbol "Op-Amp, NE5532DR_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
 				)
 				(stroke
@@ -5165,7 +4389,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
@@ -5229,7 +4453,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 6.096 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +4461,7 @@
 			)
 		)
 		(property "Value" "OP07CDR"
-			(at 0 -2.54 0)
+			(at 9.906 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +4536,7 @@
 		(symbol "Op-Amp, OP07CDR_0_1"
 			(polyline
 				(pts
-					(xy -4.064 -3.81) (xy -2.54 -3.81)
+					(xy 0 -5.08) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -5324,7 +4548,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.064 1.27) (xy -2.54 1.27)
+					(xy 0 2.54) (xy -5.08 7.62)
 				)
 				(stroke
 					(width 0)
@@ -5336,7 +4560,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.556 3.048) (xy -5.08 6.35)
+					(xy 0 2.54) (xy -5.08 10.16)
 				)
 				(stroke
 					(width 0)
@@ -5348,67 +4572,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.302 -3.048) (xy -3.302 -4.572)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.032 2.286) (xy -5.08 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.81) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy 0 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 3.81) (xy 2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -6.35) (xy 5.08 -1.27) (xy -5.08 3.81) (xy -5.08 -6.35)
+					(xy 5.08 5.08) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -5419,25 +4583,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 8.89 0)
-				(length 5.08)
-				(name "OFFSET_N1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "IN-"
 					(effects
@@ -5455,7 +4601,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "IN+"
 					(effects
@@ -5472,44 +4618,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -11.43 90)
-				(length 5.08)
-				(name "VCC-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 3.81 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "OUT"
 					(effects
@@ -5527,7 +4637,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 8.89 270)
+				(at 0 12.7 270)
 				(length 5.08)
 				(name "VCC+"
 					(effects
@@ -5544,9 +4654,125 @@
 					)
 				)
 			)
+		)
+		(symbol "Op-Amp, OP07CDR_1_1"
+			(polyline
+				(pts
+					(xy -10.16 10.16) (xy -5.08 10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 7.62) (xy -10.16 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin unspecified line
-				(at -10.16 6.35 0)
-				(length 5.08)
+				(at -12.7 10.16 0)
+				(length 2.56)
+				(name "OFFSET_N1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.56)
+				(name "VCC-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 5.08 180)
+				(length 2.56)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 7.62 0)
+				(length 2.56)
 				(name "OFFSET_N2"
 					(effects
 						(font
@@ -5569,7 +4795,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +4803,7 @@
 			)
 		)
 		(property "Value" "TL072CDT"
-			(at 0 -2.54 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +4840,7 @@
 			)
 		)
 		(property "LCSC" "C6961"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +4849,7 @@
 			)
 		)
 		(property "Stock" "75240"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +4858,7 @@
 			)
 		)
 		(property "Price" "0.139USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,8 +4877,8 @@
 		)
 		(symbol "Op-Amp, TL072CDT_0_1"
 			(rectangle
-				(start -10.16 6.858)
-				(end 10.16 -6.858)
+				(start -10.16 8.128)
+				(end 10.16 -5.588)
 				(stroke
 					(width 0)
 					(type default)
@@ -5662,7 +4888,7 @@
 				)
 			)
 			(circle
-				(center -8.89 5.588)
+				(center -8.89 6.858)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -5673,7 +4899,7 @@
 				)
 			)
 			(circle
-				(center -8.89 5.588)
+				(center -8.89 6.858)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -5684,7 +4910,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "1OUT"
 					(effects
@@ -5702,7 +4928,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "1IN-"
 					(effects
@@ -5720,7 +4946,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "1IN+"
 					(effects
@@ -5738,7 +4964,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "VCC-"
 					(effects
@@ -5756,7 +4982,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "2IN+"
 					(effects
@@ -5774,7 +5000,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "2IN-"
 					(effects
@@ -5792,7 +5018,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "2OUT"
 					(effects
@@ -5810,7 +5036,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VCC+"
 					(effects
@@ -5834,7 +5060,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -6.35 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5068,7 @@
 			)
 		)
 		(property "Value" "CD4051BM96"
-			(at 0 -2.54 0)
+			(at -3.048 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5076,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
+			(at 6.35 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5096,7 @@
 			)
 		)
 		(property "Description" "1 240Ω SOIC-16-150mil Analog Switches, Multiplexers ROHS"
-			(at 0 0 0)
+			(at 6.35 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5105,7 @@
 			)
 		)
 		(property "LCSC" "C21379"
-			(at 0 0 0)
+			(at 6.35 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5114,7 @@
 			)
 		)
 		(property "Stock" "80371"
-			(at 0 0 0)
+			(at 6.35 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5123,7 @@
 			)
 		)
 		(property "Price" "0.149USD"
-			(at 0 0 0)
+			(at 6.35 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,8 +5142,8 @@
 		)
 		(symbol "Switch, CD4051BM96_0_1"
 			(rectangle
-				(start -24.13 11.43)
-				(end 24.13 -11.43)
+				(start -17.78 12.7)
+				(end 17.78 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -5927,7 +5153,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 8.89 0)
+				(at -22.86 10.16 0)
 				(length 5.08)
 				(name "CHANNELS_4"
 					(effects
@@ -5945,7 +5171,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 -6.35 180)
+				(at 22.86 -5.08 180)
 				(length 5.08)
 				(name "B"
 					(effects
@@ -5963,7 +5189,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 -3.81 180)
+				(at 22.86 -2.54 180)
 				(length 5.08)
 				(name "A"
 					(effects
@@ -5981,7 +5207,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 -1.27 180)
+				(at 22.86 0 180)
 				(length 5.08)
 				(name "CHANNELS_IN/OUT_3"
 					(effects
@@ -5999,7 +5225,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 1.27 180)
+				(at 22.86 2.54 180)
 				(length 5.08)
 				(name "CHANNELS_IN/OUT_0"
 					(effects
@@ -6017,7 +5243,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 3.81 180)
+				(at 22.86 5.08 180)
 				(length 5.08)
 				(name "CHANNELS_IN/OUT_1"
 					(effects
@@ -6035,7 +5261,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 6.35 180)
+				(at 22.86 7.62 180)
 				(length 5.08)
 				(name "CHANNELS_IN/OUT_2"
 					(effects
@@ -6053,7 +5279,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 8.89 180)
+				(at 22.86 10.16 180)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -6071,7 +5297,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 6.35 0)
+				(at -22.86 7.62 0)
 				(length 5.08)
 				(name "IN/OUT_6"
 					(effects
@@ -6089,7 +5315,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 3.81 0)
+				(at -22.86 5.08 0)
 				(length 5.08)
 				(name "COM_OUT/IN"
 					(effects
@@ -6107,7 +5333,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 1.27 0)
+				(at -22.86 2.54 0)
 				(length 5.08)
 				(name "CHANNELS_7"
 					(effects
@@ -6125,7 +5351,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 -1.27 0)
+				(at -22.86 0 0)
 				(length 5.08)
 				(name "IN/OUT_5"
 					(effects
@@ -6143,7 +5369,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 -3.81 0)
+				(at -22.86 -2.54 0)
 				(length 5.08)
 				(name "INH"
 					(effects
@@ -6161,7 +5387,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 -6.35 0)
+				(at -22.86 -5.08 0)
 				(length 5.08)
 				(name "VEE"
 					(effects
@@ -6179,7 +5405,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 -8.89 0)
+				(at -22.86 -7.62 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -6197,7 +5423,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 -8.89 180)
+				(at 22.86 -7.62 180)
 				(length 5.08)
 				(name "C"
 					(effects
@@ -6221,7 +5447,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -4.572 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +5455,7 @@
 			)
 		)
 		(property "Value" "CD4052BM96"
-			(at 0 -2.54 0)
+			(at 1.016 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +5492,7 @@
 			)
 		)
 		(property "LCSC" "C6521"
-			(at 0 0 0)
+			(at 11.43 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +5501,7 @@
 			)
 		)
 		(property "Stock" "29809"
-			(at 0 0 0)
+			(at 11.43 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +5510,7 @@
 			)
 		)
 		(property "Price" "0.195USD"
-			(at 0 0 0)
+			(at 11.43 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,8 +5529,8 @@
 		)
 		(symbol "Switch, CD4052BM96_0_1"
 			(rectangle
-				(start -24.13 11.43)
-				(end 24.13 -11.43)
+				(start -12.7 12.7)
+				(end 12.7 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -6314,7 +5540,7 @@
 				)
 			)
 			(circle
-				(center -22.86 10.16)
+				(center -11.43 11.43)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -6325,7 +5551,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 8.89 0)
+				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "Y_CH_0_IN/OUT"
 					(effects
@@ -6343,7 +5569,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 -6.35 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -6361,7 +5587,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "X_CH_3_IN/OUT"
 					(effects
@@ -6379,7 +5605,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "X_CH_0_IN/OUT"
 					(effects
@@ -6397,7 +5623,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "X_COMIN/OUT"
 					(effects
@@ -6415,7 +5641,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 3.81 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "X_CH_1_IN/OUT"
 					(effects
@@ -6433,7 +5659,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 6.35 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "X_CH_2_IN/OUT"
 					(effects
@@ -6451,7 +5677,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 8.89 180)
+				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -6469,7 +5695,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 6.35 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "Y_CH_2_IN/OUT"
 					(effects
@@ -6487,7 +5713,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 3.81 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "Y_COMOUT/IN"
 					(effects
@@ -6505,7 +5731,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "Y_CH_3_IN/OUT"
 					(effects
@@ -6523,7 +5749,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 -1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "Y_CH_1_IN/OUT"
 					(effects
@@ -6541,7 +5767,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "INH"
 					(effects
@@ -6559,7 +5785,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 -6.35 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "VEE"
 					(effects
@@ -6577,7 +5803,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 -8.89 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6595,7 +5821,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 -8.89 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -6627,7 +5853,7 @@
 			)
 		)
 		(property "Value" "FSA5157L6X"
-			(at 0 -2.54 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,19 +5927,8 @@
 		)
 		(symbol "Switch, FSA5157L6X_0_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -5.08 3.81)
-				(radius 0.381)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -6723,7 +5938,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "S"
 					(effects
@@ -6741,7 +5956,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -6759,7 +5974,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -6777,7 +5992,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "B0"
 					(effects
@@ -6795,7 +6010,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 0 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6813,7 +6028,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "B1"
 					(effects

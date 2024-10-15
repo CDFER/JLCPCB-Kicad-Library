@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at -0.246584 -3.100076 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "b4f2d0df-0a7a-4022-93d8-7e903ea5f5d1")
 		(effects
 			(font
@@ -68,7 +69,7 @@
 		(center 0.795911 1)
 		(end 0.825883 1)
 		(stroke
-			(width 0.059995)
+			(width 0.06)
 			(type solid)
 		)
 		(fill none)
@@ -138,13 +139,13 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0.696088 0.649987)
+		(at 0.696088 0.65)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "399c446c-09f8-4953-8b4b-f6fb08398a09")
 	)
 	(pad "2" smd rect
-		(at 0.696088 -0.649987)
+		(at 0.696088 -0.65)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "240b64e9-b59f-438f-87e4-02f28d093a08")

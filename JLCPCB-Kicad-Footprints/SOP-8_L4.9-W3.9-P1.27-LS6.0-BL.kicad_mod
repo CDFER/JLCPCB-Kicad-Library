@@ -67,9 +67,9 @@
 	(attr smd)
 	(fp_line
 		(start -2.5 -2)
-		(end -2.5 -0.635001)
+		(end -2.5 -0.635)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -79,7 +79,7 @@
 		(start -2.5 -2)
 		(end -2.447244 -2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -87,9 +87,9 @@
 	)
 	(fp_line
 		(start -2.5 2)
-		(end -2.5 0.635001)
+		(end -2.5 0.635)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -99,7 +99,7 @@
 		(start -2.5 2)
 		(end -2.447244 2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -109,7 +109,7 @@
 		(start -1.362764 -2)
 		(end -1.177242 -2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -119,7 +119,7 @@
 		(start -1.362764 2)
 		(end -1.177242 2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -129,7 +129,7 @@
 		(start -0.092761 -2)
 		(end 0.092761 -2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -139,7 +139,7 @@
 		(start -0.092761 2)
 		(end 0.092761 2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -149,7 +149,7 @@
 		(start 1.177242 -2)
 		(end 1.362764 -2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -159,7 +159,7 @@
 		(start 1.177242 2)
 		(end 1.362764 2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -169,7 +169,7 @@
 		(start 2.447244 -2)
 		(end 2.5 -2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -179,7 +179,7 @@
 		(start 2.447244 2)
 		(end 2.5 2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -189,7 +189,7 @@
 		(start 2.5 -2)
 		(end 2.5 1.947244)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -199,18 +199,18 @@
 		(start 2.5 1.947244)
 		(end 2.447244 2)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "4a4a8432-735b-4452-bbe3-023886150969")
 	)
 	(fp_arc
-		(start -2.499365 -0.635001)
+		(start -2.499365 -0.635)
 		(mid -1.864681 0.000317)
-		(end -2.499999 0.635001)
+		(end -2.499999 0.635)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -220,7 +220,7 @@
 		(center -2.5 2.25)
 		(end -2.470028 2.25)
 		(stroke
-			(width 0.059995)
+			(width 0.06)
 			(type solid)
 		)
 		(fill none)
@@ -268,7 +268,7 @@
 		(uuid "b7d8a619-9d5f-45aa-a08a-8a6c92236160")
 	)
 	(fp_circle
-		(center -1.905004 3.400051)
+		(center -1.905 3.400051)
 		(end -1.75489 3.400051)
 		(stroke
 			(width 0.3)
@@ -290,50 +290,50 @@
 		)
 	)
 	(pad "1" smd oval
-		(at -1.905004 2.682499)
-		(size 0.629997 1.864999)
+		(at -1.905 2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fc00f3bc-e6fa-47f0-9f2e-4a62d1d42e24")
 	)
 	(pad "2" smd oval
-		(at -0.635001 2.682499)
-		(size 0.629997 1.864999)
+		(at -0.635 2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "74c2a56f-7919-4bbb-b249-5638cbf3a770")
 	)
 	(pad "3" smd oval
-		(at 0.635001 2.682499)
-		(size 0.629997 1.864999)
+		(at 0.635 2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f38c2830-acf3-4845-babb-41ec8d2fa7d9")
 	)
 	(pad "4" smd oval
-		(at 1.905004 2.682499)
-		(size 0.629997 1.864999)
+		(at 1.905 2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "39323b21-5921-4bd5-b97f-8e345ddc9ad3")
 	)
 	(pad "5" smd oval
-		(at 1.905004 -2.682499)
-		(size 0.629997 1.864999)
+		(at 1.905 -2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a7fd1ece-1408-47d5-afa1-065b1513fc52")
 	)
 	(pad "6" smd oval
-		(at 0.635001 -2.682499)
-		(size 0.629997 1.864999)
+		(at 0.635 -2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "63368461-652c-4e90-8086-fe148777a93f")
 	)
 	(pad "7" smd oval
-		(at -0.635001 -2.682499)
-		(size 0.629997 1.864999)
+		(at -0.635 -2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "702030c9-6118-4217-903b-31c95e331f1e")
 	)
 	(pad "8" smd oval
-		(at -1.905004 -2.682499)
-		(size 0.629997 1.864999)
+		(at -1.905 -2.682499)
+		(size 0.63 1.864999)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "09336b40-8a65-4a0e-9797-cf495d7b63ff")
 	)

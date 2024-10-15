@@ -89,19 +89,8 @@
 		)
 		(symbol "Digital Isolator, 0.15 Mbps, 4 Channel_0_1"
 			(rectangle
-				(start -8.89 11.43)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -7.62 10.16)
-				(radius 0.381)
+				(start -7.62 10.16)
+				(end 7.62 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -111,7 +100,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 8.89 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "VDD1"
 					(effects
@@ -129,7 +118,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -6.35 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -147,7 +136,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -3.81 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "VOD"
 					(effects
@@ -165,7 +154,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -1.27 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "VOC"
 					(effects
@@ -183,7 +172,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "VOB"
 					(effects
@@ -201,7 +190,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 3.81 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "VOA"
 					(effects
@@ -219,7 +208,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 6.35 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "GND2"
 					(effects
@@ -237,7 +226,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 8.89 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "VDD2"
 					(effects
@@ -255,7 +244,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 6.35 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -273,7 +262,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 3.81 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "VIA"
 					(effects
@@ -291,7 +280,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "VIB"
 					(effects
@@ -309,7 +298,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -1.27 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "VIC"
 					(effects
@@ -327,7 +316,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -3.81 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "VID"
 					(effects
@@ -345,7 +334,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -6.35 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -363,7 +352,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -8.89 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -381,7 +370,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -8.89 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "GND2"
 					(effects
@@ -413,7 +402,7 @@
 			)
 		)
 		(property "Value" "ADUM1201ARZ-RL7"
-			(at 0 -2.54 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,19 +476,8 @@
 		)
 		(symbol "Digital Isolator, 1 Mbps, 2 Channel_0_1"
 			(rectangle
-				(start -8.89 6.35)
-				(end 8.89 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -7.62 5.08)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -509,7 +487,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "VDD1"
 					(effects
@@ -527,7 +505,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "VOA"
 					(effects
@@ -545,7 +523,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "VIB"
 					(effects
@@ -563,7 +541,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -581,7 +559,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "GND2"
 					(effects
@@ -599,7 +577,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "VOB"
 					(effects
@@ -617,7 +595,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "VIA"
 					(effects
@@ -635,7 +613,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VDD2"
 					(effects
@@ -741,19 +719,8 @@
 		)
 		(symbol "Digital Isolator, 200 Mbps, 3 Channel_0_1"
 			(rectangle
-				(start -11.43 11.43)
-				(end 11.43 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -10.16 10.16)
-				(radius 0.381)
+				(start -10.16 12.7)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -763,7 +730,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 8.89 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "VDD1"
 					(effects
@@ -781,7 +748,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -6.35 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "NC/EN2"
 					(effects
@@ -799,7 +766,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -817,7 +784,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "VIC"
 					(effects
@@ -835,7 +802,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "VOB"
 					(effects
@@ -853,7 +820,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VOA"
 					(effects
@@ -871,7 +838,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 6.35 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "GND2"
 					(effects
@@ -889,7 +856,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 8.89 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "VDD2"
 					(effects
@@ -907,7 +874,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 6.35 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -925,7 +892,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "VIA"
 					(effects
@@ -943,7 +910,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "VIB"
 					(effects
@@ -961,7 +928,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "VOC"
 					(effects
@@ -979,7 +946,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -997,7 +964,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -6.35 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "NC/EN1"
 					(effects
@@ -1015,7 +982,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -8.89 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "GND1"
 					(effects
@@ -1033,7 +1000,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -8.89 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "GND2"
 					(effects
@@ -1065,7 +1032,7 @@
 			)
 		)
 		(property "Value" "SN65HVD230DR"
-			(at 0 -2.54 0)
+			(at -0.254 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,19 +1106,8 @@
 		)
 		(symbol "Transceiver, CAN, SN65HVD230DR_0_1"
 			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.08)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1161,7 +1117,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -1179,7 +1135,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1197,7 +1153,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1215,7 +1171,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "R"
 					(effects
@@ -1233,7 +1189,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -1251,7 +1207,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "CANL"
 					(effects
@@ -1269,7 +1225,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "CANH"
 					(effects
@@ -1287,7 +1243,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "RS"
 					(effects
@@ -1319,7 +1275,7 @@
 			)
 		)
 		(property "Value" "SN65HVDA1050AQDRQ1"
-			(at 0 -2.54 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,19 +1349,8 @@
 		)
 		(symbol "Transceiver, CAN, SN65HVDA1050_0_1"
 			(rectangle
-				(start -13.97 6.35)
-				(end 13.97 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -12.7 5.08)
-				(radius 0.381)
+				(start -12.7 7.62)
+				(end 12.7 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1415,7 +1360,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 3.81 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "TXD"
 					(effects
@@ -1433,7 +1378,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1451,7 +1396,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1469,7 +1414,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "RXD"
 					(effects
@@ -1487,7 +1432,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "SPLIT(VREF)"
 					(effects
@@ -1505,7 +1450,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "CANL"
 					(effects
@@ -1523,7 +1468,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "CANH"
 					(effects
@@ -1541,7 +1486,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 3.81 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "S"
 					(effects
@@ -1572,8 +1517,8 @@
 				)
 			)
 		)
-		(property "Value" "TJA1050T{slash}CM,118"
-			(at 0 -2.54 0)
+		(property "Value" "TJA1050T/CM,118"
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,8 +1592,8 @@
 		)
 		(symbol "Transceiver, CAN, TJA1050T_0_1"
 			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1658,25 +1603,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
-				(length 5.08)
-				(name "TXD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1694,7 +1621,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -1712,7 +1639,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "RXD"
 					(effects
@@ -1730,7 +1657,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "VREF"
 					(effects
@@ -1748,7 +1675,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "CANL"
 					(effects
@@ -1766,7 +1693,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "CANH"
 					(effects
@@ -1784,7 +1711,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "S"
 					(effects
@@ -1794,6 +1721,26 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transceiver, CAN, TJA1050T_1_1"
+			(pin unspecified line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "TXD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1 1)
@@ -1890,19 +1837,8 @@
 		)
 		(symbol "Transceiver, RS232, MAX232ESE_0_1"
 			(rectangle
-				(start -10.16 11.43)
-				(end 10.16 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 10.16)
-				(radius 0.381)
+				(start -10.16 12.7)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -1912,7 +1848,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 8.89 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "C1+"
 					(effects
@@ -1930,7 +1866,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -6.35 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "T2IN"
 					(effects
@@ -1948,7 +1884,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "T1IN"
 					(effects
@@ -1966,7 +1902,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "R1OUT"
 					(effects
@@ -1984,7 +1920,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "R1IN"
 					(effects
@@ -2002,7 +1938,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "T1OUT"
 					(effects
@@ -2020,7 +1956,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 6.35 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2038,7 +1974,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 8.89 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2056,7 +1992,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 6.35 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "V+"
 					(effects
@@ -2074,7 +2010,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "C1-"
 					(effects
@@ -2092,7 +2028,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "C2+"
 					(effects
@@ -2110,7 +2046,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "C2-"
 					(effects
@@ -2128,7 +2064,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "V-"
 					(effects
@@ -2146,7 +2082,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -6.35 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "T2OUT"
 					(effects
@@ -2164,7 +2100,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -8.89 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "R2IN"
 					(effects
@@ -2182,7 +2118,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -8.89 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "R2OUT"
 					(effects
@@ -2213,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Value" "SP3232EEY-L{slash}TR"
+		(property "Value" "SP3232EEY"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -2288,8 +2224,8 @@
 		)
 		(symbol "Transceiver, RS232, SP3232EEY-L/TR_0_1"
 			(rectangle
-				(start -10.16 11.43)
-				(end 10.16 -11.43)
+				(start -10.16 12.7)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -2299,7 +2235,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 8.89 0)
+				(at -15.24 10.16 0)
 				(length 5.08)
 				(name "C1+"
 					(effects
@@ -2317,7 +2253,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -6.35 180)
+				(at 15.24 -5.08 180)
 				(length 5.08)
 				(name "T2IN"
 					(effects
@@ -2335,7 +2271,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "T1IN"
 					(effects
@@ -2353,7 +2289,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -1.27 180)
+				(at 15.24 0 180)
 				(length 5.08)
 				(name "R1OUT"
 					(effects
@@ -2371,7 +2307,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 1.27 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
 				(name "R1IN"
 					(effects
@@ -2389,7 +2325,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 3.81 180)
+				(at 15.24 5.08 180)
 				(length 5.08)
 				(name "T1OUT"
 					(effects
@@ -2407,7 +2343,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 6.35 180)
+				(at 15.24 7.62 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2425,7 +2361,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 8.89 180)
+				(at 15.24 10.16 180)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -2443,7 +2379,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 6.35 0)
+				(at -15.24 7.62 0)
 				(length 5.08)
 				(name "V+"
 					(effects
@@ -2461,7 +2397,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 3.81 0)
+				(at -15.24 5.08 0)
 				(length 5.08)
 				(name "C1-"
 					(effects
@@ -2479,7 +2415,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 1.27 0)
+				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "C2+"
 					(effects
@@ -2497,7 +2433,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -1.27 0)
+				(at -15.24 0 0)
 				(length 5.08)
 				(name "C2-"
 					(effects
@@ -2515,7 +2451,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "V-"
 					(effects
@@ -2533,7 +2469,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -6.35 0)
+				(at -15.24 -5.08 0)
 				(length 5.08)
 				(name "T2OUT"
 					(effects
@@ -2551,7 +2487,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -8.89 0)
+				(at -15.24 -7.62 0)
 				(length 5.08)
 				(name "R2IN"
 					(effects
@@ -2569,7 +2505,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -8.89 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "R2OUT"
 					(effects
@@ -2601,7 +2537,7 @@
 			)
 		)
 		(property "Value" "MAX14946EWE+T"
-			(at 0 -2.54 0)
+			(at -1.016 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +2935,7 @@
 			)
 		)
 		(property "Value" "SN75176BDR"
-			(at 0 -2.54 0)
+			(at 0 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,30 +3009,8 @@
 		)
 		(symbol "Transceiver, RS485/422, 10Mbps, SN75176BDR_0_1"
 			(rectangle
-				(start -7.62 6.858)
-				(end 7.62 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.588)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3106,7 +3020,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "R"
 					(effects
@@ -3124,7 +3038,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "RE#"
 					(effects
@@ -3142,7 +3056,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -3160,7 +3074,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -3178,7 +3092,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3196,7 +3110,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -3214,7 +3128,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -3232,7 +3146,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -3263,8 +3177,8 @@
 				)
 			)
 		)
-		(property "Value" "SP3485EN-L{slash}TR"
-			(at 0 -2.54 0)
+		(property "Value" "SP3485EN"
+			(at 0 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,19 +3252,8 @@
 		)
 		(symbol "Transceiver, RS485/422, 10Mbps, SP3485EN-L/TR_0_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -5.08 5.08)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3360,7 +3263,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -3378,7 +3281,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "RE#"
 					(effects
@@ -3396,7 +3299,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -3414,7 +3317,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -3432,7 +3335,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3450,7 +3353,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -3468,7 +3371,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -3486,7 +3389,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -3517,8 +3420,8 @@
 				)
 			)
 		)
-		(property "Value" "SP485EEN-L{slash}TR"
-			(at 0 -2.54 0)
+		(property "Value" "SP485EEN"
+			(at 0 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,8 +3495,8 @@
 		)
 		(symbol "Transceiver, RS485/422, 10Mbps, SP485EEN-L/TR_0_1"
 			(rectangle
-				(start -5.08 6.35)
-				(end 5.08 -6.35)
+				(start -5.08 7.62)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3603,7 +3506,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 5.08)
 				(name "RO"
 					(effects
@@ -3621,7 +3524,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "RE#"
 					(effects
@@ -3639,7 +3542,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 5.08)
 				(name "DE"
 					(effects
@@ -3657,7 +3560,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "DI"
 					(effects
@@ -3675,7 +3578,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -3693,7 +3596,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "A"
 					(effects
@@ -3711,7 +3614,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 5.08)
 				(name "B"
 					(effects
@@ -3729,7 +3632,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -3761,7 +3664,7 @@
 			)
 		)
 		(property "Value" "ST485EXDR"
-			(at 0 -2.54 0)
+			(at 0 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,19 +3738,8 @@
 		)
 		(symbol "Transceiver, RS485/422, 5Mbps, ST485EXDR_0_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -5.08 5.08)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3857,7 +3749,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -3875,7 +3767,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "RE#"
 					(effects
@@ -3893,7 +3785,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -3911,7 +3803,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -3929,7 +3821,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3947,7 +3839,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -3965,7 +3857,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -3983,7 +3875,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -4702,30 +4594,6 @@
 			)
 		)
 		(symbol "Transceiver, USB_0_1"
-			(circle
-				(center -13.97 13.97)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -15.24 17.78) (xy 15.24 17.78) (xy 17.78 15.24) (xy 17.78 -15.24) (xy 15.24 -17.78) (xy -15.24 -17.78)
-					(xy -17.78 -15.24) (xy -17.78 15.24) (xy -15.24 17.78)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at -22.86 7.62 0)
 				(length 5.08)
@@ -4791,24 +4659,6 @@
 					)
 				)
 				(number "12"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 5.08 -22.86 90)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "13"
 					(effects
 						(font
 							(size 1 1)
@@ -5241,6 +5091,37 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transceiver, USB_1_1"
+			(rectangle
+				(start -17.78 17.78)
+				(end 17.78 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 -22.86 90)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 1 1)

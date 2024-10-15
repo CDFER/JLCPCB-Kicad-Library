@@ -6,7 +6,7 @@
 	(descr "GBU_4P-L22.0-W3.5-P5.08 footprint")
 	(tags "GBU_4P-L22.0-W3.5-P5.08 footprint C2848658")
 	(property "Reference" "REF**"
-		(at -0.000013 -4.399975 0)
+		(at -0.0 -4.399975 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "0af1bfb8-b6a7-4dab-9f68-04ddb76a4a5c")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "GBU_4P-L22.0-W3.5-P5.08"
-		(at -0.000013 3.270003 0)
+		(at -0.0 3.270003 0)
 		(layer "F.Fab")
 		(uuid "26ad01f8-2287-4c72-b2bc-a87b123dd063")
 		(effects
@@ -69,17 +69,17 @@
 		(start -11.049022 -2.399975)
 		(end 11.150013 -2.399975)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "be51b14c-66a4-41a0-83bb-e7b9c706ac0c")
 	)
 	(fp_line
-		(start -11.049022 1.270003)
+		(start -11.049022 1.27)
 		(end -11.049022 -2.399975)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -87,29 +87,29 @@
 	)
 	(fp_line
 		(start 11.150013 -2.399975)
-		(end 11.150013 1.270003)
+		(end 11.150013 1.27)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "efc5d919-12aa-42a9-a5ef-0804a8f1d01a")
 	)
 	(fp_line
-		(start 11.150013 1.270003)
-		(end -11.049022 1.270003)
+		(start 11.150013 1.27)
+		(end -11.049022 1.27)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "06d9b9c6-7afc-4a5a-b97b-e8d57803a0e7")
 	)
 	(fp_circle
-		(center -11 1.250013)
-		(end -10.970003 1.250013)
+		(center -11 1.25)
+		(end -10.970003 1.25)
 		(stroke
-			(width 0.059995)
+			(width 0.06)
 			(type solid)
 		)
 		(fill none)
@@ -168,7 +168,7 @@
 		)
 	)
 	(fp_text user "REF**"
-		(at -0.000013 5.270003 0)
+		(at -0.0 5.270003 0)
 		(layer "F.Fab")
 		(uuid "0c5b660d-29e3-4624-a8cf-e7a26b1c0495")
 		(effects
@@ -187,7 +187,7 @@
 		(uuid "ee7292c7-1ca4-455a-9aad-58923b6c51d8")
 	)
 	(pad "2" thru_hole oval
-		(at -2.540005 0)
+		(at -2.54 0)
 		(size 2.8 2)
 		(drill oval 1.8 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -195,7 +195,7 @@
 		(uuid "53be1ae6-6003-41d9-ae1d-cc1b28df25f7")
 	)
 	(pad "3" thru_hole oval
-		(at 2.540005 0)
+		(at 2.54 0)
 		(size 2.8 2)
 		(drill oval 1.8 1.2)
 		(layers "*.Cu" "*.Mask")

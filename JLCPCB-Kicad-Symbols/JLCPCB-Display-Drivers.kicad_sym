@@ -448,7 +448,7 @@
 				)
 			)
 		)
-		(property "Value" "HT1621B_C7532"
+		(property "Value" "HT1621B"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -523,19 +523,8 @@
 		)
 		(symbol "LCD Driver, HT1621B_0_1"
 			(rectangle
-				(start -10.16 31.7501)
-				(end 10.16 -31.7501)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 30.4801)
-				(radius 0.381)
+				(start -10.16 33.02)
+				(end 10.16 -30.48)
 				(stroke
 					(width 0)
 					(type default)
@@ -545,7 +534,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 29.21 0)
+				(at -12.7 30.48 0)
 				(length 2.54)
 				(name "CS#"
 					(effects
@@ -563,7 +552,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 6.35 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "IRQ#"
 					(effects
@@ -581,7 +570,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "BZ"
 					(effects
@@ -599,7 +588,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "BZ#"
 					(effects
@@ -617,7 +606,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "COM0"
 					(effects
@@ -635,7 +624,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "COM1"
 					(effects
@@ -653,7 +642,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -6.35 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "COM2"
 					(effects
@@ -671,7 +660,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -8.89 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "COM3"
 					(effects
@@ -689,7 +678,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -11.43 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "SEG31"
 					(effects
@@ -707,7 +696,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -13.97 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "SEG30"
 					(effects
@@ -725,7 +714,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -16.51 0)
+				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "SEG29"
 					(effects
@@ -743,7 +732,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 26.67 0)
+				(at -12.7 27.94 0)
 				(length 2.54)
 				(name "RD#"
 					(effects
@@ -761,7 +750,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -19.05 0)
+				(at -12.7 -17.78 0)
 				(length 2.54)
 				(name "SEG27"
 					(effects
@@ -779,7 +768,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -21.59 0)
+				(at -12.7 -20.32 0)
 				(length 2.54)
 				(name "SEG28"
 					(effects
@@ -797,7 +786,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -24.13 0)
+				(at -12.7 -22.86 0)
 				(length 2.54)
 				(name "SEG26"
 					(effects
@@ -815,7 +804,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -26.67 0)
+				(at -12.7 -25.4 0)
 				(length 2.54)
 				(name "SEG25"
 					(effects
@@ -833,7 +822,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -29.21 0)
+				(at -12.7 -27.94 0)
 				(length 2.54)
 				(name "SEG24"
 					(effects
@@ -851,7 +840,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -29.21 180)
+				(at 12.7 -27.94 180)
 				(length 2.54)
 				(name "SEG23"
 					(effects
@@ -869,7 +858,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -26.67 180)
+				(at 12.7 -25.4 180)
 				(length 2.54)
 				(name "SEG22"
 					(effects
@@ -887,7 +876,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -24.13 180)
+				(at 12.7 -22.86 180)
 				(length 2.54)
 				(name "SEG21"
 					(effects
@@ -905,7 +894,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -21.59 180)
+				(at 12.7 -20.32 180)
 				(length 2.54)
 				(name "SEG20"
 					(effects
@@ -923,7 +912,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -19.05 180)
+				(at 12.7 -17.78 180)
 				(length 2.54)
 				(name "SEG19"
 					(effects
@@ -941,7 +930,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 24.13 0)
+				(at -12.7 25.4 0)
 				(length 2.54)
 				(name "WR#"
 					(effects
@@ -959,7 +948,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -16.51 180)
+				(at 12.7 -15.24 180)
 				(length 2.54)
 				(name "SEG18"
 					(effects
@@ -977,7 +966,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -13.97 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "SEG17"
 					(effects
@@ -995,7 +984,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -11.43 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "SEG16"
 					(effects
@@ -1013,7 +1002,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -8.89 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "SEG15"
 					(effects
@@ -1031,7 +1020,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -6.35 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "SEG14"
 					(effects
@@ -1049,7 +1038,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "SEG13"
 					(effects
@@ -1067,7 +1056,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "SEG12"
 					(effects
@@ -1085,7 +1074,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "SEG11"
 					(effects
@@ -1103,7 +1092,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "SEG10"
 					(effects
@@ -1121,7 +1110,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 6.35 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "SEG9"
 					(effects
@@ -1139,7 +1128,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 21.59 0)
+				(at -12.7 22.86 0)
 				(length 2.54)
 				(name "DATA"
 					(effects
@@ -1157,7 +1146,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 8.89 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "SEG8"
 					(effects
@@ -1175,7 +1164,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 11.43 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "SEG7"
 					(effects
@@ -1193,7 +1182,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 13.97 180)
+				(at 12.7 15.24 180)
 				(length 2.54)
 				(name "SEG6"
 					(effects
@@ -1211,7 +1200,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 16.51 180)
+				(at 12.7 17.78 180)
 				(length 2.54)
 				(name "SEG5"
 					(effects
@@ -1229,7 +1218,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 19.05 180)
+				(at 12.7 20.32 180)
 				(length 2.54)
 				(name "SEG4"
 					(effects
@@ -1247,7 +1236,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 21.59 180)
+				(at 12.7 22.86 180)
 				(length 2.54)
 				(name "SEG3"
 					(effects
@@ -1265,7 +1254,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 24.13 180)
+				(at 12.7 25.4 180)
 				(length 2.54)
 				(name "SEG2"
 					(effects
@@ -1283,7 +1272,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 26.67 180)
+				(at 12.7 27.94 180)
 				(length 2.54)
 				(name "SEG1"
 					(effects
@@ -1301,7 +1290,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 29.21 180)
+				(at 12.7 30.48 180)
 				(length 2.54)
 				(name "SEG0"
 					(effects
@@ -1319,7 +1308,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 19.05 0)
+				(at -12.7 20.32 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1337,7 +1326,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 16.51 0)
+				(at -12.7 17.78 0)
 				(length 2.54)
 				(name "OSCO"
 					(effects
@@ -1355,7 +1344,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 13.97 0)
+				(at -12.7 15.24 0)
 				(length 2.54)
 				(name "OSCI"
 					(effects
@@ -1373,7 +1362,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 11.43 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "VLCD"
 					(effects
@@ -1391,7 +1380,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 8.89 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1497,19 +1486,8 @@
 		)
 		(symbol "LED Driver, NCV7685DQR2G_0_1"
 			(rectangle
-				(start -11.43 16.51)
-				(end 11.43 -16.51)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -10.16 15.24)
-				(radius 0.381)
+				(start -12.7 17.78)
+				(end 12.7 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -1519,7 +1497,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 13.97 0)
+				(at -15.24 15.24 0)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -1537,7 +1515,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -8.89 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "OUT10"
 					(effects
@@ -1555,7 +1533,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -11.43 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "OUT11"
 					(effects
@@ -1573,7 +1551,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -13.97 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "OUT12"
 					(effects
@@ -1591,7 +1569,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -13.97 180)
+				(at 15.24 -12.7 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1609,7 +1587,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -11.43 180)
+				(at 15.24 -10.16 180)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -1627,7 +1605,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -8.89 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "CONF"
 					(effects
@@ -1645,7 +1623,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -6.35 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1663,7 +1641,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -3.81 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -1681,7 +1659,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "DIAGEN"
 					(effects
@@ -1699,7 +1677,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "GNDP"
 					(effects
@@ -1717,7 +1695,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 11.43 0)
+				(at -15.24 12.7 0)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -1735,7 +1713,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 3.81 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "DIAG"
 					(effects
@@ -1753,7 +1731,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 6.35 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "OEN"
 					(effects
@@ -1771,7 +1749,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 8.89 180)
+				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -1789,7 +1767,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 11.43 180)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -1807,7 +1785,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 13.97 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1825,7 +1803,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 19.05 270)
+				(at 0 20.32 270)
 				(length 2.54)
 				(name "EP"
 					(effects
@@ -1843,7 +1821,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 8.89 0)
+				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -1861,7 +1839,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 6.35 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "OUT4"
 					(effects
@@ -1879,7 +1857,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 3.81 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "OUT5"
 					(effects
@@ -1897,7 +1875,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "OUT6"
 					(effects
@@ -1915,7 +1893,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "OUT7"
 					(effects
@@ -1933,7 +1911,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -3.81 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "OUT8"
 					(effects
@@ -1951,7 +1929,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -6.35 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "OUT9"
 					(effects
@@ -1982,7 +1960,7 @@
 				)
 			)
 		)
-		(property "Value" "TLD1314ELXUMA1"
+		(property "Value" "TLD1314"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -2000,7 +1978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "nan"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-TLD1314EL-DataSheet-v01_21-EN.pdf?fileId=5546d46258fc0bc101596e37c747352e"
 			(at -2.286 0.127 0)
 			(effects
 				(font

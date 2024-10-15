@@ -6,7 +6,7 @@
 	(descr "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint")
 	(tags "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint C6186")
 	(property "Reference" "REF**"
-		(at -0.000013 -5.326213 0)
+		(at -0.0 -5.326213 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "c47b46f7-ae89-4b44-9769-f11a4fb539a6")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
-		(at -0.000013 5.326213 0)
+		(at -0.0 5.326213 0)
 		(layer "F.Fab")
 		(uuid "1c4f4e01-c6d1-4142-a798-ee2ccf8801b5")
 		(effects
@@ -109,7 +109,7 @@
 		(center 1.75 3)
 		(end 1.779972 3)
 		(stroke
-			(width 0.059995)
+			(width 0.06)
 			(type solid)
 		)
 		(fill none)
@@ -168,7 +168,7 @@
 		(uuid "f6651fa3-1262-4661-96c7-3c69c2a0922e")
 	)
 	(fp_text user "REF**"
-		(at -0.000013 7.326213 0)
+		(at -0.0 7.326213 0)
 		(layer "F.Fab")
 		(uuid "b2607a0b-dd70-47c3-9176-e740568275b2")
 		(effects
@@ -179,7 +179,7 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 2.969952 2.299975)
+		(at 2.969952 2.30)
 		(size 2.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ff56ee05-7ff9-4d19-8d4a-050d7ddc67d6")
@@ -191,7 +191,7 @@
 		(uuid "48020462-eeef-424f-bc2d-1db3d9922637")
 	)
 	(pad "3" smd rect
-		(at 2.969952 -2.299975)
+		(at 2.969952 -2.30)
 		(size 2.5 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5ea4f798-e201-4e57-991d-6d6eed5d5611")

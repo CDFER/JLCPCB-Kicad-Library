@@ -6,7 +6,7 @@
 	(descr "SOP-6_L4.5-W6.8-P1.27-LS11.5-BL footprint")
 	(tags "SOP-6_L4.5-W6.8-P1.27-LS11.5-BL footprint C411210")
 	(property "Reference" "REF**"
-		(at 0.000013 -7.225044 0)
+		(at 0.0 -7.225044 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "9ee0ca56-d4a1-4119-ba21-dfce36402c7e")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "SOP-6_L4.5-W6.8-P1.27-LS11.5-BL"
-		(at 0.000013 7.225044 0)
+		(at 0.0 7.225044 0)
 		(layer "F.Fab")
 		(uuid "65dbc487-d70f-4007-94d5-6c534f099424")
 		(effects
@@ -109,7 +109,7 @@
 		(center -2.249936 3.5)
 		(end -2.219964 3.5)
 		(stroke
-			(width 0.059995)
+			(width 0.06)
 			(type solid)
 		)
 		(fill none)
@@ -117,7 +117,7 @@
 		(uuid "9196e87a-5b62-4b22-8393-744c343771a8")
 	)
 	(fp_text user "REF**"
-		(at 0.000013 9.225044 0)
+		(at 0.0 9.225044 0)
 		(layer "F.Fab")
 		(uuid "3b471566-4591-43ee-9a5f-cdfd3c293310")
 		(effects
@@ -128,38 +128,38 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -1.270003 5.225044)
-		(size 0.559995 1.950013)
+		(at -1.27 5.225044)
+		(size 0.56 1.950013)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7e9f4674-2c6b-4f62-8328-f770ed9d4796")
 	)
 	(pad "2" smd rect
 		(at 0 5.225044)
-		(size 0.559995 1.950013)
+		(size 0.56 1.950013)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e2bfb7fd-d368-4c8a-b6b1-98f570a03a0e")
 	)
 	(pad "3" smd rect
-		(at 1.270003 5.225044)
-		(size 0.559995 1.950013)
+		(at 1.27 5.225044)
+		(size 0.56 1.950013)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "344fd826-3b45-4f56-8549-617e8076fd73")
 	)
 	(pad "4" smd rect
-		(at 1.270003 -5.225044)
-		(size 0.559995 1.950013)
+		(at 1.27 -5.225044)
+		(size 0.56 1.950013)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b50246de-405a-45c5-b04d-ecdc098fd893")
 	)
 	(pad "5" smd rect
 		(at 0 -5.225044)
-		(size 0.559995 1.950013)
+		(size 0.56 1.950013)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "edd51012-5155-47ee-8623-7d94100efe70")
 	)
 	(pad "6" smd rect
-		(at -1.270003 -5.225044)
-		(size 0.559995 1.950013)
+		(at -1.27 -5.225044)
+		(size 0.56 1.950013)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "15d0ad8e-fc1d-49ea-aeb0-689934c073b8")
 	)

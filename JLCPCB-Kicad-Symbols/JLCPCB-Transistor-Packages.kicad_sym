@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "BSP52T3G"
-			(at 0 -2.54 0)
+			(at -2.54 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +457,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -465,7 +465,7 @@
 			)
 		)
 		(property "Value" "ULN2003ADR"
-			(at 0 -2.54 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,7 +502,7 @@
 			)
 		)
 		(property "LCSC" "C7512"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,7 +511,7 @@
 			)
 		)
 		(property "Stock" "356373"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,7 +520,7 @@
 			)
 		)
 		(property "Price" "0.125USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,8 +539,8 @@
 		)
 		(symbol "Darlington Transistor, 7 Channel, ULN2003ADR_0_1"
 			(rectangle
-				(start -7.62 11.938)
-				(end 7.62 -11.938)
+				(start -7.62 13.208)
+				(end 7.62 -10.668)
 				(stroke
 					(width 0)
 					(type default)
@@ -550,7 +550,7 @@
 				)
 			)
 			(circle
-				(center -6.35 10.668)
+				(center -6.35 11.938)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -561,7 +561,7 @@
 				)
 			)
 			(circle
-				(center -6.35 10.668)
+				(center -6.35 11.938)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -572,7 +572,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 8.89 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "1B"
 					(effects
@@ -590,7 +590,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -6.35 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "7C"
 					(effects
@@ -608,7 +608,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "6C"
 					(effects
@@ -626,7 +626,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "5C"
 					(effects
@@ -644,7 +644,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "4C"
 					(effects
@@ -662,7 +662,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "3C"
 					(effects
@@ -680,7 +680,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 6.35 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "2C"
 					(effects
@@ -698,7 +698,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 8.89 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "1C"
 					(effects
@@ -716,7 +716,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 6.35 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "2B"
 					(effects
@@ -734,7 +734,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "3B"
 					(effects
@@ -752,7 +752,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "4B"
 					(effects
@@ -770,7 +770,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "5B"
 					(effects
@@ -788,7 +788,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "6B"
 					(effects
@@ -806,7 +806,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -6.35 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "7B"
 					(effects
@@ -824,7 +824,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -8.89 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "E"
 					(effects
@@ -842,7 +842,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -8.89 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "COM"
 					(effects
@@ -866,7 +866,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -1.27 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +874,7 @@
 			)
 		)
 		(property "Value" "IK62083DWT"
-			(at 0 -2.54 0)
+			(at -1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +911,7 @@
 			)
 		)
 		(property "LCSC" "C2934761"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,7 +920,7 @@
 			)
 		)
 		(property "Stock" "490"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +929,7 @@
 			)
 		)
 		(property "Price" "0.661USD"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,8 +948,8 @@
 		)
 		(symbol "Darlington Transistor, 8 Channel, IK62083DWT_0_1"
 			(rectangle
-				(start -6.35 12.7)
-				(end 6.35 -12.7)
+				(start -7.62 12.7)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -959,7 +959,7 @@
 				)
 			)
 			(circle
-				(center -5.08 11.43)
+				(center -6.35 11.43)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -970,7 +970,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 10.16 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "I1"
 					(effects
@@ -988,7 +988,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -10.16 180)
+				(at 7.62 -10.16 180)
 				(length 2.54)
 				(name "COM"
 					(effects
@@ -1006,7 +1006,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -7.62 180)
+				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "O8"
 					(effects
@@ -1024,7 +1024,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -5.08 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "O7"
 					(effects
@@ -1042,7 +1042,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -2.54 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "O6"
 					(effects
@@ -1060,7 +1060,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "O5"
 					(effects
@@ -1078,7 +1078,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 2.54 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "O4"
 					(effects
@@ -1096,7 +1096,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 5.08 180)
+				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "O3"
 					(effects
@@ -1114,7 +1114,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 7.62 180)
+				(at 7.62 7.62 180)
 				(length 2.54)
 				(name "O2"
 					(effects
@@ -1132,7 +1132,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 10.16 180)
+				(at 7.62 10.16 180)
 				(length 2.54)
 				(name "O1"
 					(effects
@@ -1150,7 +1150,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "I2"
 					(effects
@@ -1168,7 +1168,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "I3"
 					(effects
@@ -1186,7 +1186,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "I4"
 					(effects
@@ -1204,7 +1204,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "I5"
 					(effects
@@ -1222,7 +1222,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "I6"
 					(effects
@@ -1240,7 +1240,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "I7"
 					(effects
@@ -1258,7 +1258,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -7.62 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "I8"
 					(effects
@@ -1276,7 +1276,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -10.16 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3508,15 +3508,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AO4884_C485694"
-			(at 0 -2.54 0)
+		(property "Value" "AO4884"
+			(at -0.254 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3553,7 @@
 			)
 		)
 		(property "LCSC" "C485694"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3562,7 @@
 			)
 		)
 		(property "Stock" "287"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3571,7 @@
 			)
 		)
 		(property "Price" "0.498USD"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,8 +3590,8 @@
 		)
 		(symbol "NMOS, 2 Channel, AO4884_0_1"
 			(rectangle
-				(start -5.08 6.35)
-				(end 5.08 -6.35)
+				(start -5.08 7.62)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3601,7 +3601,7 @@
 				)
 			)
 			(circle
-				(center -3.81 5.08)
+				(center -3.81 6.35)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -3612,7 +3612,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 3.81 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "S2"
 					(effects
@@ -3630,7 +3630,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 1.27 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "G2"
 					(effects
@@ -3648,7 +3648,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 -1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "S1"
 					(effects
@@ -3666,7 +3666,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 -3.81 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "G1"
 					(effects
@@ -3684,7 +3684,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -3.81 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -3702,7 +3702,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -3720,7 +3720,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 1.27 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -3738,7 +3738,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 3.81 180)
+				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -3770,7 +3770,7 @@
 			)
 		)
 		(property "Value" "DMN1029UFDB-7"
-			(at 0 -2.54 0)
+			(at 0.254 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4198,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -1.27 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4206,7 @@
 			)
 		)
 		(property "Value" "DCX144EUQ-7-F"
-			(at 0 -2.54 0)
+			(at -1.016 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 			)
 		)
 		(property "LCSC" "C672389"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4252,7 @@
 			)
 		)
 		(property "Stock" "2873"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4261,7 @@
 			)
 		)
 		(property "Price" "0.095USD"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,8 +4280,8 @@
 		)
 		(symbol "NPN, 2 Channel, Pre Biased, DCX144EUQ-7-F_0_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -5.08)
+				(start -7.62 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -4291,7 +4291,7 @@
 				)
 			)
 			(circle
-				(center -5.08 3.81)
+				(center -6.35 3.81)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -4302,7 +4302,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "EQ1"
 					(effects
@@ -4320,7 +4320,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "BQ1"
 					(effects
@@ -4338,7 +4338,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "CQ2"
 					(effects
@@ -4356,7 +4356,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -2.54 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "EQ2"
 					(effects
@@ -4374,7 +4374,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "BQ2"
 					(effects
@@ -4392,7 +4392,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 2.54 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "CQ1"
 					(effects
@@ -4424,7 +4424,7 @@
 			)
 		)
 		(property "Value" "DMP4025SFGQ-13"
-			(at 0 -2.54 0)
+			(at -1.778 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4734,7 @@
 			)
 		)
 		(property "Value" "STL60P4LLF6"
-			(at 0 -2.54 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,8 +4987,8 @@
 				)
 			)
 		)
-		(property "Value" "FDS4935A_C236903"
-			(at 0 -2.54 0)
+		(property "Value" "FDS4935A"
+			(at -0.254 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,8 +5241,8 @@
 				)
 			)
 		)
-		(property "Value" "FDS9933A_C241823"
-			(at 0 -2.54 0)
+		(property "Value" "FDS9933A"
+			(at -0.254 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5496,7 @@
 			)
 		)
 		(property "Value" "DDA123JU-7-F"
-			(at 0 -2.54 0)
+			(at 6.35 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)

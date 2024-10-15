@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" "SST39VF040-70-4C-WHE"
-			(at 0 -2.54 0)
+		(property "Value" "SST39VF040"
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,8 +700,8 @@
 				)
 			)
 		)
-		(property "Value" "SST25VF040B-50-4I-S2AE"
-			(at 0 -2.54 0)
+		(property "Value" "SST25VF040B"
+			(at -0.254 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,19 +775,8 @@
 		)
 		(symbol "0.5MByte, SPI_0_1"
 			(rectangle
-				(start -8.89 6.35)
-				(end 8.89 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -7.62 5.08)
-				(radius 0.381)
+				(start -10.16 7.62)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -797,7 +786,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "CE#"
 					(effects
@@ -815,7 +804,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "SO"
 					(effects
@@ -833,7 +822,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "WP#"
 					(effects
@@ -851,7 +840,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -869,7 +858,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "SI"
 					(effects
@@ -887,7 +876,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -905,7 +894,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "HOLD#"
 					(effects
@@ -923,7 +912,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -954,8 +943,8 @@
 				)
 			)
 		)
-		(property "Value" "W25Q128JVSIQTR"
-			(at 0 -2.54 0)
+		(property "Value" "W25Q128"
+			(at 0 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,30 +1018,8 @@
 		)
 		(symbol "16MByte, SPI_0_1"
 			(rectangle
-				(start -10.16 6.858)
-				(end 10.16 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 5.588)
-				(radius 0.381)
+				(start -10.16 7.62)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1062,7 +1029,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "CS#"
 					(effects
@@ -1080,7 +1047,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "DO"
 					(effects
@@ -1098,7 +1065,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "IO2"
 					(effects
@@ -1116,7 +1083,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1134,7 +1101,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -1152,7 +1119,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -1170,7 +1137,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "IO3"
 					(effects
@@ -1188,7 +1155,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1220,7 +1187,7 @@
 			)
 		)
 		(property "Value" "DS28EC20+"
-			(at 0 -2.54 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1261,7 @@
 		)
 		(symbol "20Kbit, OW_0_1"
 			(rectangle
-				(start -3.81 5.08)
+				(start -5.08 5.08)
 				(end 3.81 -5.08)
 				(stroke
 					(width 0)
@@ -1304,19 +1271,8 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -2.54 3.81)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin unspecified line
-				(at -6.35 -2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1334,7 +1290,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -6.35 2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "I/O"
 					(effects
@@ -1352,7 +1308,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -6.35 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1383,8 +1339,8 @@
 				)
 			)
 		)
-		(property "Value" "AT24C256C-SSHL-T"
-			(at 0 -2.54 0)
+		(property "Value" "AT24C256C"
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,30 +1414,8 @@
 		)
 		(symbol "256Kbit, I2C_0_1"
 			(rectangle
-				(start -7.62 6.858)
-				(end 7.62 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.588)
-				(radius 0.381)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1491,7 +1425,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -1509,7 +1443,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -1527,7 +1461,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -1545,7 +1479,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1563,7 +1497,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -1581,7 +1515,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -1599,7 +1533,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "WP"
 					(effects
@@ -1617,7 +1551,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1648,7 +1582,7 @@
 				)
 			)
 		)
-		(property "Value" "M24C02-WMN6TP"
+		(property "Value" "M24C02"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1723,30 +1657,8 @@
 		)
 		(symbol "2Kbit, I2C_0_1"
 			(rectangle
-				(start -7.62 6.858)
-				(end 7.62 -6.858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.588)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -6.35 5.588)
-				(radius 0.381)
+				(start -7.62 5.08)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -1756,7 +1668,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 3.81 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "E1"
 					(effects
@@ -1774,7 +1686,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "E2"
 					(effects
@@ -1792,7 +1704,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -1.27 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "E3"
 					(effects
@@ -1810,7 +1722,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -3.81 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1828,7 +1740,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -3.81 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -1846,7 +1758,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -1.27 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -1864,7 +1776,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "WC#"
 					(effects
@@ -1882,7 +1794,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 3.81 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1913,8 +1825,8 @@
 				)
 			)
 		)
-		(property "Value" "24AA04HT-I{slash}OT_C616200"
-			(at 0 -2.54 0)
+		(property "Value" "24AA04HT"
+			(at 1.524 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,8 +2025,8 @@
 				)
 			)
 		)
-		(property "Value" "BR24T04FJ-WE2"
-			(at 0 -2.54 0)
+		(property "Value" "BR24T04FJ"
+			(at -1.27 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2279,7 @@
 				)
 			)
 		)
-		(property "Value" "M24C64-RMN6TP"
+		(property "Value" "M24C64"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -2442,8 +2354,8 @@
 		)
 		(symbol "64Kbit, I2C_0_1"
 			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2453,7 +2365,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 5.08)
 				(name "A0"
 					(effects
@@ -2471,7 +2383,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 5.08)
 				(name "A1"
 					(effects
@@ -2489,7 +2401,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 5.08)
 				(name "A2"
 					(effects
@@ -2507,7 +2419,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -2525,7 +2437,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -2543,7 +2455,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -2561,7 +2473,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "#WC"
 					(effects
@@ -2579,7 +2491,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 3.81 180)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -2611,7 +2523,7 @@
 			)
 		)
 		(property "Value" "F35UQA512M-WWT"
-			(at 0 -2.54 0)
+			(at 0 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,19 +2597,8 @@
 		)
 		(symbol "64MByte, SPI_0_1"
 			(rectangle
-				(start -17.78 6.35)
-				(end 17.78 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -16.51 5.08)
-				(radius 0.381)
+				(start -17.78 7.62)
+				(end 17.78 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2707,7 +2608,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 3.81 0)
+				(at -20.32 5.08 0)
 				(length 2.54)
 				(name "CS#"
 					(effects
@@ -2725,7 +2626,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 1.27 0)
+				(at -20.32 2.54 0)
 				(length 2.54)
 				(name "DO/SIO1"
 					(effects
@@ -2743,7 +2644,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -1.27 0)
+				(at -20.32 0 0)
 				(length 2.54)
 				(name "WP#/SIO2"
 					(effects
@@ -2761,7 +2662,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -3.81 0)
+				(at -20.32 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2779,7 +2680,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -3.81 180)
+				(at 20.32 -2.54 180)
 				(length 2.54)
 				(name "DI/SIO0"
 					(effects
@@ -2797,7 +2698,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -1.27 180)
+				(at 20.32 0 180)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -2815,7 +2716,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 1.27 180)
+				(at 20.32 2.54 180)
 				(length 2.54)
 				(name "HOLD#/SIO3"
 					(effects
@@ -2833,7 +2734,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 3.81 180)
+				(at 20.32 5.08 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2851,7 +2752,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -8.89 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "EP"
 					(effects
