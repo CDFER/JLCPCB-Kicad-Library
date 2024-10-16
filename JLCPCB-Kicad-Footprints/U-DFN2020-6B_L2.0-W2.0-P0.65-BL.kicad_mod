@@ -6,7 +6,7 @@
 	(descr "U-DFN2020-6B_L2.0-W2.0-P0.65-BL footprint")
 	(tags "U-DFN2020-6B_L2.0-W2.0-P0.65-BL footprint C780826")
 	(property "Reference" "REF**"
-		(at -0.000025 -3.000025 0)
+		(at -0 -3.0 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "dc4e2049-cd21-43ae-98f4-a64bf220c022")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "U-DFN2020-6B_L2.0-W2.0-P0.65-BL"
-		(at -0.000025 3 0)
+		(at -0 3 0)
 		(layer "F.Fab")
 		(uuid "a039fa26-431a-4630-a4e7-f946be9e0eee")
 		(effects
@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.100025 -1.000025)
-		(end -1.100025 1)
+		(start -1.1 -1.0)
+		(end -1.1 1)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -76,7 +76,7 @@
 		(uuid "969601a8-b75d-48d7-bf82-660943371662")
 	)
 	(fp_line
-		(start 1.099975 -1.000025)
+		(start 1.099975 -1.0)
 		(end 1.099975 1)
 		(stroke
 			(width 0.254)
@@ -87,7 +87,7 @@
 	)
 	(fp_circle
 		(center -1 1.25)
-		(end -0.970003 1.25)
+		(end -0.97 1.25)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -148,7 +148,7 @@
 		(uuid "38a13393-d93a-4280-a0e6-5d4ed4606783")
 	)
 	(fp_text user "REF**"
-		(at -0.000025 5 0)
+		(at -0 5 0)
 		(layer "F.Fab")
 		(uuid "2e77eafa-c547-48a4-b8c7-613501d89eda")
 		(effects

@@ -6,7 +6,7 @@
 	(descr "LED-TH_L3.2-W2.0-P2.54-RD footprint")
 	(tags "LED-TH_L3.2-W2.0-P2.54-RD footprint C2929605")
 	(property "Reference" "REF**"
-		(at 0.449987 -3.100025 0)
+		(at 0.449987 -3.1 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "9b79066b-1755-49c0-a7dd-5b05ea5fd809")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "LED-TH_L3.2-W2.0-P2.54-RD"
-		(at 0.449987 3.100025 0)
+		(at 0.449987 3.1 0)
 		(layer "F.Fab")
 		(uuid "0ca50d0f-d27d-46b6-bede-a05f60f22995")
 		(effects
@@ -66,40 +66,40 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.300025 -1.100025)
-		(end -2.300025 -0.322581)
+		(start -2.3 -1.1)
+		(end -2.3 -0.322581)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "affa7bc9-3eef-44c1-8eab-9cfee9963bc3")
 	)
 	(fp_line
-		(start -2.300025 -1.100025)
-		(end 2.3 -1.100025)
+		(start -2.3 -1.1)
+		(end 2.3 -1.1)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "936779d4-d6d8-4309-b72b-1c752f41ff7d")
 	)
 	(fp_line
-		(start -2.300025 0.322581)
-		(end -2.300025 1.100025)
+		(start -2.3 0.322581)
+		(end -2.3 1.1)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "720fb166-e64f-4918-a3dc-b4ef7677825f")
 	)
 	(fp_line
-		(start -2.3 1.100025)
-		(end 2.300025 1.100025)
+		(start -2.3 1.1)
+		(end 2.3 1.1)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -109,7 +109,7 @@
 		(start -0.2 -0.000051)
 		(end -0.199975 -0.000051)
 		(stroke
-			(width 0.150013)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -117,9 +117,9 @@
 	)
 	(fp_line
 		(start -0.199975 -0.000051)
-		(end 0.2 -0.400025)
+		(end 0.2 -0.4)
 		(stroke
-			(width 0.150013)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -129,7 +129,7 @@
 		(start 0.2 0.399949)
 		(end -0.2 -0.000051)
 		(stroke
-			(width 0.150013)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -137,9 +137,9 @@
 	)
 	(fp_line
 		(start 0.2 0.399975)
-		(end 0.2 -0.400025)
+		(end 0.2 -0.4)
 		(stroke
-			(width 0.150013)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -149,17 +149,17 @@
 		(start 0.2 0.399975)
 		(end 0.2 0.399949)
 		(stroke
-			(width 0.150013)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "139dc897-fb75-4e6d-a952-4a0971e6cb17")
 	)
 	(fp_line
-		(start 2.3 -1.100025)
+		(start 2.3 -1.1)
 		(end 2.3 -0.322682)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -167,9 +167,9 @@
 	)
 	(fp_line
 		(start 2.3 0.322682)
-		(end 2.3 1.100025)
+		(end 2.3 1.1)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -179,7 +179,7 @@
 		(start 2.5 0)
 		(end 3.2 0)
 		(stroke
-			(width 0.150013)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -189,7 +189,7 @@
 		(start 2.848387 0.350927)
 		(end 2.848387 -0.349073)
 		(stroke
-			(width 0.150013)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -236,7 +236,7 @@
 		(uuid "a46e16c9-1060-49a6-9d08-d36cd56fb599")
 	)
 	(fp_text user "REF**"
-		(at 0.449987 5.100025 0)
+		(at 0.449987 5.1 0)
 		(layer "F.Fab")
 		(uuid "886f1683-5016-40da-8134-b299ec704ce9")
 		(effects
@@ -247,7 +247,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -1.270003 0)
+		(at -1.27 0)
 		(size 1.7 1.7)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -255,7 +255,7 @@
 		(uuid "5a0b94d0-1f22-41c6-af41-ee6382eb7d37")
 	)
 	(pad "2" thru_hole circle
-		(at 1.270003 0)
+		(at 1.27 0)
 		(size 1.7 1.7)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")

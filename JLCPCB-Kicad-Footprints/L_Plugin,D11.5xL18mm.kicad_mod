@@ -66,10 +66,10 @@
 	)
 	(attr through_hole)
 	(fp_circle
-		(center -0.000127 0)
+		(center -0 0)
 		(end 5.72479 0)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(fill none)
@@ -101,7 +101,7 @@
 	(pad "1" thru_hole circle
 		(at -2.5 0)
 		(size 1.5 1.5)
-		(drill 0.900025)
+		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b4dc06e9-5a96-4519-8946-ac8bcb058a96")
@@ -109,7 +109,7 @@
 	(pad "2" thru_hole circle
 		(at 2.5 0)
 		(size 1.5 1.5)
-		(drill 0.900025)
+		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c5533644-5db4-41c5-b8b1-85f2d75783d1")

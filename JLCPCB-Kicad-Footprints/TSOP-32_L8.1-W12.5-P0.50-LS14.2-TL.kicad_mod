@@ -6,7 +6,7 @@
 	(descr "TSOP-32_L8.1-W12.5-P0.50-LS14.2-TL footprint")
 	(tags "TSOP-32_L8.1-W12.5-P0.50-LS14.2-TL footprint C633806")
 	(property "Reference" "REF**"
-		(at 0.000025 -6.1 0)
+		(at 0 -6.1 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "1b586358-5e25-4c3e-991f-837827babc5d")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "TSOP-32_L8.1-W12.5-P0.50-LS14.2-TL"
-		(at 0.000025 6.1 0)
+		(at 0 6.1 0)
 		(layer "F.Fab")
 		(uuid "fdd7a705-86ba-459e-8d8b-0497179fcc16")
 		(effects
@@ -77,7 +77,7 @@
 	)
 	(fp_line
 		(start -5.9762 -4.1)
-		(end 6.000025 -4.1)
+		(end 6.0 -4.1)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "9f11f0e4-ac8e-452d-ac5b-3bebae1d6014")
 	)
 	(fp_line
-		(start 6.000025 -4.1)
-		(end 6.000025 4.1)
+		(start 6.0 -4.1)
+		(end 6.0 4.1)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -96,7 +96,7 @@
 		(uuid "e947485c-9b38-43c7-a780-0f099cca1566")
 	)
 	(fp_line
-		(start 6.000025 4.1)
+		(start 6.0 4.1)
 		(end -5.9762 4.1)
 		(stroke
 			(width 0.254)
@@ -107,7 +107,7 @@
 	)
 	(fp_circle
 		(center -6.5 -4.25)
-		(end -6.470003 -4.25)
+		(end -6.47 -4.25)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -168,7 +168,7 @@
 		(uuid "10110476-c795-4c68-b377-fcccee485e73")
 	)
 	(fp_text user "REF**"
-		(at 0.000025 8.1 0)
+		(at 0 8.1 0)
 		(layer "F.Fab")
 		(uuid "3455a9da-4b8e-416f-b328-2d518c66fa06")
 		(effects
@@ -275,97 +275,97 @@
 		(uuid "e63751bd-5efc-4e8f-87aa-217644e469c0")
 	)
 	(pad "17" smd oval
-		(at 7.000025 3.749987 90)
+		(at 7 3.749987 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1faa3b6c-77ec-4540-a0c8-802430fa6d02")
 	)
 	(pad "18" smd oval
-		(at 7.000025 3.24986 90)
+		(at 7 3.24986 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3416c5ff-ecab-4497-b8b2-b66c6d8e7b23")
 	)
 	(pad "19" smd oval
-		(at 7.000025 2.749987 90)
+		(at 7 2.749987 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0dc1f59d-5908-456d-80b9-11baa5abfa7b")
 	)
 	(pad "20" smd oval
-		(at 7.000025 2.24986 90)
+		(at 7 2.24986 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ef1f1781-b55c-4a2f-acd5-ed1cb6f5e824")
 	)
 	(pad "21" smd oval
-		(at 7.000025 1.749987 90)
+		(at 7 1.749987 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "99050d05-b7b3-4cdc-9ba7-b5e2e450d24a")
 	)
 	(pad "22" smd oval
-		(at 7.000025 1.24986 90)
+		(at 7 1.24986 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "84ac710b-2d3c-4cdd-8852-eff00120c81e")
 	)
 	(pad "23" smd oval
-		(at 7.000025 0.749987 90)
+		(at 7 0.749987 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f3385e85-6f1a-4294-9f28-a547ac19d14a")
 	)
 	(pad "24" smd oval
-		(at 7.000025 0.24986 90)
+		(at 7 0.24986 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "277a6391-17e6-471c-92ad-adecb430e98b")
 	)
 	(pad "25" smd oval
-		(at 7.000025 -0.25 90)
+		(at 7 -0.25 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "29fc6627-73bc-4d59-a0f4-6583cd34a471")
 	)
 	(pad "26" smd oval
-		(at 7.000025 -0.75014 90)
+		(at 7 -0.75014 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c70e8b6e-d02e-465e-9324-f14f7c5d83d5")
 	)
 	(pad "27" smd oval
-		(at 7.000025 -1.25 90)
+		(at 7 -1.25 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f3a7e8a6-4525-45a3-80ff-0c1b6f9d3f8d")
 	)
 	(pad "28" smd oval
-		(at 7.000025 -1.75014 90)
+		(at 7 -1.75014 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ee70ab7c-0dc2-495c-be05-39d155b0d155")
 	)
 	(pad "29" smd oval
-		(at 7.000025 -2.25 90)
+		(at 7 -2.25 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bed9465c-ab96-4de4-8c13-50a62d7178a1")
 	)
 	(pad "30" smd oval
-		(at 7.000025 -2.75014 90)
+		(at 7 -2.75014 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ba2007f6-9e6e-42ff-b648-13d9bb4fdb59")
 	)
 	(pad "31" smd oval
-		(at 7.000025 -3.25 90)
+		(at 7 -3.25 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f4adba3f-56d8-414b-a2e6-5258df697f98")
 	)
 	(pad "32" smd oval
-		(at 7.000025 -3.75014 90)
+		(at 7 -3.75014 90)
 		(size 0.28 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "573b6507-012d-467c-abea-c6ba7dfb5081")

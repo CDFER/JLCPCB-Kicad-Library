@@ -6,7 +6,7 @@
 	(descr "FC-135R_L3.2-W1.5 footprint")
 	(tags "FC-135R_L3.2-W1.5 footprint C32346")
 	(property "Reference" "REF**"
-		(at 0 -2.762002 0)
+		(at 0 -2.762 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "00b53b58-647f-4d41-b323-75ebb369ccf5")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "FC-135R_L3.2-W1.5"
-		(at 0 2.762002 0)
+		(at 0 2.762 0)
 		(layer "F.Fab")
 		(uuid "a047eff0-9490-43a5-8efe-b031c552dbed")
 		(effects
@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.508001 -0.762002)
-		(end 0.508001 -0.762002)
+		(start -0.508001 -0.762)
+		(end 0.508001 -0.762)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "b22f84bc-0eea-4231-a583-989715ff9ebd")
 	)
 	(fp_line
-		(start 0.508001 0.762002)
-		(end -0.508001 0.762002)
+		(start 0.508001 0.762)
+		(end -0.508001 0.762)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -87,9 +87,9 @@
 	)
 	(fp_circle
 		(center -1.75 1)
-		(end -1.720002 1)
+		(end -1.720 1)
 		(stroke
-			(width 0.059995)
+			(width 0.06)
 			(type solid)
 		)
 		(fill none)
@@ -137,7 +137,7 @@
 		(uuid "700a1ef8-538c-4c67-83fb-7963ae4994a6")
 	)
 	(fp_text user "REF**"
-		(at 0 4.762002 0)
+		(at 0 4.762 0)
 		(layer "F.Fab")
 		(uuid "0c6b1dab-ea02-45c4-8911-a3ec6a859b5b")
 		(effects
@@ -148,13 +148,13 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -1.250064 0.000127 90)
+		(at -1.250064 0 90)
 		(size 1.8 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "25ba2a59-d692-4d6b-b6c0-f1946be2022c")
 	)
 	(pad "2" smd rect
-		(at 1.250064 0.000127 90)
+		(at 1.250064 0 90)
 		(size 1.8 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e65af0ca-d9fb-4fd9-989c-9b6dbb9b488f")

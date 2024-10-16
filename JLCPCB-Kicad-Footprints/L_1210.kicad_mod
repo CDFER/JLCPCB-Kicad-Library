@@ -6,7 +6,7 @@
 	(descr "IND-SMD_L3.2-W2.5 footprint")
 	(tags "IND-SMD_L3.2-W2.5 footprint C2842780")
 	(property "Reference" "REF**"
-		(at 0 -3.270003 0)
+		(at 0 -3.27 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "2c919104-d62a-413e-a43a-c3012d29b8ea")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "IND-SMD_L3.2-W2.5"
-		(at 0 3.270003 0)
+		(at 0 3.27 0)
 		(layer "F.Fab")
 		(uuid "901a0484-fcc3-4526-a194-fc355de3bd83")
 		(effects
@@ -66,35 +66,24 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.561976 1.270003)
-		(end 1.48603 1.270003)
+		(start -1.5 -1.27)
+		(end 1.5 -1.27)
 		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "11f473ae-ff16-4732-ab35-f7876db5187e")
-	)
-	(fp_line
-		(start -1.434976 -1.270003)
-		(end 1.35903 -1.270003)
-		(stroke
-			(width 0.254001)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "b0ca3be8-0337-4614-ac00-72b175a01ce6")
 	)
-	(fp_circle
-		(center -1.600025 1.249987)
-		(end -1.570028 1.249987)
+	(fp_line
+		(start -1.5 1.27)
+		(end 1.5 1.27)
 		(stroke
-			(width 0.059995)
+			(width 0.1)
 			(type solid)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "4c5945a3-7ce7-4630-9211-6c7a6078aa68")
+		(uuid "11f473ae-ff16-4732-ab35-f7876db5187e")
 	)
 	(fp_line
 		(start -1.5 -1.25)
@@ -137,7 +126,7 @@
 		(uuid "746b1a34-ed8f-400b-88c6-14a4841b5da3")
 	)
 	(fp_text user "REF**"
-		(at 0 5.270003 0)
+		(at 0 5.27 0)
 		(layer "F.Fab")
 		(uuid "7b9c28df-6cae-497e-ab12-838fac6e2a5f")
 		(effects

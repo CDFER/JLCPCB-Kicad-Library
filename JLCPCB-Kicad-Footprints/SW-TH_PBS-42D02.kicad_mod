@@ -6,7 +6,7 @@
 	(descr "SW-TH_PBS-42D02 footprint")
 	(tags "SW-TH_PBS-42D02 footprint C2848956")
 	(property "Reference" "REF**"
-		(at -0.000025 -12.449962 0)
+		(at -0 -12.449962 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "ee2e2185-d593-4c10-b6f7-41c67ec3e69f")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "SW-TH_PBS-42D02"
-		(at -0.000025 24.749936 0)
+		(at -0 24.749936 0)
 		(layer "F.Fab")
 		(uuid "69e5ce04-966e-494c-8eff-122027350b4a")
 		(effects
@@ -66,8 +66,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3.700025 10.750038)
-		(end -3.700025 -10.449962)
+		(start -3.7 10.750038)
+		(end -3.7 -10.449962)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -76,7 +76,7 @@
 		(uuid "ed3150b9-4dc5-469b-94ed-7eceb27fe3e9")
 	)
 	(fp_line
-		(start -3.700025 10.750038)
+		(start -3.7 10.750038)
 		(end 3.699975 10.750038)
 		(stroke
 			(width 0.254)
@@ -87,7 +87,7 @@
 	)
 	(fp_line
 		(start 3.699975 -10.449962)
-		(end -3.700025 -10.449962)
+		(end -3.7 -10.449962)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -157,7 +157,7 @@
 		(uuid "91edf036-d761-44db-9fff-a21d0fdf4f95")
 	)
 	(fp_text user "REF**"
-		(at -0.000025 26.749936 0)
+		(at -0 26.749936 0)
 		(layer "F.Fab")
 		(uuid "f2b42481-f88e-45b6-8a11-8265c75b3ecf")
 		(effects

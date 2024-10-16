@@ -6,7 +6,7 @@
 	(descr "CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint")
 	(tags "CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint C2991080")
 	(property "Reference" "REF**"
-		(at 0 -7.000025 0)
+		(at 0 -7 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "7c3c5ad5-486d-4c6c-bcd1-cb3e76412925")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "CAP-TH_L26.5-W10.0-P22.50-D0.8"
-		(at 0 7.000025 0)
+		(at 0 7 0)
 		(layer "F.Fab")
 		(uuid "d3dd4d06-d11a-45d7-9707-4383294ba867")
 		(effects
@@ -66,40 +66,40 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -13.250013 -5.000025)
+		(start -13.250013 -5.0)
 		(end 13.250013 -5)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "01c3fcd4-6ea5-4074-836d-3d6b194933ea")
 	)
 	(fp_line
-		(start -13.250013 5.000025)
+		(start -13.250013 5.0)
 		(end -13.250013 -5)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "1af86e2e-9e3e-430e-bb1f-45187327db8c")
 	)
 	(fp_line
-		(start 13.250013 -5.000025)
+		(start 13.250013 -5.0)
 		(end 13.250013 5)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "469001ed-5705-4283-8abb-bde7735df51e")
 	)
 	(fp_line
-		(start 13.250013 5.000025)
+		(start 13.250013 5.0)
 		(end -13.250013 5)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -109,7 +109,7 @@
 		(center -13.250038 5)
 		(end -13.220041 5)
 		(stroke
-			(width 0.059995)
+			(width 0.06)
 			(type solid)
 		)
 		(fill none)
@@ -157,7 +157,7 @@
 		(uuid "5ba9e57c-4263-42cc-96fd-61d003bdca14")
 	)
 	(fp_text user "REF**"
-		(at 0 9.000025 0)
+		(at 0 9.0 0)
 		(layer "F.Fab")
 		(uuid "ed803d4d-791a-4fbe-abec-2a4745dca4fe")
 		(effects

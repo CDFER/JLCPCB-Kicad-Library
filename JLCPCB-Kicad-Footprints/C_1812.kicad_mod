@@ -1,4 +1,4 @@
-(footprint "C_1812_4532Metric"
+(footprint "C_1812"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.65 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "de96c565-047b-4547-81b6-6ac3613be0c1")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,30 +63,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -1.161252 -1.71)
-		(end 1.161252 -1.71)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "82b6417a-e92e-498b-bf27-a7e0cb57a861")
-	)
-	(fp_line
-		(start -1.161252 1.71)
-		(end 1.161252 1.71)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "be86c8f6-15c3-4f07-9af9-cc374bc8621c")
-	)
 	(fp_line
 		(start -3 -1.95)
 		(end 3 -1.95)

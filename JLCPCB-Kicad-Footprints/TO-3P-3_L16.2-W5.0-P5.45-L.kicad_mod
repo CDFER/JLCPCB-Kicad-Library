@@ -6,7 +6,7 @@
 	(descr "TO-3P-3_L16.2-W5.0-P5.45-L footprint")
 	(tags "TO-3P-3_L16.2-W5.0-P5.45-L footprint C2859537")
 	(property "Reference" "REF**"
-		(at 0 -4.700025 0)
+		(at 0 -4.7 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "75532d8b-2788-4874-8caf-9ec7b9ac653d")
@@ -66,8 +66,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -8.249936 -2.700025)
-		(end 8.249936 -2.700025)
+		(start -8.249936 -2.7)
+		(end 8.249936 -2.7)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -77,7 +77,7 @@
 	)
 	(fp_line
 		(start -8.249936 2.600965)
-		(end -8.249936 -2.700025)
+		(end -8.249936 -2.7)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -176,7 +176,7 @@
 		(uuid "badb5e3e-dc98-4cfc-946e-02a3dcc5df24")
 	)
 	(fp_line
-		(start 8.249936 -2.700025)
+		(start 8.249936 -2.7)
 		(end 8.249936 2.600965)
 		(stroke
 			(width 0.254)
@@ -197,7 +197,7 @@
 	)
 	(fp_circle
 		(center -8.5 2.75)
-		(end -8.470003 2.75)
+		(end -8.47 2.75)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -271,7 +271,7 @@
 	(pad "1" thru_hole circle
 		(at -5.449987 0)
 		(size 2.5 2.5)
-		(drill 1.500025)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "e8ca0d48-5e02-4a36-a47f-9bc73cc412f3")
@@ -279,7 +279,7 @@
 	(pad "2" thru_hole circle
 		(at 0 0)
 		(size 2.5 2.5)
-		(drill 1.500025)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8b4b8320-e94f-42a3-ab7d-19dba52a4c49")
@@ -287,7 +287,7 @@
 	(pad "3" thru_hole circle
 		(at 5.450013 0)
 		(size 2.5 2.5)
-		(drill 1.500025)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d109a0f4-4ec3-4e22-b5ba-a2ea32834215")

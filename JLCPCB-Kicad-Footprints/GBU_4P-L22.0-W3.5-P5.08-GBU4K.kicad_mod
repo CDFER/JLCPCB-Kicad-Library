@@ -6,7 +6,7 @@
 	(descr "GBU_4P-L22.0-W3.5-P5.08-GBU4K footprint")
 	(tags "GBU_4P-L22.0-W3.5-P5.08-GBU4K footprint C2891286")
 	(property "Reference" "REF**"
-		(at 0 -4.000025 0)
+		(at 0 -4.0 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "dae45a3c-906d-44a2-a7a5-678983e14c74")
@@ -66,7 +66,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -11.049022 -2.000025)
+		(start -11.049022 -2.0)
 		(end -11.049022 1.555982)
 		(stroke
 			(width 0.254)
@@ -96,8 +96,8 @@
 		(uuid "61d4c811-d911-4911-bf80-95dd40cb284f")
 	)
 	(fp_line
-		(start 11.049022 -2.000025)
-		(end -11.049022 -2.000025)
+		(start 11.049022 -2.0)
+		(end -11.049022 -2.0)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -107,7 +107,7 @@
 	)
 	(fp_line
 		(start 11.049022 1.555982)
-		(end 11.049022 -2.000025)
+		(end 11.049022 -2.0)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -116,8 +116,8 @@
 		(uuid "66bbaf1f-a731-4c97-80b0-4d2819cc4dc4")
 	)
 	(fp_circle
-		(center -11.000025 -2.000025)
-		(end -10.970028 -2.000025)
+		(center -11.0 -2.0)
+		(end -10.978 -2.0)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -200,7 +200,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -7.620015 -0.000025)
+		(at -7.62 -0)
 		(size 2.8 2)
 		(drill oval 1.8 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -208,7 +208,7 @@
 		(uuid "69e9a9df-b3e1-4e07-9ddb-6d0af6552797")
 	)
 	(pad "2" thru_hole oval
-		(at -2.54 -0.000025)
+		(at -2.54 -0)
 		(size 2.8 2)
 		(drill oval 1.8 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -216,7 +216,7 @@
 		(uuid "afcb6674-f321-4eb1-a28a-89c8467feff7")
 	)
 	(pad "3" thru_hole oval
-		(at 2.54 -0.000025)
+		(at 2.54 -0)
 		(size 2.8 2)
 		(drill oval 1.8 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -224,7 +224,7 @@
 		(uuid "eeaa2d16-abde-433f-9c2a-0409b18057cf")
 	)
 	(pad "4" thru_hole oval
-		(at 7.620015 -0.000025)
+		(at 7.62 -0)
 		(size 2.8 2)
 		(drill oval 1.8 1.2)
 		(layers "*.Cu" "*.Mask")
