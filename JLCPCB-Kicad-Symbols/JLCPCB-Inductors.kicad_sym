@@ -82,7 +82,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "286447"
+		(property "Stock" "252053"
 			(at 0 0 0)
 			(effects
 				(font
@@ -337,7 +337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "189441"
+		(property "Stock" "168731"
 			(at 0 0 0)
 			(effects
 				(font
@@ -592,7 +592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "238133"
+		(property "Stock" "201682"
 			(at 0 0 0)
 			(effects
 				(font
@@ -847,7 +847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29581"
+		(property "Stock" "12299"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1141,7 +1141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "150135"
+		(property "Stock" "149031"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1435,7 +1435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "58287"
+		(property "Stock" "53887"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1729,7 +1729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "126964"
+		(property "Stock" "119080"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2023,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "89461"
+		(property "Stock" "79226"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2317,7 +2317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "270165"
+		(property "Stock" "149927"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2833,7 +2833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "52953"
+		(property "Stock" "45027"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3127,7 +3127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "71141"
+		(property "Stock" "65151"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "163159"
+		(property "Stock" "160106"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15188"
+		(property "Stock" "14064"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4009,7 +4009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31222"
+		(property "Stock" "30114"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5855"
+		(property "Stock" "15625"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4597,7 +4597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "99184"
+		(property "Stock" "97634"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2013"
+		(property "Stock" "1859"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5217,6 +5217,228 @@
 			)
 		)
 		(symbol "220uH,340mA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "10nH,600mA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide no)
+			)
+		)
+		(property "Value" "10nH,600mA"
+			(at 3.556 -1.524 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide no)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:L_0805"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-LQW2BAS10NJ00L_C524645.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA 10nH ±5% 0805  Power Inductors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C524645"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.098USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Inductors/Coils/Transformers,Power Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "LQW2BAS10NJ00L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "10nH,600mA_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "10nH,600mA_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
@@ -7831,7 +8053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "98"
+		(property "Stock" "1098"
 			(at 0 0 0)
 			(effects
 				(font
