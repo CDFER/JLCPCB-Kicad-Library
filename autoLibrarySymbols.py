@@ -124,12 +124,12 @@ def generate_kicad_symbol(
         name = f"{value},{cleaned_manufacturerPartID}"
         value = cleaned_manufacturerPartID
         
-    elif mode == "Crystals":
-        ref_designator = "X"
-        name = f"{value},{footprint}"
-        ref_position = "2.032 0 0"
-        value_position = "3.556 -1.524 0"
-        value_autoplace = True
+    # elif mode == "Crystals":
+    #     ref_designator = "X"
+    #     name = f"{value},{footprint}"
+    #     ref_position = "2.032 0 0"
+    #     value_position = "3.556 -1.524 0"
+    #     value_autoplace = True
         
     elif mode == "Variable-Resistors":
         if secondary_mode == "NTC":
@@ -1275,14 +1275,14 @@ def generate_kicad_symbol(
 		)"""
             symbol+=inductor
 
-    elif mode == "Crystals":
-        symbol += generate_rectangle("2.54 -1.016", "-2.54 1.016", name=name, index=0)
-        symbol += generate_polyline(["-1.27 2.54", "1.27 2.54"], name=name, index=0)
-        symbol += generate_polyline(["-1.27 -2.54", "1.27 -2.54"], name=name, index=0)
-        for i in range(1, units + 1):
-            symbol += generate_pin_pair(
-                "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
-            )
+    # elif mode == "Crystals":
+    #     symbol += generate_rectangle("2.54 -1.016", "-2.54 1.016", name=name, index=0)
+    #     symbol += generate_polyline(["-1.27 2.54", "1.27 2.54"], name=name, index=0)
+    #     symbol += generate_polyline(["-1.27 -2.54", "1.27 -2.54"], name=name, index=0)
+    #     for i in range(1, units + 1):
+    #         symbol += generate_pin_pair(
+    #             "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
+    #         )
             
     elif mode == "Variable-Resistors":
         if secondary_mode == "Fuse" or secondary_mode == "Fuse,Resettable":
