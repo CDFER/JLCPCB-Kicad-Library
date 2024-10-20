@@ -247,10 +247,11 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "50300805-3877-4fd7-be39-daac1fe7ced8")
 	)
-	(pad "9" smd rect
+	(pad "9" smd roundrect
 		(at 0 0 180)
 		(size 3.3 2.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "f63ec21b-f961-41a4-bc01-0f2f975f54e3")
 	)
 	(model "/3dModels/ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP.step"
