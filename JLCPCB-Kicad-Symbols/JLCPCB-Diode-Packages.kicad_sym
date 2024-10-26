@@ -2560,11 +2560,12 @@
 		)
 	)
 	(symbol "Package, ESDA6V1SC5"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -1.778 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2573,7 @@
 			)
 		)
 		(property "Value" "ESDA6V1SC5"
-			(at 0 -2.54 0)
+			(at -1.27 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,8 +2914,22 @@
 				)
 			)
 		)
+		(symbol "Package, ESDA6V1SC5_1_1"
+			(rectangle
+				(start -6.35 8.255)
+				(end 3.81 -5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 	)
 	(symbol "Package, H5VU25U"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3258,7 +3273,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.08) (xy 0 -5.08)
+					(xy 0 -3.81) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -3560,24 +3575,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 7.62 270)
-				(length 2.54)
-				(name "10"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -5.08 -7.62 90)
 				(length 2.54)
 				(name "2"
@@ -3588,24 +3585,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1 1)
@@ -3650,8 +3629,64 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 7.62 270)
+				(at 0 -7.62 90)
 				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Package, H5VU25U_1_1"
+			(pin unspecified line
+				(at -10.16 7.62 270)
+				(length 2.54) hide
+				(name "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 90)
+				(length 2.54) hide
+				(name "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 7.62 270)
+				(length 2.54) hide
 				(name "6"
 					(effects
 						(font
@@ -3669,7 +3704,7 @@
 			)
 			(pin unspecified line
 				(at 5.08 7.62 270)
-				(length 2.54)
+				(length 2.54) hide
 				(name "7"
 					(effects
 						(font
@@ -3686,26 +3721,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -5.08 7.62 270)
-				(length 2.54)
+				(length 2.54) hide
 				(name "9"
 					(effects
 						(font

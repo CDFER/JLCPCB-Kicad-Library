@@ -2441,7 +2441,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.27 1.27 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2449,7 @@
 			)
 		)
 		(property "Value" "SK6615CS5"
-			(at -1.524 6.35 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2523,7 @@
 		)
 		(symbol "DC-DC, Buck, 2.6-5.5VIN, 1.5A, 0.6-5.5VOUT_0_1"
 			(rectangle
-				(start -7.62 5.08)
+				(start -5.08 5.08)
 				(end 5.08 -5.08)
 				(stroke
 					(width 0)
@@ -2533,19 +2533,8 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -6.35 3.81)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin unspecified line
-				(at -10.16 2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -2563,7 +2552,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 0 0)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2581,7 +2570,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -2.54 0)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -2599,7 +2588,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -2.54 180)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -2617,7 +2606,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 2.54 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
