@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322540MPB4SI_C9010.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -127,7 +127,7 @@
 	)
 	(fp_circle
 		(center -1.1 0.9)
-		(end -0.949886 0.9)
+		(end -0.95 0.9)
 		(stroke
 			(width 0.3)
 			(type solid)
@@ -147,29 +147,61 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -1.100076 0.850013)
+	(pad "1" smd roundrect
+		(at -1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "c5e14341-1912-485b-9932-b472be977d74")
 	)
-	(pad "2" smd rect
-		(at 1.100076 0.850013)
+	(pad "2" smd roundrect
+		(at 1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "0e0a198e-4e58-4629-8f88-98235606c71a")
 	)
-	(pad "3" smd rect
-		(at 1.100076 -0.850013)
+	(pad "3" smd roundrect
+		(at 1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "68293b21-43da-4415-9c9d-c54a75a9a9ae")
 	)
-	(pad "4" smd rect
-		(at -1.100076 -0.850013)
+	(pad "4" smd roundrect
+		(at -1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "6c00dfbc-c430-4ae1-81e8-65d2e0fda617")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "5833de99-cf42-4df8-b2da-c5741ab342c8")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2 -1.6) (xy 2 -1.6) (xy 2 1.6) (xy -2 1.6)
+			)
+		)
 	)
 	(model "/3dModels/OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI.step"
 		(offset

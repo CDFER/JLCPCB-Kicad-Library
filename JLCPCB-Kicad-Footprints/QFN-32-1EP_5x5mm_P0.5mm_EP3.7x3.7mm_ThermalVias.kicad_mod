@@ -161,8 +161,8 @@
 		(uuid "564e7523-7ec4-4abf-8720-26c18a2964cf")
 	)
 	(fp_line
-		(start -3.1 -3.1)
-		(end -3.1 3.1)
+		(start -2.75 -2.75)
+		(end -2.75 2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -171,8 +171,8 @@
 		(uuid "0bb74111-5368-4029-9184-1f7085891ed1")
 	)
 	(fp_line
-		(start -3.1 3.1)
-		(end 3.1 3.1)
+		(start -2.75 2.75)
+		(end 2.75 2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -181,8 +181,8 @@
 		(uuid "f3e62c64-edac-412f-9fd0-09f2dc96ac48")
 	)
 	(fp_line
-		(start 3.1 -3.1)
-		(end -3.1 -3.1)
+		(start 2.75 -2.75)
+		(end -2.75 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -191,8 +191,8 @@
 		(uuid "539c5d34-f85c-4e23-b8c6-79e0f8a3987d")
 	)
 	(fp_line
-		(start 3.1 3.1)
-		(end 3.1 -3.1)
+		(start 2.75 2.75)
+		(end 2.75 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -760,6 +760,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "8d5d47ea-9d7a-44ac-b00a-10dcf470b183")
 	)
 	(pad "33" thru_hole circle
@@ -769,6 +770,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "289f6efb-501a-48eb-abaf-9b8d224a0b06")
 	)
 	(pad "33" thru_hole circle
@@ -778,6 +780,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "44235509-0d21-448e-9279-c724eed05257")
 	)
 	(pad "33" thru_hole circle
@@ -787,6 +790,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "40ddd274-4e64-4233-becb-c8a2e2843d51")
 	)
 	(pad "33" thru_hole circle
@@ -796,21 +800,24 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "1e41dbfd-9d97-44cb-a044-82937f1b4785")
 	)
-	(pad "33" smd rect
+	(pad "33" smd roundrect
 		(at 0 0)
 		(size 2.5 2.5)
 		(property pad_prop_heatsink)
 		(layers "B.Cu")
+		(roundrect_rratio 0.1)
 		(zone_connect 2)
 		(uuid "6a646a75-9bae-4acd-a8a0-3c6fcead357c")
 	)
-	(pad "33" smd rect
+	(pad "33" smd roundrect
 		(at 0 0)
-		(size 3.7 3.7)
+		(size 3.8 3.8)
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.06578947368)
 		(zone_connect 2)
 		(uuid "c3aeadd5-971f-4dc5-bb96-f58cfd60d93f")
 	)
@@ -821,6 +828,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "ef30cc2e-f7a0-4b0b-b19a-3223910067c4")
 	)
 	(pad "33" thru_hole circle
@@ -830,6 +838,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "2c951b90-d561-4bf1-8746-fd2e31521783")
 	)
 	(pad "33" thru_hole circle
@@ -839,6 +848,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "e66c3290-45e2-4d63-b7cc-7b56aad125b6")
 	)
 	(pad "33" thru_hole circle
@@ -848,6 +858,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "5155cb36-ce21-4bbb-8ac5-5a7de42cb387")
 	)
 	(model "/3dModels/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
