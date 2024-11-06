@@ -546,7 +546,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 2.54 2.54 0)
 			(effects
 				(font
@@ -8193,7 +8193,6 @@
 		)
 	)
 	(symbol "RF, GPS, Antenna"
-		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -8208,16 +8207,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Antenna_Shield"
+		(property "Value" "1575.42±5MHz"
 			(at -1.905 2.54 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Astrocast_AST50127-00"
+		(property "Footprint" "JLCPCB-Kicad-Footprints:ANT-TH_L25.0-W25.0"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -8263,30 +8262,6 @@
 			)
 		)
 		(symbol "RF, GPS, Antenna_0_1"
-			(arc
-				(start -0.508 -1.143)
-				(mid -0.8429 -2.1194)
-				(end 0 -2.667)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -2.667)
-				(mid 0.7989 -2.1052)
-				(end 0.508 -1.143)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 -2.54) (xy 0 0)
@@ -8313,30 +8288,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.905) (xy 2.54 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 2.54 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
 				)
 				(stroke
@@ -8345,17 +8296,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 0.762 -1.905)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 		)
@@ -8371,24 +8311,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 2.54 -5.08 90)
-				(length 2.54)
-				(name "Shield"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

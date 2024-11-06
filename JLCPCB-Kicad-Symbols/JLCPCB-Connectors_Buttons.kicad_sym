@@ -3,11 +3,12 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
 	(symbol "Battery Holder, CR2032"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
+		(property "Reference" "BAT"
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,6 +156,8 @@
 					)
 				)
 			)
+		)
+		(symbol "Battery Holder, CR2032_1_1"
 			(pin input line
 				(at 5.08 0 180)
 				(length 3.81)
@@ -179,7 +182,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -188,12 +191,11 @@
 			)
 		)
 		(property "Value" "Connector Block, 2x8Px5.08mm, 15A"
-			(at 0 -2.54 0)
+			(at 0 -11.176 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:CONN-TH_16P-P5.08_KEFA_KF2EDGKRCH-5.08-2X8P"
@@ -567,7 +569,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -575,11 +577,11 @@
 				)
 			)
 		)
-		(property "Value" "NJ-2_54-2*7PW"
-			(at 0 -2.54 0)
+		(property "Value" "Connector, IDC, 2x7Px2.54mm"
+			(at 0.508 -11.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -929,7 +931,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "S"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -938,12 +940,11 @@
 			)
 		)
 		(property "Value" "DIP Switch x 2"
-			(at 0 -2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:SW-SMD_218-2LPSTRF"
@@ -1221,7 +1222,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -1230,12 +1231,11 @@
 			)
 		)
 		(property "Value" "Header, 1.27mm, 2x2P, Female, Right Angle"
-			(at 0 -2.54 0)
+			(at 0 -3.556 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:HDR-TH_4P-P1.27_X1321FR-2X02-C43D24"
@@ -1393,7 +1393,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -1401,13 +1401,12 @@
 				)
 			)
 		)
-		(property "Value" "Header"
-			(at 0 -1.27 0)
+		(property "Value" "Header, 2.54mm, 1x8P, Male, Vertical"
+			(at 3.556 1.27 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:HDR-TH_8P-P2.54-V-M"
@@ -1648,7 +1647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -1657,12 +1656,11 @@
 			)
 		)
 		(property "Value" "Headphone Jack, 3.5mm"
-			(at 0 -2.54 0)
+			(at -2.54 -8.636 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:AUDIO-TH_PJ-3850-5A"
@@ -2004,7 +2002,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2013,12 +2011,11 @@
 			)
 		)
 		(property "Value" "K175785WR-1"
-			(at 0 -2.54 0)
+			(at -1.016 -15.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:CONN-TH_20P-P3.50-S4.60_L18.6-W60.3-EH3.2"
@@ -2475,7 +2472,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -2484,12 +2481,11 @@
 			)
 		)
 		(property "Value" "K966658WV-1"
-			(at 0 -1.27 0)
+			(at 0 -21.336 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:CONN-TH_K966658WV-1"
@@ -3164,19 +3160,19 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "VR"
-			(at 2.54 5.334 0)
+		(property "Reference" "RV"
+			(at 2.286 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 3.302 3.302 0)
+		(property "Value" "1kΩ, 0.5W"
+			(at 0 -2.032 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -3451,8 +3447,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 2.54 0)
+		(property "Reference" "T"
+			(at 3.556 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,12 +3456,11 @@
 			)
 		)
 		(property "Value" "Screw Terminal, 2Px10mm, 20A"
-			(at 0 -2.54 0)
+			(at 0 -3.556 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:CONN-TH_2P-P10.00_DBT10-10.0-2P-BK"
@@ -3598,8 +3593,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 2.54 0)
+		(property "Reference" "T"
+			(at 3.556 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,12 +3602,11 @@
 			)
 		)
 		(property "Value" "Screw Terminal, 4Px5.08mm, 20A"
-			(at 0 -2.54 0)
+			(at 0 -6.096 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S"
@@ -3781,7 +3775,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "T"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -3790,12 +3784,11 @@
 			)
 		)
 		(property "Value" "Spring Terminal, 2Px12mm, 15A"
-			(at 0 -2.54 0)
+			(at 0 -3.556 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:CONN-TH_2P-P5.00_KFM736H-5.0-2X1P"
@@ -3924,11 +3917,11 @@
 			)
 		)
 	)
-	(symbol "Tactile Button, 160gf, 1.5mm"
+	(symbol "Tactile Button, 160gf"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "S"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -3936,13 +3929,12 @@
 				)
 			)
 		)
-		(property "Value" "Tactile Button, 160gf, 1.5mm"
-			(at 0 -2.54 0)
+		(property "Value" "Tactile Button, 160gf"
+			(at -0.254 -8.636 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
@@ -4010,7 +4002,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Tactile Button, 160gf, 1.5mm_0_1"
+		(symbol "Tactile Button, 160gf_0_1"
 			(circle
 				(center 0 -2.794)
 				(radius 0.3175)
@@ -4166,7 +4158,7 @@
 				)
 			)
 		)
-		(symbol "Tactile Button, 160gf, 1.5mm_1_1"
+		(symbol "Tactile Button, 160gf_1_1"
 			(rectangle
 				(start -2.54 5.08)
 				(end 2.54 -7.62)
@@ -4184,7 +4176,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "S"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -4193,12 +4185,11 @@
 			)
 		)
 		(property "Value" "Tactile Button, 260gf"
-			(at 0 -2.54 0)
+			(at -0.254 -6.35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:KEY-TH_4P-L6.0-W6.0-P4.50-LS6.50"
@@ -4439,10 +4430,11 @@
 		)
 	)
 	(symbol "Tactile Switch, 250gf"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "S"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -4451,12 +4443,11 @@
 			)
 		)
 		(property "Value" "Tactile Switch, 250gf"
-			(at 0 -2.54 0)
+			(at 0 -0.508 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:SW-TH_PBS-42D02"
@@ -4828,7 +4819,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at -1.27 2.54 0)
 			(effects
 				(font
@@ -4837,12 +4828,11 @@
 			)
 		)
 		(property "Value" "USB Type C 14P Vertical"
-			(at -1.27 -1.27 0)
+			(at -1.524 13.716 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:USB-TYPE-C-TH_TYPEC-214-ARP14H105"
@@ -4914,17 +4904,6 @@
 			(rectangle
 				(start -10.16 12.7)
 				(end 7.62 -10.16)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 11.43)
-				(radius 0.381)
 				(stroke
 					(width 0)
 					(type default)
@@ -5265,7 +5244,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -5274,12 +5253,11 @@
 			)
 		)
 		(property "Value" "USB Type C 6P Vertical"
-			(at 0 -2.54 0)
+			(at -0.254 -4.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:USB-C-TH_KINGHELM_KH-TYPE-C-L15-6P"

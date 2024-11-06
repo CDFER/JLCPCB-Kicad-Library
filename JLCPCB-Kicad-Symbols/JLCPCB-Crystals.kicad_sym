@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "X"
-			(at 0 3.048 0)
+			(at 0 3.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,24 +396,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "OSC1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "GND"
@@ -424,24 +406,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "OSC2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1 1)
@@ -468,13 +432,51 @@
 				)
 			)
 		)
+		(symbol "Crystal, 12MHz, 20pF_1_1"
+			(pin unspecified line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol "Crystal, 16MHz, 12pF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "X"
-			(at 0 2.794 0)
+			(at 0 3.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,10 +840,12 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Crystal, 16MHz, 8pF_1_1"
 			(pin unspecified line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "OSC1"
+				(name "OSC"
 					(effects
 						(font
 							(size 1 1)
@@ -857,26 +861,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "OSC2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Crystal, 16MHz, 8pF_1_1"
-			(pin unspecified line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "GND"
@@ -887,6 +871,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1 1)
@@ -1121,24 +1123,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "OSC1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "GND"
@@ -1157,24 +1141,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "OSC2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "GND"
@@ -1185,6 +1151,44 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crystal, 16MHz, 9pF_1_1"
+			(pin unspecified line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1 1)
@@ -1401,24 +1405,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "OSC1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "GND"
@@ -1429,24 +1415,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "OSC2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1 1)
@@ -1473,6 +1441,44 @@
 				)
 			)
 		)
+		(symbol "Crystal, 25MHz, 11pF_1_1"
+			(pin unspecified line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol "Crystal, 32.768kHz, 13pF"
 		(pin_names hide)
@@ -1480,7 +1486,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "X"
-			(at 0 2.794 0)
+			(at 0 3.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1670,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "X"
-			(at 0 3.556 0)
+			(at 0 3.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1857,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "X"
-			(at 0 2.794 0)
+			(at 0 3.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
