@@ -2081,7 +2081,7 @@
 			)
 		)
 	)
-	(symbol "DC-DC, Boost, 1.8-6VIN, 0.4A, -28VOUT"
+	(symbol "DC-DC, Boost, 1.8-6VIN, 0.4A, 28V-VOUT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2166,7 +2166,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC-DC, Boost, 1.8-6VIN, 0.4A, -28VOUT_0_1"
+		(symbol "DC-DC, Boost, 1.8-6VIN, 0.4A, 28V-VOUT_0_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 5.08 -5.08)
@@ -2281,7 +2281,7 @@
 			)
 		)
 	)
-	(symbol "DC-DC, Boost, 4-45V, 1.5A"
+	(symbol "DC-DC, Boost, 4-45VIN, 1.5A, 45V-VOUT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2293,7 +2293,7 @@
 				)
 			)
 		)
-		(property "Value" "LM51551QDSSRQ1"
+		(property "Value" "LM51551Q1"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -2311,7 +2311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303211000_Texas-Instruments-LM51551QDSSRQ1_C2860796.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm51551-q1.pdf"
 			(at -2.286 0.127 0)
 			(effects
 				(font
@@ -2366,7 +2366,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC-DC, Boost, 4-45V, 1.5A_0_1"
+		(symbol "DC-DC, Boost, 4-45VIN, 1.5A, 45V-VOUT_0_1"
 			(rectangle
 				(start -12.7 12.7)
 				(end 12.7 -7.62)
@@ -2625,7 +2625,7 @@
 			)
 		)
 	)
-	(symbol "DC-DC, Buck, 2.6-5.5VIN, 1.5A, 0.6-5.5VOUT"
+	(symbol "DC-DC, Buck, 2.6-5.5VIN, 1.5A, 0.6+VOUT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2710,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC-DC, Buck, 2.6-5.5VIN, 1.5A, 0.6-5.5VOUT_0_1"
+		(symbol "DC-DC, Buck, 2.6-5.5VIN, 1.5A, 0.6+VOUT_0_1"
 			(rectangle
 				(start -5.08 5.08)
 				(end 5.08 -5.08)
@@ -2814,7 +2814,7 @@
 			)
 		)
 	)
-	(symbol "DC-DC, Buck, 3.5-28VIN, 3A, 0.8-VOUT"
+	(symbol "DC-DC, Buck, 3.5-28VIN, 3A, 0.8+VOUT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2899,7 +2899,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC-DC, Buck, 3.5-28VIN, 3A, 0.8-VOUT_0_1"
+		(symbol "DC-DC, Buck, 3.5-28VIN, 3A, 0.8+VOUT_0_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -5.08)
@@ -2912,7 +2912,7 @@
 				)
 			)
 		)
-		(symbol "DC-DC, Buck, 3.5-28VIN, 3A, 0.8-VOUT_1_1"
+		(symbol "DC-DC, Buck, 3.5-28VIN, 3A, 0.8+VOUT_1_1"
 			(pin unspecified line
 				(at 12.72 2.54 180)
 				(length 2.56)
@@ -3059,7 +3059,7 @@
 			)
 		)
 	)
-	(symbol "DC-DC, Buck, 4-40VIN, 2A, 1-37VOUT"
+	(symbol "DC-DC, Buck, 4-40VIN, 2A, 1.2+VOUT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3144,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC-DC, Buck, 4-40VIN, 2A, 1-37VOUT_0_1"
+		(symbol "DC-DC, Buck, 4-40VIN, 2A, 1.2+VOUT_0_1"
 			(rectangle
 				(start -7.62 7.62)
 				(end 7.62 -5.08)
@@ -3965,7 +3965,7 @@
 			)
 		)
 	)
-	(symbol "DC-DC, Buck, 6-36VIN, 3A, 1.2-VOUT"
+	(symbol "DC-DC, Buck, 6-36VIN, 3A, 1.2+VOUT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4050,7 +4050,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC-DC, Buck, 6-36VIN, 3A, 1.2-VOUT_0_1"
+		(symbol "DC-DC, Buck, 6-36VIN, 3A, 1.2+VOUT_0_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -5.08)
@@ -4063,9 +4063,9 @@
 				)
 			)
 		)
-		(symbol "DC-DC, Buck, 6-36VIN, 3A, 1.2-VOUT_1_1"
+		(symbol "DC-DC, Buck, 6-36VIN, 3A, 1.2+VOUT_1_1"
 			(pin unspecified line
-				(at -12.7 5.08 0)
+				(at 12.7 5.08 180)
 				(length 2.56)
 				(name "BOOT"
 					(effects
@@ -4083,7 +4083,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 2.54 0)
+				(at -12.7 0 0)
 				(length 2.56)
 				(name "NC"
 					(effects
@@ -4101,7 +4101,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 0 0)
+				(at -12.7 -2.54 0)
 				(length 2.56)
 				(name "NC"
 					(effects
@@ -4119,7 +4119,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -2.54 0)
+				(at 12.7 -2.54 180)
 				(length 2.56)
 				(name "VSENSE"
 					(effects
@@ -4137,7 +4137,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -2.54 180)
+				(at -12.7 2.54 0)
 				(length 2.56)
 				(name "ENA"
 					(effects
@@ -4155,7 +4155,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 0 180)
+				(at -2.54 -7.62 90)
 				(length 2.56)
 				(name "GND"
 					(effects
@@ -4173,7 +4173,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 2.54 180)
+				(at -12.7 5.08 0)
 				(length 2.56)
 				(name "VIN"
 					(effects
@@ -4191,7 +4191,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 5.08 180)
+				(at 12.7 2.54 180)
 				(length 2.56)
 				(name "PH"
 					(effects

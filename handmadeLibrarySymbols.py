@@ -82,6 +82,7 @@ def update_library_stock_inplace(libraryName):
     no_stock = False
     
     for i, line in enumerate(lines):
+        lines[i] = lines[i].replace("℃", "°C")
         if f'(property "LCSC" "C' in line:
             # print(f"LCSC Found on line {i} {line}")
             numbers = [int(num) for num in re.findall('\\d+', line)]

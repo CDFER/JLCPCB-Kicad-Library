@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-25℃~+85℃ CR2032 Plugin  Button And Strip Battery Connector ROHS"
+		(property "Description" "-25°C~+85°C CR2032 Plugin  Button And Strip Battery Connector ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -218,7 +218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "630V 15A 8 Bend -40℃~+105℃ 2 5.08mm 2x8P Green Board Edge/Receptacle-Close Push-Pull,P=5.08mm Pluggable System Terminal Block ROHS"
+		(property "Description" "630V 15A 8 Bend -40°C~+105°C 2 5.08mm 2x8P Green Board Edge/Receptacle-Close Push-Pull,P=5.08mm Pluggable System Terminal Block ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -605,7 +605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.54mm -40℃~+105℃ Bend insert 3A Gold Brass 2x7P 7 Horn buckle 2.54mm 2 Push-Pull,P=2.54mm IDC Connectors ROHS"
+		(property "Description" "2.54mm -40°C~+105°C Bend insert 3A Gold Brass 2x7P 7 Horn buckle 2.54mm 2 Push-Pull,P=2.54mm IDC Connectors ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1258,7 +1258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.27mm 1.27mm Double Row Gold 1A 4P Brass -40℃~+105℃ 250V 260℃ Bend insert 2x2P Side 4.3mm Square Hole Push-Pull,P=1.27mm Female Headers ROHS"
+		(property "Description" "1.27mm 1.27mm Double Row Gold 1A 4P Brass -40°C~+105°C 250V 260°C Bend insert 2x2P Side 4.3mm Square Hole Push-Pull,P=1.27mm Female Headers ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1429,7 +1429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3A Direct Insert Policy 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm Single Row 1x8P Plugin,P=2.54mm Pin Headers ROHS "
+		(property "Description" "3A Direct Insert Policy 2.5mm 8P 6mm -40°C~+105°C 3mm 2.54mm Single Row 1x8P Plugin,P=2.54mm Pin Headers ROHS "
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -1683,7 +1683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-20℃~+70℃ 255℃ 30V 500mA - Audio Connectors (Headphones) ROHS"
+		(property "Description" "-20°C~+70°C 255°C 30V 500mA - Audio Connectors (Headphones) ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2508,7 +2508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2A 2 Direct Insert Automotive connector socket -40℃~+125℃ 2.54mm 32P Phosphor Bronze Tin - Automobile Connectors ROHS"
+		(property "Description" "2A 2 Direct Insert Automotive connector socket -40°C~+125°C 2.54mm 32P Phosphor Bronze Tin - Automobile Connectors ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3629,7 +3629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1x4P 20A -40℃~+105℃ 300V Green 12~26 Direct Insert 5.08mm 1 4 Plugin,P=5.08mm Screw Terminal Blocks ROHS"
+		(property "Description" "1x4P 20A -40°C~+105°C 300V Green 12~26 Direct Insert 5.08mm 1 4 Plugin,P=5.08mm Screw Terminal Blocks ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3811,7 +3811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16~20 5mm 2x1P -40℃~+105℃ 15A 2P 500V Black 1 2 Plugin,P=5mm Spring Clamp System Terminal Block ROHS"
+		(property "Description" "16~20 5mm 2x1P -40°C~+105°C 15A 2P 500V Black 1 2 Plugin,P=5mm Spring Clamp System Terminal Block ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5231,6 +5231,405 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "USB Type C 16P"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U263-163N-4BLS1735"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:TYPE-C-SMD_U263-163N-4BLS1735"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121500_XKB-Connection-U263-163N-4BLS1735_C2931474.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A USB 3.1 1 260°C Horizontal attachment 16P Female -25°C~+85°C Gold High conductivity copper Type-C SMD USB Connectors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2931474"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.27USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2931474"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USB Type C 16P_0_1"
+			(rectangle
+				(start -10.16 17.78)
+				(end 7.62 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -8.89 15.24)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -1.27 180)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -3.81 180)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 3.81 180)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 1.27 180)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 13.97 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A1B12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 11.43 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A4B9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 8.89 0)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 6.35 0)
+				(length 2.54)
+				(name "DP1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 3.81 0)
+				(length 2.54)
+				(name "DN1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B1A12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -3.81 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B4A9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -6.35 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -8.89 0)
+				(length 2.54)
+				(name "DP2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -11.43 0)
+				(length 2.54)
+				(name "DN2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -13.97 0)
+				(length 2.54)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B8"
 					(effects
 						(font
 							(size 1 1)
