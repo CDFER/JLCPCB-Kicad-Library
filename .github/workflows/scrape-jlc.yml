@@ -1,0 +1,37 @@
+name: Update Library
+
+on: 
+  schedule:  # run 1 hour after jlcpcb-parts-database
+    - cron: "0 7 * * *"
+  workflow_dispatch:  # allow for manually trigger workflow
+
+jobs:
+  scrape-jlc:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Install Python and Pip
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            python3 python3-pip
+
+      - name: Install python dependencies
+        run: |
+          pip install pandas requests
+      
+      - name: Update Library
+        run: |
+          python3 libraryCreatorScript.py # Run the Python script
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5
