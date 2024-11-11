@@ -168,7 +168,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -2.5 -1)
+		(at -2.5 0)
 		(size 1.524003 1.524003)
 		(drill 0.914402)
 		(layers "*.Cu" "*.Mask")
@@ -176,11 +176,22 @@
 		(uuid "a9955a21-3e46-4c4d-a7b9-4da689fd20da")
 	)
 	(pad "2" thru_hole circle
-		(at 2.5 1)
+		(at 2.5 0)
 		(size 1.524003 1.524003)
 		(drill 0.914402)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8d877a84-8d56-47bb-a507-554e5c120419")
+	)
+	(model "/3dModels/RES-TH_L10.5-W5.5-P5.0-D0.6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

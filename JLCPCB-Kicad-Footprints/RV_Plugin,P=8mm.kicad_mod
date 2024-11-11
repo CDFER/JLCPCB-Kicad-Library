@@ -17,9 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "RES-TH_L15.0-W6.6-P8.00-D0.8"
+	(property "Value" "RES-TH"
 		(at 0 5.3 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "7d8ffd30-6783-4070-b5cb-54e73d6bf56c")
 		(effects
 			(font
@@ -65,96 +66,56 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -7.5 -3.3)
-		(end -7.5 3.3)
+	(fp_rect
+		(start -6 -3.2)
+		(end 6 3.2)
 		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5a5ab1b1-5ba6-4b87-8852-32e96e452042")
-	)
-	(fp_line
-		(start -7.5 -3.3)
-		(end 7.5 -3.3)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "172c97b4-2940-4700-a6ab-90364031e851")
-	)
-	(fp_line
-		(start -7.5 3.3)
-		(end 7.493015 3.3)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c96323d7-87c4-408c-b4da-96563d2e621b")
-	)
-	(fp_line
-		(start 7.5 -3.3)
-		(end 7.5 3.3)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "87ead710-8557-41ac-928b-90804ef16761")
-	)
-	(fp_circle
-		(center -7.5 3.3)
-		(end -7.47 3.3)
-		(stroke
-			(width 0.06)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "b459e0c8-bad1-42e2-a05e-3755df407650")
+		(uuid "9d1cc122-c88d-4a3a-b60d-8b461a0d5204")
 	)
 	(fp_line
-		(start -7.5 -3.25)
-		(end 7.5 -3.25)
+		(start -6 -3.2)
+		(end 6 -3.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "6195a128-405a-4d09-9c71-adaa2772e7b2")
+		(uuid "54818fd5-1394-47d5-9e07-ca2992d30817")
 	)
 	(fp_line
-		(start -7.5 3.25)
-		(end -7.5 -3.25)
+		(start -6 3.2)
+		(end -6 -3.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "60860566-f338-4604-9bc1-57e4800ff752")
+		(uuid "db22b5bc-e094-41b0-b205-8ecd20ef9ca1")
 	)
 	(fp_line
-		(start 7.5 -3.25)
-		(end 7.5 3.25)
+		(start 6 -3.2)
+		(end 6 3.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "48b367a7-2650-4c63-8970-591d0f6e34ff")
+		(uuid "1fd1ab84-7600-4ad9-9f48-daa6414c7b0a")
 	)
 	(fp_line
-		(start 7.5 3.25)
-		(end -7.5 3.25)
+		(start 6 3.2)
+		(end -6 3.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "93988941-00b5-4cfe-8ab8-cf3e62467067")
+		(uuid "42da3b42-d23f-4e91-9445-10a7fe2f865b")
 	)
 	(fp_text user "REF**"
 		(at 0 7.3 0)
@@ -168,7 +129,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -4 0)
+		(at -4 -1.5)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -176,11 +137,22 @@
 		(uuid "478b16fe-ee2c-43f3-8609-c13a112cd292")
 	)
 	(pad "2" thru_hole circle
-		(at 4 0)
+		(at 4 1.5)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cc60630c-b480-4728-b756-950423ce97bf")
+	)
+	(model "/3dModels/RV_Disc_D12mm_W6.3mm_P7.5mm.step"
+		(offset
+			(xyz -4 1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
