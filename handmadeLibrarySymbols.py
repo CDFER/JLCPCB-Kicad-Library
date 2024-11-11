@@ -64,39 +64,74 @@ def update_component_inplace(lcsc, libraryName, price, stock, datasheet = None, 
 				break
 
 	if lcsc_found == False:
-		print(
-			f"Error: C{lcsc} not found in library {filename}, Found: LCSC={lcsc_found}, Price={price_found}, Stock={stock_found}"
-		)
+		archived_symbol_path = os.path.join('Archived-Symbols-Footprints', 'JLCPCB-Kicad-Symbols')
+		archived_symbols_lcsc = [os.path.splitext(filename)[0] 
+					for filename in os.listdir(archived_symbol_path) 
+					if filename.endswith('.kicad_sym')]
+		if f'{lcsc}' in archived_symbols_lcsc:
+			print(f"Error: C{lcsc} not found in library {filename} but it was found in the archive folder: {archived_symbol_path}")
+		else:
+			print(f"Error: C{lcsc} not found in library {filename}")
 		return False
 	else:
 		with open(filename, "w") as file:
 			file.writelines(lines)
 			return True
 
+symbol_header_lines = '''(kicad_symbol_lib
+	(version 20231120)
+	(generator "CDFER_Archive_Tool")
+	(generator_version "0.0")
+ '''
+
+symbol_footer_lines = ''')
+'''
+
+def create_archived_symbol_file(symbol_start_line, symbol_end_line, lines, lcsc):
+	archived_symbols_folder = os.path.join("Archived-Symbols-Footprints", "JLCPCB-Kicad-Symbols")
+	archived_symbol_lines = lines[symbol_start_line:symbol_end_line]
+	
+	# Write archived symbol to file
+	archived_filename = os.path.join(archived_symbols_folder, f"{lcsc}.kicad_sym")
+	with open(archived_filename, "w") as archived_file:
+		archived_file.writelines(symbol_header_lines)
+		archived_file.writelines(archived_symbol_lines)
+		archived_file.writelines(symbol_footer_lines)
+	print(f"Archived symbol as: {archived_filename}")
+
+
 def update_library_stock_inplace(libraryName):
-    df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
-    filename = os.path.join("JLCPCB-Kicad-Symbols", f"JLCPCB-{libraryName}.kicad_sym")
-    with open(filename, "r") as file:
-        lines = file.readlines()
-    
-    no_stock = False
-    
-    for i, line in enumerate(lines):
-        lines[i] = lines[i].replace("℃", "°C")
-        if f'(property "LCSC" "C' in line:
-            # print(f"LCSC Found on line {i} {line}")
-            numbers = [int(num) for num in re.findall('\\d+', line)]
-            lcsc = numbers[0]
-            
-            rows = df[df['lcsc'] == lcsc]
-            if len(rows) == 0:
-                no_stock = True
-                print(f"Error: No Stock found for https://jlcpcb.com/partdetail/C{lcsc}")
-            
-        elif '(property "Stock"' in line and no_stock == True:
-            lines[i] = f'		(property "Stock" "0"\n'
-            no_stock = False
-            
-    with open(filename, "w") as file:
-        file.writelines(lines)
-        return
+	df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
+	filename = os.path.join("JLCPCB-Kicad-Symbols", f"JLCPCB-{libraryName}.kicad_sym")
+	with open(filename, "r") as file:
+		lines = file.readlines()
+	
+	no_stock = False
+	lcsc = 0
+	symbol_start_line = 0
+	
+	for i, line in enumerate(lines):
+		lines[i] = lines[i].replace("℃", "°C")
+		if line.startswith('\t(') or line.startswith(')'):
+			if no_stock == True:
+				create_archived_symbol_file(symbol_start_line, i, lines, lcsc)
+				lines[symbol_start_line:i] = [''] * (i - symbol_start_line) # Remove symbol from library by replacing lines with empty strings
+				no_stock = False
+			symbol_start_line=i
+	
+		elif '(property "LCSC" "C' in line:
+			# print(f"LCSC Found on line {i} {line}")
+			numbers = [int(num) for num in re.findall('\\d+', line)]
+			lcsc = numbers[0]
+			
+			rows = df[df['lcsc'] == lcsc]
+			if len(rows) == 0:
+				no_stock = True
+				print(f"Error: No Stock found for https://jlcpcb.com/partdetail/C{lcsc}")
+			
+		elif '(property "Stock"' in line and no_stock == True:
+			lines[i] = f'		(property "Stock" "0"\n'
+			
+	with open(filename, "w") as file:
+		file.writelines(lines)
+		return
