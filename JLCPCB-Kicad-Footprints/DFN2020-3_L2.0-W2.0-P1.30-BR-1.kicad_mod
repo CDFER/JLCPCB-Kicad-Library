@@ -6,7 +6,7 @@
 	(descr "DFN2020-3_L2.0-W2.0-P1.30-BR-1 footprint")
 	(tags "DFN2020-3_L2.0-W2.0-P1.30-BR-1 footprint C22395518")
 	(property "Reference" "REF**"
-		(at -0.246584 -3.100076 0)
+		(at -0.25 -3.1 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "b4f2d0df-0a7a-4022-93d8-7e903ea5f5d1")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "DFN2020-3_L2.0-W2.0-P1.30-BR-1"
-		(at -0.246584 3.099975 0)
+		(at -0.25 3.1 0)
 		(layer "F.Fab")
 		(uuid "c63b7a17-8f9e-4bd4-abe8-e467260fedde")
 		(effects
@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center 0.795911 1)
-		(end 0.825883 1)
+		(center 0.8 1)
+		(end 0.83 1)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -117,8 +117,8 @@
 		(uuid "c8fe98f9-bb73-4f37-9446-1929da4e7ae4")
 	)
 	(fp_circle
-		(center 1.207137 0.683007)
-		(end 1.357252 0.683007)
+		(center 1.21 0.68)
+		(end 1.36 0.68)
 		(stroke
 			(width 0.3)
 			(type solid)
@@ -128,7 +128,7 @@
 		(uuid "9fe0ff6a-bb5a-467f-91c1-f6b8518b6fc2")
 	)
 	(fp_text user "REF**"
-		(at -0.246584 5.099975 0)
+		(at -0.25 5.1 0)
 		(layer "F.Fab")
 		(uuid "03bc15c3-a161-418b-93b1-34941198aba9")
 		(effects
@@ -139,19 +139,19 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0.696088 0.65)
+		(at 0.7 0.65)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "399c446c-09f8-4953-8b4b-f6fb08398a09")
 	)
 	(pad "2" smd rect
-		(at 0.696088 -0.65)
+		(at 0.7 -0.65)
 		(size 0.6 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "240b64e9-b59f-438f-87e4-02f28d093a08")
 	)
 	(pad "3" smd custom
-		(at -0.696088 0)
+		(at -0.7 0)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 90)
@@ -162,9 +162,9 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.885014 -0.210058) (xy -0.345009 -0.210058) (xy -0.345009 -0.840056) (xy 0.884989 -0.840056)
-					(xy 0.884989 0.839954) (xy -0.345009 0.839954) (xy -0.345009 0.209957) (xy -0.885014 0.209957)
-					(xy -0.885014 -0.210058)
+					(xy -0.89 -0.21) (xy -0.35 -0.21) (xy -0.35 -0.84) (xy 0.88 -0.84)
+					(xy 0.88 0.84) (xy -0.35 0.84) (xy -0.35 0.21) (xy -0.89 0.21)
+					(xy -0.89 -0.21)
 				)
 				(width 0)
 				(fill yes)

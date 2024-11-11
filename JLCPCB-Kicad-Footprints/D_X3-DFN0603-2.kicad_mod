@@ -6,7 +6,7 @@
 	(descr "X3-DFN0603-2_L0.6-W0.3-BI footprint")
 	(tags "X3-DFN0603-2_L0.6-W0.3-BI footprint C1323289")
 	(property "Reference" "REF**"
-		(at -0.515 -2.298527 0)
+		(at -0.52 -2.3 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "e384e19b-19bc-4c44-a9c5-3e0bdffa041a")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "X3-DFN0603-2_L0.6-W0.3-BI"
-		(at -0.515 2.301524 0)
+		(at -0.52 2.3 0)
 		(layer "F.Fab")
 		(uuid "21ad392d-a7e3-4a02-b6e7-79c41e741611")
 		(effects
@@ -66,40 +66,40 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.46251 -0.298527)
-		(end -0.46251 0.301524)
+		(start -0.46 -0.3)
+		(end -0.46 0.3)
 		(stroke
-			(width 0.08001)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "fa90c93a-8dc5-4f7d-8db2-46385c409ced")
 	)
 	(fp_line
-		(start -0.46251 -0.298527)
-		(end 0.45748 -0.298527)
+		(start -0.46 -0.3)
+		(end 0.46 -0.3)
 		(stroke
-			(width 0.08001)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "7624b9a4-c5ec-4de0-a7df-0742d7797acc")
 	)
 	(fp_line
-		(start -0.46251 0.301524)
-		(end 0.45748 0.301524)
+		(start -0.46 0.3)
+		(end 0.46 0.3)
 		(stroke
-			(width 0.08001)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "b60967cf-6c05-44e1-af0d-99ad16524dc7")
 	)
 	(fp_line
-		(start 0.45748 -0.298527)
-		(end 0.45748 0.301524)
+		(start 0.46 -0.3)
+		(end 0.46 0.3)
 		(stroke
-			(width 0.08001)
+			(width 0.08)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -146,7 +146,7 @@
 		(uuid "ada1e13f-78ed-4212-9fa8-15f0536f3157")
 	)
 	(fp_text user "REF**"
-		(at -0.002515 4.301524 0)
+		(at 0 4.3 0)
 		(layer "F.Fab")
 		(uuid "de2c3e52-771d-425e-bacb-6cdc978d3d9d")
 		(effects
@@ -157,14 +157,14 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.212522 0.000508 180)
-		(size 0.21999 0.3)
+		(at -0.21 0 180)
+		(size 0.22 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "90cc07fa-b3c4-4748-9023-60702514b5a3")
 	)
 	(pad "2" smd rect
-		(at 0.212497 -0.000508 180)
-		(size 0.21999 0.3)
+		(at 0.21 0 180)
+		(size 0.22 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c0c0481c-2ad6-43f4-bb30-da02497d3c0d")
 	)

@@ -6,7 +6,7 @@
 	(descr "FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint")
 	(tags "FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint C2962896")
 	(property "Reference" "REF**"
-		(at -0.000051 -6.149962 0)
+		(at 0 -6.15 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "a683802b-6139-4ddd-b6c5-82f5df931df0")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P"
-		(at -0.000051 6.191034 0)
+		(at 0 6.19 0)
 		(layer "F.Fab")
 		(uuid "2d34b126-04a1-4655-b9ae-108009d56e4b")
 		(effects
@@ -67,7 +67,7 @@
 	(attr smd)
 	(fp_circle
 		(center -5.25 -4.25)
-		(end -5.220 -4.25)
+		(end -5.22 -4.25)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -117,7 +117,7 @@
 		(uuid "a4eb77d2-d92f-4236-a725-3fb60c7aa333")
 	)
 	(fp_text user "REF**"
-		(at -0.000051 8.191034 0)
+		(at 0 8.19 0)
 		(layer "F.Fab")
 		(uuid "a7612bff-70e8-456a-9d0c-714e16237fb9")
 		(effects
@@ -128,25 +128,25 @@
 		)
 	)
 	(pad "1" smd circle
-		(at -3.750064 -3.149987)
+		(at -3.75 -3.15)
 		(size 2.7 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1fe70771-fd29-4b0b-87ff-8cba14a18104")
 	)
 	(pad "2" smd circle
-		(at -3.750064 3.149987)
+		(at -3.75 3.15)
 		(size 2.7 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "34c513bb-38a3-4860-a8dc-b5a9023169a8")
 	)
 	(pad "3" smd circle
-		(at 3.750064 3.149987)
+		(at 3.75 3.15)
 		(size 2.7 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6c91c25b-ede7-42ea-8daa-380530bb1d47")
 	)
 	(pad "4" smd circle
-		(at 3.750064 -3.149987)
+		(at 3.75 -3.15)
 		(size 2.7 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c21eeb0e-22a8-4fb1-a45c-0d657c3d8ee9")

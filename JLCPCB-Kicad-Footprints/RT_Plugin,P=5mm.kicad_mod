@@ -6,7 +6,7 @@
 	(descr "RES-TH_L8.5-W5.0-P5.00-D0.6-LS4.45 footprint")
 	(tags "RES-TH_L8.5-W5.0-P5.00-D0.6-LS4.45 footprint C2919435")
 	(property "Reference" "REF**"
-		(at 0.000013 -4.5 0)
+		(at 0 -4.5 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "100669ce-72ca-4311-b1e2-7dfdc4cd4409")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "RES-TH_L8.5-W5.0-P5.00-D0.6-LS4.45"
-		(at 0.000013 4.5 0)
+		(at 0 4.5 0)
 		(layer "F.Fab")
 		(uuid "8726a655-0027-4e6e-8fed-c7dcdb913054")
 		(effects
@@ -66,48 +66,48 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.249987 -2.5)
-		(end -4.249987 2.5)
+		(start -4.25 -2.5)
+		(end -4.25 2.5)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "342fd180-81b8-41a0-83be-cc11e578dff9")
 	)
 	(fp_line
-		(start -4.249987 2.5)
-		(end 4.250013 2.5)
+		(start -4.25 2.5)
+		(end 4.25 2.5)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "fee49445-fbcf-44c7-9a7e-2d66c5d94dc0")
 	)
 	(fp_line
-		(start 4.250013 -2.5)
-		(end -4.21999 -2.5)
+		(start 4.25 -2.5)
+		(end -4.22 -2.5)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "9c442f69-d514-4fd5-9e1f-c3d8b17d273d")
 	)
 	(fp_line
-		(start 4.250013 2.5)
-		(end 4.250013 -2.5)
+		(start 4.25 2.5)
+		(end 4.25 -2.5)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "8af10397-574b-4c4c-bf9a-e3c90d0410b1")
 	)
 	(fp_circle
-		(center -4.249987 -2.5)
-		(end -4.21999 -2.5)
+		(center -4.25 -2.5)
+		(end -4.22 -2.5)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -157,7 +157,7 @@
 		(uuid "f301f7ff-d103-41c6-a483-5cba5b4bc776")
 	)
 	(fp_text user "REF**"
-		(at 0.000013 6.5 0)
+		(at 0 6.5 0)
 		(layer "F.Fab")
 		(uuid "d1b3af38-13ba-4fa5-8e5a-c745185ac85f")
 		(effects

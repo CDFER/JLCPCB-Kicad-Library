@@ -6,7 +6,7 @@
 	(descr "TO-220-3_L9.9-W4.5-P2.54-L-1 footprint")
 	(tags "TO-220-3_L9.9-W4.5-P2.54-L-1 footprint C2843728")
 	(property "Reference" "REF**"
-		(at -0.062357 -4.639878 0)
+		(at -0.06 -4.64 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "06a02f09-af98-4bda-aec5-808a6c2ca7cc")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "TO-220-3_L9.9-W4.5-P2.54-L-1"
-		(at -0.062357 3.820142 0)
+		(at -0.06 3.82 0)
 		(layer "F.Fab")
 		(uuid "381f3711-1445-417e-b3d4-da04a46a80ef")
 		(effects
@@ -66,50 +66,50 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -5.032817 -2.634112)
-		(end -5.009931 1.820142)
+		(start -5.03 -2.63)
+		(end -5.01 1.82)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "e4629e42-cc59-4e64-84d2-25c59641236d")
 	)
 	(fp_line
-		(start -5.02921 -1.935789)
-		(end 4.910033 -1.935789)
+		(start -5.03 -1.94)
+		(end 4.91 -1.94)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "5efaa505-d69d-4d7b-bb51-9786e5b2857d")
 	)
 	(fp_line
-		(start -5.009931 1.820142)
-		(end 4.910033 1.820142)
+		(start -5.01 1.82)
+		(end 4.91 1.82)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "c572f7a6-6425-419d-878c-ad7815832b2f")
 	)
 	(fp_line
-		(start 4.910033 -2.639878)
-		(end -5.032817 -2.634112)
+		(start 4.91 -2.64)
+		(end -5.03 -2.63)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "86e7903e-9d7f-4909-8a60-b0463aae633c")
 	)
 	(fp_line
-		(start 4.910033 1.820142)
-		(end 4.910033 -2.639878)
+		(start 4.91 1.82)
+		(end 4.91 -2.64)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -117,7 +117,7 @@
 	)
 	(fp_circle
 		(center -5.25 2)
-		(end -5.220028 2)
+		(end -5.22 2)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -167,8 +167,8 @@
 		(uuid "0d0e5925-7735-4b38-91ec-33a793295749")
 	)
 	(fp_circle
-		(center -2.762078 1.767437)
-		(end -2.462103 1.767437)
+		(center -2.76 1.77)
+		(end -2.46 1.77)
 		(stroke
 			(width 0.6)
 			(type solid)
@@ -178,7 +178,7 @@
 		(uuid "f22b9e8e-5bf4-4db6-a5e6-1f104fbb59d7")
 	)
 	(fp_text user "REF**"
-		(at -0.062357 5.820142 0)
+		(at -0.06 5.82 0)
 		(layer "F.Fab")
 		(uuid "b88d03cf-4db5-415f-819e-74d05732cc12")
 		(effects
@@ -189,7 +189,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -2.540081 -0.004978)
+		(at -2.54 0)
 		(size 1.8 2.6)
 		(drill 1.249987)
 		(layers "*.Cu" "*.Mask")
@@ -197,7 +197,7 @@
 		(uuid "409a12d9-e312-42a3-951e-7c0f615719b5")
 	)
 	(pad "2" thru_hole oval
-		(at 0.000178 -0.004978)
+		(at 0 0)
 		(size 1.8 2.6)
 		(drill 1.249987)
 		(layers "*.Cu" "*.Mask")
@@ -205,7 +205,7 @@
 		(uuid "5214978b-1ad2-4a09-ba6a-8116917ee2a2")
 	)
 	(pad "3" thru_hole oval
-		(at 2.539929 0.004928)
+		(at 2.54 0)
 		(size 1.8 2.6)
 		(drill 1.249987)
 		(layers "*.Cu" "*.Mask")
@@ -214,7 +214,7 @@
 	)
 	(model "/3dModels/TO-220-3_L9.9-W4.5-P2.54-L-1.step"
 		(offset
-			(xyz 0 0.4 4.6)
+			(xyz 0 0.4 7.7)
 		)
 		(scale
 			(xyz 1 1 1)

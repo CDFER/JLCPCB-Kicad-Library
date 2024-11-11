@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "TO-92-3_L4.9-W3.7-P1.27-L"
-		(at 0 3.499873 0)
+		(at 0 3.5 0)
 		(layer "F.Fab")
 		(uuid "b2956774-9471-4ac3-bf7d-49cdde807dbc")
 		(effects
@@ -66,21 +66,21 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.979909 1.499873)
-		(end -1.979909 1.499873)
+		(start 1.98 1.5)
+		(end -1.98 1.5)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "b9bfd348-646b-4c88-915f-aaafe58f6e7a")
 	)
 	(fp_arc
-		(start -1.981204 1.501143)
-		(mid -0.000047 -2.48128)
-		(end 1.981261 1.501068)
+		(start -1.98 1.5)
+		(mid 0 -2.48)
+		(end 1.98 1.5)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,7 +88,7 @@
 	)
 	(fp_circle
 		(center -1.8 1)
-		(end -1.770028 1)
+		(end -1.77 1)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -138,7 +138,7 @@
 		(uuid "6f8252c5-bfbb-49ba-83c7-fec7623a03f3")
 	)
 	(fp_text user "REF**"
-		(at 0 5.499873 0)
+		(at 0 5.5 0)
 		(layer "F.Fab")
 		(uuid "193809c6-6913-4cad-9643-120729f48665")
 		(effects

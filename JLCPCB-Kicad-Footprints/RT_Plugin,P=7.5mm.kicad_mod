@@ -6,7 +6,7 @@
 	(descr "RES-TH_L12.5-W6.7-P7.50-D1.2 footprint")
 	(tags "RES-TH_L12.5-W6.7-P7.50-D1.2 footprint C2919410")
 	(property "Reference" "REF**"
-		(at -0.000889 -5.350013 0)
+		(at 0 -5.35 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "1545daab-8b22-482d-949c-991f4e763021")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "RES-TH_L12.5-W6.7-P7.50-D1.2"
-		(at -0.000889 5.350521 0)
+		(at 0 5.35 0)
 		(layer "F.Fab")
 		(uuid "8b9ecddf-8d50-4adf-b15d-b0c46ce9a787")
 		(effects
@@ -66,40 +66,40 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -6.249936 -3.350013)
-		(end 6.250191 -3.350013)
+		(start -6.25 -3.35)
+		(end 6.25 -3.35)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "6a309e41-ac19-4cd5-a834-acdc119867ea")
 	)
 	(fp_line
-		(start -6.249936 3.350521)
-		(end -6.249936 -3.350013)
+		(start -6.25 3.35)
+		(end -6.25 -3.35)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "6f1de322-fc2e-4938-bcd4-82f7b61cb38c")
 	)
 	(fp_line
-		(start 6.249936 -3.350013)
-		(end 6.249936 3.350013)
+		(start 6.25 -3.35)
+		(end 6.25 3.35)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "7d5e7386-5ece-4d7d-8ad7-cff5b9b7ffc9")
 	)
 	(fp_line
-		(start 6.249936 3.350013)
-		(end -6.251969 3.350013)
+		(start 6.25 3.35)
+		(end -6.25 3.35)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -146,7 +146,7 @@
 		(uuid "edd6baa7-0e28-48dc-a540-c48eec7b020c")
 	)
 	(fp_text user "REF**"
-		(at -0.000889 7.350521 0)
+		(at 0 7.35 0)
 		(layer "F.Fab")
 		(uuid "bc6618cf-3104-4a6e-abfb-b2aca66ce4ea")
 		(effects
@@ -157,7 +157,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -3.749047 0)
+		(at -3.75 0)
 		(size 2 2)
 		(drill 1.199898)
 		(layers "*.Cu" "*.Mask")
@@ -165,7 +165,7 @@
 		(uuid "c34ac704-76e3-4a05-a767-b13ac6fd908b")
 	)
 	(pad "2" thru_hole circle
-		(at 3.749047 0)
+		(at 3.75 0)
 		(size 2 2)
 		(drill 1.199898)
 		(layers "*.Cu" "*.Mask")

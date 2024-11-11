@@ -6,7 +6,7 @@
 	(descr "POWERDI3333-8_DMN7022LFGQ-7 footprint")
 	(tags "POWERDI3333-8_DMN7022LFGQ-7 footprint C461091")
 	(property "Reference" "REF**"
-		(at 0.0 -4.1 0)
+		(at 0 -4.1 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "4b96048b-2386-482c-98b0-00c989be9dda")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "POWERDI3333-8_DMN7022LFGQ-7"
-		(at 0.0 3.2 0)
+		(at 0 3.2 0)
 		(layer "F.Fab")
 		(uuid "cf6aa3f8-4a83-49e5-9919-d8dc3364243e")
 		(effects
@@ -66,40 +66,40 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.649987 -2.1)
-		(end -1.649987 1.2)
+		(start -1.65 -2.1)
+		(end -1.65 1.2)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "6e4600d3-a04b-4dcf-9666-146eaf07f898")
 	)
 	(fp_line
-		(start -1.649987 1.2)
-		(end -1.416104 1.2)
+		(start -1.65 1.2)
+		(end -1.42 1.2)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "301ec0b0-95d2-4342-9232-d71abf30ce59")
 	)
 	(fp_line
-		(start -1.421133 -2.1)
-		(end -1.649987 -2.1)
+		(start -1.42 -2.1)
+		(end -1.65 -2.1)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "a41f9730-c363-459c-baab-678297c39e4a")
 	)
 	(fp_line
-		(start 1.416129 1.2)
+		(start 1.42 1.2)
 		(end 1.65 1.2)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -107,9 +107,9 @@
 	)
 	(fp_line
 		(start 1.65 -2.1)
-		(end 1.422809 -2.1)
+		(end 1.42 -2.1)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -119,15 +119,15 @@
 		(start 1.65 1.2)
 		(end 1.65 -2.1)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "5c808f28-76b3-449d-9612-c5b5bf0cb3bd")
 	)
 	(fp_circle
-		(center -1.65 1.177165)
-		(end -1.62 1.177165)
+		(center -1.65 1.18)
+		(end -1.62 1.18)
 		(stroke
 			(width 0.06)
 			(type solid)
@@ -140,7 +140,7 @@
 		(center -1.5 1.5)
 		(end -1.5 1.5)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(fill none)
@@ -188,10 +188,10 @@
 		(uuid "0a71e4a5-7d1f-42e3-9508-5ee70d207b19")
 	)
 	(fp_circle
-		(center -1.01999 1.372009)
-		(end -0.89299 1.372009)
+		(center -1.02 1.37)
+		(end -0.89 1.37)
 		(stroke
-			(width 0.254)
+			(width 0.25)
 			(type solid)
 		)
 		(fill none)
@@ -199,7 +199,7 @@
 		(uuid "dd5e47e0-9113-46f5-8184-f9bcf09b9139")
 	)
 	(fp_text user "REF**"
-		(at 0.0 5.2 0)
+		(at 0 5.2 0)
 		(layer "F.Fab")
 		(uuid "a1c09653-a6d5-489f-81c0-49e47cff985e")
 		(effects
@@ -210,31 +210,31 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.974981 1.025019)
-		(size 0.41999 1)
+		(at -0.97 1.03)
+		(size 0.42 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8c02df87-5030-4259-82b1-96c171cebc70")
 	)
 	(pad "2" smd rect
-		(at -0.324994 1.025019)
-		(size 0.41999 1)
+		(at -0.32 1.03)
+		(size 0.42 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "61b0ba59-1b7e-437c-a963-d457d3d028db")
 	)
 	(pad "3" smd rect
-		(at 0.324994 1.025019)
-		(size 0.41999 1)
+		(at 0.32 1.03)
+		(size 0.42 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f682d702-2919-42a0-9b09-03a99f624b31")
 	)
 	(pad "4" smd rect
-		(at 0.974981 1.025019)
-		(size 0.41999 1)
+		(at 0.97 1.03)
+		(size 0.42 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2ae924de-08c8-4ce3-a4cc-c92e86616e58")
 	)
 	(pad "5" smd custom
-		(at 0.004953 -1.025019)
+		(at 0 -1.03)
 		(size 0.1 0.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(options
@@ -244,11 +244,11 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -1.194945 0.779934) (xy -1.194945 -1.450064) (xy -0.764948 -1.450064) (xy -0.764948 -0.780086)
-					(xy -0.544958 -0.780086) (xy -0.544958 -1.450064) (xy -0.114961 -1.450064) (xy -0.114961 -0.780086)
-					(xy 0.105055 -0.780086) (xy 0.105055 -1.450064) (xy 0.535052 -1.450064) (xy 0.535052 -0.780086)
-					(xy 0.755042 -0.780086) (xy 0.755042 -1.450064) (xy 1.185039 -1.450064) (xy 1.195047 0.779934)
-					(xy -1.194945 0.779934)
+					(xy -1.19 0.78) (xy -1.19 -1.45) (xy -0.76 -1.45) (xy -0.76 -0.78)
+					(xy -0.54 -0.78) (xy -0.54 -1.45) (xy -0.11 -1.45) (xy -0.11 -0.78)
+					(xy 0.11 -0.78) (xy 0.11 -1.45) (xy 0.54 -1.45) (xy 0.54 -0.78)
+					(xy 0.76 -0.78) (xy 0.76 -1.45) (xy 1.19 -1.45) (xy 1.2 0.78)
+					(xy -1.19 0.78)
 				)
 				(width 0)
 				(fill yes)
