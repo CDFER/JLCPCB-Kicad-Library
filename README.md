@@ -1,55 +1,72 @@
 # JLCPCB-Kicad-Library
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A set of symbol Libararies and a set of footprints and 3d models of the basic components from JLCPCB smt assembly
+A comprehensive KiCad library featuring symbol libraries linked to 3D model footprints (.step) for JLCPCB's preferred components.
 
-Made using JLC2KiCadLib with manual touch ups.
+| | |
+|:-------------------------:|:-------------------------:|
+|![3D Component Sample](images/3D_Sample.avif)|![3D Component Sample in Fusion 360](images/3D_Sample_Fusion360.avif)|
+
+## Screenshots
+
+| | |
+|:-------------------------:|:-------------------------:|
+|<img width="400" alt="R0402x4 Symbol Selection" src="images/Choose_Symbol_R0402x4.avif">|<img width="400" alt="Boost Symbol Selection" src="images/Choose_Symbol_Boost.avif">|
+
+![Schematic Buck](images/Schematic_Buck.avif)
+![Choose BOM Fields](images/Choose_BOM.avif)
+![Output BOM csv file](images/Output_BOM.avif)
 
 ## Features
-- Supports JLCPCB Tools Plugin
-- Contains every basic resistor and capacitor value
-- Contains 3d models for 95%+ of the footprints
-- Datasheet Links
-- Kicad 7 Support
 
+* Daily updated stock and pricing information
+* Utilizes .step files for seamless SolidWorks and Fusion 360 integration
+* 99% of components include 3D models
+* Datasheet links
+* Supports JLCPCB Tools Plugin
+* Optimized for KiCad 8
+* Allows you to export price to BOM
 
-## Basic Usage
-Download this library and add it to your project like this
+## Manual Setup
+
+1. Download the library.
+2. Place it within your KiCad project folder.
 
 ```
-My_Kicad_Project
-├── JLCPCB-Kicad-Library
-│   ├── footprint
-│   │   ├── packages3d
-|   │   │   ├── CAP-SMD_L3.2-W1.6-RD-C7171.wrl
-│   │   |   └── CRYSTAL-SMD_4P-L3.2-W2.5-BL.wrl
-│   │   ├── CAP-SMD_L3.2-W1.6-RD-C7171.kicad_mod
-│   │   └── CRYSTAL-SMD_4P-L3.2-W2.5-BL.kicad_mod
-│   ├── jlcpcb-analog.kicad_sym
-│   └── jlcpcb-basic-capacitor.kicad_sym
+My_Kicad_Project_Folder
+├── JLCPCB-Kicad-Library-Folder
 └── My_Kicad_Project.kicad_pro
 ```
 
-Add the library in Kicad -> Prefrences -> Manage Symbol Libraries -> Project Specific Libraries -> Add exsisting Library to table -> Select all .kicad_sym files
+3. Add libraries in KiCad:
 
-Add the library in Kicad -> Prefrences -> Manage Footprint Libraries -> Project Specific Libraries -> Add exsisting Library to table -> Select footprint folder
+* Add the library in Kicad -> Preferences -> Manage Symbol Libraries -> Project Specific Libraries -> Add existing Library to table -> Select all .kicad_sym files in the JLCPCB-Kicad-Symbols folder
+* Add the library in Kicad -> Preferences -> Manage Footprint Libraries -> Project Specific Libraries -> Add existing Library to table -> Select the JLCPCB-Kicad-Footprints folder
 
-## Git Submodule Use
-Open Git Bash in the Kicad Project folder
+If you have any issues setting it up feel free to post an issue :)
 
+## Git Submodule Use (allows you to automatically update it)
+
+Open Git Bash in the Kicad Project folder (in the right click menu on windows if you have git installed)
+
+```Bash
+git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
 ```
-$ git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
-$ git submodule update --remote
-```
 
+and to update it all you need to run to update is:
+
+```Bash
+git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
+```
 
 ## Notes
 
-* Even though I have tested this libary, be careful and always check the output footprint and symbol.
-* If you feel that an important feature is missing, please open an issue to discuss it, then you can fork this project with a new branch before submitting a PR. 
+* Even though I have tested this library a number of times on pcb orders now, be careful and always check the output footprint and symbol.
+* If you notice that anything is wrong or that an important feature is missing, please open an issue or pull request so I can fix it.
 
 ## License
 
 This library is released under the MIT license
 
-© 2023 Chris Dirks 
+© 2024 Chris Dirks

@@ -15,7 +15,7 @@
 
 1. Open the `libraryCreatorScript.ipynb` file in VSCode.
 2. Select a kernel using the kernel picker in the top right.
-	![Select a kernel using the kernel picker in the top right](images/native-kernel-picker.png)
+	![Select a kernel using the kernel picker in the top right](images/native-kernel-picker.avif)
 3. Click "Select another Kernel".
 4. Click "Python Environments".
 5. Click "Create Python Environment".
@@ -25,4 +25,4 @@
 ### Step 4: Verify the Virtual Environment
 
 Run the first cell on `libraryCreatorScript.ipynb` and it should download all the needed packages without any errors in less than 30s.
-![alt text](images/native-code-cells-03.png)
+![alt text](images/native-code-cells-03.avif)
