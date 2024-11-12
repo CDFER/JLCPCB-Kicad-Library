@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A comprehensive KiCad library featuring symbol libraries linked to 3D model footprints (.step) for JLCPCB's preferred components.
+A comprehensive KiCad library featuring symbol libraries linked to pcb footprints (with 3d .step models) for JLCPCB's basic/preferred components (No extra setup costs).
 
-| | |
+| Kicad 3d View | Fusion 360 |
 |:-------------------------:|:-------------------------:|
 |![3D Component Sample](images/3D_Sample.avif)|![3D Component Sample in Fusion 360](images/3D_Sample_Fusion360.avif)|
 
@@ -20,7 +20,7 @@ A comprehensive KiCad library featuring symbol libraries linked to 3D model foot
 
 ## Features
 
-* Daily updated stock and pricing information
+* Daily updated stock and pricing information (uses Github Actions)
 * Utilizes .step files for seamless SolidWorks and Fusion 360 integration
 * 99% of components include 3D models
 * Datasheet links
@@ -46,24 +46,24 @@ My_Kicad_Project_Folder
 
 If you have any issues setting it up feel free to post an issue :)
 
-## Git Submodule Use (allows you to automatically update it)
+## Git Submodule Setup (allows you to automatically update pricing and stock)
 
 Open Git Bash in the Kicad Project folder (in the right click menu on windows if you have git installed)
 
 ```Bash
-git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
+$ git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
 ```
 
 and to update it all you need to run to update is:
 
 ```Bash
-git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
+$ git submodule update --remote
 ```
 
 ## Notes
 
 * Even though I have tested this library a number of times on pcb orders now, be careful and always check the output footprint and symbol.
-* If you notice that anything is wrong or that an important feature is missing, please open an issue or pull request so I can fix it.
+* If you notice that anything is wrong or that an important feature is missing, please open an issue or pull request so it can be fixed.
 
 ## License
 
