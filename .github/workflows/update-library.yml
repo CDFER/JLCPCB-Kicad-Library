@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # allow for manually trigger workflow
 
 jobs:
-  scrape-jlc:
+  update-library-from-database:
     runs-on: ubuntu-latest
 
     permissions:

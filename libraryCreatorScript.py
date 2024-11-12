@@ -218,6 +218,15 @@ def extract_variable_resistor_type_value(description, lcsc):
         print(f"Error: Unknown type for https://jlcpcb.com/partdetail/C{lcsc}  ({description})")
         return None, None
 
+def extract_capacitor_voltage(description, lcsc):
+    voltage_pattern = r"\b(\d+(?:\.\d+)?)(V|kV)\b"
+    voltage_match = re.search(voltage_pattern, description, re.IGNORECASE)
+
+    if voltage_match:
+        return voltage_match.group(0)
+    else:
+        return None
+
 def get_basic_or_prefered_type(df, index):
     if df.loc[index, "basic"] > 0:
         return "Basic Component"
@@ -417,6 +426,11 @@ for index in range(0, len(df)):
             lib_name = "Capacitors"
             if lcsc == 360353:
                 footprint_name =  "Plugin,P=5mm"
+            if attributes == []:
+                # {'Voltage Rated': '50V', 'Tolerance': '±5%', 'Capacitance': '15pF', 'Temperature Coefficient': 'NP0'}
+                capacitor_voltage = extract_capacitor_voltage(description, lcsc)
+                if capacitor_voltage != None:
+                    attributes = {'Voltage Rated': capacitor_voltage}
             
         elif df.loc[index, "category"] == "Diodes" or ("TVS" in subcategory) or ("ESD" in subcategory):
             value= extract_diode_type(description, joints, lcsc)

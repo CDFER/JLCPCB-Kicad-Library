@@ -1,5 +1,6 @@
 # librarySymbols.py
 
+
 def generate_header(name):
     symbol = f'\t(symbol "{name}"'
     symbol += "\n\t\t(pin_numbers hide)"
@@ -10,12 +11,25 @@ def generate_header(name):
     return symbol
 
 
-def generate_property(key, value, at, size=1.27, hide="yes", autoplace=True):
+def generate_property(
+    key, value, at, size=1.27, hide=True, autoplace=True, justify_left=False
+):
     if autoplace == False:
         autoplace_str = "(do_not_autoplace)"
     else:
         autoplace_str = ""
-    return f'\n\t\t(property "{key}" "{value}"\n\t\t\t(at {at}){autoplace_str}\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size {size} {size})\n\t\t\t\t)\n\t\t\t\t(hide {hide})\n\t\t\t)\n\t\t)'
+
+    if hide == True:
+        hide_str = "\n\t\t\t\t(hide yes)"
+    else:
+        hide_str = ""
+
+    if justify_left == True:
+        justify_str = "\n\t\t\t\t(justify left)"
+    else:
+        justify_str = ""
+
+    return f'\n\t\t(property "{key}" "{value}"\n\t\t\t(at {at}){autoplace_str}\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size {size} {size})\n\t\t\t\t){hide_str}{justify_str}\n\t\t\t)\n\t\t)'
 
 
 def generate_rectangle(
@@ -68,19 +82,23 @@ def generate_kicad_symbol(
     attributes,
     units,
     footprints_lookup,
-    names_lookup
+    names_lookup,
 ):
+
+    justify_value_left = True
+
     if mode == "Resistors":
         ref_designator = "R"
-        ref_position = "2.032 0 0"
+        ref_position = "1.778 0 0"
         value_position = "0 0 90"
         value_autoplace = False
+        justify_value_left = False
         name = f"{footprint},{value}"
 
     elif mode == "Capacitors":
         ref_designator = "C"
-        ref_position = "2.032 0 0"
-        value_position = "3.556 -1.524 0"
+        ref_position = "2.032 1.668 0"
+        value_position = "2.032 -0.3782 0"
         value_autoplace = True
         name = f"{footprint},{value}"
 
@@ -105,11 +123,13 @@ def generate_kicad_symbol(
         if secondary_mode == "Inductor":
             ref_designator = "L"
             name = f"{value}"
+            ref_position = "1.2673 0.834 0"
+            value_position = "1.2673 -1.2122 0"
         elif secondary_mode == "Ferrite":
             ref_designator = "FB"
             name = f"Ferrite,{footprint}"
-        ref_position = "2.032 0 0"
-        value_position = "3.556 -1.524 0"
+            ref_position = "3.4036 1.2508 0"
+            value_position = "0 0 0"
         value_autoplace = True
 
     elif mode == "Transistors":
@@ -123,30 +143,33 @@ def generate_kicad_symbol(
         )
         name = f"{value},{cleaned_manufacturerPartID}"
         value = cleaned_manufacturerPartID
-        
+
     # elif mode == "Crystals":
     #     ref_designator = "X"
     #     name = f"{value},{footprint}"
     #     ref_position = "2.032 0 0"
     #     value_position = "3.556 -1.524 0"
     #     value_autoplace = True
-        
+
     elif mode == "Variable-Resistors":
+        value_autoplace = True
         if secondary_mode == "NTC":
             ref_designator = "RT"
             name = f"NTC,{value},{footprint}"
-        if secondary_mode == "MOV":
-            ref_designator = "RV"
-            name = f"MOV,{footprint}"
-        if secondary_mode == "Fuse":
-            ref_designator = "F"
-            name = f"Fuse,{value}"
-        if secondary_mode == "Fuse,Resettable":
-            ref_designator = "F"
-            name = f"Fuse,Resettable,{value}"
-        ref_position = "2.032 0 0"
-        value_position = "3.556 -1.524 0"
-        value_autoplace = True
+            ref_position = "2.667 0.834 0"
+            value_position = "2.667 -1.2122 0"
+        else:
+            if secondary_mode == "MOV":
+                ref_designator = "RV"
+                name = f"MOV,{footprint}"
+            elif secondary_mode == "Fuse":
+                ref_designator = "F"
+                name = f"Fuse,{value}"
+            elif secondary_mode == "Fuse,Resettable":
+                ref_designator = "F"
+                name = f"Fuse,Resettable,{value}"
+            ref_position = "1.778 0.834 0"
+            value_position = "1.778 -1.2122 0"
 
     else:
         ref_designator = "NA"
@@ -154,6 +177,9 @@ def generate_kicad_symbol(
         value_position = "0 0 0"
         value_autoplace = True
         name = f"{footprint},{value}"
+        print(
+            f"Error: Unknown autoLibrarySymbol mode for https://jlcpcb.com/partdetail/C{lcsc}  ({mode})"
+        )
     lcsc = f"C{lcsc}"
 
     if footprint == "SMA(DO-214AC)":
@@ -184,15 +210,22 @@ def generate_kicad_symbol(
             print("more than 5 symbols with the same name...")
 
     names_lookup.append(name)
-    
 
     footprint = f"JLCPCB-Kicad-Footprints:{ref_designator}_{footprint}"
 
     symbol = generate_header(name)
 
-    symbol += generate_property("Reference", ref_designator, ref_position, hide="no")
     symbol += generate_property(
-        "Value", value, value_position, size=0.8, hide="no", autoplace=value_autoplace
+        "Reference", ref_designator, ref_position, hide=False, justify_left=True
+    )
+    symbol += generate_property(
+        "Value",
+        value,
+        value_position,
+        size=0.8,
+        hide=False,
+        autoplace=value_autoplace,
+        justify_left=justify_value_left,
     )
     symbol += generate_property("Footprint", footprint, "-1.778 0 90")
     symbol += generate_property("Datasheet", datasheet, "0 0 0")
@@ -207,7 +240,28 @@ def generate_kicad_symbol(
 
     if type(attributes) == dict:
         for key, value in attributes.items():
-            symbol += generate_property(f"{key}", f"{value}", "0 0 0")
+            if mode == "Capacitors" and (
+                key == "Voltage Rated" or key == "Rated Voltage"
+            ):
+                symbol += generate_property(
+                    f"{key}",
+                    f"{value}",
+                    "2.032 -2.0462 0",
+                    size=0.8,
+                    hide=False,
+                    justify_left=True,
+                )
+            elif secondary_mode == "Ferrite" and key == "Current Rating":
+                symbol += generate_property(
+                    f"{key}",
+                    f"{value}",
+                    "3.4036 -1.5274 0",
+                    size=0.8,
+                    hide=False,
+                    justify_left=True,
+                )
+            else:
+                symbol += generate_property(f"{key}", f"{value}", "0 0 0")
 
     symbol += generate_property("ki_keywords", keywords, at="0 0 0")
     symbol += generate_property("ki_fp_filters", f"{ref_designator}_*", "0 0 0")
@@ -238,7 +292,7 @@ def generate_kicad_symbol(
             "C_Plugin,D18xL20mm",
             "C_Plugin,D18xL30mm",
             "C_Plugin,D18xL36mm",
-            "C_SMD,D8xL10.5mm"
+            "C_SMD,D8xL10.5mm",
         ]
         if any(s in footprint for s in polarized_footprints):
             symbol += generate_polyline(
@@ -284,9 +338,7 @@ def generate_kicad_symbol(
             symbol += generate_polyline(
                 ["-1.27 -1.27", "1.27 -1.27", "1.27 -0.762"], name=name, index=0
             )
-            symbol += generate_pin_pair(
-                "passive line", name, 1, "3.81", 1, 3
-            )
+            symbol += generate_pin_pair("passive line", name, 1, "3.81", 1, 3)
         elif secondary_mode == "Schottky13":
             symbol += generate_polyline(
                 ["-1.27 1.27", "0.00 -1.27", "1.27 1.27", "-1.27 1.27"],
@@ -305,9 +357,7 @@ def generate_kicad_symbol(
                 name=name,
                 index=0,
             )
-            symbol += generate_pin_pair(
-                "passive line", name, 1, "3.81", 1, 3
-            )
+            symbol += generate_pin_pair("passive line", name, 1, "3.81", 1, 3)
         else:
             symbol += generate_polyline(
                 ["-1.27 1.27", "0.00 -1.27", "1.27 1.27", "-1.27 1.27"],
@@ -1115,7 +1165,7 @@ def generate_kicad_symbol(
             symbol += pmos
         else:
             symbol += generate_rectangle("-2.54 2.54", "2.54 -2.54", name=name, index=0)
-            
+
     elif mode == "Inductors":
         if secondary_mode == "Ferrite":
             ferrite = f"""		(symbol "{name}_0_1"
@@ -1194,8 +1244,8 @@ def generate_kicad_symbol(
 				)
 			)
 		)"""
-            symbol+=ferrite
-            
+            symbol += ferrite
+
         elif secondary_mode == "Inductor":
             inductor = f"""		(symbol "{name}_0_1"
 			(arc
@@ -1285,7 +1335,7 @@ def generate_kicad_symbol(
 				)
 			)
 		)"""
-            symbol+=inductor
+            symbol += inductor
 
     # elif mode == "Crystals":
     #     symbol += generate_rectangle("2.54 -1.016", "-2.54 1.016", name=name, index=0)
@@ -1295,17 +1345,23 @@ def generate_kicad_symbol(
     #         symbol += generate_pin_pair(
     #             "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
     #         )
-            
+
     elif mode == "Variable-Resistors":
         if secondary_mode == "Fuse" or secondary_mode == "Fuse,Resettable":
-            symbol += generate_rectangle("-1.016 2.54", "1.016 -2.54", name=name, index=0)
+            symbol += generate_rectangle(
+                "-1.016 2.54", "1.016 -2.54", name=name, index=0
+            )
             for i in range(1, units + 1):
                 symbol += generate_pin_pair(
                     "passive line", name, i, "3.81", i, (units * 2) - (i - 1)
                 )
         else:
-            symbol += generate_rectangle("-1.016 2.54", "1.016 -2.54", name=name, index=0)
-            symbol += generate_polyline(["-1.905 2.54", "-1.905 1.27", "1.905 -1.27"], name=name, index=0)
+            symbol += generate_rectangle(
+                "-1.016 2.54", "1.016 -2.54", name=name, index=0
+            )
+            symbol += generate_polyline(
+                ["-1.905 2.54", "-1.905 1.27", "1.905 -1.27"], name=name, index=0
+            )
             for i in range(1, units + 1):
                 symbol += generate_pin_pair(
                     "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
