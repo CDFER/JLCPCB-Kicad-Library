@@ -25,11 +25,6 @@ jobs:
           python-version: '3.12'
           cache: 'pip' # caching pip dependencies
       - run: pip install -r requirements.txt
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
       - run: python libraryCreatorScript.py
 
       # Commit all changed files back to the repository
