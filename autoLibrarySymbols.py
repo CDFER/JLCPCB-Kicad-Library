@@ -223,10 +223,22 @@ def generate_kicad_symbol(
         symbol += generate_polyline(["-1.27 0.635", "1.27 0.635"], name=name, index=0)
         symbol += generate_polyline(["-1.27 -0.635", "1.27 -0.635"], name=name, index=0)
         polarized_footprints = [
-            "C_Plugin,D5xL11mm",
-            "C_Plugin,D10xL12.5mm",
-            "C_CASE-B-3528-21(mm)",
             "C_CASE-A-3216-18(mm)",
+            "C_CASE-B-3528-21(mm)",
+            "C_Plugin,D5xL11mm",
+            "C_Plugin,D6.3xL8mm",
+            "C_Plugin,D6.3xL11.5mm",
+            "C_Plugin,D8xL12mm",
+            "C_Plugin,D8xL16mm",
+            "C_Plugin,D10xL12mm",
+            "C_Plugin,D10xL14mm",
+            "C_Plugin,D10xL16mm",
+            "C_Plugin,D10xL20mm",
+            "C_Plugin,D13xL21mm",
+            "C_Plugin,D18xL20mm",
+            "C_Plugin,D18xL30mm",
+            "C_Plugin,D18xL36mm",
+            "C_SMD,D8xL10.5mm"
         ]
         if any(s in footprint for s in polarized_footprints):
             symbol += generate_polyline(
