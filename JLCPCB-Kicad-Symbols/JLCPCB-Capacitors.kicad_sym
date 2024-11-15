@@ -324,7 +324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15"
+		(property "Stock" "10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1938,248 +1938,6 @@
 			)
 		)
 	)
-	(symbol "Plugin,D8xL12mm,68uF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 2.032 1.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68uF"
-			(at 2.032 -0.3782 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:C_Plugin,D8xL12mm"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109021730_Yunxing-EGS1HM680F12OTMVZC_C2891869.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "68uF 50V ±20% Plugin,D8xL12mm  Aluminum Electrolytic Capacitors - Leaded ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2891869"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.071USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "8"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Aluminum Electrolytic Capacitors - Leaded"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yunxing"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part ID" "EGS1HM680F12OTMVZC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 2.032 -2.0462 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Plugin,D8xL12mm,68uF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 0.635)
-					(xy 1.27 0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,D8xL12mm,68uF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -0.635)
-					(xy 1.27 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,D8xL12mm,68uF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy -0.635 1.27)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,D8xL12mm,68uF_0_1"
-			(polyline
-				(pts
-					(xy -0.9525 1.5875)
-					(xy -0.9525 0.9525)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Plugin,D8xL12mm,68uF_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.175)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.175)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Plugin,D8xL16mm,10uF"
 		(pin_numbers hide)
 		(pin_names
@@ -2714,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "510"
+		(property "Stock" "488"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5046,7 +4804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "636"
+		(property "Stock" "575"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5930,7 +5688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "665"
+		(property "Stock" "640"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10878,7 +10636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8217"
+		(property "Stock" "8177"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11090,7 +10848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1267491"
+		(property "Stock" "1136875"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11284,7 +11042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11329,7 +11087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12978117"
+		(property "Stock" "19883984"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11568,7 +11326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "79778"
+		(property "Stock" "79448"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11762,7 +11520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151132_FH--Guangdong-Fenghua-Advanced-Tech-0402B221K500NT_C1530.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B221K500NT_C1530.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11807,7 +11565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "338569"
+		(property "Stock" "333879"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12046,7 +11804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "555629"
+		(property "Stock" "536397"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12285,7 +12043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "605620"
+		(property "Stock" "586358"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12524,7 +12282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "384040"
+		(property "Stock" "382777"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12763,7 +12521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "753377"
+		(property "Stock" "739134"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13002,7 +12760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "75835"
+		(property "Stock" "74865"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13241,7 +12999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1266194"
+		(property "Stock" "3098429"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13480,7 +13238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "727354"
+		(property "Stock" "683424"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13719,7 +13477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "661889"
+		(property "Stock" "649903"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13958,7 +13716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "572122"
+		(property "Stock" "525107"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14197,7 +13955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "502750"
+		(property "Stock" "488175"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14382,7 +14140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151132_FH--Guangdong-Fenghua-Advanced-Tech-0402CG1R5C500NT_C1552.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG1R5C500NT_C1552.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14427,7 +14185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "220906"
+		(property "Stock" "220656"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14612,7 +14370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141710_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14657,7 +14415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3104163"
+		(property "Stock" "3029465"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14896,7 +14654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1221364"
+		(property "Stock" "1172877"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15135,7 +14893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "137163"
+		(property "Stock" "130323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15374,7 +15132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "135106"
+		(property "Stock" "132406"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15604,7 +15362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60917"
+		(property "Stock" "60737"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15834,7 +15592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "659455"
+		(property "Stock" "654665"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16073,7 +15831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "159270"
+		(property "Stock" "158370"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16303,7 +16061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "295596"
+		(property "Stock" "292358"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16542,7 +16300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "233519"
+		(property "Stock" "238069"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16772,7 +16530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "125567"
+		(property "Stock" "124997"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17011,7 +16769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "131697"
+		(property "Stock" "120677"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17453,7 +17211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "607692"
+		(property "Stock" "575011"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17692,7 +17450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "115614"
+		(property "Stock" "114679"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17931,7 +17689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "59145"
+		(property "Stock" "58531"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18170,7 +17928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1104091"
+		(property "Stock" "865796"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18409,7 +18167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2281464"
+		(property "Stock" "2023430"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18603,7 +18361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810251021_Samsung-Electro-Mechanics-CL05B224KO5NNNC-_C16772.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B224KO5NNNC_C16772.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18648,7 +18406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "189020"
+		(property "Stock" "184678"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18887,7 +18645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1308500"
+		(property "Stock" "1275651"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19126,7 +18884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55106"
+		(property "Stock" "53971"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19568,7 +19326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "491027"
+		(property "Stock" "482487"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19807,7 +19565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1278167"
+		(property "Stock" "1264374"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20001,7 +19759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811091611_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20046,7 +19804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5441964"
+		(property "Stock" "5352758"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20285,7 +20043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3297735"
+		(property "Stock" "3191765"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20691,7 +20449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811071810_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20736,7 +20494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1324697"
+		(property "Stock" "1243961"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20975,7 +20733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "316654"
+		(property "Stock" "305222"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21214,7 +20972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1048387"
+		(property "Stock" "1047462"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21453,7 +21211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33425"
+		(property "Stock" "24689"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21692,7 +21450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24230"
+		(property "Stock" "24095"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21931,7 +21689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "684179"
+		(property "Stock" "674826"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22170,7 +21928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "589429"
+		(property "Stock" "628352"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22409,7 +22167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "47766"
+		(property "Stock" "47266"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22648,7 +22406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "191303"
+		(property "Stock" "184228"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22887,7 +22645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "72924"
+		(property "Stock" "71437"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23126,7 +22884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "557248"
+		(property "Stock" "548416"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23365,7 +23123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "406237"
+		(property "Stock" "394361"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23604,7 +23362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "700491"
+		(property "Stock" "691936"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23843,7 +23601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "135894"
+		(property "Stock" "135573"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24082,7 +23840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "665413"
+		(property "Stock" "648132"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24321,7 +24079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "763599"
+		(property "Stock" "725762"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24560,7 +24318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "581207"
+		(property "Stock" "563535"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24799,7 +24557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "255826"
+		(property "Stock" "245137"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25038,7 +24796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1579927"
+		(property "Stock" "1558242"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25277,7 +25035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "965777"
+		(property "Stock" "935691"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25516,7 +25274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "386268"
+		(property "Stock" "381363"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25755,7 +25513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "890702"
+		(property "Stock" "868705"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25994,7 +25752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "297020"
+		(property "Stock" "276130"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26233,7 +25991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "195165"
+		(property "Stock" "193795"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26463,7 +26221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "597229"
+		(property "Stock" "545279"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26657,7 +26415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811061822_FH--Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG6R8C500NT_C1679.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26702,7 +26460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "806221"
+		(property "Stock" "801609"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26932,7 +26690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "41347"
+		(property "Stock" "41067"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27162,7 +26920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "46991588"
+		(property "Stock" "44640611"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27401,7 +27159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2604084"
+		(property "Stock" "2537812"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27640,7 +27398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4753607"
+		(property "Stock" "6839323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27879,7 +27637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3058429"
+		(property "Stock" "2964184"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28118,7 +27876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6922609"
+		(property "Stock" "6393087"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28357,7 +28115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "520656"
+		(property "Stock" "510273"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28596,7 +28354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "380304"
+		(property "Stock" "364321"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28835,7 +28593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "402899"
+		(property "Stock" "389478"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29074,7 +28832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "588676"
+		(property "Stock" "561438"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29313,7 +29071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "47150"
+		(property "Stock" "90305"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29552,7 +29310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30421"
+		(property "Stock" "42111"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29791,7 +29549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "206179"
+		(property "Stock" "198739"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30021,7 +29779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "722961"
+		(property "Stock" "708922"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30260,7 +30018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "63029"
+		(property "Stock" "61270"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30454,7 +30212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811061821_FH--Guangdong-Fenghua-Advanced-Tech-0603CG3R0C500NT_C46219.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG3R0C500NT_C46219.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30499,7 +30257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "820630"
+		(property "Stock" "652390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30684,7 +30442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811061811_FH--Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30729,7 +30487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "733259"
+		(property "Stock" "711410"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30968,7 +30726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7130339"
+		(property "Stock" "6936057"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31207,7 +30965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1428081"
+		(property "Stock" "3775115"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31446,7 +31204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2070144"
+		(property "Stock" "1877825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31685,7 +31443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "238907"
+		(property "Stock" "222337"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31924,7 +31682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15337"
+		(property "Stock" "14402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32402,7 +32160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1863290"
+		(property "Stock" "1818454"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32641,7 +32399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6430"
+		(property "Stock" "6060"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32880,7 +32638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "51842"
+		(property "Stock" "51512"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33119,7 +32877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "81525"
+		(property "Stock" "75424"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33358,7 +33116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "102054"
+		(property "Stock" "100402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33597,7 +33355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "102664"
+		(property "Stock" "121124"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33836,7 +33594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "458269"
+		(property "Stock" "446824"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34075,7 +33833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "357658"
+		(property "Stock" "350898"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34314,7 +34072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23929"
+		(property "Stock" "22899"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34553,7 +34311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1174759"
+		(property "Stock" "1102593"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34792,7 +34550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "254717"
+		(property "Stock" "242584"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35031,7 +34789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35521"
+		(property "Stock" "35185"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35270,7 +35028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55860"
+		(property "Stock" "55530"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35509,7 +35267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "289755"
+		(property "Stock" "282346"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35748,7 +35506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "261252"
+		(property "Stock" "256430"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35987,7 +35745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "226354"
+		(property "Stock" "222205"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36226,7 +35984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "136861"
+		(property "Stock" "134483"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36465,7 +36223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "375032"
+		(property "Stock" "374550"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36704,7 +36462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4042416"
+		(property "Stock" "8622354"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36943,7 +36701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2199697"
+		(property "Stock" "2147222"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37182,7 +36940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1954494"
+		(property "Stock" "1899919"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37421,7 +37179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "105578"
+		(property "Stock" "101876"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37660,7 +37418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5721263"
+		(property "Stock" "5511877"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37899,7 +37657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3371478"
+		(property "Stock" "4719372"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38138,7 +37896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1018144"
+		(property "Stock" "996920"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38377,7 +38135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3350"
+		(property "Stock" "209"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38616,7 +38374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8689675"
+		(property "Stock" "8206661"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38855,7 +38613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "95136"
+		(property "Stock" "93279"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39094,7 +38852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "117454"
+		(property "Stock" "116694"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39333,7 +39091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50579"
+		(property "Stock" "44159"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39572,7 +39330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "188682"
+		(property "Stock" "188162"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39811,7 +39569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "132811"
+		(property "Stock" "119431"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40005,7 +39763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40050,7 +39808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "283351"
+		(property "Stock" "264174"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40289,7 +40047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "358841"
+		(property "Stock" "936976"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40952,7 +40710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "177208"
+		(property "Stock" "170744"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41191,7 +40949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "350538"
+		(property "Stock" "339432"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41385,7 +41143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810311313_FH--Guangdong-Fenghua-Advanced-Tech-1206B224K500NT_C1857.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206B224K500NT_C1857.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41430,7 +41188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22229"
+		(property "Stock" "21761"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41669,7 +41427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "147842"
+		(property "Stock" "145538"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41908,7 +41666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2271549"
+		(property "Stock" "2246889"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42147,7 +41905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2729585"
+		(property "Stock" "2654827"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42386,7 +42144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6262353"
+		(property "Stock" "6049544"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42625,7 +42383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "231515"
+		(property "Stock" "1386618"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42864,7 +42622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "471763"
+		(property "Stock" "900915"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43103,7 +42861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "228339"
+		(property "Stock" "216265"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43342,7 +43100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "133"
+		(property "Stock" "99"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43536,7 +43294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811072012_Samsung-Electro-Mechanics-CL31B225KBHNNNE_C50254.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL31B225KBHNNNE_C50254.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43581,7 +43339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "312947"
+		(property "Stock" "308173"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43820,7 +43578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "377755"
+		(property "Stock" "380869"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44898,7 +44656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "260"
+		(property "Stock" "250"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46048,7 +45806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8476"
+		(property "Stock" "8076"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48786,7 +48544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "306"
+		(property "Stock" "266"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48953,7 +48711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811071223_Kyocera-AVX-TAJA106K016RNJ_C7171.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2409302033_Kyocera-AVX-TAJA106K016RNJ_C7171.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48998,7 +48756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "348380"
+		(property "Stock" "340015"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49231,7 +48989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2111161030_Kyocera-AVX-TAJB107K006RNJ-_C16133.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2409302033_Kyocera-AVX-TAJB107K006RNJ_C16133.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49276,7 +49034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "285500"
+		(property "Stock" "279298"
 			(at 0 0 0)
 			(effects
 				(font
