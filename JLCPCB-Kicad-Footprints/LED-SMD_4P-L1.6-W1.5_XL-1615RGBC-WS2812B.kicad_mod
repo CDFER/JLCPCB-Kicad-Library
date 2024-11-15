@@ -127,28 +127,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.75 -0.45 180)
 		(size 0.8 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "189a1a1b-0b1e-4573-8979-0c4498860c5d")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.75 -0.45 180)
 		(size 0.8 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "e2f1fa52-2d3b-4bd7-9daa-c04df4df5840")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -0.75 0.45 180)
 		(size 0.8 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "61f1e51a-c15a-4b7a-b5e7-487b39d196a7")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.75 0.45 180)
 		(size 0.8 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "27d27a7a-d514-4437-8010-25b017c0c314")
 	)
 	(model "/3dModels/LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B.step"

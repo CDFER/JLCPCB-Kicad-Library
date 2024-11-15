@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.95 -4.2)
-		(end 3.85 -4.2)
+		(start -0.5 -4.2)
+		(end 0.5 -4.2)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "9144c519-dcc7-46a1-9e83-d31c3cfd55be")
 	)
 	(fp_line
-		(start -3.95 4.2)
-		(end 3.85 4.2)
+		(start -0.5 4.2)
+		(end 0.5 4.2)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -107,16 +107,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -2.75 0)
 		(size 4 7.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
 		(uuid "384d3334-4531-435e-b7b2-2bcc58a841b9")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 2.75 0)
 		(size 4 7.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
 		(uuid "65fa32d2-fdd4-4d37-9430-7eb154b21be3")
 	)
 	(model "/3dModels/IND-SMD_L7.8-W7.0_GCD75.step"

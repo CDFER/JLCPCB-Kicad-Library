@@ -64,6 +64,7 @@
 			)
 		)
 	)
+	(zone_connect 2)
 	(attr smd)
 	(fp_line
 		(start -0.88 -1.54)
@@ -188,22 +189,25 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 1.24 0.95)
 		(size 1.07 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "4d2b2ff1-a893-4888-aa3c-334bba7a742b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.24 -0.95)
 		(size 1.07 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "fece9956-17fe-497c-871d-3e929dc69856")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -1.24 0)
 		(size 1.07 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "3b949322-64ec-456e-b463-4171bca41092")
 	)
 	(model "/3dModels/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"

@@ -64,7 +64,28 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.038)
 	(attr smd)
+	(fp_line
+		(start -2.9 -2.9)
+		(end 2.9 -2.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c73e892d-5b8e-4c63-914d-bae703b99e9f")
+	)
+	(fp_line
+		(start -2.9 2.9)
+		(end 2.9 2.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06792503-68bc-4738-9dbf-0bd48ccd1f07")
+	)
 	(fp_line
 		(start -6 -3)
 		(end -6 3)
@@ -116,16 +137,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -4.5 0)
 		(size 3.3 5.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.07575757576)
 		(uuid "26349b72-808e-49a2-a429-cdc16d526c62")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 4.5 0)
 		(size 3.3 5.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.07575757576)
 		(uuid "713f1898-788f-46a5-9064-17448b14782b")
 	)
 	(model "/3dModels/RES-SMD_L10.0-W5.2.step"

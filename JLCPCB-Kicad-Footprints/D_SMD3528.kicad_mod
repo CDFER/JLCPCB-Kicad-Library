@@ -187,16 +187,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.52 0)
 		(size 1.5 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
 		(uuid "aa0ed271-2841-402b-94e4-588abf722608")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.52 0)
 		(size 1.5 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
 		(uuid "7a56023b-7b80-4491-9844-9768813e497a")
 	)
 	(model "/3dModels/LED-SMD_L3.5-W2.8_TVSG-AXBZ-2J8L-1-20-R18-Z.step"

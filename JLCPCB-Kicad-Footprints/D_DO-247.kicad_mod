@@ -237,8 +237,8 @@
 		(uuid "36d35f62-8ff8-4397-97c2-78a8e68395e3")
 	)
 	(fp_circle
-		(center -5.46 3.13)
-		(end -5.21 3.13)
+		(center -5.5 1.6)
+		(end -5.25 1.6)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -258,17 +258,18 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at -5.45 0)
-		(size 2.8 2.8)
+		(size 3.5 2.8)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.08928571429)
 		(uuid "977be9cb-69b7-4a62-87bc-ce2079d2300c")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole oval
 		(at 5.45 0)
-		(size 2.8 2.8)
+		(size 3.5 2.8)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

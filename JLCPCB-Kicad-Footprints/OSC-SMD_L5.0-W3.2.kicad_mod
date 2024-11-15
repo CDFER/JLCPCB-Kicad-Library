@@ -150,6 +150,34 @@
 		(roundrect_rratio 0.25)
 		(uuid "8546e92c-0806-4152-a2e3-561251fedb87")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "a874871a-eea4-407f-a8db-1ff4719179e7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3 -2) (xy 3 -2) (xy 3 2) (xy -3 2)
+			)
+		)
+	)
 	(model "/3dModels/OSC-SMD_L5.0-W3.2.step"
 		(offset
 			(xyz 0 0 0)

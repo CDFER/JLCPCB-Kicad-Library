@@ -147,28 +147,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.1 0.8)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "b6147058-3035-45c2-bf97-2349e1784a0c")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.1 0.8)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "fc2b43de-dfa2-477b-98ce-be3cf5f6e184")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 1.1 -0.8)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "83055cc7-3813-4482-be19-5b50eff0f800")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -1.1 -0.8)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "4dbf2b3a-a088-4a00-86e2-3a6aa19acf97")
 	)
 	(model "/3dModels/CRYSTAL-SMD_4P-L3.2-W2.5-BL.step"

@@ -146,16 +146,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.75 0)
 		(size 0.6 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
 		(uuid "3f0ae45b-9d26-4075-b0d4-18bd5979d860")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.75 0)
 		(size 0.6 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
 		(uuid "b6694c03-4392-4602-9653-912fa8b05aa1")
 	)
 	(model "/3dModels/SOD-523F_L1.7-W0.9-LS1.7-RD.step"

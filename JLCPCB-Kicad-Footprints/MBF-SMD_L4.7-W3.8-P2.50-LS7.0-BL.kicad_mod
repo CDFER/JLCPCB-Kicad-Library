@@ -189,28 +189,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.25 3)
 		(size 0.98 2.21)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "729b5f6b-626a-46b0-8b82-3f3fdb974ce7")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.25 3)
 		(size 0.98 2.21)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "ce96bd6a-f6df-4134-bf8b-45cd02819ef1")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 1.25 -3)
 		(size 0.98 2.21)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "eca89b93-6e51-47aa-85f4-39531b1a381c")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -1.25 -3)
 		(size 0.98 2.21)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "c0132c6b-e116-4a2b-8a59-ebcf528b960b")
 	)
 	(model "/3dModels/MBF-SMD_L4.7-W3.8-P2.50-LS7.0-BL.step"

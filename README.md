@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A comprehensive KiCad library featuring symbol libraries linked to pcb footprints (with 3d .step models) for JLCPCB's basic/preferred components (No extra setup costs).
+A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs.
 
 | Kicad 3d View | Fusion 360 |
 |:-------------------------:|:-------------------------:|

@@ -429,13 +429,33 @@
 		(roundrect_rratio 0.25)
 		(uuid "95d37878-f20e-455d-8e56-5f4b407534b1")
 	)
-	(pad "21" smd rect
+	(pad "21" thru_hole circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "79ccc7d4-198d-46b2-b710-4aabfe0f1b5f")
+	)
+	(pad "21" smd roundrect
 		(at 0 0)
 		(size 1.65 1.65)
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1515151515)
 		(zone_connect 2)
 		(uuid "ae2e166f-4abe-458f-a84d-dc2d3d2ae17c")
+	)
+	(pad "21" smd roundrect
+		(at 0 0)
+		(size 1.65 1.65)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(roundrect_rratio 0.1515151515)
+		(zone_connect 2)
+		(uuid "5c1bbb70-e09f-460a-8306-5f4ea3507a47")
 	)
 	(model "/3dModels/QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm.step"
 		(offset

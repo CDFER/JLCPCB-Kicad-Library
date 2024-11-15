@@ -429,11 +429,12 @@
 		(roundrect_rratio 0.25)
 		(uuid "90462936-4f21-4cde-9360-84bf40c4c87b")
 	)
-	(pad "21" smd rect
+	(pad "21" smd roundrect
 		(at 0 0)
 		(size 4.8 4.8)
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.05208333333)
 		(zone_connect 2)
 		(uuid "06be8d67-b77f-4f12-8346-3a21445d3d9a")
 	)

@@ -166,16 +166,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.96 0 180)
 		(size 1.6 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
 		(uuid "fae50a02-de26-43b4-be10-2fa7db2feba9")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.96 0 180)
 		(size 1.6 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
 		(uuid "5ba20219-f77a-4ffc-b0ba-810626b5535d")
 	)
 	(model "/3dModels/SMAF_L3.5-W2.6-LS4.7-RD.step"

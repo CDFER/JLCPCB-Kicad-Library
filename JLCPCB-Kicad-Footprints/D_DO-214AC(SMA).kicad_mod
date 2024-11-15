@@ -116,76 +116,6 @@
 		(uuid "39b27fd6-439f-4386-9a38-0292cedc33c6")
 	)
 	(fp_line
-		(start -0.42 0)
-		(end -0.42 -0.38)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a4a7595f-4731-4613-bed4-07b3fc0e9034")
-	)
-	(fp_line
-		(start -0.42 0)
-		(end -0.42 0.38)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "65be0e73-70f1-4924-90bd-15334b87b809")
-	)
-	(fp_line
-		(start 0.34 -0.38)
-		(end -0.42 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "471d1cb1-697e-4579-8ab1-82d15324ac1b")
-	)
-	(fp_line
-		(start 0.34 0)
-		(end 0.34 -0.38)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d997f82d-af49-401a-8eb6-d811af05e772")
-	)
-	(fp_line
-		(start 0.34 0)
-		(end 0.34 0.38)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a80a969a-c1a3-4df0-88ad-44d90d02aff8")
-	)
-	(fp_line
-		(start 0.34 0.38)
-		(end -0.42 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "75c18d36-e5a9-4f41-b1a7-ecf5204bc074")
-	)
-	(fp_line
-		(start 0.6 0)
-		(end -0.67 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c9f6c1d6-978c-451e-8edd-92d7e3043a3a")
-	)
-	(fp_line
 		(start 2.27 -1.4)
 		(end 2.27 -1.23)
 		(stroke
@@ -256,16 +186,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -2.13 0 180)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1388888889)
 		(uuid "9937926c-23fd-4507-8750-28591d4737a7")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 2.13 0 180)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1388888889)
 		(uuid "c76cae3b-1cc7-4588-8ab4-01684ccd4336")
 	)
 	(model "/3dModels/SMA_L4.5-W2.6-LS5.1-RD.step"

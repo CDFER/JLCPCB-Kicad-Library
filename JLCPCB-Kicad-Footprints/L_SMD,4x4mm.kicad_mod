@@ -176,19 +176,22 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.2 0)
 		(size 1 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "ec972a2e-c958-4afc-8145-4e22e0c4f572")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.2 0)
 		(size 1 3.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "9d2ab5b2-d43b-476f-ada0-3c115a1857ee")
 	)
 	(model "/3dModels/L_Bourns-SRN4018.step"
+		(opacity 0.3400)
 		(offset
 			(xyz 0 0 0)
 		)

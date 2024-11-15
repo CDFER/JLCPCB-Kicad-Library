@@ -96,16 +96,6 @@
 		(uuid "13dbf135-fb1c-4fea-b877-c0d947664918")
 	)
 	(fp_line
-		(start -1.78 -2.5)
-		(end -1.78 2.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bbcf953f-b8ab-4bcb-beee-c584f2a2e3a2")
-	)
-	(fp_line
 		(start -1.51 -1.27)
 		(end -0.49 -1.27)
 		(stroke
@@ -291,28 +281,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -3.1 -1.2)
 		(size 2 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
 		(uuid "1e4e4daa-e19d-4734-81c3-f8da59a8f2d1")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -3.1 1.2)
 		(size 2 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
 		(uuid "e210513a-4cb8-4461-a9ea-4d5d922b858f")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 3.1 1.2)
 		(size 2 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
 		(uuid "dbde802b-64f3-4108-9d94-0a4a5f413938")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 3.1 -1.2)
 		(size 2 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
 		(uuid "524c387f-220a-47f1-b608-f8017ef14ec7")
 	)
 	(model "/3dModels/MBS_L4.7-W3.8-P2.40-LS7.0-TL.step"

@@ -70,6 +70,26 @@
 	(solder_mask_margin 0.038)
 	(attr smd)
 	(fp_line
+		(start -0.8 -1.7)
+		(end 0.8 -1.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4e42821d-161f-4b1f-9198-ccf9d3dbf23e")
+	)
+	(fp_line
+		(start -0.8 1.7)
+		(end 0.8 1.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef73df0f-c05f-47d0-b5e5-5b2db4f98bc3")
+	)
+	(fp_line
 		(start -1.55 -1.88)
 		(end -1.55 1.87)
 		(stroke
@@ -160,49 +180,49 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd oval
 		(at -0.85 -1.2)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e96597d5-2472-4579-99a1-c73c904a73f5")
 	)
-	(pad "2" smd rect
+	(pad "2" smd oval
 		(at -0.85 -0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c7e0f933-94a7-496f-80ff-d61c87d3ff14")
 	)
-	(pad "3" smd rect
+	(pad "3" smd oval
 		(at -0.85 0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8e16ab4a-f8c9-4b7d-aeed-df43c0548cc9")
 	)
-	(pad "4" smd rect
+	(pad "4" smd oval
 		(at -0.85 1.2)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5debcb3f-fdfe-48e0-a605-a46cce09c69c")
 	)
-	(pad "5" smd rect
+	(pad "5" smd oval
 		(at 0.85 1.2)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ac21683c-e799-4a01-bf48-6d7984aef02b")
 	)
-	(pad "6" smd rect
+	(pad "6" smd oval
 		(at 0.85 0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5055efcf-5ab7-4463-919c-d522aa5ee9c3")
 	)
-	(pad "7" smd rect
+	(pad "7" smd oval
 		(at 0.85 -0.4)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "96b37d50-7fba-4db8-889c-3c9b82e9f4b5")
 	)
-	(pad "8" smd rect
+	(pad "8" smd oval
 		(at 0.85 -1.2)
 		(size 0.9 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")

@@ -269,12 +269,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at -3.81 3.95)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
 		(uuid "87d1b765-9cd5-407a-8c48-d02a2fe9107b")
 	)
 	(pad "2" thru_hole circle
@@ -335,7 +336,7 @@
 	)
 	(model "/3dModels/PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1.step"
 		(offset
-			(xyz 0 0 -2.999993955)
+			(xyz 0 0 -0.2)
 		)
 		(scale
 			(xyz 1 1 1)
