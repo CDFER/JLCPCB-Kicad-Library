@@ -1,0 +1,231 @@
+(footprint "MBF-SMD_L4.7-W3.8-P2.50-LS7.0-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MBF-SMD_L4.7-W3.8-P2.50-LS7.0-BL footprint")
+	(tags "MBF-SMD_L4.7-W3.8-P2.50-LS7.0-BL footprint C2943867")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c3de97d5-9278-4e23-b17e-f8e679f89382")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MBF-SMD_L4.7-W3.8-P2.50-LS7.0-BL"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "c86cb4b9-896e-48d6-9e18-58a4b3310a3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ff00bf3-7cad-45f5-b9d9-6678e5e237e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "973787f9-8d95-446f-82e2-445b9126daf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85ea4fb1-58d7-4bfd-89a7-c7aa92a76e78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.32 -1.6)
+		(end -2.32 1.64)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76473e2f-606e-4f7c-85a0-6fa3a1ecbaf1")
+	)
+	(fp_line
+		(start -2.32 1.64)
+		(end 2.35 1.64)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6379b1f5-0f5a-4254-add2-d539c51b7430")
+	)
+	(fp_line
+		(start 2.35 -1.6)
+		(end -2.32 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ee5b010-28cb-47ee-aebd-1cee3a1101e4")
+	)
+	(fp_line
+		(start 2.35 1.64)
+		(end 2.35 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "232d9707-69db-4a5b-89d4-d595b056d55d")
+	)
+	(fp_circle
+		(center -2.25 2)
+		(end -2.22 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b05d83ac-a560-4835-9f76-fef344754e3f")
+	)
+	(fp_line
+		(start -2.5 -2.25)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c18f1984-a9c2-462e-8e02-ff30bfa2b4cf")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "54bdf95f-e7e9-48c0-8e6a-977a62af5126")
+	)
+	(fp_line
+		(start 2.5 -2.25)
+		(end -2.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ec022c8-3167-4f7e-adb5-4acccf383464")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "534e4bae-db36-4f3e-92de-cca5be3fe5b8")
+	)
+	(fp_text user "+"
+		(at -1.25 0.75 0)
+		(layer "F.SilkS")
+		(uuid "9d52cb82-70bc-4d09-a181-83f93b53f82b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 1.25 0.75 0)
+		(layer "F.SilkS")
+		(uuid "dfba5332-6404-4725-9e66-ba36e874e9d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "REF**"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "42d7e404-19db-42fc-b9b3-83a4300c3c86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.25 3)
+		(size 0.98 2.21)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "729b5f6b-626a-46b0-8b82-3f3fdb974ce7")
+	)
+	(pad "2" smd roundrect
+		(at 1.25 3)
+		(size 0.98 2.21)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ce96bd6a-f6df-4134-bf8b-45cd02819ef1")
+	)
+	(pad "3" smd roundrect
+		(at 1.25 -3)
+		(size 0.98 2.21)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "eca89b93-6e51-47aa-85f4-39531b1a381c")
+	)
+	(pad "4" smd roundrect
+		(at -1.25 -3)
+		(size 0.98 2.21)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c0132c6b-e116-4a2b-8a59-ebcf528b960b")
+	)
+	(model "/3dModels/MBF-SMD_L4.7-W3.8-P2.50-LS7.0-BL.step"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

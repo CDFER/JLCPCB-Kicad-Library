@@ -1,0 +1,148 @@
+(footprint "C_Plugin,D18xL36mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-TH_BD18.0-P7.5-D0.8-FD footprint")
+	(tags "CAP-TH_BD18.0-P7.5-D0.8-FD footprint C2841497")
+	(property "Reference" "REF**"
+		(at -2.22 -3.07 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f88c43ca-9ec2-42aa-b568-21be8afc3af1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Plugin,D18xL36mm"
+		(at -2.22 2.66 0)
+		(layer "F.Fab")
+		(uuid "7b24f7f7-f7d0-4e83-8b51-3824fd7f2265")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a090d53-34d2-42fd-ac47-454b01e3ceb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e4513ab-b1d0-4ce1-beb1-0f0f2c2e1055")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9145a67f-57e2-4ca8-81c2-18e7859b3813")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 0.5)
+		(end -6 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2556f46-52d5-4db9-97d8-bee094a7a0b6")
+	)
+	(fp_line
+		(start -5.5 0)
+		(end -6.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54acb072-5b4a-418a-8eef-9b1b44d99932")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d5693c04-d943-4f2b-b547-8f29d9d215ac")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "54d31152-c282-428a-a607-8740a7b82487")
+	)
+	(fp_text user "REF**"
+		(at -2.22 4.66 0)
+		(layer "F.Fab")
+		(uuid "17d9d579-ab7f-4b4e-9e37-64b2b97898cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.75 0)
+		(size 2.1 2.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64e19a43-d303-49d7-bff8-cfae581e765c")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 0)
+		(size 2.1 2.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fde2a140-bf76-40d4-ad0b-3217f4d93a90")
+	)
+	(model "/3dModels/CAP-TH_BD18.0-P7.5-D0.8-FD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

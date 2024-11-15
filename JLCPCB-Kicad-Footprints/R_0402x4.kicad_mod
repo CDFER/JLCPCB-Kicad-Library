@@ -1,0 +1,242 @@
+(footprint "R_0402x4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Thick Film Chip Resistor Array, Wave soldering, Vishay CRA04P (see cra04p.pdf)")
+	(tags "resistor array")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "15873201-6f75-4e59-88bd-6885a23682d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Array_Concave_4x0402"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "821fb3a1-65e9-44b9-ae5e-87ea1d3ca34f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a86333fb-a5a1-4ded-88ca-d529b1117134")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66c8c093-5017-4061-9cd1-a5c0eb033ba7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "088f8c39-fb4c-422e-9e85-817b6e3e217e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.038)
+	(attr smd)
+	(fp_line
+		(start -0.4 -1.1)
+		(end 0.4 -1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "080d2a57-32be-42b7-9705-1302b2bb616b")
+	)
+	(fp_line
+		(start -0.4 1.1)
+		(end 0.4 1.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a43ac9e-e7a2-4e51-baae-5e67b6bd102b")
+	)
+	(fp_line
+		(start -0.75 -1)
+		(end -0.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bd352c9-d9fc-4e3a-ae34-a6076f0ca2e6")
+	)
+	(fp_line
+		(start -0.75 -1)
+		(end 0.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39355e7b-9f64-418b-a201-d407ad6403f4")
+	)
+	(fp_line
+		(start 0.75 1)
+		(end -0.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "588db268-eed3-4b20-8a9f-2ec1fe3c5249")
+	)
+	(fp_line
+		(start 0.75 1)
+		(end 0.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3c0f187-1f32-43e3-a90e-339a996c29bd")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c40d9823-b72e-4de5-8900-4be2afda65d3")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8067c342-ac03-42f9-8e72-de76868be0f7")
+	)
+	(fp_line
+		(start 0.5 -1)
+		(end 0.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b20dcf53-449f-4ed6-bf8a-776449e1b479")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end -0.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "276d1f27-9b94-400c-905b-a7765056c96c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "feaeb7ac-ebfb-4672-a3fd-5026b74678eb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -0.5 -0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "74f55b47-ffd0-4804-bbe4-01b6acc1482c")
+	)
+	(pad "2" smd oval
+		(at -0.5 -0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47ed728f-38fb-4ba8-ae26-3aa02f42649d")
+	)
+	(pad "3" smd oval
+		(at -0.5 0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "79a498a4-d351-4c26-9d9d-d61a9c7db9a1")
+	)
+	(pad "4" smd oval
+		(at -0.5 0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "29fdf553-6249-4f38-a361-00cfae716f49")
+	)
+	(pad "5" smd oval
+		(at 0.5 0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c81190da-b631-498b-abdc-eea32edccb58")
+	)
+	(pad "6" smd oval
+		(at 0.5 0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "45313535-6b92-4f02-a07b-f9c88ead0844")
+	)
+	(pad "7" smd oval
+		(at 0.5 -0.25)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "73f23ba9-dcf7-4035-a9ce-90c86fe24ffc")
+	)
+	(pad "8" smd oval
+		(at 0.5 -0.75)
+		(size 0.5 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aaee101d-5871-44d1-88d3-f677b9049f53")
+	)
+	(model "/3dModels/R_0402x4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

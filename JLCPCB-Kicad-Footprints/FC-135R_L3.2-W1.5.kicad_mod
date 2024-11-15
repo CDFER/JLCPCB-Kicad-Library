@@ -1,0 +1,164 @@
+(footprint "FC-135R_L3.2-W1.5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FC-135R_L3.2-W1.5 footprint")
+	(tags "FC-135R_L3.2-W1.5 footprint C32346")
+	(property "Reference" "REF**"
+		(at 0 -2.76 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2d81159c-ac35-4d1e-b571-03613cc4e702")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FC-135R_L3.2-W1.5"
+		(at 0 2.76 0)
+		(layer "F.Fab")
+		(uuid "93873788-c71d-47c1-80d0-b5f29bc96a8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd948ebb-d238-45f1-98f6-213345ad8f16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4de442bd-6585-40d4-b75d-4da227e1821b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1aa7add-e6f1-49d9-8d1c-9eeee2366613")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 -0.8)
+		(end 0.6 -0.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8aa2d7a5-7e61-4adc-a7fe-ba07b9cf6692")
+	)
+	(fp_line
+		(start 0.6 0.8)
+		(end -0.6 0.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "001bcb0c-27ee-43fd-80bb-a68ebda60928")
+	)
+	(fp_line
+		(start -1.7 -0.8)
+		(end 1.7 -0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "533e30d4-d927-4c18-9491-9a35a8289f04")
+	)
+	(fp_line
+		(start -1.7 0.8)
+		(end -1.7 -0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "05fa0614-cbf4-431d-b9c7-05a5de2afe63")
+	)
+	(fp_line
+		(start 1.7 -0.8)
+		(end 1.7 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f209fed-147a-4c6c-b805-9f5f3df59d77")
+	)
+	(fp_line
+		(start 1.7 0.8)
+		(end -1.7 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0ec6c4a-09f3-4653-9f20-93b22a8cc8a3")
+	)
+	(fp_text user "REF**"
+		(at 0 4.76 0)
+		(layer "F.Fab")
+		(uuid "0efa5e3d-75a5-44af-a2a4-83e0b0601999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.25 0 90)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3e5bb452-ee7d-4bc5-957d-3187ffa6cb37")
+	)
+	(pad "2" smd roundrect
+		(at 1.25 0 90)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "54ed32e3-eac6-4b6d-8479-b1066ee57320")
+	)
+	(model "/3dModels/FC-135R_L3.2-W1.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,220 @@
+(footprint "U-DFN2020-6B_L2.0-W2.0-P0.65-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "U-DFN2020-6B_L2.0-W2.0-P0.65-BL footprint")
+	(tags "U-DFN2020-6B_L2.0-W2.0-P0.65-BL footprint C780826")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dc4e2049-cd21-43ae-98f4-a64bf220c022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "U-DFN2020-6B_L2.0-W2.0-P0.65-BL"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "a039fa26-431a-4630-a4e7-f946be9e0eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80bb2dad-ce22-42fa-a354-2812c5f5a9b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d6d0400-0dcd-48ac-87b2-241dc0e3a81f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d81195e-cb4b-4028-957d-4c9d5d8650e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -1)
+		(end -1.1 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "969601a8-b75d-48d7-bf82-660943371662")
+	)
+	(fp_line
+		(start 1.1 -1)
+		(end 1.1 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2abf6405-cdcf-4893-8e88-a5d8b435926c")
+	)
+	(fp_circle
+		(center -1 1.25)
+		(end -0.97 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dde20d51-3f55-48b4-8898-8f980d621eea")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "26a99554-344f-46c5-a618-d504fb28c8f3")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e909e2e9-7f63-461a-9b6f-85c07b8e9f9c")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f2a188d-3737-4730-9206-b58b869cc294")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5348db7e-078e-4547-b9a9-17d680a2fe05")
+	)
+	(fp_circle
+		(center -0.66 1.24)
+		(end -0.53 1.24)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "38a13393-d93a-4280-a0e6-5d4ed4606783")
+	)
+	(fp_text user "REF**"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "2e77eafa-c547-48a4-b8c7-613501d89eda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.95 180)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6da837a4-0504-4454-9d3c-6b60738d80b3")
+	)
+	(pad "2" smd rect
+		(at 0 0.95 180)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "166eded4-2221-48db-b66b-98b892e4b73c")
+	)
+	(pad "3" smd rect
+		(at 0.52 0 180)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a8271d6e-dc29-4faa-8668-010eb32a82f8")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.95 180)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0d73073a-150b-40fd-a1f2-1b2a3e3392a5")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.95 180)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e525b245-eb26-4c26-850f-1ef943e7ef3a")
+	)
+	(pad "5" smd rect
+		(at 0 -0.95 180)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a7af876d-e97a-41f4-8ca6-44a27b128d25")
+	)
+	(pad "6" smd rect
+		(at -0.65 -0.95 180)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd2136b4-0c92-4ad0-a74b-f337088864a9")
+	)
+	(pad "6" smd rect
+		(at -0.52 0 180)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2a481e17-1812-46df-a608-41aa81abfca8")
+	)
+	(model "/3dModels/U-DFN2020-6B_L2.0-W2.0-P0.65-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

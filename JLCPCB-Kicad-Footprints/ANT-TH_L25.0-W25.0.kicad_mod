@@ -1,0 +1,206 @@
+(footprint "ANT-TH_L25.0-W25.0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ANT-TH_L25.0-W25.0 footprint")
+	(tags "ANT-TH_L25.0-W25.0 footprint C784398")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6ca2cfba-31ca-4c82-8a04-581e3cacff92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT-TH_L25.0-W25.0"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "7ebfbc64-1242-46c9-b5de-648b26370722")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "818178af-ac96-4568-83a6-dc470213dd2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c597a3ca-f49e-4220-8364-0256b91ec9c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a0d10a2-f147-4e94-b790-4a52b0548b0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.5 -10)
+		(end 12.5 -10)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03778b3e-a078-4c34-821c-65cd2c54d828")
+	)
+	(fp_line
+		(start -12.5 15)
+		(end -12.5 -10)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5282c0b-d1fd-4b7a-a7e0-e78825150ecf")
+	)
+	(fp_line
+		(start 12.5 -10)
+		(end 12.5 15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ffead5c-a496-447d-8dad-e5dc51af2a81")
+	)
+	(fp_line
+		(start 12.5 15)
+		(end -12.5 15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65cae36d-a7a3-4742-89f0-8addde42049b")
+	)
+	(fp_line
+		(start -12.5 -10)
+		(end 12.5 -10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9107dd33-fd36-4cb8-a49c-30f5d02bacdd")
+	)
+	(fp_line
+		(start -12.5 15)
+		(end -12.5 -10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "90a7c62e-6a65-48c0-904a-8fbe1d22a16c")
+	)
+	(fp_line
+		(start 12.5 -10)
+		(end 12.5 15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c115d75b-a0a0-41dd-a99b-2d94d12450eb")
+	)
+	(fp_line
+		(start 12.5 15)
+		(end -12.5 15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1449dd5-057f-405d-8772-238dc2e6867c")
+	)
+	(fp_text user "REF**"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "36b42479-869c-4b8b-88e3-8c1590d05bbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82c61747-f282-4968-bc54-da3d61dc8cd4")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "d30d3a8e-0884-4f7f-9048-7942d0ed7bf3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -12.499873 -10) (xy -12.499873 15.000127) (xy 12.500127 15.000127) (xy 12.500127 -10)
+			)
+		)
+	)
+	(model "/3dModels/ANT-TH_L25.0-W25.0.step"
+		(offset
+			(xyz 0 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

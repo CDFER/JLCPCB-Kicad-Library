@@ -1,0 +1,227 @@
+(footprint "Q_TO-126"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-126-3_L7.6-W2.7-P2.30-L footprint")
+	(tags "TO-126-3_L7.6-W2.7-P2.30-L footprint C2991999")
+	(property "Reference" "REF**"
+		(at 0 -3.564999 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "203ea93a-f6e5-4a10-b01c-9816591ce34f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-126-3_L7.6-W2.7-P2.30-L"
+		(at 0 3.140005 0)
+		(layer "F.Fab")
+		(uuid "3f89a7fa-43fa-4b4b-a261-583be601584e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "314757b8-8722-4e48-a4fe-dc7bf896c825")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "828f27bc-49ed-4143-b3ac-2a50da68f0a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c49be61f-d905-445d-a55f-0d535c1f0a63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.8 -1.564999)
+		(end -3.8 1.140005)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5f2d193-4161-4268-9f4e-1e2b286b01d1")
+	)
+	(fp_line
+		(start -3.8 1.140005)
+		(end 3.8 1.140005)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22db1c79-f065-4748-88a5-f60bd9e34db5")
+	)
+	(fp_line
+		(start 3.8 -1.564999)
+		(end -3.8 -1.564999)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9a39856-5335-47a6-990e-fcbf7f0d0348")
+	)
+	(fp_line
+		(start 3.8 1.140005)
+		(end 3.8 -1.559995)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac8fe461-731b-46dc-9eb2-bab880f2e2f1")
+	)
+	(fp_circle
+		(center -4.25 -1.5)
+		(end -4.25 -1.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8944b1fa-7eeb-449e-8574-21290f559939")
+	)
+	(fp_circle
+		(center -3.800102 1.136906)
+		(end -3.77013 1.136906)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4687df21-767c-4e41-9101-228f0f9c37d2")
+	)
+	(fp_line
+		(start -3.75 -1.5)
+		(end 3.75 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2abbcb96-789b-48dd-b1d5-0f2be61248c3")
+	)
+	(fp_line
+		(start -3.75 1)
+		(end -3.75 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5766bd4-6cae-4e20-821a-7d1afeab2068")
+	)
+	(fp_line
+		(start 3.75 -1.5)
+		(end 3.75 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd2adf07-1410-40d0-aea6-1931945200e4")
+	)
+	(fp_line
+		(start 3.75 1)
+		(end -3.75 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "425fe241-bfd9-4eea-be0f-0d6ba63f2b81")
+	)
+	(fp_circle
+		(center -2.299975 1.7)
+		(end -2.14986 1.7)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "45512b78-eb97-48fd-adf6-51e0c5a67be7")
+	)
+	(fp_text user "REF**"
+		(at 0 5.140005 0)
+		(layer "F.Fab")
+		(uuid "72315d96-247e-4c90-8f6e-3c4120ffdfc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.290069 0 90)
+		(size 1.816104 1.816104)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50bf6876-c14c-43bc-9aef-9f15e6fe73cf")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.816104 1.816104)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c4f7863-aad4-4d89-930a-b4e022515fab")
+	)
+	(pad "3" thru_hole circle
+		(at 2.290069 0)
+		(size 1.816104 1.816104)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4986876c-b9d0-4dcc-8c45-d7636b4f0429")
+	)
+	(model "/3dModels/TO-126-3_L7.6-W2.7-P2.30-L.step"
+		(offset
+			(xyz 0 0.3 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

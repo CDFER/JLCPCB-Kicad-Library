@@ -1,0 +1,31 @@
+name: Update Library
+
+on: 
+  push:
+  schedule:  # run 1 hour after jlcpcb-parts-database
+    - cron: "0 7 * * *"
+  workflow_dispatch:  # allow for manually trigger workflow
+
+jobs:
+  update-library-from-database:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip' # caching pip dependencies
+      - run: pip install -r requirements.txt
+      - run: python libraryCreatorScript.py
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5

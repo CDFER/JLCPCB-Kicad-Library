@@ -1,0 +1,142 @@
+(footprint "R_2818"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "R2818 footprint")
+	(tags "R2818 footprint C2932851")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "131c4fb0-6945-4d97-a66c-b16d6ab3eb8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R2818"
+		(at 0.0127 4.743 0)
+		(layer "F.Fab")
+		(uuid "eb65f40d-6096-4a63-8930-6ae5b76673f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bd8b8b0-fccb-4686-8ad8-2f18f75638fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f99656f-c2ec-43fd-afd8-3ca7005a846f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e45ac57-3bef-4664-bd5b-3d004b666f60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -2.75)
+		(end 4 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "137f7df0-58aa-465b-a3c1-f23c97509078")
+	)
+	(fp_line
+		(start -4 2.75)
+		(end -4 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e0880f5-1a5e-4d28-9b12-419d0158d031")
+	)
+	(fp_line
+		(start 4 -2.75)
+		(end 4 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b023e31-517f-4df3-8184-4d0890511ae2")
+	)
+	(fp_line
+		(start 4 2.75)
+		(end -4 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a07c976c-a856-4b5d-bd34-d843b7af2a5e")
+	)
+	(fp_text user "REF**"
+		(at 0.0127 6.743 0)
+		(layer "F.Fab")
+		(uuid "44058ac1-e148-47ae-a3d7-02a00de0f842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.059944 0 90)
+		(size 5.1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b8a1ae8a-cdfa-4ea8-9b2a-0332dc310d92")
+	)
+	(pad "2" smd rect
+		(at 2.059944 0 90)
+		(size 5.1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "767b9712-c5cd-400c-af91-b612c4dab0ca")
+	)
+	(model "/3dModels/R2818.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

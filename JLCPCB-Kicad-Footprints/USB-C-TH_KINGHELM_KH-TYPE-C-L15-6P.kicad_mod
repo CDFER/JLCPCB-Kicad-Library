@@ -1,0 +1,194 @@
+(footprint "USB-C-TH_KINGHELM_KH-TYPE-C-L15-6P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB-C-TH_KINGHELM_KH-TYPE-C-L15-6P footprint")
+	(tags "USB-C-TH_KINGHELM_KH-TYPE-C-L15-6P footprint C2919662")
+	(property "Reference" "REF**"
+		(at 0 -3.53 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7860bea3-4927-4012-8756-3bb1b83a9217")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-C-TH_KINGHELM_KH-TYPE-C-L15-6P"
+		(at 0 3.53 0)
+		(layer "F.Fab")
+		(uuid "c46c79af-3140-4de6-9223-9ef9db94a4d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "becc91a5-d74f-4961-bcce-f06ff1709c08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0942a697-f2e8-471c-9154-153e9da4e7f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f269f51-8103-4dc5-af92-2db11f84cc63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -1.5)
+		(end 4.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b569d9c-cec6-4c9c-aec9-db6ff143859a")
+	)
+	(fp_line
+		(start -4.5 1.5)
+		(end -4.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "02d0d4f8-6ceb-48d8-847e-9dcf76e90570")
+	)
+	(fp_line
+		(start 4.5 -1.5)
+		(end 4.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "71f30e2d-55b7-4b75-aa7d-62d6d0c497e4")
+	)
+	(fp_line
+		(start 4.5 1.5)
+		(end -4.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "70618482-c946-4825-a210-9d26049fef5a")
+	)
+	(fp_text user "REF**"
+		(at 0 5.53 0)
+		(layer "F.Fab")
+		(uuid "87c9c63e-cf8d-467e-9254-65a38d3c6225")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "7" thru_hole oval
+		(at 4.3 0)
+		(size 1 2.3)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c71e940f-f1fd-44b4-aa44-2bc92cf4305b")
+	)
+	(pad "8" thru_hole oval
+		(at -4.3 0)
+		(size 1 2.3)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a3187f92-1c46-4e3b-9e8c-40ca82c389cb")
+	)
+	(pad "A5" thru_hole circle
+		(at -0.6 0)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7efae95a-5938-4ab7-afd5-5f5b7e39c9d0")
+	)
+	(pad "A9" thru_hole circle
+		(at 1.8 0)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a630f0a8-46fb-4170-8813-ba201790d376")
+	)
+	(pad "A12" thru_hole circle
+		(at 3 0)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7506daf-eb31-4853-bde9-18a581497f82")
+	)
+	(pad "B5" thru_hole circle
+		(at 0.6 0)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c48ae2a-130f-4856-9806-f30dab7b1e32")
+	)
+	(pad "B9" thru_hole circle
+		(at -1.8 0)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "357fbae0-f3ea-46e3-b8a6-56234b60e449")
+	)
+	(pad "B12" thru_hole circle
+		(at -3 0)
+		(size 0.8 0.8)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f12afe7-03af-49ea-b704-eb7250476e30")
+	)
+	(model "/3dModels/USB-C-TH_KINGHELM_KH-TYPE-C-L15-6P.step"
+		(offset
+			(xyz 0 0 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
