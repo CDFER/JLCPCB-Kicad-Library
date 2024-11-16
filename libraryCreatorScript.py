@@ -95,15 +95,12 @@ def extract_diode_type(description, pins, lcsc_id):
     # print(f"Error: No diode type found for https://jlcpcb.com/partdetail/C{lcsc_id}  ({description})")
     return None
 
-def extract_transistor_type(description, pins, lcsc_id):
+def extract_transistor_type(description, pins, footprint, lcsc_id):
     if lcsc_id == 484513: return "NMOS"
     if lcsc_id == 396043: return "NMOS"
     if lcsc_id == 916398: return "NMOS"
     if lcsc_id == 296127: return None
-    if lcsc_id == 2907947: return "NPN"
-    if lcsc_id == 2991999: return "PNP"
-    if lcsc_id == 533008: return "NPN"
-    if lcsc_id == 41375139: return "PNP"
+    
     
     transistor_types = {
         "PNP": {"pins": 3, "type": "PNP"},
@@ -116,7 +113,10 @@ def extract_transistor_type(description, pins, lcsc_id):
     for keyword, transistor_info in transistor_types.items():
         if keyword.casefold() in description.casefold():
             if transistor_info["pins"] == pins:
-                return transistor_info["type"]
+                if footprint == "SOT-89":
+                    return f"{transistor_info["type"]}C2" # Collector/ and Emitter pin number is flipped
+                else:
+                    return transistor_info["type"]
             else:
                 # print(f"Error: Number of pins ({pins}) does not match expected ({transistor_info['pins']}) for https://jlcpcb.com/partdetail/C{lcsc_id}  ({description})")
                 return None
@@ -426,13 +426,13 @@ for index in range(0, len(df)):
         stock = df.loc[index, "stock"]
         keywords = ""
         value = None
+        
+        datasheet = df.loc[index, "datasheet"]
 
         try:
             extra_json = json.loads(df.loc[index, "extra"])
-            datasheet = extra_json["datasheet"]["pdf"]
             attributes = extra_json["attributes"]
         except:
-            datasheet = df.loc[index, "datasheet"]
             attributes = []
 
         if df.loc[index, "category"] == "Resistors" and lcsc != 2909989:
@@ -469,11 +469,14 @@ for index in range(0, len(df)):
                 lib_name = "Diodes"
             
         elif subcategory == "MOSFETs" or (subcategory == "Bipolar Transistors - BJT") or (subcategory == "Bipolar (BJT)") or (df.loc[index, "category"] == "Triode/MOS Tube/Transistor") or (df.loc[index, "category"] == "Transistors")  or (df.loc[index, "category"] == "Transistors/Thyristors"):
-            value= extract_transistor_type(description, joints, lcsc)
+            if footprint_name == "SOT-23-3L" or footprint_name == "SOT-23-3":
+                footprint_name = "SOT-23"
+            elif footprint_name == "SOT-89-3":
+                footprint_name = "SOT-89"
+            
+            value= extract_transistor_type(description, joints, footprint_name, lcsc)
             secondary_mode = value
             lib_name = "Transistors"
-            if lcsc == 20917:
-                footprint_name = "SOT-23"
             if value == None:
                 if update_component_inplace(lcsc, "Transistor-Packages", price, stock) == True:
                     df.drop(index = index, inplace= True)

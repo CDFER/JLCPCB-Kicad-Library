@@ -1,9 +1,10 @@
 # librarySymbols.py
 
 
-def generate_header(name):
+def generate_header(name, hide_pin_numbers=True):
     symbol = f'\t(symbol "{name}"'
-    symbol += "\n\t\t(pin_numbers hide)"
+    if hide_pin_numbers == True:
+        symbol += "\n\t\t(pin_numbers hide)"
     symbol += "\n\t\t(pin_names\n\t\t\t(offset 0)\n\t\t)"
     symbol += "\n\t\t(exclude_from_sim no)"
     symbol += "\n\t\t(in_bom yes)"
@@ -144,13 +145,6 @@ def generate_kicad_symbol(
         name = f"{value},{cleaned_manufacturerPartID}"
         value = cleaned_manufacturerPartID
 
-    # elif mode == "Crystals":
-    #     ref_designator = "X"
-    #     name = f"{value},{footprint}"
-    #     ref_position = "2.032 0 0"
-    #     value_position = "3.556 -1.524 0"
-    #     value_autoplace = True
-
     elif mode == "Variable-Resistors":
         value_autoplace = True
         if secondary_mode == "NTC":
@@ -189,12 +183,6 @@ def generate_kicad_symbol(
     if footprint == "SOT-23-3":
         footprint = "SOT-23"
 
-    # if f"{ref_designator}_{footprint}" not in footprints_lookup:
-    #     missing_footprint = f"{ref_designator}_{footprint}"
-    #     if missing_footprint in missing_footprints:
-    #         missing_footprints[missing_footprint] += 1
-    #     else:
-    #         missing_footprints[missing_footprint] = 1
     if name in names_lookup:
         if name + ",(2)" not in names_lookup:
             name = name + ",(2)"
@@ -212,8 +200,10 @@ def generate_kicad_symbol(
     names_lookup.append(name)
 
     footprint = f"JLCPCB-Kicad-Footprints:{ref_designator}_{footprint}"
-
-    symbol = generate_header(name)
+    if mode == "Transistors":
+        symbol = generate_header(name, False)
+    else:
+        symbol = generate_header(name, True)
 
     symbol += generate_property(
         "Reference", ref_designator, ref_position, hide=False, justify_left=True
@@ -427,7 +417,13 @@ def generate_kicad_symbol(
                 )
 
     elif mode == "Transistors":
-        if secondary_mode == "NPN":
+        if secondary_mode == "NPN" or secondary_mode == "NPNC2":
+            if secondary_mode == "NPNC2":
+                collector_pin = 2
+                emitter_pin = 3
+            else:
+                collector_pin = 3
+                emitter_pin = 2
             npn = f"""		(symbol "{name}_0_1"
             (polyline
                 (pts
@@ -536,7 +532,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "1"
+                (number "{collector_pin}"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -554,7 +550,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "2"
+                (number "1"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -572,7 +568,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "3"
+                (number "{emitter_pin}"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -582,7 +578,13 @@ def generate_kicad_symbol(
             )
         )"""
             symbol += npn
-        elif secondary_mode == "PNP":
+        elif secondary_mode == "PNP" or secondary_mode == "PNPC2":
+            if secondary_mode == "PNPC2":
+                collector_pin = 2
+                emitter_pin = 3
+            else:
+                collector_pin = 3
+                emitter_pin = 2
             pnp = f"""		(symbol "{name}_0_1"
             (polyline
                 (pts
@@ -667,7 +669,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "1"
+                (number "{collector_pin}"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -685,7 +687,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "2"
+                (number "1"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -703,7 +705,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "3"
+                (number "{emitter_pin}"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -892,7 +894,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "1"
+                (number "3"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -910,7 +912,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "2"
+                (number "1"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -928,7 +930,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "3"
+                (number "2"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -1117,7 +1119,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "1"
+                (number "3"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -1135,7 +1137,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "2"
+                (number "1"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -1153,7 +1155,7 @@ def generate_kicad_symbol(
                         )
                     )
                 )
-                (number "3"
+                (number "2"
                     (effects
                         (font
                             (size 1.27 1.27)
@@ -1336,15 +1338,6 @@ def generate_kicad_symbol(
 			)
 		)"""
             symbol += inductor
-
-    # elif mode == "Crystals":
-    #     symbol += generate_rectangle("2.54 -1.016", "-2.54 1.016", name=name, index=0)
-    #     symbol += generate_polyline(["-1.27 2.54", "1.27 2.54"], name=name, index=0)
-    #     symbol += generate_polyline(["-1.27 -2.54", "1.27 -2.54"], name=name, index=0)
-    #     for i in range(1, units + 1):
-    #         symbol += generate_pin_pair(
-    #             "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
-    #         )
 
     elif mode == "Variable-Resistors":
         if secondary_mode == "Fuse" or secondary_mode == "Fuse,Resettable":
