@@ -392,7 +392,7 @@ for index in range(0, len(df)):
     manufacturerPartID = df.loc[index,"mfr"]
     footprint_name = df.loc[index, "package"]
     description = df.loc[index, "description"]
-    joints = df.loc[index, "joints"]
+    joints = int(df.loc[index, "joints"])
     units = 1
     secondary_mode = ""
     subcategory = str(df.loc[index,"subcategory"])
@@ -402,10 +402,22 @@ for index in range(0, len(df)):
     else:
         joint_cost = smt_joint_cost
 
-    price_json = json.loads(df.loc[index, "price"])
-    price = float(price_json[0]["price"] + (joints * joint_cost))
-    price = round(price, 3)
-    price_str = f"{price:.3f}USD"
+    try:
+        price_json = json.loads(df.loc[index, "price"])
+        if price_json and len(price_json) > 0 and "price" in price_json[0]:
+            base_price = float(price_json[0]["price"])
+            # Calculate the total price considering joints and joint cost
+            price = base_price + (joints * joint_cost)
+            price = round(price, 3)
+            price_str = f"{price:.3f}USD"
+            
+        else:
+            price_str = f""
+            print(f"Error: Price is missing or invalid for https://jlcpcb.com/partdetail/C{lcsc} ({price_json})")
+    except (json.JSONDecodeError, ValueError, KeyError, TypeError):
+        price_str = f""
+        print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
+
     
     if price > 3.0 or footprint_name == "0201" or lcsc == 882967:
         df.drop(index = index, inplace= True)
