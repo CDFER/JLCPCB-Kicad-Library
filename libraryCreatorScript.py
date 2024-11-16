@@ -66,6 +66,13 @@ def extract_diode_type(description, pins, lcsc_id):
     if lcsc_id == 20617910: return "TVS-Bi"
     if lcsc_id == 22466368: return "Schottky13"
     if lcsc_id == 22466371: return "Schottky13"
+    if lcsc_id == 28646292: return "Schottky"
+    if lcsc_id == 28646296: return "Schottky"
+    if lcsc_id == 28646302: return "Schottky"
+    if lcsc_id == 28646299: return "Schottky"
+    if lcsc_id == 28646283: return "Schottky"
+    if lcsc_id == 41411783: return "TVS-Uni"
+    if lcsc_id == 41376087: return "TVS-Uni"
     
     diode_types = {
         "Schottky": {"pins": 2, "type": "Schottky"},
@@ -96,6 +103,7 @@ def extract_transistor_type(description, pins, lcsc_id):
     if lcsc_id == 2907947: return "NPN"
     if lcsc_id == 2991999: return "PNP"
     if lcsc_id == 533008: return "NPN"
+    if lcsc_id == 41375139: return "PNP"
     
     transistor_types = {
         "PNP": {"pins": 3, "type": "PNP"},
