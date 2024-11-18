@@ -387,7 +387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9982"
+		(property "Stock" "9902"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1089,7 +1089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29918"
+		(property "Stock" "29772"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1195,6 +1195,2065 @@
 			)
 		)
 		(symbol "TVS-Bi,SMAJ5.0CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Uni,SMAJ33A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ33A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ33A_C41376399.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W 53.3V 40.6V Unidirectional 33V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376399"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "19980"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ33A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "40.6V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "53.3V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "33V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ33A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ33A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ33A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Bi,SMAJ43CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ43CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ43CA_C41376400.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W 69.4V 52.8V Bidirectional 43V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376400"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "20000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ43CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "52.8V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "69.4V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "43V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ43CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ43CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ43CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ43CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Uni,SMAJ48A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ48A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ48A_C41376401.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "77.4V 400W 58.9V Unidirectional 48V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376401"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "14778"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ48A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "58.9V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "77.4V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "48V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ48A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ48A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ48A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Uni,SMAJ43A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ43A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ43A_C41376402.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W 69.4V 52.8V Unidirectional 43V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "14980"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ43A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "52.8V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "69.4V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "43V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ43A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ43A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ43A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Uni,SMAJ22A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ22A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ22A_C41376403.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "35.5V 400W 26.9V Unidirectional 22V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376403"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "14960"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ22A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "26.9V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "35.5V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "22V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ22A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ22A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ22A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Bi,SMAJ51CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ51CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ51CA_C41376404.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.9A 82.4V 400W 62.7V Bidirectional 51V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376404"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "14980"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ51CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "62.7V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "82.4V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "4.9A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "51V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ51CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ51CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ51CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ51CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Uni,SMAJ16A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ16A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ16A_C41376405.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "26V 400W 19.7V Unidirectional 16V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376405"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "14898"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ16A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "19.7V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "26V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "16V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ16A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ16A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ16A_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -1483,6 +3542,294 @@
 			)
 		)
 		(symbol "TVS-Uni,SMAJ14A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Uni,SMAJ10A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ10A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409191648_hongjiacheng-SMAJ10A_C41376407.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "17V 400W 12.3V Unidirectional 10V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376407"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMAJ10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "12.3V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "17V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "10V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "5uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ10A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ10A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ10A_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -2177,7 +4524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14990"
+		(property "Stock" "14950"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2725,6 +5072,948 @@
 			)
 		)
 	)
+	(symbol "TVS-Bi,SMBJ64CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ64CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMBJ64CA_C41376099.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.83A 600W 103V 78.6V Bidirectional 64V SMB ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376099"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMBJ64CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "600W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "78.6V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "103V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "5.83A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "64V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "5uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ64CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ64CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ64CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ64CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Bi,SMBJ8.0CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ8.0CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409191648_hongjiacheng-SMBJ8-0CA_C41376100.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "44.12A 600W 13.6V 9.83V Bidirectional 8V SMB ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376100"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "8993"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMBJ8.0CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "600W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "9.83V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "13.6V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "44.12A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "8V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "50uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ8.0CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ8.0CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ8.0CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ8.0CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Bi,SMBJ51CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ51CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409191648_hongjiacheng-SMBJ51CA_C41376101.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.28A 600W 82.4V 62.7V Bidirectional 51V SMB ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376101"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMBJ51CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "600W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "62.7V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "82.4V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "7.28A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "51V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "5uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ51CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ51CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ51CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ51CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TVS-Uni,SMBJ58A"
 		(pin_numbers hide)
 		(pin_names
@@ -2984,6 +6273,320 @@
 			)
 		)
 		(symbol "TVS-Uni,SMBJ58A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Bi,SMBJ90CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ90CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409191648_hongjiacheng-SMBJ90CA_C41376398.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.11A 600W 146V 111V Bidirectional 90V SMB ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376398"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMBJ90CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "600W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "111V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "146V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "4.11A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "90V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "5uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ90CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ90CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ90CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMBJ90CA_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -3641,6 +7244,320 @@
 			)
 		)
 	)
+	(symbol "TVS-Bi,SMCJ12CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ12CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMC"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMCJ12CA_C41411748.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75.4A 19.9V 1.5kW 14.7V Bidirectional 12V SMC ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41411748"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "5925"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMCJ12CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "1.5kW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "14.7V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "19.9V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "75.4A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "12V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ12CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ12CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ12CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ12CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TVS-Uni,SMF5.0A"
 		(pin_numbers hide)
 		(pin_names
@@ -3721,7 +7638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21027"
+		(property "Stock" "20984"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3928,7 +7845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4279"
+		(property "Stock" "4264"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4152,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31792"
+		(property "Stock" "31759"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4359,7 +8276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10596"
+		(property "Stock" "10433"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4880,7 +8797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6162"
+		(property "Stock" "6132"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5059,6 +8976,303 @@
 			)
 		)
 		(symbol "TVS-Uni,SMF30A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Uni,SMF36A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF36A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123FL"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMF36A_C41376086.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.44A 58.1V 200W 44.2V Unidirectional 36V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376086"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "17880"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SMF36A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "200W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "44.2V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "58.1V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "3.44A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "36V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMF36A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMF36A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMF36A_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -5888,7 +10102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "704"
+		(property "Stock" "136"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6166,7 +10380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20045"
+		(property "Stock" "19839"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6444,7 +10658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8787"
+		(property "Stock" "8768"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6651,7 +10865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "396"
+		(property "Stock" "250"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7136,7 +11350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "274537"
+		(property "Stock" "273193"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7414,7 +11628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1471499"
+		(property "Stock" "1457123"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7682,7 +11896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23781"
+		(property "Stock" "23608"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7950,7 +12164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1350"
+		(property "Stock" "1330"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8218,7 +12432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38867"
+		(property "Stock" "38517"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8486,7 +12700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6965"
+		(property "Stock" "6815"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9700,7 +13914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2368331"
+		(property "Stock" "2309773"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10155,7 +14369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "92074"
+		(property "Stock" "91599"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11065,7 +15279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2327"
+		(property "Stock" "12327"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11270,7 +15484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5924"
+		(property "Stock" "5885"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11725,7 +15939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "639"
+		(property "Stock" "600"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11975,7 +16189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3987"
+		(property "Stock" "3982"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13250,7 +17464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11940"
+		(property "Stock" "11930"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14070,7 +18284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11872"
+		(property "Stock" "11862"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14525,7 +18739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1418410"
+		(property "Stock" "1406830"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14775,7 +18989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38529"
+		(property "Stock" "38229"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15025,7 +19239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "63748"
+		(property "Stock" "62988"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15275,7 +19489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "119092"
+		(property "Stock" "117732"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15685,7 +19899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29724"
+		(property "Stock" "29574"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16710,7 +20924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3189"
+		(property "Stock" "1970"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16915,7 +21129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22410"
+		(property "Stock" "22122"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17120,7 +21334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7023"
+		(property "Stock" "6965"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17325,7 +21539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6780"
+		(property "Stock" "6761"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17475,6 +21689,211 @@
 			)
 		)
 		(symbol "Recovery,US1MF_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Recovery,RS2MF"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RS2MF"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409201747_hongjiacheng-RS2MF_C41411743.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMAF Fast Recovery / High Efficiency Diodes ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41411743"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6186"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Fast Recovery / High Efficiency Diodes"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "RS2MF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Recovery,RS2MF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Recovery,RS2MF_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Recovery,RS2MF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -17861,7 +22280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10173"
+		(property "Stock" "9579"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18539,7 +22958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7609"
+		(property "Stock" "7530"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18949,7 +23368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8695"
+		(property "Stock" "8666"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20715,7 +25134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16513"
+		(property "Stock" "14498"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20920,7 +25339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4367"
+		(property "Stock" "4323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21393,7 +25812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2547"
+		(property "Stock" "2519"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21807,7 +26226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1847"
+		(property "Stock" "1595"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22016,7 +26435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "796315"
+		(property "Stock" "796667"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22270,7 +26689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1875402"
+		(property "Stock" "1852042"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22524,7 +26943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "302494"
+		(property "Stock" "294710"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22760,7 +27179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1088071"
+		(property "Stock" "1074638"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23205,7 +27624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16331"
+		(property "Stock" "16311"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23468,7 +27887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35128"
+		(property "Stock" "34942"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23731,7 +28150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "51019"
+		(property "Stock" "50760"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23994,7 +28413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "61702"
+		(property "Stock" "61176"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24257,7 +28676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7938"
+		(property "Stock" "7569"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24520,7 +28939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "92430"
+		(property "Stock" "92390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24783,7 +29202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31984"
+		(property "Stock" "30996"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25046,7 +29465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50630"
+		(property "Stock" "38132"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26026,7 +30445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50329"
+		(property "Stock" "50129"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26289,7 +30708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60890"
+		(property "Stock" "61063"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26970,7 +31389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9211"
+		(property "Stock" "9201"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27597,7 +32016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3941"
+		(property "Stock" "3921"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27806,7 +32225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14885"
+		(property "Stock" "13621"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28069,7 +32488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18873"
+		(property "Stock" "18883"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28332,7 +32751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7231"
+		(property "Stock" "7136"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28568,7 +32987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "394888"
+		(property "Stock" "386195"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28804,7 +33223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "71358"
+		(property "Stock" "68299"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29303,7 +33722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30273"
+		(property "Stock" "30133"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29566,7 +33985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "54990"
+		(property "Stock" "54940"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29829,7 +34248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20679"
+		(property "Stock" "20645"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30083,7 +34502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7698"
+		(property "Stock" "7663"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30292,7 +34711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5197"
+		(property "Stock" "20097"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30710,7 +35129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13429"
+		(property "Stock" "13414"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30919,7 +35338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "52162"
+		(property "Stock" "45941"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31155,7 +35574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "761657"
+		(property "Stock" "721208"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31391,7 +35810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2537"
+		(property "Stock" "2409"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31600,7 +36019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "180409"
+		(property "Stock" "179839"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31863,7 +36282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30413"
+		(property "Stock" "30187"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32117,7 +36536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "91978"
+		(property "Stock" "90639"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32380,7 +36799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15558"
+		(property "Stock" "14480"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32643,7 +37062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10209"
+		(property "Stock" "10089"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32897,7 +37316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38385"
+		(property "Stock" "38143"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33151,7 +37570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22173"
+		(property "Stock" "22153"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33414,7 +37833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "98400"
+		(property "Stock" "93471"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33677,7 +38096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "41974"
+		(property "Stock" "41954"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33886,7 +38305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1761"
+		(property "Stock" "16715"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34394,7 +38813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22523"
+		(property "Stock" "22323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34902,7 +39321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14205"
+		(property "Stock" "14179"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35111,7 +39530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11902"
+		(property "Stock" "11322"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35320,7 +39739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19560"
+		(property "Stock" "19483"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35738,7 +40157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9061"
+		(property "Stock" "9055"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36365,7 +40784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4928"
+		(property "Stock" "3804"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36783,7 +41202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "49"
+		(property "Stock" "40"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36992,7 +41411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3712"
+		(property "Stock" "3658"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37201,7 +41620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13896"
+		(property "Stock" "13733"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37664,7 +42083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9346"
+		(property "Stock" "8755"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37918,7 +42337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7190"
+		(property "Stock" "7176"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38336,7 +42755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3096"
+		(property "Stock" "3080"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38545,7 +42964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3308"
+		(property "Stock" "3293"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38754,7 +43173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3013"
+		(property "Stock" "23013"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38963,7 +43382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11999"
+		(property "Stock" "11975"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39172,7 +43591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18388"
+		(property "Stock" "18373"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39381,7 +43800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "563"
+		(property "Stock" "10563"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39681,6 +44100,514 @@
 			)
 		)
 		(symbol "Schottky,SSL54F_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Schottky,SS110F"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS110F"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409201747_hongjiacheng-SS110F_C41411770.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V Independent Type 850mV@1A 1A SMAF Schottky Diodes ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41411770"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6136"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SS110F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "850mV@1A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "100V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "500uA@100V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Schottky,SS110F_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky,SS110F_0_1"
+			(polyline
+				(pts
+					(xy 0.635 -1.905)
+					(xy 1.27 -1.905)
+					(xy 1.27 -1.27)
+					(xy -1.27 -1.27)
+					(xy -1.27 -0.635)
+					(xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky,SS110F_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Schottky,SS220F"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS220F"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409201747_hongjiacheng-SS220F_C41411772.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200V Independent Type 950mV@2A 2A SMAF Schottky Diodes ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41411772"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6140"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "SS220F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rectified Current" "2A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "950mV@2A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "200V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "500uA@200V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Schottky,SS220F_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky,SS220F_0_1"
+			(polyline
+				(pts
+					(xy 0.635 -1.905)
+					(xy 1.27 -1.905)
+					(xy 1.27 -1.27)
+					(xy -1.27 -1.27)
+					(xy -1.27 -0.635)
+					(xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky,SS220F_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -41570,7 +46497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1891"
+		(property "Stock" "1881"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42451,7 +47378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35899"
+		(property "Stock" "35800"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42705,7 +47632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5409"
+		(property "Stock" "5158"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43123,7 +48050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8980"
+		(property "Stock" "8780"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43541,7 +48468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8371"
+		(property "Stock" "8207"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44213,7 +49140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8687"
+		(property "Stock" "8633"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44422,7 +49349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28249"
+		(property "Stock" "28234"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44631,7 +49558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "26815"
+		(property "Stock" "26620"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45258,7 +50185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20998"
+		(property "Stock" "20921"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45676,7 +50603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4810"
+		(property "Stock" "4770"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46139,7 +51066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11712"
+		(property "Stock" "11643"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46348,7 +51275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8428"
+		(property "Stock" "8408"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46602,7 +51529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5355"
+		(property "Stock" "5340"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47991,7 +52918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7289"
+		(property "Stock" "7269"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48454,7 +53381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1808"
+		(property "Stock" "1664"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48872,7 +53799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11124"
+		(property "Stock" "8124"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49499,7 +54426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3362"
+		(property "Stock" "3342"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49708,7 +54635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8661"
+		(property "Stock" "8623"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50171,7 +55098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1538844"
+		(property "Stock" "1478606"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50716,7 +55643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "524908"
+		(property "Stock" "516113"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50993,7 +55920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1923325"
+		(property "Stock" "1808489"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51270,7 +56197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "628281"
+		(property "Stock" "624757"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51547,7 +56474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "51008"
+		(property "Stock" "50733"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51824,7 +56751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2502"
+		(property "Stock" "32351"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52092,7 +57019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31625"
+		(property "Stock" "31843"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52360,7 +57287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "123014"
+		(property "Stock" "122557"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52637,7 +57564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23455"
+		(property "Stock" "23293"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53048,7 +57975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14046"
+		(property "Stock" "14027"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53254,7 +58181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11261"
+		(property "Stock" "11251"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53460,7 +58387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6204"
+		(property "Stock" "6208"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54132,7 +59059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1209"
+		(property "Stock" "11200"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54338,7 +59265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5868"
+		(property "Stock" "5853"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54544,7 +59471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13760"
+		(property "Stock" "13751"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54750,7 +59677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2949"
+		(property "Stock" "2905"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54956,7 +59883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2724"
+		(property "Stock" "2718"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55834,7 +60761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18243"
+		(property "Stock" "18219"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56560,7 +61487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1377"
+		(property "Stock" "1322"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56766,7 +61693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19030"
+		(property "Stock" "18671"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57438,7 +62365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "79037"
+		(property "Stock" "78807"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58110,7 +63037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31742"
+		(property "Stock" "31703"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58316,7 +63243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "46868"
+		(property "Stock" "43713"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58522,7 +63449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15274"
+		(property "Stock" "15056"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58934,7 +63861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27353"
+		(property "Stock" "27323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59140,7 +64067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2446"
+		(property "Stock" "2192"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59346,7 +64273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8546"
+		(property "Stock" "8531"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59758,7 +64685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8867"
+		(property "Stock" "8852"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59964,7 +64891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36099"
+		(property "Stock" "36084"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60170,7 +65097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2404"
+		(property "Stock" "2389"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60582,7 +65509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16463"
+		(property "Stock" "16398"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61200,7 +66127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31414"
+		(property "Stock" "31300"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61406,7 +66333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21507"
+		(property "Stock" "21457"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61612,7 +66539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8140"
+		(property "Stock" "8125"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61818,7 +66745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9691"
+		(property "Stock" "9593"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62230,7 +67157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11053"
+		(property "Stock" "10995"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62436,7 +67363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2652"
+		(property "Stock" "2622"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62642,7 +67569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11563"
+		(property "Stock" "11459"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62848,7 +67775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4898"
+		(property "Stock" "4819"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63054,7 +67981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9938"
+		(property "Stock" "9972"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63466,7 +68393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9174"
+		(property "Stock" "9124"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63726,7 +68653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2927"
+		(property "Stock" "2912"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64344,7 +69271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2454"
+		(property "Stock" "17374"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64550,7 +69477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25150"
+		(property "Stock" "25100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64756,7 +69683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23057"
+		(property "Stock" "23042"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64962,7 +69889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4137"
+		(property "Stock" "2847"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65222,7 +70149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21324"
+		(property "Stock" "21309"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65428,7 +70355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33685"
+		(property "Stock" "33635"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65634,7 +70561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10080"
+		(property "Stock" "9476"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65840,7 +70767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "39237"
+		(property "Stock" "35753"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66046,7 +70973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "68957"
+		(property "Stock" "68803"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66252,7 +71179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7381"
+		(property "Stock" "7281"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66718,7 +71645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17517"
+		(property "Stock" "17567"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66924,7 +71851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3495"
+		(property "Stock" "3461"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67336,7 +72263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5089"
+		(property "Stock" "2089"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67542,7 +72469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7191"
+		(property "Stock" "7087"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67802,7 +72729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20249"
+		(property "Stock" "19949"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68008,7 +72935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17340"
+		(property "Stock" "17290"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68420,7 +73347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9361"
+		(property "Stock" "9277"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68626,7 +73553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14405"
+		(property "Stock" "14331"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69038,7 +73965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5"
+		(property "Stock" "20"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69450,7 +74377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10918"
+		(property "Stock" "10875"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70068,7 +74995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15567"
+		(property "Stock" "15513"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70274,7 +75201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18477"
+		(property "Stock" "18427"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70892,7 +75819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5538"
+		(property "Stock" "5414"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71098,7 +76025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5568"
+		(property "Stock" "2568"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71304,7 +76231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1932"
+		(property "Stock" "1889"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72648,7 +77575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2461"
+		(property "Stock" "2407"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74762,7 +79689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2825"
+		(property "Stock" "2725"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74968,7 +79895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1537"
+		(property "Stock" "7537"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75586,7 +80513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7694"
+		(property "Stock" "7649"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75792,7 +80719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8762"
+		(property "Stock" "8558"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76822,7 +81749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15309"
+		(property "Stock" "15257"
 			(at 0 0 0)
 			(effects
 				(font
@@ -77852,7 +82779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5476"
+		(property "Stock" "5510"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78112,7 +83039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5457"
+		(property "Stock" "5423"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78990,7 +83917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9681"
+		(property "Stock" "9631"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80280,7 +85207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11626"
+		(property "Stock" "11422"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80692,7 +85619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16412"
+		(property "Stock" "16388"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80898,7 +85825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3825"
+		(property "Stock" "3816"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83272,7 +88199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4075"
+		(property "Stock" "4021"
 			(at 0 0 0)
 			(effects
 				(font
@@ -84356,7 +89283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5185"
+		(property "Stock" "4931"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86318,7 +91245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16471"
+		(property "Stock" "16404"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86990,7 +91917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40561"
+		(property "Stock" "40387"
 			(at 0 0 0)
 			(effects
 				(font
@@ -87608,7 +92535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14993"
+		(property "Stock" "15037"
 			(at 0 0 0)
 			(effects
 				(font
@@ -87868,7 +92795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16783"
+		(property "Stock" "16712"
 			(at 0 0 0)
 			(effects
 				(font
@@ -88334,7 +93261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28205"
+		(property "Stock" "28185"
 			(at 0 0 0)
 			(effects
 				(font
@@ -88540,7 +93467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15522"
+		(property "Stock" "15502"
 			(at 0 0 0)
 			(effects
 				(font
@@ -88952,7 +93879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21392"
+		(property "Stock" "21116"
 			(at 0 0 0)
 			(effects
 				(font
@@ -89158,7 +94085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33740"
+		(property "Stock" "33737"
 			(at 0 0 0)
 			(effects
 				(font
@@ -89364,7 +94291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35033"
+		(property "Stock" "34953"
 			(at 0 0 0)
 			(effects
 				(font
@@ -89570,7 +94497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15423"
+		(property "Stock" "15387"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90036,7 +94963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5735"
+		(property "Stock" "5715"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90860,7 +95787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "936"
+		(property "Stock" "810"
 			(at 0 0 0)
 			(effects
 				(font
@@ -91684,7 +96611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12466"
+		(property "Stock" "12440"
 			(at 0 0 0)
 			(effects
 				(font
@@ -92096,7 +97023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1824"
+		(property "Stock" "1802"
 			(at 0 0 0)
 			(effects
 				(font
@@ -92302,7 +97229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6493"
+		(property "Stock" "6467"
 			(at 0 0 0)
 			(effects
 				(font
@@ -93180,7 +98107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10791"
+		(property "Stock" "10669"
 			(at 0 0 0)
 			(effects
 				(font
@@ -93798,7 +98725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19316"
+		(property "Stock" "19296"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95858,7 +100785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7581"
+		(property "Stock" "7555"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97354,7 +102281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6651"
+		(property "Stock" "6631"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98026,7 +102953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2010"
+		(property "Stock" "8010"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98412,6 +103339,266 @@
 			)
 		)
 	)
+	(symbol "Zener,MMSZ5234BS"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSZ5234BS"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-323"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301732_hongjiacheng-MMSZ5234BS_C41410801.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Independent Type 200mW 5.89V~6.51V 6.2V SOD-323 Zener Diodes ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41410801"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6095"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Zener Diodes"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part ID" "MMSZ5234BS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation" "200mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Zener Impedance (Zzt)" "1kΩ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Zener Voltage (Range)" "5.89V~6.51V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Zener Voltage (Nom)" "6.2V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "5uA@4V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Zener,MMSZ5234BS_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Zener,MMSZ5234BS_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.27 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Zener,MMSZ5234BS_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Zener,BZX584C3V3"
 		(pin_numbers hide)
 		(pin_names
@@ -98492,7 +103679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20769"
+		(property "Stock" "20749"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98752,7 +103939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19166"
+		(property "Stock" "19126"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98958,7 +104145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "44232"
+		(property "Stock" "44132"
 			(at 0 0 0)
 			(effects
 				(font
@@ -99218,7 +104405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12012"
+		(property "Stock" "11912"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101960,7 +107147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9299"
+		(property "Stock" "9281"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102220,7 +107407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8081"
+		(property "Stock" "8071"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102632,7 +107819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10061"
+		(property "Stock" "9911"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103098,7 +108285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11487"
+		(property "Stock" "11477"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103304,7 +108491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7638"
+		(property "Stock" "7588"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104952,7 +110139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2045224"
+		(property "Stock" "1964600"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105193,7 +110380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "765540"
+		(property "Stock" "742109"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105434,7 +110621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "558296"
+		(property "Stock" "544968"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105675,7 +110862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "286566"
+		(property "Stock" "285395"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105916,7 +111103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "351312"
+		(property "Stock" "272806"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106256,7 +111443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "397412"
+		(property "Stock" "392389"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106605,7 +111792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "871720"
+		(property "Stock" "857174"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106846,7 +112033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1478134"
+		(property "Stock" "2256232"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107894,7 +113081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "856299"
+		(property "Stock" "854729"
 			(at 0 0 0)
 			(effects
 				(font
@@ -109418,7 +114605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19376"
+		(property "Stock" "19356"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110395,7 +115582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8430"
+		(property "Stock" "8380"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110619,7 +115806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10401"
+		(property "Stock" "10283"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110843,7 +116030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8843"
+		(property "Stock" "8793"
 			(at 0 0 0)
 			(effects
 				(font
@@ -111067,7 +116254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14236"
+		(property "Stock" "14220"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113354,7 +118541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33487"
+		(property "Stock" "33477"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113975,7 +119162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2812"
+		(property "Stock" "2774"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114182,7 +119369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11283"
+		(property "Stock" "11270"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114406,7 +119593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8036"
+		(property "Stock" "7916"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114837,7 +120024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20639"
+		(property "Stock" "20615"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115061,7 +120248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1373"
+		(property "Stock" "31477"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115285,7 +120472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "37055"
+		(property "Stock" "36804"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115509,7 +120696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9195"
+		(property "Stock" "9185"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115733,7 +120920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5061"
+		(property "Stock" "20036"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116164,7 +121351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12904"
+		(property "Stock" "12692"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116388,7 +121575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33875"
+		(property "Stock" "33382"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116612,7 +121799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12560"
+		(property "Stock" "12814"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116836,7 +122023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2536"
+		(property "Stock" "12472"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117043,7 +122230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6163"
+		(property "Stock" "6126"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117267,7 +122454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8706"
+		(property "Stock" "8680"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117474,7 +122661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2213"
+		(property "Stock" "1840"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117698,7 +122885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3712"
+		(property "Stock" "2981"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117922,7 +123109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20189"
+		(property "Stock" "20143"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118129,7 +123316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6277"
+		(property "Stock" "6270"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118336,7 +123523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7120"
+		(property "Stock" "7024"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118560,7 +123747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4026"
+		(property "Stock" "3987"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118767,7 +123954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3500"
+		(property "Stock" "3493"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118974,7 +124161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2725"
+		(property "Stock" "2125"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119198,7 +124385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6853"
+		(property "Stock" "6821"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119405,7 +124592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29919"
+		(property "Stock" "29622"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119629,7 +124816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4294"
+		(property "Stock" "4262"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119836,7 +125023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6438"
+		(property "Stock" "6384"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120060,7 +125247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4423"
+		(property "Stock" "4418"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120267,7 +125454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2838"
+		(property "Stock" "2632"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120491,7 +125678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4258"
+		(property "Stock" "4226"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120698,7 +125885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4564"
+		(property "Stock" "4373"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121146,7 +126333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5959"
+		(property "Stock" "5947"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121353,7 +126540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3222"
+		(property "Stock" "3180"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121560,7 +126747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7487"
+		(property "Stock" "7646"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121784,7 +126971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5593"
+		(property "Stock" "4539"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121991,7 +127178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1185"
+		(property "Stock" "862"
 			(at 0 0 0)
 			(effects
 				(font
@@ -122439,7 +127626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15039"
+		(property "Stock" "14987"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123077,7 +128264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10588"
+		(property "Stock" "10596"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123301,7 +128488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4841"
+		(property "Stock" "4781"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123749,7 +128936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7444"
+		(property "Stock" "7437"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124180,7 +129367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21808"
+		(property "Stock" "21794"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124404,7 +129591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7982"
+		(property "Stock" "7967"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125059,7 +130246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2804"
+		(property "Stock" "2769"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125507,7 +130694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13683"
+		(property "Stock" "13568"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127041,7 +132228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18021"
+		(property "Stock" "17963"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127265,7 +132452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18538"
+		(property "Stock" "18355"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127472,7 +132659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "47580"
+		(property "Stock" "46869"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127920,7 +133107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8274"
+		(property "Stock" "8289"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128441,7 +133628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "87398"
+		(property "Stock" "87248"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128665,7 +133852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1601"
+		(property "Stock" "1299"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128889,7 +134076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17579"
+		(property "Stock" "17538"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129544,7 +134731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12986"
+		(property "Stock" "12622"
 			(at 0 0 0)
 			(effects
 				(font
@@ -130306,7 +135493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13919"
+		(property "Stock" "13910"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131347,7 +136534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15568"
+		(property "Stock" "15532"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131795,7 +136982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4883"
+		(property "Stock" "4683"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133169,7 +138356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13322"
+		(property "Stock" "12356"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134289,7 +139476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31127"
+		(property "Stock" "31042"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135548,7 +140735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12411"
+		(property "Stock" "12319"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135772,7 +140959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15644"
+		(property "Stock" "15317"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137255,7 +142442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6001"
+		(property "Stock" "6024"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137479,7 +142666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6780"
+		(property "Stock" "6766"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137757,7 +142944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "232302"
+		(property "Stock" "230844"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138053,7 +143240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5418"
+		(property "Stock" "5402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -139165,7 +144352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "63709"
+		(property "Stock" "62824"
 			(at 0 0 0)
 			(effects
 				(font
@@ -139443,7 +144630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30387"
+		(property "Stock" "30245"
 			(at 0 0 0)
 			(effects
 				(font
