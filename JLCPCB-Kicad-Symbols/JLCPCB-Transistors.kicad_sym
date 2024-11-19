@@ -11575,6 +11575,2229 @@
             )
         )
 	)
+	(symbol "PNP,MMBTA94"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA94"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041730_hongjiacheng-MMBTA94_C41375113.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 350mW 300@10mA,10V 200mA PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375113"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9030"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBTA94"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "50MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "300@10mA,10V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "350mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "200mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "200mV@10mA,1mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "400V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,MMBTA94_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,MMBTA94_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNP,MMBTA55"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA55"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041730_hongjiacheng-MMBTA55_C41375115.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 225mW 400@10mA,1V 500mA PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375115"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9060"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMBTA55"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "50MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "400@10mA,1V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "225mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "500mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "250mV@100mA,10mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "60V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,MMBTA55_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,MMBTA55_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPN,FMMT491"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT491"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2408301021_hongjiacheng-FMMT491_C41375128.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 250mW 300@500mA,5V 1A NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375128"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9094"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "FMMT491"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "150MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "NPN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "300@500mA,5V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "250mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "1A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@1A,100mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "60V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPN,FMMT491_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPN,FMMT491_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNP,A1015"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A1015"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2408301021_hongjiacheng-A1015_C41375129.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 200mW 400@2mA,6V 150mA PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375129"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "8977"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "A1015"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "80MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "400@2mA,6V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "200mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "150mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "300mV@100mA,10mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "50V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,A1015_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,A1015_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPN,S9018"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S9018"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410161104_hongjiacheng-S9018_C41375130.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15V 200mW 200@1mA,5V 50mA NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375130"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15049"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "S9018"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "800MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Cut-Off Current (Icbo)" "50nA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "NPN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "200@1mA,5V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "200mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "50mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@10mA,1mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "15V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPN,S9018_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPN,S9018_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNP,BC807-16"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC807-16"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-23"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409051048_hongjiacheng-BC807-16_C41375133.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "45V 300mW 250@100mA,1V 500mA PNP SOT-23 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375133"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "6103"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BC807-16"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "100MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "250@100mA,1V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "300mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "500mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "700mV@500mA,50mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "45V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNP,BC807-16_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNP,BC807-16_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
 	(symbol "NPN,MMST3904"
 		(pin_names
 			(offset 0)
@@ -12828,6 +15051,1531 @@
             )
         )
         (symbol "PNPC2,2SA1013_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPNC2,2SD2391"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SD2391"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-89"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041735_hongjiacheng-2SD2391_C41375127.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 500mW 390@500mA,2V 2A NPN SOT-89 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375127"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9960"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2SD2391"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "210MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "NPN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "390@500mA,2V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "500mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "2A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "0.35V@1A,50mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "60V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPNC2,2SD2391_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPNC2,2SD2391_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "PNPC2,B772"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B772"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-89"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041735_hongjiacheng-B772_C41375134.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 500mW 400@1A,2V 3A PNP SOT-89 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375134"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "14800"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "B772"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "80MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Cut-Off Current (Icbo)" "100nA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "PNP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "400@1A,2V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "500mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "3A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@2A,200mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "30V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "PNPC2,B772_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "PNPC2,B772_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPNC2,PXT8050"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PXT8050"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-89"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041735_hongjiacheng-PXT8050_C41375136.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 500mW 400@100mA,1V 1.5A NPN SOT-89 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375136"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "9980"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "PXT8050"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "100MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "NPN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "400@100mA,1V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "500mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "1.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "500mV@800mA,80mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "25V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPNC2,PXT8050_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPNC2,PXT8050_1_1"
+            (pin open_collector line
+                (at 2.54 5.08 270)
+                (length 2.54)
+                (name "C"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "2"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin input line
+                (at -5.08 0 0)
+                (length 2.54)
+                (name "B"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "1"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+            (pin open_emitter line
+                (at 2.54 -5.08 90)
+                (length 2.54)
+                (name "E"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+                (number "3"
+                    (effects
+                        (font
+                            (size 1.27 1.27)
+                        )
+                    )
+                )
+            )
+        )
+	)
+	(symbol "NPNC2,CXT5551"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 4.8514 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CXT5551"
+			(at 4.8514 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:Q_SOT-89"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041735_hongjiacheng-CXT5551_C41375138.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "160V 500mW 300@10mA,5V 600mA NPN SOT-89 Bipolar (BJT) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41375138"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7220"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CXT5551"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "300MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C@(Tj)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "NPN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "300@10mA,5V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "500mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "600mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "150mV@10mA,1mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "160V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Q_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "NPNC2,CXT5551_0_1"
+            (polyline
+                (pts
+                    (xy -2.54 0) (xy 0.635 0)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 0.635) (xy 2.54 2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 2.794 -1.27) (xy 2.794 -1.27)
+                )
+                (stroke
+                    (width 0.1524)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+                )
+                (stroke
+                    (width 0.508)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+            (polyline
+                (pts
+                    (xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+                )
+                (stroke
+                    (width 0)
+                    (type default)
+                )
+                (fill
+                    (type outline)
+                )
+            )
+            (circle
+                (center 1.27 0)
+                (radius 2.8194)
+                (stroke
+                    (width 0.254)
+                    (type default)
+                )
+                (fill
+                    (type none)
+                )
+            )
+        )
+        (symbol "NPNC2,CXT5551_1_1"
             (pin open_collector line
                 (at 2.54 5.08 270)
                 (length 2.54)
