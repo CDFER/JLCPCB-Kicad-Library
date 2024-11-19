@@ -12,9 +12,7 @@ def generate_header(name, hide_pin_numbers=True):
     return symbol
 
 
-def generate_property(
-    key, value, at, size=1.27, hide=True, autoplace=True, justify_left=False
-):
+def generate_property(key, value, at, size=1.27, hide=True, autoplace=True, justify_left=False):
     if autoplace == False:
         autoplace_str = "(do_not_autoplace)"
     else:
@@ -75,6 +73,9 @@ def generate_kicad_symbol(
     value,
     keywords,
     price,
+    assembly_process,
+    min_order_qty,
+    attrition_qty,
     component_class,
     stock,
     category,
@@ -139,9 +140,7 @@ def generate_kicad_symbol(
         value_position = "4.8514 -1.2122 0"
         value_autoplace = True
         # Remove brackets from manufacturerPartID
-        cleaned_manufacturerPartID = (
-            manufacturerPartID.replace("(", "").replace(")", "").replace("RANGE:", " ")
-        )
+        cleaned_manufacturerPartID = manufacturerPartID.replace("(", "").replace(")", "").replace("RANGE:", " ")
         name = f"{value},{cleaned_manufacturerPartID}"
         value = cleaned_manufacturerPartID
 
@@ -171,9 +170,7 @@ def generate_kicad_symbol(
         value_position = "0 0 0"
         value_autoplace = True
         name = f"{footprint},{value}"
-        print(
-            f"Error: Unknown autoLibrarySymbol mode for https://jlcpcb.com/partdetail/C{lcsc}  ({mode})"
-        )
+        print(f"Error: Unknown autoLibrarySymbol mode for https://jlcpcb.com/partdetail/C{lcsc}  ({mode})")
     lcsc = f"C{lcsc}"
 
     if footprint == "SMA(DO-214AC)":
@@ -205,9 +202,7 @@ def generate_kicad_symbol(
     else:
         symbol = generate_header(name, True)
 
-    symbol += generate_property(
-        "Reference", ref_designator, ref_position, hide=False, justify_left=True
-    )
+    symbol += generate_property("Reference", ref_designator, ref_position, hide=False, justify_left=True)
     symbol += generate_property(
         "Value",
         value,
@@ -221,18 +216,19 @@ def generate_kicad_symbol(
     symbol += generate_property("Datasheet", datasheet, "0 0 0")
     symbol += generate_property("Description", description, "0 0 0")
     symbol += generate_property("LCSC", lcsc, "0 0 0")
-    symbol += generate_property("Price", price, "0 0 0")
-    symbol += generate_property("Class", component_class, "0 0 0")
     symbol += generate_property("Stock", stock, "0 0 0")
+    symbol += generate_property("Price", price, "0 0 0")
+    symbol += generate_property("Process", assembly_process, "0 0 0")
+    symbol += generate_property("Minimum Qty", min_order_qty, "0 0 0")
+    symbol += generate_property("Attrition Qty", attrition_qty, "0 0 0")
+    symbol += generate_property("Class", component_class, "0 0 0")
     symbol += generate_property("Category", category, "0 0 0")
     symbol += generate_property("Manufacturer", manufacturer, "0 0 0")
-    symbol += generate_property("Manufacturer Part ID", manufacturerPartID, "0 0 0")
+    symbol += generate_property("Part", manufacturerPartID, "0 0 0")
 
     if type(attributes) == dict:
         for key, value in attributes.items():
-            if mode == "Capacitors" and (
-                key == "Voltage Rated" or key == "Rated Voltage"
-            ):
+            if mode == "Capacitors" and (key == "Voltage Rated" or key == "Rated Voltage"):
                 symbol += generate_property(
                     f"{key}",
                     f"{value}",
@@ -259,9 +255,7 @@ def generate_kicad_symbol(
     if mode == "Resistors":
         symbol += generate_rectangle("-1.016 2.54", "1.016 -2.54", name=name, index=0)
         for i in range(1, units + 1):
-            symbol += generate_pin_pair(
-                "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
-            )
+            symbol += generate_pin_pair("passive line", name, i, "1.27", i, (units * 2) - (i - 1))
 
     elif mode == "Capacitors":
         symbol += generate_polyline(["-1.27 0.635", "1.27 0.635"], name=name, index=0)
@@ -298,36 +292,26 @@ def generate_kicad_symbol(
                 stroke={"width": 0.127, "type": "default"},
             )
         for i in range(1, units + 1):
-            symbol += generate_pin_pair(
-                "passive line", name, i, "3.175", i, (units * 2) - (i - 1)
-            )
+            symbol += generate_pin_pair("passive line", name, i, "3.175", i, (units * 2) - (i - 1))
 
     elif mode == "Diodes":
         if secondary_mode == "TVS-Bi":
-            symbol += generate_polyline(
-                ["-1.27 2.54", "0 0", "1.27 2.54", "-1.27 2.54"], name=name, index=0
-            )
-            symbol += generate_polyline(
-                ["1.27 -2.54", "0 0", "-1.27 -2.54", "1.27 -2.54"], name=name, index=0
-            )
+            symbol += generate_polyline(["-1.27 2.54", "0 0", "1.27 2.54", "-1.27 2.54"], name=name, index=0)
+            symbol += generate_polyline(["1.27 -2.54", "0 0", "-1.27 -2.54", "1.27 -2.54"], name=name, index=0)
             symbol += generate_polyline(
                 ["-1.905 -0.635", "-1.27 0", "1.27 0", "1.905 0.635"],
                 name=name,
                 index=0,
             )
             for i in range(1, units + 1):
-                symbol += generate_pin_pair(
-                    "passive line", name, i, "3.81", (units * 2) - (i - 1), i
-                )
+                symbol += generate_pin_pair("passive line", name, i, "3.81", (units * 2) - (i - 1), i)
         elif secondary_mode == "Zener13":
             symbol += generate_polyline(
                 ["-1.27 1.27", "0.00 -1.27", "1.27 1.27", "-1.27 1.27"],
                 name=name,
                 index=0,
             )
-            symbol += generate_polyline(
-                ["-1.27 -1.27", "1.27 -1.27", "1.27 -0.762"], name=name, index=0
-            )
+            symbol += generate_polyline(["-1.27 -1.27", "1.27 -1.27", "1.27 -0.762"], name=name, index=0)
             symbol += generate_pin_pair("passive line", name, 1, "3.81", 1, 3)
         elif secondary_mode == "Schottky13":
             symbol += generate_polyline(
@@ -368,9 +352,7 @@ def generate_kicad_symbol(
                     index=0,
                 )
             elif secondary_mode == "Zener":
-                symbol += generate_polyline(
-                    ["-1.27 -1.27", "1.27 -1.27", "1.27 -0.762"], name=name, index=0
-                )
+                symbol += generate_polyline(["-1.27 -1.27", "1.27 -1.27", "1.27 -0.762"], name=name, index=0)
 
             elif secondary_mode == "TVS-Uni":
                 symbol += generate_polyline(
@@ -379,9 +361,7 @@ def generate_kicad_symbol(
                     index=0,
                 )
             elif secondary_mode == "LED":
-                symbol += generate_polyline(
-                    ["-1.27 -1.27", "1.27 -1.27"], name=name, index=0
-                )
+                symbol += generate_polyline(["-1.27 -1.27", "1.27 -1.27"], name=name, index=0)
                 symbol += generate_polyline(
                     [
                         "-1.905 -1.27",
@@ -407,14 +387,10 @@ def generate_kicad_symbol(
                     stroke={"width": 0.127, "type": "default"},
                 )
             else:
-                symbol += generate_polyline(
-                    ["-1.27 -1.27", "1.27 -1.27"], name=name, index=0
-                )
+                symbol += generate_polyline(["-1.27 -1.27", "1.27 -1.27"], name=name, index=0)
 
             for i in range(1, units + 1):
-                symbol += generate_pin_pair(
-                    "passive line", name, i, "3.81", (units * 2) - (i - 1), i
-                )
+                symbol += generate_pin_pair("passive line", name, i, "3.81", (units * 2) - (i - 1), i)
 
     elif mode == "Transistors":
         if secondary_mode == "NPN" or secondary_mode == "NPNC2":
@@ -1341,24 +1317,14 @@ def generate_kicad_symbol(
 
     elif mode == "Variable-Resistors":
         if secondary_mode == "Fuse" or secondary_mode == "Fuse,Resettable":
-            symbol += generate_rectangle(
-                "-1.016 2.54", "1.016 -2.54", name=name, index=0
-            )
+            symbol += generate_rectangle("-1.016 2.54", "1.016 -2.54", name=name, index=0)
             for i in range(1, units + 1):
-                symbol += generate_pin_pair(
-                    "passive line", name, i, "3.81", i, (units * 2) - (i - 1)
-                )
+                symbol += generate_pin_pair("passive line", name, i, "3.81", i, (units * 2) - (i - 1))
         else:
-            symbol += generate_rectangle(
-                "-1.016 2.54", "1.016 -2.54", name=name, index=0
-            )
-            symbol += generate_polyline(
-                ["-1.905 2.54", "-1.905 1.27", "1.905 -1.27"], name=name, index=0
-            )
+            symbol += generate_rectangle("-1.016 2.54", "1.016 -2.54", name=name, index=0)
+            symbol += generate_polyline(["-1.905 2.54", "-1.905 1.27", "1.905 -1.27"], name=name, index=0)
             for i in range(1, units + 1):
-                symbol += generate_pin_pair(
-                    "passive line", name, i, "1.27", i, (units * 2) - (i - 1)
-                )
+                symbol += generate_pin_pair("passive line", name, i, "1.27", i, (units * 2) - (i - 1))
 
     symbol += "\n\t)"
     return symbol

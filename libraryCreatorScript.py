@@ -4,40 +4,62 @@ import json
 import re
 import shutil
 import pandas as pd
-from autoLibrarySymbols import * #librarySymbols.py
-from handmadeLibrarySymbols import * #handmadeLibrarySymbols.py
+from autoLibrarySymbols import *  # librarySymbols.py
+from handmadeLibrarySymbols import *  # handmadeLibrarySymbols.py
 
 
 def download_file(url, filename):
+    """
+    Downloads a file from the specified URL and saves it to the given filename.
+    If the file already exists, it will be deleted before downloading the new file.
+
+    :param url: The base URL of the file to download.
+    :param filename: The local filename to save the downloaded file.
+    """
     try:
-        # Check if the file already exists
+        # Check if the file already exists and delete it if it does
         if os.path.exists(filename):
-            # Delete the existing file
             os.remove(filename)
             print(f"Deleted existing file: {filename}")
 
-        response = requests.get(f"{url}/{filename}", stream=True)
+        # Construct the full URL for the file
+        full_url = f"{url}/{filename}"
+
+        # Send a GET request to download the file
+        response = requests.get(full_url, stream=True)
         response.raise_for_status()  # Raise an exception for bad status codes
+
+        # Write the content to a file in binary mode
         with open(filename, "wb") as f:
-            for chunk in response.iter_content(None):
+            for chunk in response.iter_content(chunk_size=None):
                 f.write(chunk)
-        print(f"Downloaded {url}/{filename} to {filename}")
+
+        print(f"Downloaded {full_url} to {filename}")
     except requests.RequestException as e:
-        print(f"Download {url} failed: {e}")
+        print(f"Download failed for {full_url}: {e}")
 
-def extract_value(description, mode, lcsc_id):
-    if lcsc_id == 22818: return "16kΩ"
-    if lcsc_id == 30274: return "6pF"
-    if lcsc_id == 3013473: return "100nF"
-    if lcsc_id == 3008298: return "4.7nF"
-    
-    if mode == "Resistors":
-        pattern = r"(\d+(?:\.\d+)?(?:[kMGT]?)(?:Ω|ohm))"  # matches numbers followed by Ω, ohm, Ohm, or OHM
-    elif mode == "Capacitors":
-        pattern = r"(\d+(?:\.\d+)?(?:[pnu]?)(?:f|farad))"  # matches numbers followed by F, f, Farad, farad, pF, pf, nF, nf, uF, uf
-    else:
-        raise ValueError("extract_value(): Invalid mode")
 
+def extract_capacitor_value(description, lcsc_id):
+    """
+    Extracts the capacitor value from the given description based on the LCSC ID.
+    If the LCSC ID matches a known value, it returns the corresponding capacitance.
+    Otherwise, it uses a regex pattern to extract the capacitance from the description.
+
+    :param description: The description of the capacitor.
+    :param lcsc_id: The LCSC ID of the capacitor.
+    :return: The extracted capacitance value as a string, or None if no value is found.
+    """
+    # Define known LCSC IDs and their corresponding capacitance values
+    known_values = {30274: "6pF", 3013473: "100nF", 3008298: "4.7nF"}
+
+    # Check if the LCSC ID matches a known value
+    if lcsc_id in known_values:
+        return known_values[lcsc_id]
+
+    # Define a regex pattern to match capacitance values
+    pattern = r"(\d+(?:\.\d+)?(?:[pnu]?)(?:f|farad))"  # matches numbers followed by F, f, Farad, farad, pF, pf, nF, nf, uF, uf
+
+    # Search for the pattern in the description
     match = re.search(pattern, description, re.IGNORECASE)
     if match:
         return match.group(0)
@@ -45,35 +67,92 @@ def extract_value(description, mode, lcsc_id):
         print(f"Error: No value found for https://jlcpcb.com/partdetail/C{lcsc_id}  ({description})")
         return None
 
+
+def extract_resistance_value(description, lcsc_id):
+    """
+    Extracts the resistance value from the given description based on the LCSC ID.
+    If the LCSC ID matches a known value, it returns the corresponding resistance.
+    Otherwise, it uses a regex pattern to extract the resistance from the description.
+
+    :param description: The description of the resistor.
+    :param lcsc_id: The LCSC ID of the resistor.
+    :return: The extracted resistance value as a string, or None if no value is found.
+    """
+    # Define known LCSC IDs and their corresponding resistance values
+    known_values = {22818: "16kΩ"}
+
+    # Check if the LCSC ID matches a known value
+    if lcsc_id in known_values:
+        return known_values[lcsc_id]
+
+    # Define a regex pattern to match resistance values
+    pattern = r"(\d+(?:\.\d+)?(?:[kMGT]?)(?:Ω|ohm))"  # matches numbers followed by Ω, ohm, Ohm, or OHM
+
+    # Search for the pattern in the description
+    match = re.search(pattern, description, re.IGNORECASE)
+    if match:
+        return match.group(0)
+    else:
+        print(f"Error: No value found for https://jlcpcb.com/partdetail/C{lcsc_id}  ({description})")
+        return None
+
+
 def extract_diode_type(description, pins, lcsc_id):
-    if lcsc_id == 2990493: return "TVS-Bi"
-    if lcsc_id == 2990473: return "TVS-Bi"
-    if lcsc_id == 2990416: return "TVS-Bi"
-    if lcsc_id == 2990414: return "TVS-Bi"
-    if lcsc_id == 2990261: return "TVS-Bi"
-    if lcsc_id == 2990124: return "TVS-Bi"
-    if lcsc_id == 3019524: return "TVS-Bi"
-    if lcsc_id == 1323289: return "TVS-Bi"
-    if lcsc_id == 3001945: return "TVS-Uni"
-    if lcsc_id == 2833277: return "TVS-Bi"
-    if lcsc_id == 2975471: return "TVS-Uni"
-    if lcsc_id == 78395: return "TVS-Bi"
-    if lcsc_id == 2925443: return "TVS-Uni"
-    if lcsc_id == 2936988: return "TVS-Bi"
-    if lcsc_id == 2925441: return "TVS-Bi"
-    if lcsc_id == 2925451: return "TVS-Bi"
-    if lcsc_id == 20617908: return "TVS-Bi"
-    if lcsc_id == 20617910: return "TVS-Bi"
-    if lcsc_id == 22466368: return "Schottky13"
-    if lcsc_id == 22466371: return "Schottky13"
-    if lcsc_id == 28646292: return "Schottky"
-    if lcsc_id == 28646296: return "Schottky"
-    if lcsc_id == 28646302: return "Schottky"
-    if lcsc_id == 28646299: return "Schottky"
-    if lcsc_id == 28646283: return "Schottky"
-    if lcsc_id == 41411783: return "TVS-Uni"
-    if lcsc_id == 41376087: return "TVS-Uni"
-    
+    if lcsc_id == 2990493:
+        return "TVS-Bi"
+    if lcsc_id == 2990473:
+        return "TVS-Bi"
+    if lcsc_id == 2990416:
+        return "TVS-Bi"
+    if lcsc_id == 2990414:
+        return "TVS-Bi"
+    if lcsc_id == 2990261:
+        return "TVS-Bi"
+    if lcsc_id == 2990124:
+        return "TVS-Bi"
+    if lcsc_id == 3019524:
+        return "TVS-Bi"
+    if lcsc_id == 1323289:
+        return "TVS-Bi"
+    if lcsc_id == 3001945:
+        return "TVS-Uni"
+    if lcsc_id == 2833277:
+        return "TVS-Bi"
+    if lcsc_id == 2975471:
+        return "TVS-Uni"
+    if lcsc_id == 78395:
+        return "TVS-Bi"
+    if lcsc_id == 2925443:
+        return "TVS-Uni"
+    if lcsc_id == 2936988:
+        return "TVS-Bi"
+    if lcsc_id == 2925441:
+        return "TVS-Bi"
+    if lcsc_id == 2925451:
+        return "TVS-Bi"
+    if lcsc_id == 20617908:
+        return "TVS-Bi"
+    if lcsc_id == 20617910:
+        return "TVS-Bi"
+    if lcsc_id == 22466368:
+        return "Schottky13"
+    if lcsc_id == 22466371:
+        return "Schottky13"
+    if lcsc_id == 28646292:
+        return "Schottky"
+    if lcsc_id == 28646296:
+        return "Schottky"
+    if lcsc_id == 28646302:
+        return "Schottky"
+    if lcsc_id == 28646299:
+        return "Schottky"
+    if lcsc_id == 28646283:
+        return "Schottky"
+    if lcsc_id == 41411783:
+        return "TVS-Uni"
+    if lcsc_id == 41376087:
+        return "TVS-Uni"
+
     diode_types = {
         "Schottky": {"pins": 2, "type": "Schottky"},
         "Recovery": {"pins": 2, "type": "Recovery"},
@@ -81,7 +160,7 @@ def extract_diode_type(description, pins, lcsc_id):
         "Switching": {"pins": 2, "type": "Switching"},
         "Zener": {"pins": 2, "type": "Zener"},
         "Bidirectional": {"pins": 2, "type": "TVS-Bi"},
-        "Unidirectional": {"pins": 2, "type": "TVS-Uni"}
+        "Unidirectional": {"pins": 2, "type": "TVS-Uni"},
     }
     for keyword, diode_info in diode_types.items():
         if keyword.casefold() in description.casefold():
@@ -90,31 +169,33 @@ def extract_diode_type(description, pins, lcsc_id):
             elif keyword == "Zener" and pins == 3:
                 return "Zener13"
             else:
-                # print(f"Error: Number of pins ({pins}) does not match expected ({diode_info['pins']}) for https://jlcpcb.com/partdetail/C{lcsc_id}  ({description})")
                 return None
-    # print(f"Error: No diode type found for https://jlcpcb.com/partdetail/C{lcsc_id}  ({description})")
     return None
 
+
 def extract_transistor_type(description, pins, footprint, lcsc_id):
-    if lcsc_id == 484513: return "NMOS"
-    if lcsc_id == 396043: return "NMOS"
-    if lcsc_id == 916398: return "NMOS"
-    if lcsc_id == 296127: return None
-    
-    
+    if lcsc_id == 484513:
+        return "NMOS"
+    if lcsc_id == 396043:
+        return "NMOS"
+    if lcsc_id == 916398:
+        return "NMOS"
+    if lcsc_id == 296127:
+        return None
+
     transistor_types = {
         "PNP": {"pins": 3, "type": "PNP"},
         "NPN": {"pins": 3, "type": "NPN"},
         "NChannel": {"pins": 3, "type": "NMOS"},
         "PChannel": {"pins": 3, "type": "PMOS"},
         "N-Channel": {"pins": 3, "type": "NMOS"},
-        "P-Channel": {"pins": 3, "type": "PMOS"}
+        "P-Channel": {"pins": 3, "type": "PMOS"},
     }
     for keyword, transistor_info in transistor_types.items():
         if keyword.casefold() in description.casefold():
             if transistor_info["pins"] == pins:
                 if footprint == "SOT-89":
-                    return f"{transistor_info["type"]}C2" # Collector/ and Emitter pin number is flipped
+                    return f"{transistor_info["type"]}C2"  # Collector/ and Emitter pin number is flipped
                 else:
                     return transistor_info["type"]
             else:
@@ -123,16 +204,17 @@ def extract_transistor_type(description, pins, footprint, lcsc_id):
     # print(f"Error: No transistor type found for https://jlcpcb.com/partdetail/C{lcsc_id}  ({description})")
     return None
 
+
 def extract_LED_value(description, lcsc_):
     if lcsc == 2985996:
         return "Red", "LED"
     elif lcsc == 34499:
         return "White", "LED"
-    
+
     color_pattern = r"(Red|Green|Blue|Yellow|White|Emerald)"
 
     color_match = re.search(color_pattern, description, re.IGNORECASE)
-    
+
     if color_match:
         color = color_match.group(0).replace("Emerald", "Green")
         return color, "LED"
@@ -140,17 +222,24 @@ def extract_LED_value(description, lcsc_):
         print(f"Error: No LED value extracted for https://jlcpcb.com/partdetail/C{lcsc}  ({description})")
         return None, None
 
+
 def extract_inductor_type_value(description, joints, lcsc):
     current = None
-    if lcsc == 2827387: current = "300mA"
-    if lcsc == 2827415: current = "900mA"
-    if lcsc == 3007708: current = "410mA"
-    if lcsc == 2844914: current = "305mA"
-    if lcsc == 2827354: current = "5.5A"
-    if lcsc == 2827458: current = "400mA"
-    if lcsc == 2835403: return "120nH,80mA", "Inductor"
-    
-    
+    if lcsc == 2827387:
+        current = "300mA"
+    if lcsc == 2827415:
+        current = "900mA"
+    if lcsc == 3007708:
+        current = "410mA"
+    if lcsc == 2844914:
+        current = "305mA"
+    if lcsc == 2827354:
+        current = "5.5A"
+    if lcsc == 2827458:
+        current = "400mA"
+    if lcsc == 2835403:
+        return "120nH,80mA", "Inductor"
+
     # Define patterns to match inductance values
     inductance_patterns = [
         r"\b(\d+\.\d+[u|m|n]H)\b",  # e.g. 10.5uH, 10.5mH, 10.5nH
@@ -183,11 +272,13 @@ def extract_inductor_type_value(description, joints, lcsc):
                         break
                 else:
                     current = ""
-                    print(f"Error: No current value extracted for https://jlcpcb.com/partdetail/C{lcsc}  ({description})")
+                    print(
+                        f"Error: No current value extracted for https://jlcpcb.com/partdetail/C{lcsc}  ({description})"
+                    )
 
             # Return inductance and current values
             return f"{inductance},{current}", "Inductor"
-        
+
     if "Ferrite" in description:
         return "", "Ferrite"
 
@@ -195,9 +286,11 @@ def extract_inductor_type_value(description, joints, lcsc):
     print(f"Error: No inductance value extracted for https://jlcpcb.com/partdetail/C{lcsc}  ({description})")
     return None, None
 
+
 def extract_variable_resistor_type_value(description, lcsc):
     # NTC Thermistors
-    if lcsc == 2991699: return "NTC", "47kΩ,4050"
+    if lcsc == 2991699:
+        return "NTC", "47kΩ,4050"
     if "NTC" in description:
         pattern = r"(\d+(?:\.\d+)?Ω)"  # matches numbers followed by Ω
         match = re.search(pattern, description)
@@ -213,9 +306,12 @@ def extract_variable_resistor_type_value(description, lcsc):
 
     # Fuses
     elif "Fuse" or "fuse" in description:
-        if lcsc == 2924957: value = "1.5A"
-        elif lcsc == 2838983: value = "1.5A"
-        else: value = ""
+        if lcsc == 2924957:
+            value = "1.5A"
+        elif lcsc == 2838983:
+            value = "1.5A"
+        else:
+            value = ""
         if "Resettable" in description:
             return "Fuse,Resettable", value
         else:
@@ -226,6 +322,7 @@ def extract_variable_resistor_type_value(description, lcsc):
         print(f"Error: Unknown type for https://jlcpcb.com/partdetail/C{lcsc}  ({description})")
         return None, None
 
+
 def extract_capacitor_voltage(description, lcsc):
     voltage_pattern = r"\b(\d+(?:\.\d+)?)(V|kV)\b"
     voltage_match = re.search(voltage_pattern, description, re.IGNORECASE)
@@ -235,6 +332,7 @@ def extract_capacitor_voltage(description, lcsc):
     else:
         return None
 
+
 def get_basic_or_prefered_type(df, index):
     if df.loc[index, "basic"] > 0:
         return "Basic Component"
@@ -243,6 +341,7 @@ def get_basic_or_prefered_type(df, index):
     else:
         print("extended component found")
         return "Extended Component"
+
 
 def generate_kicad_symbol_libs(symbols):
     for lib_name, symbol_list in symbols.items():
@@ -259,33 +358,43 @@ def generate_kicad_symbol_libs(symbols):
         with open(f"JLCPCB-Kicad-Symbols/JLCPCB-{lib_name}.kicad_sym", "w") as f:
             f.write(lib_content)
 
+
 def check_models():
-    exempt_footprints = ["Hole, 3mm","Hole_Tooling_JLCPCB","MouseBites, Cosmetic, JLCPCB, 1.6mm","MouseBites, Mechanical, JLCPCB, 1.6mm","Part_Num_JLCPCB"]
+    exempt_footprints = [
+        "Hole, 3mm",
+        "Hole_Tooling_JLCPCB",
+        "MouseBites, Cosmetic, JLCPCB, 1.6mm",
+        "MouseBites, Mechanical, JLCPCB, 1.6mm",
+        "Part_Num_JLCPCB",
+    ]
 
-    footprints_folder_path = 'JLCPCB-Kicad-Footprints'
+    footprints_folder_path = "JLCPCB-Kicad-Footprints"
     models_folder_path = os.path.join(footprints_folder_path, "3dModels")
-    archived_models_folder_path = os.path.join('Archived-Symbols-Footprints', models_folder_path)
+    archived_models_folder_path = os.path.join("Archived-Symbols-Footprints", models_folder_path)
 
-    footprint_names = [os.path.splitext(filename)[0] 
-                    for filename in os.listdir(footprints_folder_path) 
-                    if filename.endswith('.kicad_mod')]
-    archived_model_names = [os.path.splitext(filename)[0] 
-                for filename in os.listdir(archived_models_folder_path) 
-                if filename.endswith('.step')]
-    model_names = [os.path.splitext(filename)[0] 
-                for filename in os.listdir(models_folder_path) 
-                if filename.endswith('.step')]
-
+    footprint_names = [
+        os.path.splitext(filename)[0]
+        for filename in os.listdir(footprints_folder_path)
+        if filename.endswith(".kicad_mod")
+    ]
+    archived_model_names = [
+        os.path.splitext(filename)[0]
+        for filename in os.listdir(archived_models_folder_path)
+        if filename.endswith(".step")
+    ]
+    model_names = [
+        os.path.splitext(filename)[0] for filename in os.listdir(models_folder_path) if filename.endswith(".step")
+    ]
 
     model_names_used = []
 
     for footprint_name in footprint_names:
         footprint_file_path = os.path.join(footprints_folder_path, f"{footprint_name}.kicad_mod")
-        
-        with open(footprint_file_path, 'r') as file:
+
+        with open(footprint_file_path, "r") as file:
             content = file.read()
             match = re.search(r'\(model "([^"]+)"', content)
-            
+
             if match:
                 model_path = match.group(1)
                 model = re.search(r'/3dModels/([^"]+).step', model_path)
@@ -297,7 +406,7 @@ def check_models():
                             pre_move_file_path = os.path.join(archived_models_folder_path, f"{model}.step")
                             shutil.move(pre_move_file_path, post_move_file_path)
                             print(f"Un-archived needed model: {model}")
-                        else: 
+                        else:
                             print(f"Missing 3D Model for Footprint: {footprint_name} ({model_path})")
                     else:
                         model_names_used.append(model)
@@ -305,7 +414,7 @@ def check_models():
                     print(f"Incorrect Model path for Footprint: {footprint_name} ({model_path})")
             elif footprint_name not in exempt_footprints:
                 print(f"Empty Model Field for Footprint: {footprint_name}")
-                
+
     for model in model_names:
         if model not in model_names_used:
             pre_move_file_path = os.path.join(models_folder_path, f"{model}.step")
@@ -313,34 +422,39 @@ def check_models():
             shutil.move(pre_move_file_path, post_move_file_path)
             print(f"Archived unused model: {model}")
 
-def check_footprints():
-    symbols_folder_path = 'JLCPCB-Kicad-Symbols'
-    footprints_folder_path = 'JLCPCB-Kicad-Footprints'
-    archived_footprints_folder_path = os.path.join('Archived-Symbols-Footprints', footprints_folder_path)
 
-    archived_footprint_names = [os.path.splitext(filename)[0] 
-                    for filename in os.listdir(archived_footprints_folder_path) 
-                    if filename.endswith('.kicad_mod')]
-    footprint_names = [os.path.splitext(filename)[0] 
-                    for filename in os.listdir(footprints_folder_path) 
-                    if filename.endswith('.kicad_mod')]
+def check_footprints():
+    symbols_folder_path = "JLCPCB-Kicad-Symbols"
+    footprints_folder_path = "JLCPCB-Kicad-Footprints"
+    archived_footprints_folder_path = os.path.join("Archived-Symbols-Footprints", footprints_folder_path)
+
+    archived_footprint_names = [
+        os.path.splitext(filename)[0]
+        for filename in os.listdir(archived_footprints_folder_path)
+        if filename.endswith(".kicad_mod")
+    ]
+    footprint_names = [
+        os.path.splitext(filename)[0]
+        for filename in os.listdir(footprints_folder_path)
+        if filename.endswith(".kicad_mod")
+    ]
     footprint_names_used = []
 
     for symbol_lib_filename in os.listdir(symbols_folder_path):
         footprint_file_path = os.path.join(symbols_folder_path, symbol_lib_filename)
-        
-        if os.path.isfile(footprint_file_path) and symbol_lib_filename.endswith('.kicad_sym'):
-            with open(footprint_file_path, 'r') as file:
+
+        if os.path.isfile(footprint_file_path) and symbol_lib_filename.endswith(".kicad_sym"):
+            with open(footprint_file_path, "r") as file:
                 symbol_name = None
                 footprint_name = None
-                
+
                 for line in file:
                     # Search for symbol name
                     match = re.search(r'\(symbol "([^"]+)"', line)
                     if match:
                         symbol_name = match.group(1)
                         footprint_name = None
-                        
+
                     # Search for footprint
                     match = re.search(r'\(property "Footprint" "([^"]+)"', line)
                     if match:
@@ -350,17 +464,25 @@ def check_footprints():
                             footprint_name = footprint_lib_match.group(1)
                             if footprint_name not in footprint_names:
                                 if footprint_name in archived_footprint_names:
-                                    post_move_file_path = os.path.join(footprints_folder_path, f"{footprint_name}.kicad_mod")
-                                    pre_move_file_path = os.path.join(archived_footprints_folder_path, f"{footprint_name}.kicad_mod")
+                                    post_move_file_path = os.path.join(
+                                        footprints_folder_path, f"{footprint_name}.kicad_mod"
+                                    )
+                                    pre_move_file_path = os.path.join(
+                                        archived_footprints_folder_path, f"{footprint_name}.kicad_mod"
+                                    )
                                     shutil.move(pre_move_file_path, post_move_file_path)
                                     print(f"Un-archived needed footprint: {footprint_name}")
                                 else:
-                                    print(f"Missing Footprint For Symbol: {symbol_name} -> {footprint_name} ({footprint_file_path})")
+                                    print(
+                                        f"Missing Footprint For Symbol: {symbol_name} -> {footprint_name} ({footprint_file_path})"
+                                    )
                             else:
                                 footprint_names_used.append(footprint_name)
                         else:
-                            print(f"Incorrect Symbol Footprint Library For Symbol: {symbol_name} -> {footprint_name} ({footprint_file_path})")
-                            
+                            print(
+                                f"Incorrect Symbol Footprint Library For Symbol: {symbol_name} -> {footprint_name} ({footprint_file_path})"
+                            )
+
     for footprint in footprint_names:
         if footprint not in footprint_names_used:
             pre_move_file_path = os.path.join(footprints_folder_path, f"{footprint}.kicad_mod")
@@ -377,7 +499,14 @@ df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
 footprints_dir = "JLCPCB-Kicad-Footprints"
 footprints_lookup = {os.path.splitext(file)[0] for file in os.listdir(footprints_dir)}
 
-symbols = {"Resistors": [], "Capacitors": [], "Diodes":[], "Transistors":[], "Inductors":[], "Variable-Resistors": []}
+symbols = {
+    "Resistors": [],
+    "Capacitors": [],
+    "Diodes": [],
+    "Transistors": [],
+    "Inductors": [],
+    "Variable-Resistors": [],
+}
 smt_joint_cost = 0.0017
 hand_solder_joint_cost = 0.0173
 
@@ -388,16 +517,21 @@ for index in range(0, len(df)):
     # lcsc,category_id,category,subcategory,mfr,package,joints,manufacturer,basic,preferred,description,datasheet,stock,last_on_stock,price,extra
     lcsc = df.loc[index, "lcsc"]
     category = f'{df.loc[index,"category"]},{df.loc[index,"subcategory"]}'
-    manufacturer = df.loc[index,"manufacturer"]
-    manufacturerPartID = df.loc[index,"mfr"]
+    manufacturer = df.loc[index, "manufacturer"]
+    manufacturerPartID = df.loc[index, "mfr"]
     footprint_name = df.loc[index, "package"]
     description = df.loc[index, "description"]
+    description = description.replace("  ", " ")
     joints = int(df.loc[index, "joints"])
+    assembly_process = df.loc[index, "Assembly Process"]
+    min_order_qty = int(df.loc[index, "Min Order Qty"])
+    attrition_qty = int(df.loc[index, "Attrition Qty"])
     units = 1
     secondary_mode = ""
-    subcategory = str(df.loc[index,"subcategory"])
+    subcategory = str(df.loc[index, "subcategory"])
 
-    if "Plugin" in footprint_name:
+    if assembly_process == "THT":
+        assembly_process = "Hand-Soldered"
         joint_cost = hand_solder_joint_cost
     else:
         joint_cost = smt_joint_cost
@@ -410,7 +544,7 @@ for index in range(0, len(df)):
             price = base_price + (joints * joint_cost)
             price = round(price, 3)
             price_str = f"{price:.3f}USD"
-            
+
         else:
             price_str = f""
             print(f"Error: Price is missing or invalid for https://jlcpcb.com/partdetail/C{lcsc} ({price_json})")
@@ -418,147 +552,217 @@ for index in range(0, len(df)):
         price_str = f""
         print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
 
-    
     if price > 3.0 or footprint_name == "0201" or lcsc == 882967:
-        df.drop(index = index, inplace= True)
+        df.drop(index=index, inplace=True)
     else:
         component_class = get_basic_or_prefered_type(df, index)
         stock = df.loc[index, "stock"]
         keywords = ""
         value = None
-        
+
         datasheet = df.loc[index, "datasheet"]
 
         try:
             extra_json = json.loads(df.loc[index, "extra"])
             attributes = extra_json["attributes"]
+            attributes = {key: value for key, value in attributes.items() if value != "-"}
         except:
-            attributes = []
+            attributes = {}
+
+        component_properties = {
+            "price": price_str,
+            "stock": stock,
+            "datasheet": datasheet,
+            "description": description,
+            "process": assembly_process,
+            "minimum qty": min_order_qty,
+            "attrition qty": attrition_qty,
+            "class": component_class,
+            "category": category,
+            "manufacturer": manufacturer,
+            "part": manufacturerPartID,
+        }
+
+        component_properties = {**component_properties, **attributes}
 
         if df.loc[index, "category"] == "Resistors" and lcsc != 2909989:
-            value = extract_value(description, "Resistors", lcsc)
+            value = extract_resistance_value(description, lcsc)
             if "x4" in footprint_name:
                 units = 4
             lib_name = "Resistors"
-            
+
         elif df.loc[index, "category"] == "Capacitors":
-            value = extract_value(description, "Capacitors", lcsc)
+            value = extract_capacitor_value(description, lcsc)
             lib_name = "Capacitors"
             if lcsc == 360353:
-                footprint_name =  "Plugin,P=5mm"
-            if attributes == []:
+                footprint_name = "Plugin,P=5mm"
+            if attributes == {}:
                 # {'Voltage Rated': '50V', 'Tolerance': '±5%', 'Capacitance': '15pF', 'Temperature Coefficient': 'NP0'}
                 capacitor_voltage = extract_capacitor_voltage(description, lcsc)
                 if capacitor_voltage != None:
-                    attributes = {'Voltage Rated': capacitor_voltage}
-            
+                    attributes = {"Voltage Rated": capacitor_voltage}
+
         elif df.loc[index, "category"] == "Diodes" or ("TVS" in subcategory) or ("ESD" in subcategory):
-            value= extract_diode_type(description, joints, lcsc)
+            value = extract_diode_type(description, joints, lcsc)
             secondary_mode = value
             lib_name = "Diodes"
             if value == None:
-                if update_component_inplace(lcsc, "Diode-Packages", price, stock, datasheet, description) == True:
-                    df.drop(index = index, inplace= True)
-            
+                if update_component_inplace(lcsc, "Diode-Packages", component_properties) == True:
+                    df.drop(index=index, inplace=True)
+
         elif subcategory == "Light Emitting Diodes (LED)":
             if lcsc == 2895565 or lcsc == 2835341:
-                if update_component_inplace(lcsc, "Diode-Packages", price, stock, datasheet, description) == True:
-                    df.drop(index = index, inplace= True)
+                if update_component_inplace(lcsc, "Diode-Packages", component_properties) == True:
+                    df.drop(index=index, inplace=True)
             else:
-                value, secondary_mode = extract_LED_value(description,lcsc)
+                value, secondary_mode = extract_LED_value(description, lcsc)
                 lib_name = "Diodes"
-            
-        elif subcategory == "MOSFETs" or (subcategory == "Bipolar Transistors - BJT") or (subcategory == "Bipolar (BJT)") or (df.loc[index, "category"] == "Triode/MOS Tube/Transistor") or (df.loc[index, "category"] == "Transistors")  or (df.loc[index, "category"] == "Transistors/Thyristors"):
+
+        elif (
+            subcategory == "MOSFETs"
+            or (subcategory == "Bipolar Transistors - BJT")
+            or (subcategory == "Bipolar (BJT)")
+            or (df.loc[index, "category"] == "Triode/MOS Tube/Transistor")
+            or (df.loc[index, "category"] == "Transistors")
+            or (df.loc[index, "category"] == "Transistors/Thyristors")
+        ):
             if footprint_name == "SOT-23-3L" or footprint_name == "SOT-23-3":
                 footprint_name = "SOT-23"
             elif footprint_name == "SOT-89-3":
                 footprint_name = "SOT-89"
-            
-            value= extract_transistor_type(description, joints, footprint_name, lcsc)
+
+            value = extract_transistor_type(description, joints, footprint_name, lcsc)
             secondary_mode = value
             lib_name = "Transistors"
             if value == None:
-                if update_component_inplace(lcsc, "Transistor-Packages", price, stock) == True:
-                    df.drop(index = index, inplace= True)
-            
-        elif subcategory == "Inductors (SMD)" or (subcategory == "Ferrite Beads") or (subcategory == "Power Inductors"):
-            value, secondary_mode= extract_inductor_type_value(description, joints, lcsc)
+                if update_component_inplace(lcsc, "Transistor-Packages", component_properties) == True:
+                    df.drop(index=index, inplace=True)
+
+        elif (
+            subcategory == "Inductors (SMD)" or (subcategory == "Ferrite Beads") or (subcategory == "Power Inductors")
+        ):
+            value, secondary_mode = extract_inductor_type_value(description, joints, lcsc)
             lib_name = "Inductors"
-            
+
         elif subcategory == "Crystals" or subcategory == "Oscillators":
-            if update_component_inplace(lcsc, "Crystals", price, stock, datasheet, description) == True:
-                df.drop(index = index, inplace= True)
-            
-        elif subcategory == "NTC Thermistors" or (subcategory == "Varistors") or (subcategory == "Fuses") or (subcategory == "Resettable Fuses"):
-            secondary_mode, value= extract_variable_resistor_type_value(description, lcsc)
+            if update_component_inplace(lcsc, "Crystals", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
+        elif (
+            subcategory == "NTC Thermistors"
+            or (subcategory == "Varistors")
+            or (subcategory == "Fuses")
+            or (subcategory == "Resettable Fuses")
+        ):
+            secondary_mode, value = extract_variable_resistor_type_value(description, lcsc)
             lib_name = "Variable-Resistors"
             if lcsc == 210465:
                 footprint_name = "Plugin,P=5mm"
-            
-        elif df.loc[index, "category"] == "Embedded Processors & Controllers" or (df.loc[index, "category"] == "Single Chip Microcomputer/Microcontroller"):
-            if update_component_inplace(lcsc, "MCUs", price, stock) == True:
-                df.drop(index = index, inplace= True)
-                
-        elif df.loc[index, "category"] == "Connectors" or (df.loc[index, "category"] == "Key/Switch") or (df.loc[index, "category"] == "Switches") or (lcsc == 2909989):
-            if update_component_inplace(lcsc, "Connectors_Buttons", price, stock, datasheet) == True:
-                df.drop(index = index, inplace= True)
-                
-        elif df.loc[index, "category"] == "Power Management" or (df.loc[index, "category"] == "Power Management ICs") or (lcsc == 394180):
-            if update_component_inplace(lcsc, "Power", price, stock, datasheet, description) == True:
-                df.drop(index = index, inplace= True)
-                
-        elif df.loc[index, "category"] == "Amplifiers" or (df.loc[index, "category"] == "Operational Amplifier/Comparator") or subcategory == "Analog Switches / Multiplexers" or subcategory == "Digital Potentiometers":
-            if update_component_inplace(lcsc, "Analog", price, stock, datasheet, description) == True:
-                df.drop(index = index, inplace= True)
-                
+
+        elif df.loc[index, "category"] == "Embedded Processors & Controllers" or (
+            df.loc[index, "category"] == "Single Chip Microcomputer/Microcontroller"
+        ):
+            del component_properties["datasheet"]
+            del component_properties["description"]
+            if update_component_inplace(lcsc, "MCUs", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
+        elif (
+            df.loc[index, "category"] == "Connectors"
+            or (df.loc[index, "category"] == "Key/Switch")
+            or (df.loc[index, "category"] == "Switches")
+            or (lcsc == 2909989)
+        ):
+            if update_component_inplace(lcsc, "Connectors_Buttons", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
+        elif (
+            df.loc[index, "category"] == "Power Management"
+            or (df.loc[index, "category"] == "Power Management ICs")
+            or (lcsc == 394180)
+        ):
+            if update_component_inplace(lcsc, "Power", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
+        elif (
+            df.loc[index, "category"] == "Amplifiers"
+            or (df.loc[index, "category"] == "Operational Amplifier/Comparator")
+            or subcategory == "Analog Switches / Multiplexers"
+            or subcategory == "Digital Potentiometers"
+        ):
+            if update_component_inplace(lcsc, "Analog", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
         elif df.loc[index, "category"] == "Memory":
-            if update_component_inplace(lcsc, "Memory", price, stock, datasheet, description) == True:
-                df.drop(index = index, inplace= True)
-                
-        elif df.loc[index, "category"] == "Communication Interface Chip" or (df.loc[index, "category"] == "Communication Interface Chip/UART/485/232") or (df.loc[index, "category"] == "Interface ICs") or (df.loc[index, "category"] == "Signal Isolation Devices"):
-            if update_component_inplace(lcsc, "Interface", price, stock, datasheet, description) == True:
-                df.drop(index = index, inplace= True)
-                
+            if update_component_inplace(lcsc, "Memory", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
+        elif (
+            df.loc[index, "category"] == "Communication Interface Chip"
+            or (df.loc[index, "category"] == "Communication Interface Chip/UART/485/232")
+            or (df.loc[index, "category"] == "Interface ICs")
+            or (df.loc[index, "category"] == "Signal Isolation Devices")
+        ):
+            if update_component_inplace(lcsc, "Interface", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
         elif df.loc[index, "category"] == "Nixie Tube Driver/LED Driver" or (subcategory == "LCD Drivers"):
-            if update_component_inplace(lcsc, "Display-Drivers", price, stock) == True:
-                df.drop(index = index, inplace= True)
-            
+            if update_component_inplace(lcsc, "Display-Drivers", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
         elif subcategory == "Current Transformers" or (subcategory == "Common Mode Filters"):
-            if update_component_inplace(lcsc, "Transformers", price, stock) == True:
-                df.drop(index = index, inplace= True)
-            
-        elif df.loc[index, "category"] == "Optocoupler" or (subcategory == "Optocouplers") or (subcategory == "Optocouplers - Phototransistor Output") or (subcategory == "Reflective Optical Interrupters"):
-            if update_component_inplace(lcsc, "Optocouplers", price, stock) == True:
-                df.drop(index = index, inplace= True)
-                
-        elif df.loc[index, "category"] == "Logic ICs" or (subcategory == "Real-time Clocks (RTC)") or (subcategory == "Timers / Clock Oscillators") or (subcategory == "Real-Time Clocks(RTC)") or (subcategory == "Clock Buffers/Drivers/Distributions") or (subcategory == "Hall Sensor"):
+            if update_component_inplace(lcsc, "Transformers", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
+        elif (
+            df.loc[index, "category"] == "Optocoupler"
+            or (subcategory == "Optocouplers")
+            or (subcategory == "Optocouplers - Phototransistor Output")
+            or (subcategory == "Reflective Optical Interrupters")
+        ):
+            if update_component_inplace(lcsc, "Optocouplers", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
+        elif (
+            df.loc[index, "category"] == "Logic ICs"
+            or (subcategory == "Real-time Clocks (RTC)")
+            or (subcategory == "Timers / Clock Oscillators")
+            or (subcategory == "Real-Time Clocks(RTC)")
+            or (subcategory == "Clock Buffers/Drivers/Distributions")
+            or (subcategory == "Hall Sensor")
+        ):
             # print(f"{lcsc},")
-            if update_component_inplace(lcsc, "ICs", price, stock) == True:
-                df.drop(index = index, inplace= True)
-            
+            if update_component_inplace(lcsc, "ICs", component_properties) == True:
+                df.drop(index=index, inplace=True)
+
         if value != None:
-            df.drop(index = index, inplace= True)
+            df.drop(index=index, inplace=True)
             symbol = generate_kicad_symbol(
-                    lib_name,
-                    secondary_mode,
-                    lcsc,
-                    datasheet,
-                    description,
-                    footprint_name,
-                    value,
-                    keywords,
-                    price_str,
-                    component_class,
-                    stock,
-                    category,
-                    manufacturer,
-                    manufacturerPartID,
-                    attributes,
-                    units,
-                    footprints_lookup,
-                    names_lookup
-                )
+                lib_name,
+                secondary_mode,
+                lcsc,
+                datasheet,
+                description,
+                footprint_name,
+                value,
+                keywords,
+                price_str,
+                assembly_process,
+                min_order_qty,
+                attrition_qty,
+                component_class,
+                stock,
+                category,
+                manufacturer,
+                manufacturerPartID,
+                attributes,
+                units,
+                footprints_lookup,
+                names_lookup,
+            )
             symbols[lib_name].append(symbol)
+
+df.to_csv("leftover.csv", index=False)
 
 generate_kicad_symbol_libs(symbols)
 
