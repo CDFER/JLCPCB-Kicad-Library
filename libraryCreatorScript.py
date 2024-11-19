@@ -182,6 +182,10 @@ def extract_transistor_type(description, pins, footprint, lcsc_id):
         return "NMOS"
     if lcsc_id == 296127:
         return None
+    if lcsc_id == 41375139:
+        return "PNPC2"
+    if lcsc_id == 28646267:
+        return "NPNC2"
 
     transistor_types = {
         "PNP": {"pins": 3, "type": "PNP"},
@@ -710,7 +714,11 @@ for index in range(0, len(df)):
             if update_component_inplace(lcsc, "Display-Drivers", component_properties) == True:
                 df.drop(index=index, inplace=True)
 
-        elif subcategory == "Current Transformers" or (subcategory == "Common Mode Filters"):
+        elif (
+            subcategory == "Current Transformers"
+            or (subcategory == "Common Mode Filters")
+            or (subcategory == "Color Ring Inductors / Through Hole Inductors")
+        ):
             if update_component_inplace(lcsc, "Transformers", component_properties) == True:
                 df.drop(index=index, inplace=True)
 
