@@ -60,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16556"
+		(property "Stock" "15355"
 			(at 0 0 0)
 			(effects
 				(font
@@ -521,7 +521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "758983"
+		(property "Stock" "727664"
 			(at 0 0 0)
 			(effects
 				(font
@@ -997,7 +997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "298842"
+		(property "Stock" "296987"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1471,7 +1471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "705884"
+		(property "Stock" "677500"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "493963"
+		(property "Stock" "483609"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2378,323 +2378,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Transistor, 1Mhz, 6N135SMT/R"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "OP"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6N135SMT{slash}R"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SMT-8_L9.7-W6.6-P2.54-LS10.3-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404161436_Isocom-Components-6N135SMT-R_C255741.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOP-8-6.6mm-2.54mm Transistor, Photovoltaic Output Optoisolators ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C255741"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.191USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optocoupler,Transistor Output Optocoupler"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Isocom Components"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "6N135SMT/R"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C255741"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Transistor, 1Mhz, 6N135SMT/R_0_1"
-			(rectangle
-				(start -10.16 6.35)
-				(end 10.16 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 5.08)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 3.81 0)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 1.27 0)
-				(length 2.54)
-				(name "Anode"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -1.27 0)
-				(length 2.54)
-				(name "Cathode"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -3.81 0)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -3.81 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -1.27 180)
-				(length 2.54)
-				(name "VO"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 1.27 180)
-				(length 2.54)
-				(name "VB"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 3.81 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1 1)
