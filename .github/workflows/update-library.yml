@@ -3,7 +3,7 @@ name: Update Library
 on: 
   push:
   schedule:  # run 20 mins after jlcpcb-parts-database
-    - cron: "35 5 * * *"
+    - cron: "55 5 * * *"
   workflow_dispatch:  # allow for manually trigger workflow
 
 jobs:
