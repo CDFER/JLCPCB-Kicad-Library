@@ -60,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34363"
+		(property "Stock" "34013"
 			(at 0 0 0)
 			(effects
 				(font
@@ -366,7 +366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "67440"
+		(property "Stock" "67470"
 			(at 0 0 0)
 			(effects
 				(font
@@ -650,312 +650,6 @@
 			)
 		)
 	)
-	(symbol "Transceiver, CAN, SN65HVDA1050"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN65HVDA1050AQDRQ1"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303021300_Texas-Instruments-SN65HVDA1050AQDRQ1_C115764.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1Mbps Transceiver SOIC-8 CAN Transceivers ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C115764"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "200"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "1.803USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Communication Interface Chip,CAN Transceivers"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SN65HVDA1050AQDRQ1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C115764"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Transceiver, CAN, SN65HVDA1050_0_1"
-			(rectangle
-				(start -12.7 7.62)
-				(end 12.7 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 5.08 0)
-				(length 2.54)
-				(name "TXD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 2.54 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 -2.54 0)
-				(length 2.54)
-				(name "RXD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 -2.54 180)
-				(length 2.54)
-				(name "SPLIT(VREF)"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "CANL"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 2.54 180)
-				(length 2.54)
-				(name "CANH"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 5.08 180)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Transceiver, CAN, TJA1050T"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1014,7 +708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "56417"
+		(property "Stock" "53844"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1349,7 +1043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15602"
+		(property "Stock" "15495"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1844,7 +1538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "98004"
+		(property "Stock" "93328"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2339,7 +2033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60852"
+		(property "Stock" "59030"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2681,7 +2375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "103404"
+		(property "Stock" "95183"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3032,7 +2726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "106042"
+		(property "Stock" "101691"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3383,7 +3077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16522"
+		(property "Stock" "15828"
 			(at 0 0 0)
 			(effects
 				(font
