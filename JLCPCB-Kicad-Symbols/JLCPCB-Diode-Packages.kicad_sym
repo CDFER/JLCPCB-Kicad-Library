@@ -60,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28641"
+		(property "Stock" "26534"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69,7 +69,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.053USD"
+		(property "Price" "0.052USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -290,240 +290,6 @@
 			)
 		)
 	)
-	(symbol "Bridge Rectifier, DB307"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "DB"
-			(at 0 1.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DB307"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SDB_L8.3-W6.4-P5.10-LS9.9-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271542_GOODWORK-DB307_C525743.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "80A 1.1V@3A 3A 1kV DB-1 Bridge Rectifiers ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C525743"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.145USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "Hand-Soldered"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Bridge Rectifiers"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DB307"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C525743"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Bridge Rectifier, DB307_0_1"
-			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "AC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "AC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Bridge Rectifier, DF005S-G"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -591,7 +357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.246USD"
+		(property "Price" "0.243USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -825,7 +591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.256USD"
+		(property "Price" "0.253USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1061,7 +827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2994"
+		(property "Stock" "2969"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1070,7 +836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.286USD"
+		(property "Price" "0.283USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1362,7 +1128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "217629"
+		(property "Stock" "209994"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1590,240 +1356,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-		)
-	)
-	(symbol "Bridge Rectifier, MB14F"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "DB"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MB14F"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:MBF-SMD_L4.7-W3.8-P2.50-LS7.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201141700_GOODWORK-MB14F_C2943867.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A 550mV@1A 1A 40V MBF Bridge Rectifiers ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2943867"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "161"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.054USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Bridge Rectifiers"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "MB14F"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C2943867"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Bridge Rectifier, MB14F_0_1"
-			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "AC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "AC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
 				)
 			)
 		)
@@ -2309,7 +1841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.037USD"
+		(property "Price" "0.036USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2763,7 +2295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55279"
+		(property "Stock" "57259"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3637,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35191"
+		(property "Stock" "35183"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5056,7 +4588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.030USD"
+		(property "Price" "0.029USD"
 			(at 1.27 0 0)
 			(effects
 				(font
@@ -6340,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10067"
+		(property "Stock" "9917"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6349,7 +5881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.127USD"
+		(property "Price" "0.125USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6973,7 +6505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9193"
+		(property "Stock" "8828"
 			(at 1.27 1.27 0)
 			(effects
 				(font
@@ -6982,7 +6514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.176USD"
+		(property "Price" "0.174USD"
 			(at 1.27 1.27 0)
 			(effects
 				(font
@@ -7818,7 +7350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.044USD"
+		(property "Price" "0.043USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8609,7 +8141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "45888"
+		(property "Stock" "45607"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9517,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "2.369USD"
+		(property "Price" "2.336USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9821,7 +9353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8268"
+		(property "Stock" "7902"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10157,7 +9689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15649"
+		(property "Stock" "15599"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10478,7 +10010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14667"
+		(property "Stock" "14593"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11393,7 +10925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8542"
+		(property "Stock" "8520"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11659,7 +11191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "264431"
+		(property "Stock" "262608"
 			(at -1.27 0 0)
 			(effects
 				(font
@@ -12265,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19577"
+		(property "Stock" "19409"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12575,7 +12107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "91620"
+		(property "Stock" "91171"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13153,7 +12685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "102562"
+		(property "Stock" "99256"
 			(at -1.27 0 0)
 			(effects
 				(font
@@ -13482,7 +13014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.317USD"
+		(property "Price" "0.313USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13845,7 +13377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.379USD"
+		(property "Price" "0.375USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15053,7 +14585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "113946"
+		(property "Stock" "112705"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15713,7 +15245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23419"
+		(property "Stock" "23390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16625,7 +16157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1346702"
+		(property "Stock" "1339972"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17045,7 +16577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70596"
+		(property "Stock" "59276"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17427,7 +16959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.041USD"
+		(property "Price" "0.040USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17728,7 +17260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.042USD"
+		(property "Price" "0.041USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18474,7 +18006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2902"
+		(property "Stock" "2888"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18796,7 +18328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.081USD"
+		(property "Price" "0.080USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19726,7 +19258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.042USD"
+		(property "Price" "0.041USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20054,7 +19586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "237260"
+		(property "Stock" "227677"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20063,7 +19595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.305USD"
+		(property "Price" "0.301USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20420,7 +19952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2681"
+		(property "Stock" "2655"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20429,7 +19961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.063USD"
+		(property "Price" "0.062USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21275,7 +20807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7972"
+		(property "Stock" "7157"
 			(at 0 0 0)
 			(effects
 				(font
