@@ -60,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "69559"
+		(property "Stock" "64114"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -818,7 +818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21894"
+		(property "Stock" "21454"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -1200,7 +1200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "53411"
+		(property "Stock" "65568"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "114573"
+		(property "Stock" "110449"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2117,7 +2117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "180281"
+		(property "Stock" "169777"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2459,7 +2459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "72109"
+		(property "Stock" "76927"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2779,351 +2779,6 @@
 			)
 		)
 	)
-	(symbol "Op-Amp, MCP6272-E/MS"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 2.54 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6272"
-			(at 6.096 4.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:MSOP-8_L3.0-W3.0-P0.65-LS4.9-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210172100_Microchip-Tech-MCP6272-E-MS_C636300.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual channel 1pA 2MHz MSOP-8 Operational Amplifier ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C636300"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "12"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.899USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Operational Amplifier/Comparator,Operational Amplifier"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Microchip Tech"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "MCP6272-E/MS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C636300"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Op-Amp, MCP6272-E/MS_1_1"
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUTA"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "INA-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "INA+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 90)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Op-Amp, MCP6272-E/MS_2_1"
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "INB+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "INB-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 5.08)
-				(name "OUTB"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Op-Amp, NE5532DR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3182,7 +2837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "120113"
+		(property "Stock" "114530"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3581,7 +3236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "316973"
+		(property "Stock" "313637"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4013,7 +3668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55336"
+		(property "Stock" "52590"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -4395,7 +4050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30962"
+		(property "Stock" "89422"
 			(at 6.35 1.27 0)
 			(effects
 				(font
@@ -4872,7 +4527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22001"
+		(property "Stock" "11975"
 			(at 11.43 1.27 0)
 			(effects
 				(font
@@ -5295,467 +4950,6 @@
 				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "B"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Switch, MC14551BDG"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC14551BDG"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210210130_onsemi-MC14551BDG_C233584.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "280Ω 4 SPDT(SPDT) SOIC-16 Analog Switches, Multiplexers ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C233584"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "1.114USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Communication Interface Chip,Analog Switches / Multiplexers"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "MC14551BDG"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C233584"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Switch, MC14551BDG_0_1"
-			(rectangle
-				(start -10.16 12.7)
-				(end 10.16 -10.16)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 11.43)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "W1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -5.08 180)
-				(length 2.54)
-				(name "Y1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "Z0"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "Z1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "Z"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "W"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "W0"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 10.16 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "X0"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 5.08 0)
-				(length 2.54)
-				(name "X1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 2.54 0)
-				(length 2.54)
-				(name "X"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 0 0)
-				(length 2.54)
-				(name "Y"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "Y0"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -5.08 0)
-				(length 2.54)
-				(name "VEE"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -7.62 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -7.62 180)
-				(length 2.54)
-				(name "CONTROL"
 					(effects
 						(font
 							(size 1 1)
