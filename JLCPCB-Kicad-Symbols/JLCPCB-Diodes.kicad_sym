@@ -1179,7 +1179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10606"
+		(property "Stock" "9976"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1998,6 +1998,330 @@
 			)
 		)
 	)
+	(symbol "TVS-Uni,SMAJ26A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ26A"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312041002_hongjiacheng-SMAJ26A_C19077543.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9.5A 42.1V 400W 28.9V Unidirectional 26V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077543"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.033USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "15"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMAJ26A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "28.9V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "42.1V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "9.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "26V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ26A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ26A_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905)
+					(xy -1.27 -1.27)
+					(xy 1.27 -1.27)
+					(xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Uni,SMAJ26A_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TVS-Bi,SMBJ8.0CA"
 		(pin_numbers hide)
 		(pin_names
@@ -2060,7 +2384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8844"
+		(property "Stock" "8778"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2401,7 +2725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23138"
+		(property "Stock" "23126"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2671,6 +2995,347 @@
 			)
 		)
 	)
+	(symbol "TVS-Bi,SMCJ16CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ16CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMC"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMCJ16CA_C41411764.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "57.7A 26V 1.5kW 19.7V Bidirectional 16V SMC ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41411764"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "3076"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.087USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMCJ16CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "1.5kW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Dual channel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "19.7V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "26V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "57.7A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "16V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Bidirectional"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ16CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ16CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ16CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMCJ16CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TVS-Uni,SMF5.0A"
 		(pin_numbers hide)
 		(pin_names
@@ -2733,7 +3398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23119"
+		(property "Stock" "22801"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3218,7 +3883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3016"
+		(property "Stock" "2858"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3793,7 +4458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2394"
+		(property "Stock" "2360"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4117,7 +4782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28954"
+		(property "Stock" "28464"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4351,7 +5016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17767"
+		(property "Stock" "17729"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4819,7 +5484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16989"
+		(property "Stock" "17024"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5143,7 +5808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "42924"
+		(property "Stock" "42045"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5448,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "45472"
+		(property "Stock" "45466"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5753,7 +6418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7127"
+		(property "Stock" "7109"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5987,7 +6652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18870"
+		(property "Stock" "18477"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6275,7 +6940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "197078"
+		(property "Stock" "337777"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6580,7 +7245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1159698"
+		(property "Stock" "1137090"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7143,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9468"
+		(property "Stock" "8625"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7733,7 +8398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "51951"
+		(property "Stock" "51786"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8323,7 +8988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9406"
+		(property "Stock" "9005"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8556,470 +9221,6 @@
 			)
 		)
 	)
-	(symbol "General,1N4007S"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4007S"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_A-405"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204081930_Changzhou-Starsea-Elec-1N4007S_C2992088.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A 1.1V@1A 1kV A-405 Diodes - General Purpose ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2992088"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2528"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.049USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "Hand-Soldered"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Diodes - General Purpose"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Changzhou Starsea Elec"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "1N4007S"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "General,1N4007S_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "General,1N4007S_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "General,1N4007S_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "General,RL207"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RL207"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-15"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203252253_GOODWORK-RL207_C2986164.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2A 1kV 1V@2A DO-15 Diodes - General Purpose ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2986164"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "9373"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.048USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "Hand-Soldered"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Diodes - General Purpose"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "RL207"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "General,RL207_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "General,RL207_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "General,RL207_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "General,M7"
 		(pin_numbers hide)
 		(pin_names
@@ -9082,7 +9283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2401952"
+		(property "Stock" "2353613"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9250,238 +9451,6 @@
 			)
 		)
 		(symbol "General,M7_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "General,GS1M-SMA"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GS1M-SMA"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110101130_GOODWORK-GS1M-SMA_C2903950.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Independent Type 1A 1.1V@1A 1kV SMA(DO-214AC) Diodes - General Purpose ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2903950"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "8024"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.011USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Diodes - General Purpose"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "GS1M-SMA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "General,GS1M-SMA_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "General,GS1M-SMA_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "General,GS1M-SMA_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -9850,7 +9819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3386"
+		(property "Stock" "3371"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10591,7 +10560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8455"
+		(property "Stock" "8276"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11609,7 +11578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9239"
+		(property "Stock" "9222"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12350,7 +12319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12390"
+		(property "Stock" "12388"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13046,7 +13015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15575"
+		(property "Stock" "15555"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14019,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "915573"
+		(property "Stock" "892216"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14287,7 +14256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34215"
+		(property "Stock" "34037"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14564,7 +14533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "46593"
+		(property "Stock" "46073"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14841,7 +14810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55955"
+		(property "Stock" "53360"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15073,7 +15042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19259"
+		(property "Stock" "19055"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15769,7 +15738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2900"
+		(property "Stock" "2876"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16465,7 +16434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "919"
+		(property "Stock" "865"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16697,7 +16666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20594"
+		(property "Stock" "20046"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16929,7 +16898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5547"
+		(property "Stock" "4847"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17456,7 +17425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21910"
+		(property "Stock" "21403"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18278,7 +18247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14407"
+		(property "Stock" "14357"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18805,7 +18774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3007"
+		(property "Stock" "2986"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18937,470 +18906,6 @@
 			)
 		)
 		(symbol "Recovery,ES2JW_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Recovery,STTH3006W"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STTH3006W"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-247"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2106041634_STMicroelectronics-STTH3006W_C2798204.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.85V@30A 50ns Independent Type 30A 600V DO-247 Fast Recovery / High Efficiency Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2798204"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "43"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "2.983USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "Hand-Soldered"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Fast Recovery/High Efficiency Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "STTH3006W"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Recovery,STTH3006W_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,STTH3006W_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,STTH3006W_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Recovery,US1M,(3)"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "US1M"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109071530_YONGYUTAI-US1M_C2892662.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.65V@1A 75ns Independent Type 1A 1kV SMA(DO-214AC) Fast Recovery / High Efficiency Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2892662"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "9"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.012USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Fast Recovery/High Efficiency Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YONGYUTAI"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "US1M"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Recovery,US1M,(3)_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,US1M,(3)_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,US1M,(3)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -19796,7 +19301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8315"
+		(property "Stock" "8296"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20028,7 +19533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10864"
+		(property "Stock" "9564"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20323,7 +19828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1827"
+		(property "Stock" "1493"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20455,1229 +19960,6 @@
 			)
 		)
 		(symbol "Recovery,US1B_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Recovery,US1M,(4)"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "US1M"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109071530_YONGYUTAI-US1M_C2892323.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.65V@1A 75ns Independent Type 1A 1kV SMAF Fast Recovery / High Efficiency Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2892323"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.010USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "15"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Fast Recovery/High Efficiency Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YONGYUTAI"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "US1M"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Recovery,US1M,(4)_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,US1M,(4)_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,US1M,(4)_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Recovery,ES2JF,(2)"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ES2JF"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110081830_YFW-ES2JF_C2898363.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.65V 35ns Independent Type 2A 600V SMAF Fast Recovery / High Efficiency Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2898363"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "10585"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.020USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "15"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Fast Recovery/High Efficiency Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YFW"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "ES2JF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Recovery,ES2JF,(2)_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,ES2JF,(2)_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,ES2JF,(2)_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Recovery,US1DF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "US1DF"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111221830_GOODWORK-US1DF_C2922170.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1V@1A 50ns Independent Type 1A 200V SMAF Fast Recovery / High Efficiency Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2922170"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2421"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.012USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "15"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Fast Recovery/High Efficiency Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "US1DF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Recovery,US1DF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,US1DF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,US1DF_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Recovery,ES1JF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ES1JF"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203252253_GOODWORK-ES1JF_C2986112.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.7V@1A 35ns Independent Type 1A 600V SMAF Fast Recovery / High Efficiency Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2986112"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1343"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.010USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "15"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Fast Recovery/High Efficiency Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "ES1JF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Recovery,ES1JF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,ES1JF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,ES1JF_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Recovery,ES3D-SMB"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ES3D-SMB"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108142230_GOODWORK-ES3D-SMB_C2848678.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1V@3A 35ns Independent Type 3A 200V SMB(DO-214AA) Fast Recovery / High Efficiency Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2848678"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "669"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.027USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Fast Recovery/High Efficiency Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "ES3D-SMB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-65°C~+150°C@(Tj)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage (Vf@If)" "1V@3A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Recovery Time (trr)" "35ns"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "200V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Average Rectified Current (Io)" "3A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Leakage Current" "5uA@200V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Diode Configuration" "Single"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Recovery,ES3D-SMB_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,ES3D-SMB_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Recovery,ES3D-SMB_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -22180,479 +20462,7 @@
 			)
 		)
 	)
-	(symbol "Schottky,SR10150"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SR10150"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_DO-27"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110081030_YFW-SR10150_C2898651.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150V Independent Type 10A 950mV DO-27 Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2898651"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1479"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.156USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "Hand-Soldered"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YFW"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SR10150"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SR10150_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SR10150_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SR10150_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Schottky,SS14"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS14"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111221930_KUU-SS14_C2922789.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V Independent Type 550mV@1A 1A SMA Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2922789"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1531"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.019USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KUU"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SS14"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SS14_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS14_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS14_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Schottky,SS14,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -22714,7 +20524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1227057"
+		(property "Stock" "1211648"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22858,7 +20668,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Schottky,SS14,(2)_0_1"
+		(symbol "Schottky,SS14_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27)
@@ -22875,7 +20685,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS14,(2)_0_1"
+		(symbol "Schottky,SS14_0_1"
 			(polyline
 				(pts
 					(xy 0.635 -1.905)
@@ -22894,7 +20704,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS14,(2)_1_1"
+		(symbol "Schottky,SS14_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -22995,7 +20805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1248525"
+		(property "Stock" "1230979"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23276,7 +21086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "655603"
+		(property "Stock" "642390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23539,7 +21349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "802431"
+		(property "Stock" "788183"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23740,243 +21550,7 @@
 			)
 		)
 	)
-	(symbol "Schottky,SS26"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS26"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111221830_GOODWORK-SS26_C2922181.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V Independent Type 850mV@2A 2A SMA(DO-214AC) Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2922181"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5287"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.022USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SS26"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SS26_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS26_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS26_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Schottky,SS14,(3)"
+	(symbol "Schottky,SS14,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -24038,7 +21612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13926"
+		(property "Stock" "63906"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24191,7 +21765,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Schottky,SS14,(3)_0_1"
+		(symbol "Schottky,SS14,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27)
@@ -24208,7 +21782,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS14,(3)_0_1"
+		(symbol "Schottky,SS14,(2)_0_1"
 			(polyline
 				(pts
 					(xy 0.635 -1.905)
@@ -24227,7 +21801,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS14,(3)_1_1"
+		(symbol "Schottky,SS14,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -24328,7 +21902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "32566"
+		(property "Stock" "32326"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24618,7 +22192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38367"
+		(property "Stock" "38085"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24846,7 +22420,7 @@
 			)
 		)
 	)
-	(symbol "Schottky,SS26,(2)"
+	(symbol "Schottky,SS26"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -24908,7 +22482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "53228"
+		(property "Stock" "52296"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25061,7 +22635,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Schottky,SS26,(2)_0_1"
+		(symbol "Schottky,SS26_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27)
@@ -25078,7 +22652,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS26,(2)_0_1"
+		(symbol "Schottky,SS26_0_1"
 			(polyline
 				(pts
 					(xy 0.635 -1.905)
@@ -25097,7 +22671,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS26,(2)_1_1"
+		(symbol "Schottky,SS26_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -25198,7 +22772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "81610"
+		(property "Stock" "81316"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25488,7 +23062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "87686"
+		(property "Stock" "86138"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25778,7 +23352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "94106"
+		(property "Stock" "92141"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26068,7 +23642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "93044"
+		(property "Stock" "87708"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26296,242 +23870,6 @@
 			)
 		)
 	)
-	(symbol "Schottky,SS26F"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS26F"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMAF"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111221830_GOODWORK-SS26F_C2922180.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V Independent Type 850mV@2A 2A SMAF Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2922180"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "23"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.024USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "15"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SS26F"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SS26F_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS26F_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS26F_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Schottky,SS24F"
 		(pin_numbers hide)
 		(pin_names
@@ -26594,7 +23932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18500"
+		(property "Stock" "18486"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27156,7 +24494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "47133"
+		(property "Stock" "46957"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27446,7 +24784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "54211"
+		(property "Stock" "53329"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27736,7 +25074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1547"
+		(property "Stock" "1492"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28146,950 +25484,6 @@
 			)
 		)
 	)
-	(symbol "Schottky,SS210,(2)"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS210"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMB"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111221830_GOODWORK-SS210_C2922182.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V Independent Type 850mV@2A 2A SMB(DO-214AA) Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2922182"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "9065"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.029USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SS210"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SS210,(2)_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS210,(2)_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS210,(2)_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Schottky,SS520BF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS520BF"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMBF"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109031230_GOODWORK-SS520BF_C2891308.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200V Independent Type 920mV@5A 5A SMBF Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2891308"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "3112"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.080USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SS520BF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SS520BF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS520BF_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS520BF_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Schottky,SS26BF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS26BF"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMBF"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111221830_GOODWORK-SS26BF_C2922183.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V Independent Type 850mV@2A 2A SMBF Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2922183"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "4188"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.030USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GOODWORK"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SS26BF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SS26BF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS26BF_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS26BF_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Schottky,SS56"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS56"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMC"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110191430_YFW-SS56_C2898934.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V Independent Type 700mV@5A 5A SMC Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2898934"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "3896"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.080USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YFW"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SS56"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,SS56_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS56_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,SS56_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Schottky,SK1010C"
 		(pin_numbers hide)
 		(pin_names
@@ -29442,7 +25836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16837"
+		(property "Stock" "16819"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29732,7 +26126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3630"
+		(property "Stock" "3289"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29995,7 +26389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "458634"
+		(property "Stock" "448344"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30258,7 +26652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "144530"
+		(property "Stock" "144206"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30521,7 +26915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34696"
+		(property "Stock" "34606"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30811,7 +27205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19566"
+		(property "Stock" "19442"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31101,7 +27495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "43033"
+		(property "Stock" "42483"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31391,7 +27785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "77004"
+		(property "Stock" "76886"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31672,7 +28066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7206"
+		(property "Stock" "7062"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31908,7 +28302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18009"
+		(property "Stock" "17969"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32616,7 +29010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13894"
+		(property "Stock" "13758"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32879,7 +29273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1095047"
+		(property "Stock" "1062548"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33142,7 +29536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35842"
+		(property "Stock" "35822"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33378,7 +29772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "121006"
+		(property "Stock" "120852"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33668,7 +30062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "52856"
+		(property "Stock" "51514"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33949,7 +30343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "234728"
+		(property "Stock" "233290"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34239,7 +30633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "87440"
+		(property "Stock" "87045"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34529,7 +30923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "32734"
+		(property "Stock" "32684"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34810,7 +31204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19298"
+		(property "Stock" "19240"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35381,7 +31775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "87084"
+		(property "Stock" "86892"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35671,7 +32065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38748"
+		(property "Stock" "38682"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36188,7 +32582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9450"
+		(property "Stock" "9309"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36469,7 +32863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20369"
+		(property "Stock" "19787"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36750,7 +33144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6280"
+		(property "Stock" "6240"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37031,7 +33425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13941"
+		(property "Stock" "13880"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37267,7 +33661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35773"
+		(property "Stock" "35667"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37503,7 +33897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10009"
+		(property "Stock" "9989"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37639,242 +34033,6 @@
 			)
 		)
 		(symbol "Schottky,B5819WT_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Schottky,CDBU0240-HF"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CDBU0240-HF"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-523F"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205091530_Comchip-CDBU0240-HF_C2886026.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V Independent Type 450mV@200mA 200mA SOD-523F Schottky Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2886026"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "4051"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.059USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Comchip"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CDBU0240-HF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Schottky,CDBU0240-HF_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,CDBU0240-HF_0_1"
-			(polyline
-				(pts
-					(xy 0.635 -1.905)
-					(xy 1.27 -1.905)
-					(xy 1.27 -1.27)
-					(xy -1.27 -1.27)
-					(xy -1.27 -0.635)
-					(xy -0.635 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Schottky,CDBU0240-HF_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -38683,7 +34841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "947"
+		(property "Stock" "10947"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38919,7 +35077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10390"
+		(property "Stock" "10376"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39093,7 +35251,7 @@
 			)
 		)
 	)
-	(symbol "Schottky,SS56,(2)"
+	(symbol "Schottky,SS56"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -39155,7 +35313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11622"
+		(property "Stock" "11594"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39254,7 +35412,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Schottky,SS56,(2)_0_1"
+		(symbol "Schottky,SS56_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27)
@@ -39271,7 +35429,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS56,(2)_0_1"
+		(symbol "Schottky,SS56_0_1"
 			(polyline
 				(pts
 					(xy 0.635 -1.905)
@@ -39290,7 +35448,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS56,(2)_1_1"
+		(symbol "Schottky,SS56_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -39627,7 +35785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12722"
+		(property "Stock" "12679"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40599,7 +36757,7 @@
 			)
 		)
 	)
-	(symbol "Schottky,SS210,(3)"
+	(symbol "Schottky,SS210,(2)"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -40760,7 +36918,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Schottky,SS210,(3)_0_1"
+		(symbol "Schottky,SS210,(2)_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27)
@@ -40777,7 +36935,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS210,(3)_0_1"
+		(symbol "Schottky,SS210,(2)_0_1"
 			(polyline
 				(pts
 					(xy 0.635 -1.905)
@@ -40796,7 +36954,7 @@
 				)
 			)
 		)
-		(symbol "Schottky,SS210,(3)_1_1"
+		(symbol "Schottky,SS210,(2)_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
@@ -40897,7 +37055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2319"
+		(property "Stock" "2280"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41369,7 +37527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19634"
+		(property "Stock" "19619"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41605,7 +37763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6226"
+		(property "Stock" "6189"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41841,7 +37999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17597"
+		(property "Stock" "17377"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42549,7 +38707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10427"
+		(property "Stock" "10367"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43729,7 +39887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8448"
+		(property "Stock" "8443"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44999,7 +41157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22968"
+		(property "Stock" "22928"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45280,7 +41438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4812"
+		(property "Stock" "4788"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45752,7 +41910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7492"
+		(property "Stock" "7442"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46505,7 +42663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1431"
+		(property "Stock" "1441"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47449,7 +43607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20669"
+		(property "Stock" "20658"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47921,7 +44079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21647"
+		(property "Stock" "21617"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48910,7 +45068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29782"
+		(property "Stock" "27808"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49146,7 +45304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8255"
+		(property "Stock" "8235"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49427,7 +45585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5190"
+		(property "Stock" "5170"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50652,7 +46810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11359"
+		(property "Stock" "11338"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51731,7 +47889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10140"
+		(property "Stock" "10120"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53664,7 +49822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2777772"
+		(property "Stock" "2721963"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53906,301 +50064,6 @@
 			)
 		)
 	)
-	(symbol "Switching,BAV21W"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAV21W"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-123"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111291830_CBI-BAV21W_C2919736.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "250V Independent Type 1.25V@200mA 50ns 200mA SOD-123 Switching Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2919736"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.014USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "15"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Switching Diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CBI"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BAV21W"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-65°C~+150°C@(Tj)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage (Vf@If)" "1.25V@200mA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "250V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Recovery Time (trr)" "50ns"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Average Rectified Current (Io)" "200mA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Diode Configuration" "Single"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Leakage Current" "100nA@200V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Switching,BAV21W_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Switching,BAV21W_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Switching,BAV21W_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Switching,1N4148W,(2)"
 		(pin_numbers hide)
 		(pin_names
@@ -54263,7 +50126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "263857"
+		(property "Stock" "248461"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54567,7 +50430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1540008"
+		(property "Stock" "1469246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55166,7 +51029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36427"
+		(property "Stock" "36217"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55470,7 +51333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15983"
+		(property "Stock" "9565"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55765,7 +51628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18054"
+		(property "Stock" "11926"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56060,7 +51923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "454917"
+		(property "Stock" "453588"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56364,7 +52227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15001"
+		(property "Stock" "14981"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57295,7 +53158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2254"
+		(property "Stock" "2240"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58048,7 +53911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3488"
+		(property "Stock" "3479"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58514,7 +54377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1262"
+		(property "Stock" "826"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58747,7 +54610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1807"
+		(property "Stock" "1787"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59213,7 +55076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16799"
+		(property "Stock" "16595"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60307,7 +56170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14910"
+		(property "Stock" "14890"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60773,7 +56636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8750"
+		(property "Stock" "8745"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61006,7 +56869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22581"
+		(property "Stock" "22576"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61517,7 +57380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60834"
+		(property "Stock" "60819"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61750,7 +57613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4112"
+		(property "Stock" "3958"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62270,7 +58133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25970"
+		(property "Stock" "25770"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62503,7 +58366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24575"
+		(property "Stock" "11300"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62736,7 +58599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6772"
+		(property "Stock" "6648"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62969,7 +58832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6585"
+		(property "Stock" "6426"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63202,7 +59065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20977"
+		(property "Stock" "20947"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63435,7 +59298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22739"
+		(property "Stock" "22689"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63668,7 +59531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8023"
+		(property "Stock" "6815"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63901,7 +59764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9134"
+		(property "Stock" "9019"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64134,7 +59997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7715"
+		(property "Stock" "7685"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64367,7 +60230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35210"
+		(property "Stock" "34515"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64600,7 +60463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31013"
+		(property "Stock" "30868"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64833,7 +60696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6198"
+		(property "Stock" "6068"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65066,7 +60929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11323"
+		(property "Stock" "10850"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65299,7 +61162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8926"
+		(property "Stock" "8766"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65532,7 +61395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2436"
+		(property "Stock" "2421"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65765,7 +61628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23708"
+		(property "Stock" "23608"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65998,7 +61861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15493"
+		(property "Stock" "15133"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66231,7 +62094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15000"
+		(property "Stock" "14800"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66464,7 +62327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5581"
+		(property "Stock" "5063"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66930,7 +62793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1380"
+		(property "Stock" "800"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67163,7 +63026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24801"
+		(property "Stock" "24473"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67396,7 +63259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7800"
+		(property "Stock" "7576"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68328,7 +64191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35387"
+		(property "Stock" "32387"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69081,7 +64944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5812"
+		(property "Stock" "2812"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69314,7 +65177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12964"
+		(property "Stock" "12699"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70300,7 +66163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "924"
+		(property "Stock" "909"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70533,7 +66396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27124"
+		(property "Stock" "27109"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70999,7 +66862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "32080"
+		(property "Stock" "32036"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71232,7 +67095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "66282"
+		(property "Stock" "66217"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71752,7 +67615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8280"
+		(property "Stock" "8230"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71985,7 +67848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13840"
+		(property "Stock" "13640"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72218,7 +68081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3169"
+		(property "Stock" "3154"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72917,7 +68780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6025"
+		(property "Stock" "6010"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73204,7 +69067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11456"
+		(property "Stock" "11206"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73670,7 +69533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8568"
+		(property "Stock" "8553"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73903,7 +69766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4617"
+		(property "Stock" "4567"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74369,7 +70232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11617"
+		(property "Stock" "11213"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74835,7 +70698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10467"
+		(property "Stock" "10452"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75068,7 +70931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9287"
+		(property "Stock" "9272"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75534,7 +71397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3660"
+		(property "Stock" "3645"
 			(at 0 0 0)
 			(effects
 				(font
@@ -77398,7 +73261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3940"
+		(property "Stock" "3880"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81521,7 +77384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5781"
+		(property "Stock" "5731"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81987,7 +77850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13078"
+		(property "Stock" "13028"
 			(at 0 0 0)
 			(effects
 				(font
@@ -82686,7 +78549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15793"
+		(property "Stock" "15769"
 			(at 0 0 0)
 			(effects
 				(font
@@ -82919,7 +78782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4003"
+		(property "Stock" "3988"
 			(at 0 0 0)
 			(effects
 				(font
@@ -84317,7 +80180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6593"
+		(property "Stock" "6493"
 			(at 0 0 0)
 			(effects
 				(font
@@ -84550,7 +80413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3583"
+		(property "Stock" "3385"
 			(at 0 0 0)
 			(effects
 				(font
@@ -84837,7 +80700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4106"
+		(property "Stock" "4041"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85070,7 +80933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12621"
+		(property "Stock" "12506"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85303,7 +81166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13137"
+		(property "Stock" "13087"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85823,7 +81686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9401"
+		(property "Stock" "9386"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86056,7 +81919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4760"
+		(property "Stock" "4736"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86522,7 +82385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8654"
+		(property "Stock" "5654"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90878,7 +86741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7014"
+		(property "Stock" "6814"
 			(at 0 0 0)
 			(effects
 				(font
@@ -92967,239 +88830,6 @@
 			)
 		)
 	)
-	(symbol "Zener,LM3Z22VT1G"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM3Z22VT1G"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SOD-323"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_LRC-LM3Z22VT1G_C131821.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Independent Type 20.8V~23.3V 200mW 22V SOD-323 Zener Diodes ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C131821"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1419"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.022USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "6"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Zener Diodes"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LRC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "LM3Z22VT1G"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Zener,LM3Z22VT1G_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy 0.00 -1.27)
-					(xy 1.27 1.27)
-					(xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Zener,LM3Z22VT1G_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27)
-					(xy 1.27 -1.27)
-					(xy 1.27 -0.762)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Zener,LM3Z22VT1G_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Zener,BZT52C15S"
 		(pin_numbers hide)
 		(pin_names
@@ -93782,7 +89412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11205"
+		(property "Stock" "10665"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94302,7 +89932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "49562"
+		(property "Stock" "49541"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94535,7 +90165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25270"
+		(property "Stock" "24761"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94768,7 +90398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30658"
+		(property "Stock" "30488"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95001,7 +90631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12366"
+		(property "Stock" "12346"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95234,7 +90864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9080"
+		(property "Stock" "8634"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95521,7 +91151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13256"
+		(property "Stock" "13137"
 			(at 0 0 0)
 			(effects
 				(font
@@ -96041,7 +91671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24056"
+		(property "Stock" "23930"
 			(at 0 0 0)
 			(effects
 				(font
@@ -96274,7 +91904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14312"
+		(property "Stock" "13742"
 			(at 0 0 0)
 			(effects
 				(font
@@ -96973,7 +92603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23519"
+		(property "Stock" "23317"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97206,7 +92836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27393"
+		(property "Stock" "26737"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97439,7 +93069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11766"
+		(property "Stock" "11736"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97959,7 +93589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1319"
+		(property "Stock" "1283"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98891,7 +94521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34337"
+		(property "Stock" "34016"
 			(at 0 0 0)
 			(effects
 				(font
@@ -99124,7 +94754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29929"
+		(property "Stock" "29909"
 			(at 0 0 0)
 			(effects
 				(font
@@ -99823,7 +95453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9270"
+		(property "Stock" "9200"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100056,7 +95686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2794"
+		(property "Stock" "2747"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100522,7 +96152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6401"
+		(property "Stock" "6203"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100755,7 +96385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8000"
+		(property "Stock" "7930"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101042,7 +96672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5860"
+		(property "Stock" "5820"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101275,7 +96905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3285"
+		(property "Stock" "3265"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101508,7 +97138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15753"
+		(property "Stock" "15750"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101741,7 +97371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10802"
+		(property "Stock" "10652"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102207,7 +97837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13922"
+		(property "Stock" "13872"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102440,7 +98070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16841"
+		(property "Stock" "16815"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103139,7 +98769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14125"
+		(property "Stock" "13725"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105003,7 +100633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5418"
+		(property "Stock" "5382"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105290,7 +100920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5037"
+		(property "Stock" "5017"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105756,7 +101386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8637"
+		(property "Stock" "7387"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106276,7 +101906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9007"
+		(property "Stock" "8937"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107495,7 +103125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40823"
+		(property "Stock" "40803"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107782,7 +103412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17142"
+		(property "Stock" "17092"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108302,7 +103932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15892"
+		(property "Stock" "15821"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110669,7 +106299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25262"
+		(property "Stock" "23456"
 			(at 0 0 0)
 			(effects
 				(font
@@ -111655,7 +107285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6484"
+		(property "Stock" "6465"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113573,7 +109203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10817"
+		(property "Stock" "10827"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114505,7 +110135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2245169"
+		(property "Stock" "4177131"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114773,7 +110403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "973698"
+		(property "Stock" "953465"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115041,7 +110671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "389498"
+		(property "Stock" "384112"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115309,7 +110939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "236006"
+		(property "Stock" "226025"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115577,7 +111207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "318569"
+		(property "Stock" "304656"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115917,7 +111547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "65749"
+		(property "Stock" "39416"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116266,7 +111896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "908994"
+		(property "Stock" "887645"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116534,7 +112164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1217065"
+		(property "Stock" "1181649"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117161,7 +112791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "449124"
+		(property "Stock" "448662"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120434,7 +116064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7543"
+		(property "Stock" "7433"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120936,7 +116566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22384"
+		(property "Stock" "22364"
 			(at 0 0 0)
 			(effects
 				(font
@@ -122693,7 +118323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13394"
+		(property "Stock" "13385"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123476,7 +119106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2908"
+		(property "Stock" "2875"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123944,7 +119574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1783"
+		(property "Stock" "1759"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124178,7 +119808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10611"
+		(property "Stock" "10594"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124914,7 +120544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14471"
+		(property "Stock" "14464"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125165,7 +120795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24868"
+		(property "Stock" "24696"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125416,7 +121046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31337"
+		(property "Stock" "31320"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125667,7 +121297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9530"
+		(property "Stock" "9600"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125918,7 +121548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9469"
+		(property "Stock" "9462"
 			(at 0 0 0)
 			(effects
 				(font
@@ -126152,7 +121782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3329"
+		(property "Stock" "3246"
 			(at 0 0 0)
 			(effects
 				(font
@@ -126403,7 +122033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10592"
+		(property "Stock" "10538"
 			(at 0 0 0)
 			(effects
 				(font
@@ -126654,7 +122284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30155"
+		(property "Stock" "30095"
 			(at 0 0 0)
 			(effects
 				(font
@@ -126905,7 +122535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7100"
+		(property "Stock" "7044"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127156,7 +122786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9753"
+		(property "Stock" "9725"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127390,7 +123020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34909"
+		(property "Stock" "34899"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127641,7 +123271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "83"
+		(property "Stock" "76"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127875,7 +123505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11806"
+		(property "Stock" "10592"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128126,7 +123756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "89810"
+		(property "Stock" "89799"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128377,7 +124007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16994"
+		(property "Stock" "16706"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128845,7 +124475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5356"
+		(property "Stock" "5114"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129096,7 +124726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2903"
+		(property "Stock" "2678"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129330,7 +124960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3349"
+		(property "Stock" "3337"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129564,7 +125194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "206"
+		(property "Stock" "179"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129815,7 +125445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20517"
+		(property "Stock" "20449"
 			(at 0 0 0)
 			(effects
 				(font
@@ -130049,7 +125679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6922"
+		(property "Stock" "6858"
 			(at 0 0 0)
 			(effects
 				(font
@@ -130300,7 +125930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1853"
+		(property "Stock" "1831"
 			(at 0 0 0)
 			(effects
 				(font
@@ -130534,7 +126164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3149"
+		(property "Stock" "2958"
 			(at 0 0 0)
 			(effects
 				(font
@@ -130785,7 +126415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2535"
+		(property "Stock" "2528"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131019,7 +126649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9617"
+		(property "Stock" "9181"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131270,7 +126900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3705"
+		(property "Stock" "3698"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131755,7 +127385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3954"
+		(property "Stock" "3956"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132223,7 +127853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18890"
+		(property "Stock" "18804"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132474,7 +128104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2236"
+		(property "Stock" "3431"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132959,7 +128589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6839"
+		(property "Stock" "6832"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133210,7 +128840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7467"
+		(property "Stock" "7460"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133461,7 +129091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14327"
+		(property "Stock" "14295"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134431,7 +130061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5734"
+		(property "Stock" "5722"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134916,7 +130546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11665"
+		(property "Stock" "11769"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135167,7 +130797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20057"
+		(property "Stock" "20013"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135418,7 +131048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7087"
+		(property "Stock" "7075"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135669,7 +131299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4143"
+		(property "Stock" "4136"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135903,7 +131533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7592"
+		(property "Stock" "7587"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136154,7 +131784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "709"
+		(property "Stock" "649"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136405,7 +132035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2151"
+		(property "Stock" "2131"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136656,7 +132286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9406"
+		(property "Stock" "9428"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136907,7 +132537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6971"
+		(property "Stock" "6959"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137643,7 +133273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20956"
+		(property "Stock" "20936"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137894,7 +133524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6944"
+		(property "Stock" "6895"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138145,7 +133775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14841"
+		(property "Stock" "10813"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138396,7 +134026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13832"
+		(property "Stock" "13780"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138630,7 +134260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20814"
+		(property "Stock" "20769"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138881,7 +134511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30354"
+		(property "Stock" "27321"
 			(at 0 0 0)
 			(effects
 				(font
@@ -139366,7 +134996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9566"
+		(property "Stock" "9536"
 			(at 0 0 0)
 			(effects
 				(font
@@ -139707,7 +135337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3086"
+		(property "Stock" "3071"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140209,7 +135839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "87973"
+		(property "Stock" "87909"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140460,7 +136090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11398"
+		(property "Stock" "11422"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140945,7 +136575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22065"
+		(property "Stock" "22100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -141788,7 +137418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30370"
+		(property "Stock" "29804"
 			(at 0 0 0)
 			(effects
 				(font
@@ -142103,7 +137733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13518"
+		(property "Stock" "13494"
 			(at 0 0 0)
 			(effects
 				(font
@@ -144256,7 +139886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10424"
+		(property "Stock" "10421"
 			(at 0 0 0)
 			(effects
 				(font
@@ -146230,7 +141860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27111"
+		(property "Stock" "27101"
 			(at 0 0 0)
 			(effects
 				(font
@@ -146698,7 +142328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15839"
+		(property "Stock" "15819"
 			(at 0 0 0)
 			(effects
 				(font
@@ -148387,7 +144017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15853"
+		(property "Stock" "15851"
 			(at 0 0 0)
 			(effects
 				(font
@@ -149340,7 +144970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9032"
+		(property "Stock" "8466"
 			(at 0 0 0)
 			(effects
 				(font
@@ -149574,7 +145204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3900"
+		(property "Stock" "3698"
 			(at 0 0 0)
 			(effects
 				(font
@@ -149879,7 +145509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "166404"
+		(property "Stock" "159419"
 			(at 0 0 0)
 			(effects
 				(font
@@ -150427,311 +146057,6 @@
 			)
 		)
 	)
-	(symbol "TVS-Bi,SMDJ64CA"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 2.032 0.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMDJ64CA"
-			(at 2.032 -1.2122 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMC"
-			(at -1.778 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271608_Liown-SMDJ64CA_C2990261.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "29.1A 103V 3kW 71.1V 64V SMC ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2990261"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.108USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,TVS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Liown"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMDJ64CA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Breakdown Voltage" "71.1V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Maximum Clamping Voltage" "103V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Stand-Off Voltage (Vrwm)" "64V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Leakage Current (Ir)" "1uA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak Pulse Power Dissipation (Ppp)@10/1000us" "3000W"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak Pulse Current (Ipp)@10/1000us" "29.1A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TVS-Bi,SMDJ64CA_0_1"
-			(polyline
-				(pts
-					(xy -1.27 2.54)
-					(xy 0 0)
-					(xy 1.27 2.54)
-					(xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "TVS-Bi,SMDJ64CA_0_1"
-			(polyline
-				(pts
-					(xy 1.27 -2.54)
-					(xy 0 0)
-					(xy -1.27 -2.54)
-					(xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "TVS-Bi,SMDJ64CA_0_1"
-			(polyline
-				(pts
-					(xy -1.905 -0.635)
-					(xy -1.27 0)
-					(xy 1.27 0)
-					(xy 1.905 0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "TVS-Bi,SMDJ64CA_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "TVS-Bi,5.0SMDJ64CA"
 		(pin_numbers hide)
 		(pin_names
@@ -150794,7 +146119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9647"
+		(property "Stock" "9542"
 			(at 0 0 0)
 			(effects
 				(font
@@ -151099,7 +146424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3906"
+		(property "Stock" "3896"
 			(at 0 0 0)
 			(effects
 				(font
@@ -151404,7 +146729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "92975"
+		(property "Stock" "92449"
 			(at 0 0 0)
 			(effects
 				(font
@@ -151709,7 +147034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "54895"
+		(property "Stock" "53958"
 			(at 0 0 0)
 			(effects
 				(font

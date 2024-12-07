@@ -388,7 +388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22238"
+		(property "Stock" "22207"
 			(at 0 0 0)
 			(effects
 				(font
@@ -660,7 +660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6753"
+		(property "Stock" "6662"
 			(at 0 0 0)
 			(effects
 				(font
@@ -912,7 +912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70168"
+		(property "Stock" "68957"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1238,7 +1238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12595"
+		(property "Stock" "12535"
 			(at -1.27 0 0)
 			(effects
 				(font
@@ -1355,7 +1355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Synchronous Rectification" "NO"
+		(property "Synchronous Rectification" "No"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1382,7 +1382,52 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "boost converterType"
+		(property "Function" "Boost type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Tube (Built-In/External)" "Built-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quiescent Current (Iq)" "28uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" "400mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Adjustable"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-40°C~+85°C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1562,7 +1607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "124238"
+		(property "Stock" "117118"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1960,7 +2005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55377"
+		(property "Stock" "54600"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2275,7 +2320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "172700"
+		(property "Stock" "166735"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2357,6 +2402,105 @@
 			)
 		)
 		(property "Function" "Step-down type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Outputs" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Voltage" "5V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Topology" "Step-down"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Synchronous Rectification" "No"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage" "4.5V~40V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Tube (Built-In/External)" "Built-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switching Frequency" "150kHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quiescent Current (Iq)" "150uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" "2A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Fixed"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-40°C~+85°C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2592,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6192"
+		(property "Stock" "6157"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2709,7 +2853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Synchronous Rectification" "NO"
+		(property "Synchronous Rectification" "No"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2727,7 +2871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Input Voltage" "4V~40V"
+		(property "Input Voltage" "40V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2745,7 +2889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Operating Temperature" "-40°C~+125°C@(TJ)"
+		(property "Operating Temperature" "-40°C~+125°C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2755,6 +2899,33 @@
 			)
 		)
 		(property "Function" "Step-down type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Tube (Built-In/External)" "Built-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quiescent Current (Iq)" "50uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" "3A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2954,7 +3125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12263"
+		(property "Stock" "11991"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3071,7 +3242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Synchronous Rectification" "NO"
+		(property "Synchronous Rectification" "No"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3107,7 +3278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Operating Temperature" "-40°C~+125°C@(TJ)"
+		(property "Operating Temperature" "-40°C~+125°C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3117,6 +3288,33 @@
 			)
 		)
 		(property "Function" "Step-down type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Tube (Built-In/External)" "Built-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quiescent Current (Iq)" "80uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" "3A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3316,7 +3514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "255452"
+		(property "Stock" "235527"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3750,7 +3948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2653"
+		(property "Stock" "2423"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4121,7 +4319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7850"
+		(property "Stock" "7745"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4238,7 +4436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Synchronous Rectification" "NO"
+		(property "Synchronous Rectification" "No"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4283,7 +4481,25 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "boost converterType;Step-down type"
+		(property "Function" "Boost type;Step-down type"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switch Tube (Built-In/External)" "Built-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" "1.5A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5286,7 +5502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1082"
+		(property "Stock" "1067"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5846,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11427"
+		(property "Stock" "11266"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6136,7 +6352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4964"
+		(property "Stock" "4894"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6352,7 +6568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "118374"
+		(property "Stock" "116920"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6633,7 +6849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "288129"
+		(property "Stock" "284756"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6923,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "534875"
+		(property "Stock" "511924"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7447,7 +7663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "77530"
+		(property "Stock" "75610"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7737,7 +7953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "106089"
+		(property "Stock" "104108"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8018,7 +8234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "78250"
+		(property "Stock" "70148"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8335,7 +8551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "26318"
+		(property "Stock" "25494"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8652,7 +8868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "265547"
+		(property "Stock" "261169"
 			(at 0 0 0)
 			(effects
 				(font
