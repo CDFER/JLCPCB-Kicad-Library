@@ -63,7 +63,7 @@ def update_component_inplace(lcsc, libraryName, properties):
                 f"Error: C{lcsc} not found in library {filename} but it was found in the archive folder: {archived_symbol_path}"
             )
         else:
-            print(f"Error: C{lcsc} not found in library {filename}")
+            print(f"Error: https://jlcpcb.com/parts/componentSearch?searchTxt=c{lcsc} not found in library {filename}")
         return False
     else:
         with open(filename, "w") as file:

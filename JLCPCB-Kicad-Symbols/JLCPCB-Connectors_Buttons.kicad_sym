@@ -15,13 +15,12 @@
 				)
 			)
 		)
-		(property "Value" "Battery Holder, CR2032"
+		(property "Value" "CR2032"
 			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "JLCPCB-Kicad-Footprints:BAT-TH_BS-07-A1BJ001"
@@ -232,6 +231,252 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Connector, SP13, 4P, 5A"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP13"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:CONN-TH_HKT-00004"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110141730_Liansheng-HKT-00004_C2876037.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A Male 4P -40°C~+105°C Plugin Circular Connectors & Cable Connectors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2876037"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "160"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.931USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "Hand-Soldered"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Connectors,Circular Connectors & Cable Connectors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Liansheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "HKT-00004"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2876037"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Connector, SP13, 4P, 5A_0_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 5.08)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 3.81 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 1.27 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -1.27 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -3.81 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1 1)
@@ -1947,6 +2192,7 @@
 		)
 	)
 	(symbol "Tactile Button, 160gf"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1959,7 +2205,7 @@
 			)
 		)
 		(property "Value" "Tactile Button, 160gf"
-			(at -0.254 -8.636 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2391,6 +2637,7 @@
 		)
 	)
 	(symbol "Tactile Button, 260gf"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2403,7 +2650,7 @@
 			)
 		)
 		(property "Value" "Tactile Button, 260gf"
-			(at -0.254 -6.35 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2539,9 +2786,20 @@
 			)
 		)
 		(symbol "Tactile Button, 260gf_0_1"
+			(circle
+				(center 0 -2.794)
+				(radius 0.3175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy 2.54 -2.54)
+					(xy -2.54 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -2565,7 +2823,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy -0.762 -1.016)
+					(xy -0.508 0.762) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2577,7 +2835,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 0 -0.762)
+					(xy 0 -3.302) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -2589,7 +2847,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 0 0.762)
+					(xy 0 0.762) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2599,34 +2857,21 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.524)
-				)
+			(circle
+				(center 0 0.508)
+				(radius 0.3175)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 0.254) (xy -1.016 0.254) (xy -1.016 0) (xy -0.762 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin unspecified line
 				(at -5.08 2.54 0)
-				(length 5.08)
-				(name "1"
+				(length 2.54)
+				(name "A"
 					(effects
 						(font
 							(size 1 1)
@@ -2643,8 +2888,8 @@
 			)
 			(pin unspecified line
 				(at 5.08 2.54 180)
-				(length 5.08)
-				(name "2"
+				(length 2.54)
+				(name "B"
 					(effects
 						(font
 							(size 1 1)
@@ -2660,9 +2905,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -2.54 0)
-				(length 5.08)
-				(name "3"
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "C"
 					(effects
 						(font
 							(size 1 1)
@@ -2678,9 +2923,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 5.08 -2.54 180)
-				(length 5.08)
-				(name "4"
+				(at 5.08 -5.08 180)
+				(length 2.54)
+				(name "D"
 					(effects
 						(font
 							(size 1 1)
@@ -2699,7 +2944,7 @@
 		(symbol "Tactile Button, 260gf_1_1"
 			(rectangle
 				(start -2.54 5.08)
-				(end 2.54 -5.08)
+				(end 2.54 -7.62)
 				(stroke
 					(width 0)
 					(type default)

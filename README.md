@@ -1,6 +1,6 @@
 # JLCPCB-Kicad-Library
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs.  I’m not affiliated or sponsored by jlcpcb, just another customer.
 
@@ -21,6 +21,7 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 ## Features
 
 * Daily updated stock and pricing information (uses Github Actions)
+* Minimum order quantity and attrition quantity provided for every component
 * Utilizes .step files for seamless SolidWorks and Fusion 360 integration
 * 99% of components include 3D models
 * Datasheet links
