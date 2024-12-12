@@ -409,6 +409,7 @@ def check_models():
                             post_move_file_path = os.path.join(models_folder_path, f"{model}.step")
                             pre_move_file_path = os.path.join(archived_models_folder_path, f"{model}.step")
                             shutil.move(pre_move_file_path, post_move_file_path)
+                            archived_model_names.remove(model)
                             print(f"Un-archived needed model: {model}")
                         else:
                             print(f"Missing 3D Model for Footprint: {footprint_name} ({model_path})")
@@ -475,6 +476,7 @@ def check_footprints():
                                         archived_footprints_folder_path, f"{footprint_name}.kicad_mod"
                                     )
                                     shutil.move(pre_move_file_path, post_move_file_path)
+                                    archived_footprint_names.remove(footprint_name)
                                     print(f"Un-archived needed footprint: {footprint_name}")
                                 else:
                                     print(
@@ -519,13 +521,14 @@ names_lookup = []
 
 for index in range(0, len(df)):
     # lcsc,category_id,category,subcategory,mfr,package,joints,manufacturer,basic,preferred,description,datasheet,stock,last_on_stock,price,extra
-    lcsc = df.loc[index, "lcsc"]
+    lcsc = int(df.loc[index, "lcsc"])
     category = f'{df.loc[index,"category"]},{df.loc[index,"subcategory"]}'
-    manufacturer = df.loc[index, "manufacturer"]
+    manufacturer = str(df.loc[index, "manufacturer"])
     manufacturerPartID = df.loc[index, "mfr"]
-    footprint_name = df.loc[index, "package"]
-    description = df.loc[index, "description"]
-    description = description.replace("  ", " ")
+    footprint_name = str(df.loc[index, "package"])
+    footprint_name = footprint_name.replace("插件","Plugin") # Some through-hole parts use the prefix Plugin or the chinese equivalent
+    description = str(df.loc[index, "description"])
+    description = description.replace("  ", " ") # Gets rid of double spaces
     joints = int(df.loc[index, "joints"])
     assembly_process = df.loc[index, "Assembly Process"]
     min_order_qty = int(df.loc[index, "Min Order Qty"])
@@ -533,7 +536,7 @@ for index in range(0, len(df)):
     units = 1
     secondary_mode = ""
     subcategory = str(df.loc[index, "subcategory"])
-
+    
     if assembly_process == "THT":
         assembly_process = "Hand-Soldered"
         joint_cost = hand_solder_joint_cost
