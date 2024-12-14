@@ -1,10 +1,10 @@
-# JLCPCB-Kicad-Library
+# JLCPCB-KiCad-Library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs.  I’m not affiliated or sponsored by jlcpcb, just another customer.
 
-| Kicad 3d View | Fusion 360 |
+| KiCad 3d View | Fusion 360 |
 |:-------------------------:|:-------------------------:|
 |![3D Component Sample](images/3D_Sample.avif)|![3D Component Sample in Fusion 360](images/3D_Sample_Fusion360.avif)|
 
@@ -35,21 +35,21 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 2. Place it within your KiCad project folder.
 
 ```
-My_Kicad_Project_Folder
-├── JLCPCB-Kicad-Library-Folder
-└── My_Kicad_Project.kicad_pro
+My_KiCad_Project_Folder
+├── JLCPCB-KiCad-Library-Folder
+└── My_KiCad_Project.kicad_pro
 ```
 
 3. Add libraries in KiCad:
 
-* Add the library in Kicad -> Preferences -> Manage Symbol Libraries -> Project Specific Libraries -> Add existing Library to table -> Select all .kicad_sym files in the JLCPCB-Kicad-Symbols folder
-* Add the library in Kicad -> Preferences -> Manage Footprint Libraries -> Project Specific Libraries -> Add existing Library to table -> Select the JLCPCB-Kicad-Footprints folder
+* Add the library in KiCad -> Preferences -> Manage Symbol Libraries -> Project Specific Libraries -> Add existing Library to table -> Select all .kicad_sym files in the JLCPCB-KiCad-Symbols folder
+* Add the library in KiCad -> Preferences -> Manage Footprint Libraries -> Project Specific Libraries -> Add existing Library to table -> Select the JLCPCB-KiCad-Footprints folder
 
 If you have any issues setting it up feel free to post an issue :)
 
 ## Git Submodule Setup (allows you to automatically update pricing and stock)
 
-Open Git Bash in the Kicad Project folder (in the right click menu on windows if you have git installed)
+Open Git Bash in the KiCad Project folder (in the right click menu on windows if you have git installed)
 
 ```Bash
 $ git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
