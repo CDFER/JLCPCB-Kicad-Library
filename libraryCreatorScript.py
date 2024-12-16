@@ -214,6 +214,10 @@ def extract_LED_value(description, lcsc_):
         return "Red", "LED"
     elif lcsc == 34499:
         return "White", "LED"
+    elif lcsc == 2986058:
+        return "Blue", "LED"
+    elif lcsc == 2986059:
+        return "Green", "LED"
 
     color_pattern = r"(Red|Green|Blue|Yellow|White|Emerald)"
 
