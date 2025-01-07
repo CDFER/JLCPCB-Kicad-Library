@@ -1179,7 +1179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33"
+		(property "Stock" "19"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12636"
+		(property "Stock" "12436"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9192"
+		(property "Stock" "8988"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4938,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28611"
+		(property "Stock" "28396"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5200,6 +5200,257 @@
 			)
 		)
 	)
+	(symbol "TVS-Bi,SMAJ12CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ12CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCPCB-Kicad-Footprints:D_SMA"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403232245_hongjiacheng-SMAJ12CA_C19077532.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20.1A 19.9V 400W 13.3V Bidirectional 12V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077532"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "35175"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.022USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMAJ12CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ12CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ12CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ12CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMAJ12CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TVS-Bi,SMBJ14CA"
 		(pin_numbers hide)
 		(pin_names
@@ -5262,7 +5513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12116"
+		(property "Stock" "11925"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5603,7 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5886"
+		(property "Stock" "5842"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6285,7 +6536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7784"
+		(property "Stock" "7777"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6626,7 +6877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8620"
+		(property "Stock" "8613"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6967,7 +7218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16866"
+		(property "Stock" "16832"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7632,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5886"
+		(property "Stock" "5842"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7973,7 +8224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16122"
+		(property "Stock" "16102"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8305,7 +8556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4899"
+		(property "Stock" "4849"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8646,7 +8897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4723"
+		(property "Stock" "4703"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9669,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1818"
+		(property "Stock" "1813"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10351,7 +10602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2846"
+		(property "Stock" "2821"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11374,7 +11625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "68926"
+		(property "Stock" "67396"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11608,7 +11859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50923"
+		(property "Stock" "128616"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11859,7 +12110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10716"
+		(property "Stock" "9637"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12110,7 +12361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2223"
+		(property "Stock" "2644"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12434,7 +12685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29292"
+		(property "Stock" "30257"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12758,7 +13009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11361"
+		(property "Stock" "10639"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12992,7 +13243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13889"
+		(property "Stock" "13874"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13226,7 +13477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3251"
+		(property "Stock" "3236"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13784,7 +14035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14245"
+		(property "Stock" "14230"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14108,7 +14359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2600"
+		(property "Stock" "2151"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14413,7 +14664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18960"
+		(property "Stock" "16245"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14718,7 +14969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2368"
+		(property "Stock" "2323"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14952,7 +15203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10923"
+		(property "Stock" "10797"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15203,7 +15454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8024"
+		(property "Stock" "12636"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15491,7 +15742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "151760"
+		(property "Stock" "141024"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15796,7 +16047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1296678"
+		(property "Stock" "1282208"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16091,7 +16342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "41378"
+		(property "Stock" "41188"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16359,7 +16610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "69181"
+		(property "Stock" "68976"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16654,7 +16905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "209162"
+		(property "Stock" "207477"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16949,7 +17200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38263"
+		(property "Stock" "37638"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17539,7 +17790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2404"
+		(property "Stock" "2394"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17834,7 +18085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2585121"
+		(property "Stock" "2543380"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18111,7 +18362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "68800"
+		(property "Stock" "68760"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18611,7 +18862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20853"
+		(property "Stock" "20349"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19120,7 +19371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "944"
+		(property "Stock" "894"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20138,7 +20389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11282"
+		(property "Stock" "11262"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20415,7 +20666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17476"
+		(property "Stock" "17436"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22039,7 +22290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "790"
+		(property "Stock" "3790"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22548,7 +22799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "992848"
+		(property "Stock" "973045"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23102,7 +23353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "89304"
+		(property "Stock" "88539"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23379,7 +23630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "149115"
+		(property "Stock" "150255"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23611,7 +23862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6860"
+		(property "Stock" "6836"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24075,7 +24326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11433"
+		(property "Stock" "11418"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24539,7 +24790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11205"
+		(property "Stock" "11190"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25003,7 +25254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19479"
+		(property "Stock" "19415"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25467,7 +25718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12601"
+		(property "Stock" "12397"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25994,7 +26245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6128"
+		(property "Stock" "6026"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26226,7 +26477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "75"
+		(property "Stock" "12075"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26521,7 +26772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6567"
+		(property "Stock" "6441"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27575,7 +27826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7789"
+		(property "Stock" "7689"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27807,7 +28058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7163"
+		(property "Stock" "7129"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28334,7 +28585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9404"
+		(property "Stock" "9374"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28629,7 +28880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "788"
+		(property "Stock" "5744"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29093,7 +29344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2342"
+		(property "Stock" "2332"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29325,7 +29576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1381943"
+		(property "Stock" "1346432"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29606,7 +29857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2535436"
+		(property "Stock" "2491184"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29887,7 +30138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "667285"
+		(property "Stock" "665235"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30159,7 +30410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "895200"
+		(property "Stock" "847415"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30440,7 +30691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55310"
+		(property "Stock" "55336"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30730,7 +30981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29307"
+		(property "Stock" "29192"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31020,7 +31271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11223"
+		(property "Stock" "10833"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31310,7 +31561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40150"
+		(property "Stock" "40304"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31600,7 +31851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "62081"
+		(property "Stock" "61910"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31890,7 +32141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "81676"
+		(property "Stock" "81208"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32180,7 +32431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "63664"
+		(property "Stock" "62556"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32470,7 +32721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34695"
+		(property "Stock" "33763"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32760,7 +33011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7975"
+		(property "Stock" "7717"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33322,7 +33573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40553"
+		(property "Stock" "40305"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33612,7 +33863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40257"
+		(property "Stock" "40135"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33902,7 +34153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15668"
+		(property "Stock" "15658"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34138,7 +34389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3475"
+		(property "Stock" "12475"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34374,7 +34625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4356"
+		(property "Stock" "4351"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34954,7 +35205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3764"
+		(property "Stock" "3076"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35226,7 +35477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "462596"
+		(property "Stock" "450326"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35489,7 +35740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "208751"
+		(property "Stock" "195753"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35770,7 +36021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "47882"
+		(property "Stock" "47852"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36060,7 +36311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "97664"
+		(property "Stock" "97434"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36350,7 +36601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "72648"
+		(property "Stock" "71468"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36640,7 +36891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "56305"
+		(property "Stock" "56156"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36921,7 +37172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6135"
+		(property "Stock" "6100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37157,7 +37408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11605"
+		(property "Stock" "11521"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37629,7 +37880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4125"
+		(property "Stock" "4081"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37865,7 +38116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "72969"
+		(property "Stock" "72807"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38146,7 +38397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "629455"
+		(property "Stock" "586526"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38645,7 +38896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "240002"
+		(property "Stock" "239720"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38935,7 +39186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "129660"
+		(property "Stock" "128618"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39216,7 +39467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "438972"
+		(property "Stock" "441099"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39506,7 +39757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "143973"
+		(property "Stock" "144543"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40068,7 +40319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25223"
+		(property "Stock" "17095"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40639,7 +40890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "158954"
+		(property "Stock" "158888"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40929,7 +41180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "244862"
+		(property "Stock" "244816"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41446,7 +41697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16957"
+		(property "Stock" "16749"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41727,7 +41978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15611"
+		(property "Stock" "15490"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42008,7 +42259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19603"
+		(property "Stock" "19583"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42289,7 +42540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13213"
+		(property "Stock" "13163"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42525,7 +42776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23384"
+		(property "Stock" "20060"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42761,7 +43012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14411"
+		(property "Stock" "14329"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43705,7 +43956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10564"
+		(property "Stock" "10557"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43941,7 +44192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9908"
+		(property "Stock" "9898"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44177,7 +44428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36878"
+		(property "Stock" "36076"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44649,7 +44900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7081"
+		(property "Stock" "32067"
 			(at 0 0 0)
 			(effects
 				(font
@@ -44930,7 +45181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5184"
+		(property "Stock" "4970"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45166,7 +45417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3056"
+		(property "Stock" "3036"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45919,7 +46170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24423"
+		(property "Stock" "24289"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46391,7 +46642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12182"
+		(property "Stock" "12167"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46627,7 +46878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28214"
+		(property "Stock" "28190"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46863,7 +47114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17209"
+		(property "Stock" "17150"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47099,7 +47350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3294"
+		(property "Stock" "3254"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48378,7 +48629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10100"
+		(property "Stock" "10094"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48614,7 +48865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8171"
+		(property "Stock" "8166"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49322,7 +49573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5965"
+		(property "Stock" "5927"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49839,7 +50090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2644"
+		(property "Stock" "2632"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50120,7 +50371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7669"
+		(property "Stock" "7659"
 			(at 0 0 0)
 			(effects
 				(font
@@ -50401,7 +50652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1384"
+		(property "Stock" "1379"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51671,7 +51922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3097"
+		(property "Stock" "3087"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52233,7 +52484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21694"
+		(property "Stock" "21550"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52514,7 +52765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3349"
+		(property "Stock" "3221"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52750,7 +53001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3242"
+		(property "Stock" "3218"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52986,7 +53237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6919"
+		(property "Stock" "6889"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53458,7 +53709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1265"
+		(property "Stock" "1250"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53739,7 +53990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9206"
+		(property "Stock" "9196"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54447,7 +54698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12247"
+		(property "Stock" "12183"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54683,7 +54934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24344"
+		(property "Stock" "24329"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55155,7 +55406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17132"
+		(property "Stock" "17067"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55391,7 +55642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "26265"
+		(property "Stock" "26249"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56144,7 +56395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21905"
+		(property "Stock" "21890"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56661,7 +56912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "649"
+		(property "Stock" "9649"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56670,7 +56921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.017USD"
+		(property "Price" "0.028USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57133,7 +57384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8842"
+		(property "Stock" "8582"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57369,7 +57620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7164"
+		(property "Stock" "6913"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57605,7 +57856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2099"
+		(property "Stock" "2059"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57886,7 +58137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10599"
+		(property "Stock" "10579"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58167,7 +58418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6418"
+		(property "Stock" "5895"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58965,7 +59216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8731"
+		(property "Stock" "8681"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59437,7 +59688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11907"
+		(property "Stock" "11598"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60381,7 +60632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22604"
+		(property "Stock" "22258"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60662,7 +60913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17626"
+		(property "Stock" "17616"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60898,7 +61149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11261"
+		(property "Stock" "11061"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61179,7 +61430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1848774"
+		(property "Stock" "1796192"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61465,7 +61716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1567015"
+		(property "Stock" "1555238"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61760,7 +62011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2045763"
+		(property "Stock" "1891151"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62046,7 +62297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "716781"
+		(property "Stock" "715575"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62645,7 +62896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21375"
+		(property "Stock" "21359"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62940,7 +63191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "77659"
+		(property "Stock" "78873"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63235,7 +63486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "335126"
+		(property "Stock" "334078"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63771,7 +64022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12327"
+		(property "Stock" "12317"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64004,7 +64255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5682"
+		(property "Stock" "20554"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64237,7 +64488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6648"
+		(property "Stock" "6514"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64470,7 +64721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "454"
+		(property "Stock" "45"
 			(at 0 0 0)
 			(effects
 				(font
@@ -64990,7 +65241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17602"
+		(property "Stock" "17538"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65223,7 +65474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13101"
+		(property "Stock" "12601"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65922,7 +66173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1752"
+		(property "Stock" "11741"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66155,7 +66406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4815"
+		(property "Stock" "4744"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66675,7 +66926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14472"
+		(property "Stock" "14224"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67482,7 +67733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9169"
+		(property "Stock" "9059"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67715,7 +67966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7030"
+		(property "Stock" "7021"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67948,7 +68199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7030"
+		(property "Stock" "7021"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68181,7 +68432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19669"
+		(property "Stock" "19657"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68414,7 +68665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7675"
+		(property "Stock" "7621"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68647,7 +68898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13708"
+		(property "Stock" "13589"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68880,7 +69131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19831"
+		(property "Stock" "19761"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69113,7 +69364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "57950"
+		(property "Stock" "57675"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69346,7 +69597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "28161"
+		(property "Stock" "28011"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69579,7 +69830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1319"
+		(property "Stock" "1289"
 			(at 0 0 0)
 			(effects
 				(font
@@ -69812,7 +70063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21777"
+		(property "Stock" "21123"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70045,7 +70296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18432"
+		(property "Stock" "18232"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70278,7 +70529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10958"
+		(property "Stock" "10908"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70977,7 +71228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23940"
+		(property "Stock" "23380"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71210,7 +71461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21323"
+		(property "Stock" "20908"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71443,7 +71694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18026"
+		(property "Stock" "17926"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71676,7 +71927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19970"
+		(property "Stock" "19955"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71909,7 +72160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7963"
+		(property "Stock" "7759"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72142,7 +72393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22654"
+		(property "Stock" "22585"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72375,7 +72626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18877"
+		(property "Stock" "18158"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72608,7 +72859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23735"
+		(property "Stock" "23635"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72841,7 +73092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9760"
+		(property "Stock" "8952"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73074,7 +73325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "61379"
+		(property "Stock" "61349"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73540,7 +73791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19774"
+		(property "Stock" "18954"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73773,7 +74024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15008"
+		(property "Stock" "15023"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74006,7 +74257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4053"
+		(property "Stock" "4037"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74239,7 +74490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3504"
+		(property "Stock" "3460"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74472,7 +74723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4941"
+		(property "Stock" "4926"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74705,7 +74956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4863"
+		(property "Stock" "4834"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74938,7 +75189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25717"
+		(property "Stock" "25648"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75924,7 +76175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9970"
+		(property "Stock" "9916"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76390,7 +76641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "44895"
+		(property "Stock" "44880"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76623,7 +76874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18715"
+		(property "Stock" "17955"
 			(at 0 0 0)
 			(effects
 				(font
@@ -76910,7 +77161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "55537"
+		(property "Stock" "55369"
 			(at 0 0 0)
 			(effects
 				(font
@@ -77376,7 +77627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9699"
+		(property "Stock" "8299"
 			(at 0 0 0)
 			(effects
 				(font
@@ -77609,7 +77860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "29091"
+		(property "Stock" "28962"
 			(at 0 0 0)
 			(effects
 				(font
@@ -77842,7 +78093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60632"
+		(property "Stock" "60373"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78595,7 +78846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9806"
+		(property "Stock" "9791"
 			(at 0 0 0)
 			(effects
 				(font
@@ -79061,7 +79312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11211"
+		(property "Stock" "11187"
 			(at 0 0 0)
 			(effects
 				(font
@@ -79527,7 +79778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14130"
+		(property "Stock" "14066"
 			(at 0 0 0)
 			(effects
 				(font
@@ -79814,7 +80065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "56254"
+		(property "Stock" "55823"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80047,7 +80298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2446"
+		(property "Stock" "2168"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80280,7 +80531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6791"
+		(property "Stock" "6098"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80513,7 +80764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38896"
+		(property "Stock" "39696"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80746,7 +80997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1591"
+		(property "Stock" "1487"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81212,7 +81463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25168"
+		(property "Stock" "24845"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81678,7 +81929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7371"
+		(property "Stock" "7167"
 			(at 0 0 0)
 			(effects
 				(font
@@ -82843,7 +83094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "25687"
+		(property "Stock" "25329"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83542,7 +83793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12382"
+		(property "Stock" "12347"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85514,7 +85765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23921"
+		(property "Stock" "23901"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86034,7 +86285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2601"
+		(property "Stock" "2101"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86500,7 +86751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4681"
+		(property "Stock" "4666"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86733,7 +86984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "39142"
+		(property "Stock" "36127"
 			(at 0 0 0)
 			(effects
 				(font
@@ -86966,7 +87217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8739"
+		(property "Stock" "2321"
 			(at 0 0 0)
 			(effects
 				(font
@@ -89063,7 +89314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22631"
+		(property "Stock" "22531"
 			(at 0 0 0)
 			(effects
 				(font
@@ -89762,7 +90013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10131"
+		(property "Stock" "10116"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90461,7 +90712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3282"
+		(property "Stock" "3332"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90694,7 +90945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8800"
+		(property "Stock" "8656"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90927,7 +91178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4485"
+		(property "Stock" "4270"
 			(at 0 0 0)
 			(effects
 				(font
@@ -91160,7 +91411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11438"
+		(property "Stock" "11462"
 			(at 0 0 0)
 			(effects
 				(font
@@ -91913,7 +92164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12270"
+		(property "Stock" "11806"
 			(at 0 0 0)
 			(effects
 				(font
@@ -92200,7 +92451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14211"
+		(property "Stock" "14226"
 			(at 0 0 0)
 			(effects
 				(font
@@ -92899,7 +93150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7775"
+		(property "Stock" "7760"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94584,7 +94835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9265"
+		(property "Stock" "9253"
 			(at 0 0 0)
 			(effects
 				(font
@@ -94817,7 +95068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2418"
+		(property "Stock" "2408"
 			(at 0 0 0)
 			(effects
 				(font
@@ -96968,7 +97219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1825"
+		(property "Stock" "1815"
 			(at 0 0 0)
 			(effects
 				(font
@@ -99639,7 +99890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5614"
+		(property "Stock" "5564"
 			(at 0 0 0)
 			(effects
 				(font
@@ -99926,7 +100177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33463"
+		(property "Stock" "33293"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100446,7 +100697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "41137"
+		(property "Stock" "39727"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100679,7 +100930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60334"
+		(property "Stock" "59710"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100912,7 +101163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23507"
+		(property "Stock" "23307"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101145,7 +101396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "33440"
+		(property "Stock" "33170"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101378,7 +101629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "44997"
+		(property "Stock" "44937"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101665,7 +101916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7811"
+		(property "Stock" "7790"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102185,7 +102436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19353"
+		(property "Stock" "19373"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102418,7 +102669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12256"
+		(property "Stock" "12206"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102651,7 +102902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6640"
+		(property "Stock" "6590"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102884,7 +103135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36332"
+		(property "Stock" "36262"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103117,7 +103368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13472"
+		(property "Stock" "12506"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103350,7 +103601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36304"
+		(property "Stock" "36164"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103870,7 +104121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2775"
+		(property "Stock" "2725"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104103,7 +104354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15420"
+		(property "Stock" "15320"
 			(at 0 0 0)
 			(effects
 				(font
@@ -104569,7 +104820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8675"
+		(property "Stock" "17595"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105035,7 +105286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "64677"
+		(property "Stock" "64507"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105268,7 +105519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24852"
+		(property "Stock" "24576"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105501,7 +105752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6325"
+		(property "Stock" "6725"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105967,7 +106218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8750"
+		(property "Stock" "8730"
 			(at 0 0 0)
 			(effects
 				(font
@@ -106200,7 +106451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7521"
+		(property "Stock" "7415"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107186,7 +107437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1992"
+		(property "Stock" "1892"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107419,7 +107670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3089"
+		(property "Stock" "3069"
 			(at 0 0 0)
 			(effects
 				(font
@@ -107652,7 +107903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14332"
+		(property "Stock" "14282"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108118,7 +108369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "38900"
+		(property "Stock" "38372"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108351,7 +108602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5375"
+		(property "Stock" "5339"
 			(at 0 0 0)
 			(effects
 				(font
@@ -108584,7 +108835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16033"
+		(property "Stock" "15867"
 			(at 0 0 0)
 			(effects
 				(font
@@ -109283,7 +109534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12883"
+		(property "Stock" "12737"
 			(at 0 0 0)
 			(effects
 				(font
@@ -109982,7 +110233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7918"
+		(property "Stock" "7892"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110448,7 +110699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5504"
+		(property "Stock" "4204"
 			(at 0 0 0)
 			(effects
 				(font
@@ -110914,7 +111165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1963"
+		(property "Stock" "1863"
 			(at 0 0 0)
 			(effects
 				(font
@@ -112420,7 +112671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7881"
+		(property "Stock" "7335"
 			(at 0 0 0)
 			(effects
 				(font
@@ -112653,7 +112904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4660"
+		(property "Stock" "4440"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113173,7 +113424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6362"
+		(property "Stock" "6212"
 			(at 0 0 0)
 			(effects
 				(font
@@ -113639,7 +113890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8689"
+		(property "Stock" "8639"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114213,7 +114464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13417"
+		(property "Stock" "13171"
 			(at 0 0 0)
 			(effects
 				(font
@@ -114733,7 +114984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9526"
+		(property "Stock" "9506"
 			(at 0 0 0)
 			(effects
 				(font
@@ -115020,7 +115271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "11796"
+		(property "Stock" "11726"
 			(at 0 0 0)
 			(effects
 				(font
@@ -116526,7 +116777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12595"
+		(property "Stock" "12545"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117100,7 +117351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18468"
+		(property "Stock" "18268"
 			(at 0 0 0)
 			(effects
 				(font
@@ -117799,7 +118050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6613"
+		(property "Stock" "6603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118086,7 +118337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6282"
+		(property "Stock" "6238"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118319,7 +118570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9941"
+		(property "Stock" "9891"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118552,7 +118803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20974"
+		(property "Stock" "20924"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118785,7 +119036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21653"
+		(property "Stock" "21533"
 			(at 0 0 0)
 			(effects
 				(font
@@ -119072,7 +119323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "74257"
+		(property "Stock" "74053"
 			(at 0 0 0)
 			(effects
 				(font
@@ -120237,7 +120488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10536"
+		(property "Stock" "10510"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121169,7 +121420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14518"
+		(property "Stock" "14508"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121402,7 +121653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "54594"
+		(property "Stock" "49702"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121670,7 +121921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3578973"
+		(property "Stock" "3466765"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121938,7 +122189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1026051"
+		(property "Stock" "1015880"
 			(at 0 0 0)
 			(effects
 				(font
@@ -122206,7 +122457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "602183"
+		(property "Stock" "605121"
 			(at 0 0 0)
 			(effects
 				(font
@@ -122474,7 +122725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "507876"
+		(property "Stock" "499602"
 			(at 0 0 0)
 			(effects
 				(font
@@ -122742,7 +122993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "719309"
+		(property "Stock" "703342"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123082,7 +123333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1070903"
+		(property "Stock" "1028564"
 			(at 0 0 0)
 			(effects
 				(font
@@ -123359,7 +123610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2381257"
+		(property "Stock" "2222602"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124067,7 +124318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1682941"
+		(property "Stock" "1684956"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124417,7 +124668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9504"
+		(property "Stock" "9698"
 			(at 0 0 0)
 			(effects
 				(font
@@ -126336,7 +126587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18324"
+		(property "Stock" "18104"
 			(at 0 0 0)
 			(effects
 				(font
@@ -127842,7 +128093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21749"
+		(property "Stock" "21629"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128344,7 +128595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22717"
+		(property "Stock" "22765"
 			(at 0 0 0)
 			(effects
 				(font
@@ -130850,7 +131101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23179"
+		(property "Stock" "23083"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131084,7 +131335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8424"
+		(property "Stock" "8441"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131586,7 +131837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6530"
+		(property "Stock" "6510"
 			(at 0 0 0)
 			(effects
 				(font
@@ -131820,7 +132071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17722"
+		(property "Stock" "17702"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132071,7 +132322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14729"
+		(property "Stock" "14831"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132322,7 +132573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17762"
+		(property "Stock" "17581"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132573,7 +132824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8567"
+		(property "Stock" "8555"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132824,7 +133075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "21902"
+		(property "Stock" "21561"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133058,7 +133309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "24225"
+		(property "Stock" "24213"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133309,7 +133560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "37668"
+		(property "Stock" "37618"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133560,7 +133811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20419"
+		(property "Stock" "20398"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133811,7 +134062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4963"
+		(property "Stock" "4951"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134062,7 +134313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8157"
+		(property "Stock" "8111"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134296,7 +134547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27158"
+		(property "Stock" "27026"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134547,7 +134798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1816"
+		(property "Stock" "1613"
 			(at 0 0 0)
 			(effects
 				(font
@@ -134798,7 +135049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "62946"
+		(property "Stock" "62407"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135049,7 +135300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6575"
+		(property "Stock" "6544"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135283,7 +135534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4264"
+		(property "Stock" "4272"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135517,7 +135768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1018"
+		(property "Stock" "1006"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135768,7 +136019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13178"
+		(property "Stock" "12899"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136487,7 +136738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12767"
+		(property "Stock" "12606"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136721,7 +136972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14944"
+		(property "Stock" "14122"
 			(at 0 0 0)
 			(effects
 				(font
@@ -136972,7 +137223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1167"
+		(property "Stock" "6943"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137206,7 +137457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23279"
+		(property "Stock" "23165"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137457,7 +137708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22151"
+		(property "Stock" "22133"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137691,7 +137942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20909"
+		(property "Stock" "20735"
 			(at 0 0 0)
 			(effects
 				(font
@@ -137942,7 +138193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17154"
+		(property "Stock" "17100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138678,7 +138929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8124"
+		(property "Stock" "7271"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138912,7 +139163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5571"
+		(property "Stock" "5525"
 			(at 0 0 0)
 			(effects
 				(font
@@ -139146,7 +139397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "35895"
+		(property "Stock" "35716"
 			(at 0 0 0)
 			(effects
 				(font
@@ -139397,7 +139648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31651"
+		(property "Stock" "31553"
 			(at 0 0 0)
 			(effects
 				(font
@@ -139631,7 +139882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22172"
+		(property "Stock" "22139"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140133,7 +140384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6053"
+		(property "Stock" "5043"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140384,7 +140635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31405"
+		(property "Stock" "31346"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140618,7 +140869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17479"
+		(property "Stock" "17472"
 			(at 0 0 0)
 			(effects
 				(font
@@ -140852,7 +141103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4455"
+		(property "Stock" "4433"
 			(at 0 0 0)
 			(effects
 				(font
@@ -141103,7 +141354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4211"
+		(property "Stock" "4204"
 			(at 0 0 0)
 			(effects
 				(font
@@ -141354,7 +141605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4875"
+		(property "Stock" "4881"
 			(at 0 0 0)
 			(effects
 				(font
@@ -141605,7 +141856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7121"
+		(property "Stock" "7111"
 			(at 0 0 0)
 			(effects
 				(font
@@ -142090,7 +142341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15838"
+		(property "Stock" "15534"
 			(at 0 0 0)
 			(effects
 				(font
@@ -142592,7 +142843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2776"
+		(property "Stock" "2766"
 			(at 0 0 0)
 			(effects
 				(font
@@ -142826,7 +143077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6047"
+		(property "Stock" "5970"
 			(at 0 0 0)
 			(effects
 				(font
@@ -143077,7 +143328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8898"
+		(property "Stock" "8560"
 			(at 0 0 0)
 			(effects
 				(font
@@ -143328,7 +143579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23209"
+		(property "Stock" "23046"
 			(at 0 0 0)
 			(effects
 				(font
@@ -143579,7 +143830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14376"
+		(property "Stock" "14341"
 			(at 0 0 0)
 			(effects
 				(font
@@ -143830,7 +144081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6725"
+		(property "Stock" "6705"
 			(at 0 0 0)
 			(effects
 				(font
@@ -144081,7 +144332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13983"
+		(property "Stock" "13981"
 			(at 0 0 0)
 			(effects
 				(font
@@ -144566,7 +144817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14318"
+		(property "Stock" "14154"
 			(at 0 0 0)
 			(effects
 				(font
@@ -144817,7 +145068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2139"
+		(property "Stock" "2075"
 			(at 0 0 0)
 			(effects
 				(font
@@ -145068,7 +145319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "52769"
+		(property "Stock" "88714"
 			(at 0 0 0)
 			(effects
 				(font
@@ -145319,7 +145570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "23602"
+		(property "Stock" "23326"
 			(at 0 0 0)
 			(effects
 				(font
@@ -145553,7 +145804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "53172"
+		(property "Stock" "53184"
 			(at 0 0 0)
 			(effects
 				(font
@@ -145804,7 +146055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "74907"
+		(property "Stock" "74451"
 			(at 0 0 0)
 			(effects
 				(font
@@ -146055,7 +146306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7300"
+		(property "Stock" "7285"
 			(at 0 0 0)
 			(effects
 				(font
@@ -146289,7 +146540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "156449"
+		(property "Stock" "151203"
 			(at 0 0 0)
 			(effects
 				(font
@@ -146630,7 +146881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "106169"
+		(property "Stock" "255623"
 			(at 0 0 0)
 			(effects
 				(font
@@ -146881,7 +147132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "64875"
+		(property "Stock" "62024"
 			(at 0 0 0)
 			(effects
 				(font
@@ -147132,7 +147383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "77771"
+		(property "Stock" "77343"
 			(at 0 0 0)
 			(effects
 				(font
@@ -147634,7 +147885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18117"
+		(property "Stock" "17998"
 			(at 0 0 0)
 			(effects
 				(font
@@ -147868,7 +148119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10133"
+		(property "Stock" "10010"
 			(at 0 0 0)
 			(effects
 				(font
@@ -148460,7 +148711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22640"
+		(property "Stock" "22600"
 			(at 0 0 0)
 			(effects
 				(font
@@ -149609,7 +149860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "34425"
+		(property "Stock" "34375"
 			(at 0 0 0)
 			(effects
 				(font
@@ -149860,7 +150111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1729"
+		(property "Stock" "1623"
 			(at 0 0 0)
 			(effects
 				(font
@@ -152400,7 +152651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7578"
+		(property "Stock" "6478"
 			(at 0 0 0)
 			(effects
 				(font
@@ -152651,7 +152902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4055"
+		(property "Stock" "3969"
 			(at 0 0 0)
 			(effects
 				(font
@@ -153370,7 +153621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15311"
+		(property "Stock" "15291"
 			(at 0 0 0)
 			(effects
 				(font
@@ -153604,7 +153855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "67119"
+		(property "Stock" "66999"
 			(at 0 0 0)
 			(effects
 				(font
@@ -154089,7 +154340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17402"
+		(property "Stock" "16876"
 			(at 0 0 0)
 			(effects
 				(font
@@ -154825,7 +155076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27976"
+		(property "Stock" "27876"
 			(at 0 0 0)
 			(effects
 				(font
@@ -156326,7 +156577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "396359"
+		(property "Stock" "392645"
 			(at 0 0 0)
 			(effects
 				(font
@@ -156936,7 +157187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8001"
+		(property "Stock" "7851"
 			(at 0 0 0)
 			(effects
 				(font
@@ -157564,7 +157815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "41311"
+		(property "Stock" "39699"
 			(at 0 0 0)
 			(effects
 				(font
@@ -157878,7 +158129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2348"
+		(property "Stock" "2286"
 			(at 0 0 0)
 			(effects
 				(font
