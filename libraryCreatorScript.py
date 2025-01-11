@@ -363,7 +363,7 @@ def generate_kicad_symbol_libs(symbols):
 
         lib_content = lib_content.replace("℃", "°C")
 
-        with open(f"JLCPCB-Kicad-Symbols/JLCPCB-{lib_name}.kicad_sym", "w") as f:
+        with open(f"symbols/JLCPCB-{lib_name}.kicad_sym", "w") as f: #TODO switch with OS.join
             f.write(lib_content)
 
 
@@ -376,8 +376,8 @@ def check_models():
         "Part_Num_JLCPCB",
     ]
 
-    footprints_folder_path = "JLCPCB-Kicad-Footprints"
-    models_folder_path = os.path.join(footprints_folder_path, "3dModels")
+    footprints_folder_path = os.path.join("footprints", "JLCPCB.pretty")
+    models_folder_path = os.path.join("3dmodels", "JLCPCB.3dshapes")
     archived_models_folder_path = os.path.join("Archived-Symbols-Footprints", models_folder_path)
 
     footprint_names = [
@@ -433,8 +433,8 @@ def check_models():
 
 
 def check_footprints():
-    symbols_folder_path = "JLCPCB-Kicad-Symbols"
-    footprints_folder_path = "JLCPCB-Kicad-Footprints"
+    symbols_folder_path = "symbols"
+    footprints_folder_path = "3dmodels/JLCPCB.3dshapes"
     archived_footprints_folder_path = os.path.join("Archived-Symbols-Footprints", footprints_folder_path)
 
     archived_footprint_names = [
@@ -506,7 +506,7 @@ download_file("https://cdfer.github.io/jlcpcb-parts-database", "jlcpcb-component
 
 df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
 
-footprints_dir = "JLCPCB-Kicad-Footprints"
+footprints_dir = "3dmodels/JLCPCB.3dshapes"
 footprints_lookup = {os.path.splitext(file)[0] for file in os.listdir(footprints_dir)}
 
 symbols = {
