@@ -196,7 +196,7 @@ def generate_kicad_symbol(
 
     names_lookup.append(name)
 
-    footprint = f"footprints/JLCPCB.pretty:{ref_designator}_{footprint}"
+    footprint = f"PCM_JLCPCB:{ref_designator}_{footprint}"
     if mode == "Transistors":
         symbol = generate_header(name, False)
     else:

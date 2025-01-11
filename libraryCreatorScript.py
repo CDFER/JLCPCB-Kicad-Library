@@ -6,6 +6,9 @@ import shutil
 import pandas as pd
 from autoLibrarySymbols import *  # librarySymbols.py
 from handmadeLibrarySymbols import *  # handmadeLibrarySymbols.py
+from packageTools import * # packageTools.py
+from datetime import datetime
+from datetime import timezone
 
 
 def download_file(url, filename):
@@ -378,7 +381,7 @@ def check_models():
 
     footprints_folder_path = os.path.join("footprints", "JLCPCB.pretty")
     models_folder_path = os.path.join("3dmodels", "JLCPCB.3dshapes")
-    archived_models_folder_path = os.path.join("Archived-Symbols-Footprints", models_folder_path)
+    archived_models_folder_path = os.path.join("Archived-Symbols-Footprints", "JLCPCB-Kicad-Footprints", "3dModels")
 
     footprint_names = [
         os.path.splitext(filename)[0]
@@ -405,7 +408,7 @@ def check_models():
 
             if match:
                 model_path = match.group(1)
-                model = re.search(r'/3dModels/([^"]+).step', model_path)
+                model = re.search(r'${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/([^"]+).step', model_path)
                 if model:
                     model = model.group(1)
                     if model not in model_names:
@@ -434,8 +437,8 @@ def check_models():
 
 def check_footprints():
     symbols_folder_path = "symbols"
-    footprints_folder_path = "3dmodels/JLCPCB.3dshapes"
-    archived_footprints_folder_path = os.path.join("Archived-Symbols-Footprints", footprints_folder_path)
+    footprints_folder_path = os.path.join("footprints", "JLCPCB.pretty")
+    archived_footprints_folder_path = os.path.join("Archived-Symbols-Footprints", "JLCPCB-Kicad-Footprints")
 
     archived_footprint_names = [
         os.path.splitext(filename)[0]
@@ -468,7 +471,7 @@ def check_footprints():
                     match = re.search(r'\(property "Footprint" "([^"]+)"', line)
                     if match:
                         footprint_name = match.group(1)
-                        footprint_lib_match = re.search(r'JLCPCB-Kicad-Footprints:([^"]+)', footprint_name)
+                        footprint_lib_match = re.search(r'PCM_JLCPCB:([^"]+)', footprint_name)
                         if footprint_lib_match:
                             footprint_name = footprint_lib_match.group(1)
                             if footprint_name not in footprint_names:
@@ -795,5 +798,12 @@ update_library_stock_inplace("Power")
 update_library_stock_inplace("Transformers")
 update_library_stock_inplace("Transistor-Packages")
 
-check_footprints()
-check_models()
+# check_footprints()
+# check_models()
+
+files_and_dirs = ['3dmodels', 'footprints', 'resources', 'symbols', 'metadata.json']
+current_date = datetime.now(timezone.utc).strftime('%Y.%m.%d')
+
+add_version('metadata.json', current_date)
+create_zip_archive(f'JLCPCB-KiCad-Library-{current_date}.zip', files_and_dirs)
+
