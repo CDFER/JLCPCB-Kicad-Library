@@ -29,37 +29,17 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 * Optimized for KiCad 8
 * Allows you to export price to BOM
 
-## Manual Setup
+## Install using the package manager (new in V3.0)
 
-1. Download the library.
-2. Place it within your KiCad project folder.
+Add my custom repository to the Plugin and Content Manager, the URL is:
 
-```
-My_KiCad_Project_Folder
-├── JLCPCB-KiCad-Library-Folder
-└── My_KiCad_Project.kicad_pro
-```
+https://raw.githubusercontent.com/CDFER/JLCPCB-KiCad-Library/main/repository.json
 
-3. Add libraries in KiCad:
+![Add My Custom Kicad Package Repo](images/Add_Custom_Repo.avif)
 
-* Add the library in KiCad -> Preferences -> Manage Symbol Libraries -> Project Specific Libraries -> Add existing Library to table -> Select all .kicad_sym files in the JLCPCB-KiCad-Symbols folder
-* Add the library in KiCad -> Preferences -> Manage Footprint Libraries -> Project Specific Libraries -> Add existing Library to table -> Select the JLCPCB-KiCad-Footprints folder
+![Select My Custom Kicad Package Repo and press install](images/Select_Custom_Repo.avif)
 
-If you have any issues setting it up feel free to post an issue :)
-
-## Git Submodule Setup (allows you to automatically update pricing and stock)
-
-Open Git Bash in the KiCad Project folder (in the right click menu on windows if you have git installed)
-
-```Bash
-$ git submodule add https://github.com/CDFER/JLCPCB-Kicad-Library.git
-```
-
-and to update it all you need to run to update is:
-
-```Bash
-$ git submodule update --remote
-```
+After adding the repository link, press Save. Then, select CD_FER's KiCad repository from the dropdown menu and click on the JLCPCB KiCad Library. Finally, click the Install button and apply the pending changes.
 
 ## Notes
 
