@@ -2,7 +2,7 @@
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "JLCPCB KiCad Library",
     "description": "A set of symbol Libraries and a set of footprints and 3d models of the basic components from JLCPCB smt assembly",
-    "description_full": "A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs. I’m not affiliated or sponsored by jlcpcb, just another customer.",
+    "description_full": "A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs. I\u2019m not affiliated or sponsored by jlcpcb, just another customer.",
     "identifier": "com.github.CDFER.JLCPCB-Kicad-Library",
     "type": "library",
     "author": {
@@ -23,6 +23,11 @@
     "versions": [
         {
             "version": "2025.01.11",
+            "status": "stable",
+            "kicad_version": "8.0"
+        },
+        {
+            "version": "2025.01.12",
             "status": "stable",
             "kicad_version": "8.0"
         }
