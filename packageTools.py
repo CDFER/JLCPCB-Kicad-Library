@@ -3,15 +3,15 @@ import json
 import os
 import zipfile
 
-def add_version(metadata_file, new_version, kicad_version = "8.0", status = "stable"):
-    """Add a new version to the metadata file if it doesn't already exist."""
+def update_version(metadata_file, new_version, kicad_version="8.0", status="stable"):
+    """Update the latest version in the metadata file."""
     with open(metadata_file, 'r') as f:
         metadata = json.load(f)
 
-    if any(version['version'] == new_version for version in metadata['versions']):
-        print(f"Version {new_version} already exists in metadata.json")
-        return
+    # Remove all existing versions
+    metadata['versions'] = []
 
+    # Add the new version
     metadata['versions'].append({
         "version": new_version,
         "status": status,

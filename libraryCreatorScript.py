@@ -804,6 +804,6 @@ update_library_stock_inplace("Transistor-Packages")
 files_and_dirs = ['3dmodels', 'footprints', 'resources', 'symbols', 'metadata.json']
 current_date = datetime.now(timezone.utc).strftime('%Y.%m.%d')
 
-add_version('metadata.json', current_date)
+update_version('metadata.json', current_date)
 create_zip_archive(f'JLCPCB-KiCad-Library-{current_date}.zip', files_and_dirs)
 
