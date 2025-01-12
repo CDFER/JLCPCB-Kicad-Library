@@ -1,0 +1,139 @@
+(footprint "C_Plugin,P=27.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=27.50mm, , length*width=33*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
+	(tags "C Rect series Radial pin pitch 27.50mm  length 33mm width 20mm Capacitor")
+	(property "Reference" "REF**"
+		(at 14.21 -7.86 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6db8bdcb-3590-4b72-9b6b-b731bdebea85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Rect_L33.0mm_W20.0mm_P27.50mm_MKS4"
+		(at 13.75 11.25 0)
+		(layer "F.Fab")
+		(uuid "70b6e814-c5d8-4d18-8be5-1a906f2af94e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd541c96-47a2-4010-89a2-745dac54af0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba0d7cb2-e841-40da-925a-7b3004f7a9cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9867ff2-2bf1-49ff-9490-7bc15696350c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.41 -6.5)
+		(end 29.59 6.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7bcf2ffc-4e48-49d7-ac85-9293d3a0be30")
+	)
+	(fp_rect
+		(start -2.51 -6.6)
+		(end 29.75 6.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "aae5fc98-4a16-4a50-9779-d961b92eb0a3")
+	)
+	(fp_rect
+		(start -2.29 -6.38)
+		(end 29.47 6.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a03c8e88-ed74-4e51-b656-0755fa3f2895")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.75 0 0)
+		(layer "F.Fab")
+		(uuid "daebef8b-f985-423f-9eee-cc9bd7432366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ee81040-0d1c-4310-a4eb-d450a334bebd")
+	)
+	(pad "2" thru_hole circle
+		(at 27.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e3f9e484-2a6f-41c3-bbbf-809f0b71541f")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/CAP-TH_L32.0-W13.0-P27.50-D0.8.step"
+		(offset
+			(xyz 13.75 -6.5 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

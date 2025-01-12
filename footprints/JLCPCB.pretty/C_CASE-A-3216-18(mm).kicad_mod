@@ -1,0 +1,225 @@
+(footprint "C_CASE-A-3216-18(mm)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "306da45e-c465-4c85-a0b2-699c9497c5cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_EIA-3216-18_Kemet-A"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "df42471a-df94-4947-9589-50c4e72e228b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30dca54d-2aac-41ba-ad79-77b7ad6f7ddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "279a0826-d693-46ce-b9a4-b9a82b17ca09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "232ae0eb-03a2-4bf3-a085-ecc74491da73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.038)
+	(attr smd)
+	(fp_line
+		(start -2.31 -0.94)
+		(end -2.31 0.94)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9113b56-1582-4e0d-add1-37fa519fc9b1")
+	)
+	(fp_line
+		(start -2.31 0.94)
+		(end 1.6 0.94)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7472c728-d05a-41c0-9f0f-c3fced1e3483")
+	)
+	(fp_line
+		(start 1.6 -0.94)
+		(end -2.31 -0.94)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b440678-faf3-4ae4-bc69-7f4def26b817")
+	)
+	(fp_line
+		(start -2.3 -1.05)
+		(end 2.3 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b81e1b75-8700-4084-9d57-546e7bfafcc6")
+	)
+	(fp_line
+		(start -2.3 1.05)
+		(end -2.3 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31b95dd3-e036-4b17-9a0a-647d98c67303")
+	)
+	(fp_line
+		(start 2.3 -1.05)
+		(end 2.3 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48bf30b6-b1cf-4abb-9e68-e1fc06885040")
+	)
+	(fp_line
+		(start 2.3 1.05)
+		(end -2.3 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b14bb779-b00b-4885-bc6d-0962f8335314")
+	)
+	(fp_line
+		(start -1.6 -0.4)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de09f2d7-d9ac-4718-a651-e606f6f89d11")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "624061e3-2c38-431e-966e-1b3c53201a28")
+	)
+	(fp_line
+		(start -1.2 -0.8)
+		(end -1.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be48b5b4-af1c-4672-a9fe-e94b6e011608")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e45d28b-5d2d-4d07-a656-3dca5e61fc65")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "224d437f-1bc1-4973-92e0-3127441fc74d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9f8a6f2a-c3fd-48ef-9689-673de991b0bc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.35 0)
+		(size 1.4 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "5de15c5c-36b7-484e-99b0-6c6bf9ed98a4")
+	)
+	(pad "2" smd roundrect
+		(at 1.35 0)
+		(size 1.4 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "27d01f66-a5e9-4e75-9438-e3fa17faae13")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_CASE-A-3216-18(mm).step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,142 @@
+(footprint "D_DFN0603-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DFN0603-2L-BI footprint")
+	(tags "DFN0603-2L-BI footprint C2936988")
+	(property "Reference" "REF**"
+		(at 0 -2.32 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a3b4a7d2-4fca-46d5-b3ee-70b1cb9de93c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN0603-2L-BI"
+		(at 0 2.31 0)
+		(layer "F.Fab")
+		(uuid "118d9769-826e-4b63-ab17-8ac722215a42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bcfe820-2931-4525-90a2-033cd7d96068")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f020273-34e4-4701-af45-a537eeff42ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "732e942e-be3c-427d-a288-2b8f2be34b57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 -0.2)
+		(end -0.3 0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9fde5c1-933b-4938-afc3-56fd32f07f1f")
+	)
+	(fp_line
+		(start -0.3 0.2)
+		(end 0.3 0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6320175-9f8e-43a5-97a8-63dd1e8ca28f")
+	)
+	(fp_line
+		(start 0.3 -0.2)
+		(end -0.3 -0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "60f40e09-4ff6-472f-b007-6422e1c86db5")
+	)
+	(fp_line
+		(start 0.3 0.2)
+		(end 0.3 -0.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d3ad5bc-6e97-4843-b06d-cd9fd33a80b1")
+	)
+	(fp_text user "REF**"
+		(at 0 4.31 0)
+		(layer "F.Fab")
+		(uuid "84019c56-a435-44ad-86c5-7ae254babf77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.2 0)
+		(size 0.2 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5abefab5-a570-414e-8df8-0ff91dbd4604")
+	)
+	(pad "2" smd rect
+		(at 0.2 0)
+		(size 0.2 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66131eeb-e7c3-4d8c-877d-9f2906a4d137")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/DFN0603-2L-BI.step"
+		(offset
+			(xyz 0 0 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -10,7 +10,7 @@ def generate_property(property, value):
 
 
 def update_component_inplace(lcsc, libraryName, properties):
-    filename = os.path.join("JLCPCB-Kicad-Symbols", f"JLCPCB-{libraryName}.kicad_sym")
+    filename = os.path.join("symbols", f"JLCPCB-{libraryName}.kicad_sym")
     with open(filename, "r") as file:
         lines = file.readlines()
 
@@ -96,7 +96,7 @@ def create_archived_symbol_file(symbol_start_line, symbol_end_line, lines, lcsc)
 
 def update_library_stock_inplace(libraryName):
     df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
-    filename = os.path.join("JLCPCB-Kicad-Symbols", f"JLCPCB-{libraryName}.kicad_sym")
+    filename = os.path.join("symbols", f"JLCPCB-{libraryName}.kicad_sym")
     with open(filename, "r") as file:
         lines = file.readlines()
 

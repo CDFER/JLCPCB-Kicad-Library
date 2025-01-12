@@ -29,5 +29,17 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python libraryCreatorScript.py
 
+      - name: Get current date
+        run: echo "CURRENT_DATE=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ env.CURRENT_DATE }}
+          tag_name: ${{ env.CURRENT_DATE }}
+          files: JLCPCB-KiCad-Library-${{ env.CURRENT_DATE }}.zip
+
+      - name: Remove zip file
+        run: rm JLCPCB-KiCad-Library-${{ env.CURRENT_DATE }}.zip
+
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5

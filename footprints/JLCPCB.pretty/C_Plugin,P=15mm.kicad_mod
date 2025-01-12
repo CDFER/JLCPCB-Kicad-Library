@@ -1,0 +1,186 @@
+(footprint "C_Plugin,P=15mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint")
+	(tags "CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint C2991080")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7c3c5ad5-486d-4c6c-bcd1-cb3e76412925")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-TH_L26.5-W10.0-P22.50-D0.8"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "d3dd4d06-d11a-45d7-9707-4383294ba867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b87671d0-1273-4cf8-ae25-185800f7eac0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3900f86-0d4f-4743-a185-3808f7ee3873")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa15808c-2051-47b0-86b6-30a22665cc42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13.25 -5)
+		(end 13.25 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01c3fcd4-6ea5-4074-836d-3d6b194933ea")
+	)
+	(fp_line
+		(start -13.25 5)
+		(end -13.25 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1af86e2e-9e3e-430e-bb1f-45187327db8c")
+	)
+	(fp_line
+		(start 13.25 -5)
+		(end 13.25 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "469001ed-5705-4283-8abb-bde7735df51e")
+	)
+	(fp_line
+		(start 13.25 5)
+		(end -13.25 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28a43872-c056-463b-9107-0d4c912b05e1")
+	)
+	(fp_line
+		(start -13.25 -5)
+		(end -13.25 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3efa04f8-2e96-41dd-8188-7c830910e43f")
+	)
+	(fp_line
+		(start -13.25 5)
+		(end 13.25 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "004401e6-4963-43e3-9e2a-fa975a6e2db0")
+	)
+	(fp_line
+		(start 13.25 -5)
+		(end -13.25 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9307cb84-2827-4e9d-8039-e6042975c87a")
+	)
+	(fp_line
+		(start 13.25 5)
+		(end 13.25 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ba9e57c-4263-42cc-96fd-61d003bdca14")
+	)
+	(fp_text user "REF**"
+		(at 0 9 0)
+		(layer "F.Fab")
+		(uuid "ed803d4d-791a-4fbe-abec-2a4745dca4fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -11.25 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99e535f4-9458-4e42-ba75-4b5dea0059df")
+	)
+	(pad "2" thru_hole circle
+		(at 11.25 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ed62b41-4f21-4b8d-a3a4-96c08b154fd5")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/CAP-TH_L26.5-W10.0-P22.50-D0.8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,186 @@
+(footprint "DFN2020-3_L2.0-W2.0-P0.65-BR-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DFN2020-3_L2.0-W2.0-P0.65-BR-1 footprint")
+	(tags "DFN2020-3_L2.0-W2.0-P0.65-BR-1 footprint C20615799")
+	(property "Reference" "REF**"
+		(at -0.32 -3.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c460394-35ae-413e-9353-c47e20e1f744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN2020-3_L2.0-W2.0-P0.65-BR-1"
+		(at -0.32 3.1 0)
+		(layer "F.Fab")
+		(uuid "d527bee1-baa1-4697-ba6c-61462eea240e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "992c1c8d-285d-449e-9952-3f6e98f38341")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78bf9f55-cec0-411c-84d9-621f51d506b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63a4761b-7489-464d-b02d-7a0b0866769c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0.9 1)
+		(end 0.93 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "848e807f-0e9b-4215-bd41-3cd3d6720882")
+	)
+	(fp_line
+		(start -1.4 -1.1)
+		(end 0.9 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "efa8b2f7-bbe8-4f1f-96ab-7a746c8cf596")
+	)
+	(fp_line
+		(start -1.4 1.1)
+		(end -1.4 -1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "52cc1e6d-1508-4ee2-87e7-a2ed0f9e7047")
+	)
+	(fp_line
+		(start 0.9 -1.1)
+		(end 0.9 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe10e3bc-7cc4-4764-9c41-e0bc16fc41ec")
+	)
+	(fp_line
+		(start 0.9 1.1)
+		(end -1.4 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a75a3ea-0980-479b-b41c-761aca4fa06a")
+	)
+	(fp_circle
+		(center 1.23 0.65)
+		(end 1.38 0.65)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f4069cc6-dd09-453c-9589-7145698003e0")
+	)
+	(fp_text user "REF**"
+		(at -0.32 5.1 0)
+		(layer "F.Fab")
+		(uuid "dd33d3f1-b1b9-4ee8-a1a3-9870ec186a29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 0.65)
+		(size 0.66 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "28accc4a-d3dc-49d4-872a-e46c7927d074")
+	)
+	(pad "2" smd rect
+		(at 0.65 -0.65)
+		(size 0.66 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c1bb38c-b774-4abb-a65e-01c17b648dff")
+	)
+	(pad "3" smd custom
+		(at -0.65 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.89 -0.21) (xy -0.35 -0.21) (xy -0.35 -0.84) (xy 0.68 -0.84)
+					(xy 0.68 0.84) (xy -0.35 0.84) (xy -0.35 0.2) (xy -0.89 0.2)
+					(xy -0.89 -0.21)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5d6ecd88-e335-4111-8e1a-482adc4559fa")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/DFN2020-3_L2.0-W2.0-P0.65-BR-1.step"
+		(offset
+			(xyz -0.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

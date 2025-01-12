@@ -1,0 +1,223 @@
+(footprint "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint")
+	(tags "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint C20617928")
+	(property "Reference" "REF**"
+		(at 0 -3.53 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c4553d8c-d417-4567-90bf-2a6cc4df3ddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR"
+		(at 0 3.53 0)
+		(layer "F.Fab")
+		(uuid "1a419f26-d511-445f-bec5-9a8074ae1736")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4b5cc36-b945-4218-a3db-20546727f927")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eb4ca05-2a35-4a5d-85c4-9e33792e187c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a6c6a2-d09b-4bc8-8757-50e0a1791374")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.73 -1.53)
+		(end -0.73 -0.49)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d6b39af-c963-486d-8acc-9dbb9359e312")
+	)
+	(fp_line
+		(start -0.73 1.53)
+		(end -0.73 0.49)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "779998bb-6e2b-4282-a8d4-37724683f378")
+	)
+	(fp_line
+		(start 0.73 -1.53)
+		(end -0.73 -1.53)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4af2f296-b0d2-46bf-97f6-7d5fc1c2cb8e")
+	)
+	(fp_line
+		(start 0.73 -0.46)
+		(end 0.73 0.46)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c5e9564-ce01-495f-8ffc-124e797b58f5")
+	)
+	(fp_line
+		(start 0.73 1.53)
+		(end -0.73 1.53)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dde62afa-ea3f-479c-ad91-8ce3265e934a")
+	)
+	(fp_circle
+		(center 1 1.5)
+		(end 1.03 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6e102782-0cd3-46c6-949d-dc173cc1c89e")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end -0.75 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c891ed8e-7653-4338-84c1-0fcf769de176")
+	)
+	(fp_line
+		(start -0.75 1.5)
+		(end 0.75 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b541dc3-f6e2-4fed-b996-a4358694d190")
+	)
+	(fp_line
+		(start 0.75 -1.5)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee5a88da-3c94-4153-b8e3-68beac68ec5c")
+	)
+	(fp_line
+		(start 0.75 1.5)
+		(end 0.75 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b8cea86-bbe1-4db2-aedd-63e98df2355b")
+	)
+	(fp_circle
+		(center 1.45 0.95)
+		(end 1.55 0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "13f8650e-ff4d-44c0-b11b-31e672cb5afa")
+	)
+	(fp_text user "REF**"
+		(at 0 5.53 0)
+		(layer "F.Fab")
+		(uuid "dc69b07d-89c2-4595-a416-5b055ed2f315")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1 0.95)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "87f51f95-a6ee-48e3-98ad-6ca65b662c0c")
+	)
+	(pad "2" smd roundrect
+		(at 1 -0.95)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d702b341-fc74-47a9-84f8-e92094f61b76")
+	)
+	(pad "3" smd roundrect
+		(at -1 0)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "70242ee7-9c47-4472-95e4-3aceb63f0beb")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
