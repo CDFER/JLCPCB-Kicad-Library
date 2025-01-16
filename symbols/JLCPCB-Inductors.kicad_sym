@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "649111"
+		(property "Stock" "634398"
 			(at 0 0 0)
 			(effects
 				(font
@@ -346,7 +346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "96885"
+		(property "Stock" "91160"
 			(at 0 0 0)
 			(effects
 				(font
@@ -619,7 +619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "241648"
+		(property "Stock" "230534"
 			(at 0 0 0)
 			(effects
 				(font
@@ -901,7 +901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "98692"
+		(property "Stock" "98392"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1195,7 +1195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "47527"
+		(property "Stock" "47367"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1498,7 +1498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "58132"
+		(property "Stock" "56982"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1801,7 +1801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "140537"
+		(property "Stock" "132303"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2104,7 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "88163"
+		(property "Stock" "86853"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "50756"
+		(property "Stock" "50528"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2692,7 +2692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "82793"
+		(property "Stock" "44457"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2995,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "245525"
+		(property "Stock" "230002"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3280,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22436"
+		(property "Stock" "22356"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3565,7 +3565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36469"
+		(property "Stock" "36262"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14127"
+		(property "Stock" "14007"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "99267"
+		(property "Stock" "98592"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4732,7 +4732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.187USD"
+		(property "Price" "0.203USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4872,6 +4872,255 @@
 			)
 		)
 		(symbol "470uH,940mA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "22uH,4.95A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 1.2673 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uH,4.95A"
+			(at 1.2673 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:L_SMD,12.5x12.5mm"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111241930_SXN-Shun-Xiang-Nuo-Elec-SMDRI129-220MT_C2924827.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.95A 22uH Shielded inductor ±20% 5.12A SMD,12.5x12.5mm Power Inductors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2924827"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "45"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.273USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Inductors/Coils/Transformers,Power Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SXN(Shun Xiang Nuo Elec)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMDRI129-220MT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "22uH,4.95A_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "22uH,4.95A_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
