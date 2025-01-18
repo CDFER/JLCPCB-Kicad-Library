@@ -189,6 +189,10 @@ def extract_transistor_type(description, pins, footprint, lcsc_id):
         return "PNPC2"
     if lcsc_id == 28646267:
         return "NPNC2"
+    if lcsc_id == 41375135:
+        pins = 3
+    if lcsc_id == 41375119:
+        pins = 3
 
     transistor_types = {
         "PNP": {"pins": 3, "type": "PNP"},
@@ -250,6 +254,8 @@ def extract_inductor_type_value(description, joints, lcsc):
         current = "400mA"
     if lcsc == 2835403:
         return "120nH,80mA", "Inductor"
+    if lcsc == 27143:
+        return "15nH,300mA", "Inductor"
 
     # Define patterns to match inductance values
     inductance_patterns = [
