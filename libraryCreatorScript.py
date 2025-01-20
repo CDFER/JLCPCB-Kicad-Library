@@ -414,7 +414,7 @@ def check_models():
 
             if match:
                 model_path = match.group(1)
-                model = re.search(r'${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/([^"]+).step', model_path)
+                model = re.search(r'/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/([^"]+).step', model_path)
                 if model:
                     model = model.group(1)
                     if model not in model_names:
@@ -804,8 +804,8 @@ update_library_stock_inplace("Power")
 update_library_stock_inplace("Transformers")
 update_library_stock_inplace("Transistor-Packages")
 
-# check_footprints()
-# check_models()
+check_footprints()
+check_models()
 
 files_and_dirs = ['3dmodels', 'footprints', 'resources', 'symbols', 'metadata.json']
 current_date = datetime.now(timezone.utc).strftime('%Y.%m.%d')
