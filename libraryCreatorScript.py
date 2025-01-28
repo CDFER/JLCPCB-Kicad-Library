@@ -6,7 +6,7 @@ import shutil
 import pandas as pd
 from autoLibrarySymbols import *  # librarySymbols.py
 from handmadeLibrarySymbols import *  # handmadeLibrarySymbols.py
-from packageTools import * # packageTools.py
+from packageTools import *  # packageTools.py
 from datetime import datetime
 from datetime import timezone
 
@@ -372,7 +372,7 @@ def generate_kicad_symbol_libs(symbols):
 
         lib_content = lib_content.replace("℃", "°C")
 
-        with open(f"symbols/JLCPCB-{lib_name}.kicad_sym", "w") as f: #TODO switch with OS.join
+        with open(f"symbols/JLCPCB-{lib_name}.kicad_sym", "w") as f:  # TODO switch with OS.join
             f.write(lib_content)
 
 
@@ -414,7 +414,9 @@ def check_models():
 
             if match:
                 model_path = match.group(1)
-                model = re.search(r'/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/([^"]+).step', model_path)
+                model = re.search(
+                    r'/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/([^"]+).step', model_path
+                )
                 if model:
                     model = model.group(1)
                     if model not in model_names:
@@ -539,9 +541,11 @@ for index in range(0, len(df)):
     manufacturer = str(df.loc[index, "manufacturer"])
     manufacturerPartID = df.loc[index, "mfr"]
     footprint_name = str(df.loc[index, "package"])
-    footprint_name = footprint_name.replace("插件","Plugin") # Some through-hole parts use the prefix Plugin or the chinese equivalent
+    footprint_name = footprint_name.replace(
+        "插件", "Plugin"
+    )  # Some through-hole parts use the prefix Plugin or the chinese equivalent
     description = str(df.loc[index, "description"])
-    description = description.replace("  ", " ") # Gets rid of double spaces
+    description = description.replace("  ", " ")  # Gets rid of double spaces
     joints = int(df.loc[index, "joints"])
     assembly_process = df.loc[index, "Assembly Process"]
     min_order_qty = int(df.loc[index, "Min Order Qty"])
@@ -549,7 +553,7 @@ for index in range(0, len(df)):
     units = 1
     secondary_mode = ""
     subcategory = str(df.loc[index, "subcategory"])
-    
+
     if assembly_process == "THT":
         assembly_process = "Hand-Soldered"
         joint_cost = hand_solder_joint_cost
@@ -630,7 +634,7 @@ for index in range(0, len(df)):
                 if update_component_inplace(lcsc, "Diode-Packages", component_properties) == True:
                     df.drop(index=index, inplace=True)
 
-        elif subcategory == "Light Emitting Diodes (LED)":
+        elif subcategory == "Light Emitting Diodes (LED)" or "LED" in description:
             if lcsc == 2895565 or lcsc == 2835341:
                 if update_component_inplace(lcsc, "Diode-Packages", component_properties) == True:
                     df.drop(index=index, inplace=True)
@@ -658,9 +662,7 @@ for index in range(0, len(df)):
                 if update_component_inplace(lcsc, "Transistor-Packages", component_properties) == True:
                     df.drop(index=index, inplace=True)
 
-        elif (
-            subcategory == "Inductors (SMD)" or (subcategory == "Ferrite Beads") or (subcategory == "Power Inductors")
-        ):
+        elif subcategory == "Inductors (SMD)" or (subcategory == "Ferrite Beads") or (subcategory == "Power Inductors"):
             value, secondary_mode = extract_inductor_type_value(description, joints, lcsc)
             lib_name = "Inductors"
 
@@ -679,8 +681,10 @@ for index in range(0, len(df)):
             if lcsc == 210465:
                 footprint_name = "Plugin,P=5mm"
 
-        elif df.loc[index, "category"] == "Embedded Processors & Controllers" or (
-            df.loc[index, "category"] == "Single Chip Microcomputer/Microcontroller"
+        elif (
+            df.loc[index, "category"] == "Embedded Processors & Controllers"
+            or df.loc[index, "category"] == "Single Chip Microcomputer/Microcontroller"
+            or df.loc[index, "category"] == "IoT/Communication Modules"
         ):
             del component_properties["datasheet"]
             del component_properties["description"]
@@ -740,6 +744,7 @@ for index in range(0, len(df)):
 
         elif (
             df.loc[index, "category"] == "Optocoupler"
+            or df.loc[index, "category"] == "Optoisolators"
             or (subcategory == "Optocouplers")
             or (subcategory == "Optocouplers - Phototransistor Output")
             or (subcategory == "Reflective Optical Interrupters")
@@ -807,9 +812,8 @@ update_library_stock_inplace("Transistor-Packages")
 check_footprints()
 check_models()
 
-files_and_dirs = ['3dmodels', 'footprints', 'resources', 'symbols', 'metadata.json']
-current_date = datetime.now(timezone.utc).strftime('%Y.%m.%d')
+files_and_dirs = ["3dmodels", "footprints", "resources", "symbols", "metadata.json"]
+current_date = datetime.now(timezone.utc).strftime("%Y.%m.%d")
 
-update_version('metadata.json', current_date)
-create_zip_archive(f'JLCPCB-KiCad-Library-{current_date}.zip', files_and_dirs)
-
+update_version("metadata.json", current_date)
+create_zip_archive(f"JLCPCB-KiCad-Library-{current_date}.zip", files_and_dirs)

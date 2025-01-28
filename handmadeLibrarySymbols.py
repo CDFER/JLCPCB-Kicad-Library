@@ -60,10 +60,12 @@ def update_component_inplace(lcsc, libraryName, properties):
         ]
         if f"{lcsc}" in archived_symbols_lcsc:
             print(
-                f"Error: C{lcsc} not found in library {filename} but it was found in the archive folder: {archived_symbol_path}"
+                f"Error: https://jlcpcb.com/parts/componentSearch?searchTxt=c{lcsc} Stock={properties.get("stock")} not found in library {filename} but it was found in the archive"
             )
         else:
-            print(f"Error: https://jlcpcb.com/parts/componentSearch?searchTxt=c{lcsc} not found in library {filename}")
+            print(
+                f"Error: https://jlcpcb.com/parts/componentSearch?searchTxt=c{lcsc} Stock={properties.get("stock")} not found in library {filename}"
+            )
         return False
     else:
         with open(filename, "w") as file:
