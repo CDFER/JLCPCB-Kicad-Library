@@ -547,6 +547,7 @@ for index in range(0, len(df)):
     description = str(df.loc[index, "description"])
     description = description.replace("  ", " ")  # Gets rid of double spaces
     joints = int(df.loc[index, "joints"])
+    stock = int(df.loc[index, "stock"])
     assembly_process = df.loc[index, "Assembly Process"]
     min_order_qty = int(df.loc[index, "Min Order Qty"])
     attrition_qty = int(df.loc[index, "Attrition Qty"])
@@ -576,11 +577,10 @@ for index in range(0, len(df)):
         price_str = f""
         print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
 
-    if price > 3.0 or footprint_name == "0201" or lcsc == 882967:
+    if price > 3.0 or footprint_name == "0201" or lcsc == 882967 or stock < min_order_qty:
         df.drop(index=index, inplace=True)
     else:
         component_class = get_basic_or_prefered_type(df, index)
-        stock = df.loc[index, "stock"]
         keywords = ""
         value = None
 
