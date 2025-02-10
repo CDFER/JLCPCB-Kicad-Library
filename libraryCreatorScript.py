@@ -535,7 +535,7 @@ componentList = []
 names_lookup = []
 
 for index in range(0, len(df)):
-    # lcsc,category_id,category,subcategory,mfr,package,joints,manufacturer,basic,preferred,description,datasheet,stock,last_on_stock,price,extra
+    # lcsc,category_id,category,subcategory,mfr,package,joints,manufacturer,basic,preferred,description,datasheet,stock,last_on_stock,price,extra,Assembly Process,Min Order Qty,Attrition Qty
     lcsc = int(df.loc[index, "lcsc"])
     category = f'{df.loc[index,"category"]},{df.loc[index,"subcategory"]}'
     manufacturer = str(df.loc[index, "manufacturer"])
@@ -726,12 +726,10 @@ for index in range(0, len(df)):
             or (df.loc[index, "category"] == "Communication Interface Chip/UART/485/232")
             or (df.loc[index, "category"] == "Interface ICs")
             or (df.loc[index, "category"] == "Signal Isolation Devices")
+            or df.loc[index, "category"] == "Nixie Tube Driver/LED Driver"
+            or (subcategory == "LCD Drivers")
         ):
             if update_component_inplace(lcsc, "Interface", component_properties) == True:
-                df.drop(index=index, inplace=True)
-
-        elif df.loc[index, "category"] == "Nixie Tube Driver/LED Driver" or (subcategory == "LCD Drivers"):
-            if update_component_inplace(lcsc, "Display-Drivers", component_properties) == True:
                 df.drop(index=index, inplace=True)
 
         elif (
@@ -760,7 +758,6 @@ for index in range(0, len(df)):
             or (subcategory == "Clock Buffers/Drivers/Distributions")
             or (subcategory == "Hall Sensor")
         ):
-            # print(f"{lcsc},")
             if update_component_inplace(lcsc, "ICs", component_properties) == True:
                 df.drop(index=index, inplace=True)
 
