@@ -3980,6 +3980,377 @@
 			)
 		)
 	)
+	(symbol "DC-DC, Charge Pump, 12VIN, "
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICL7660AIBAZA-T"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811051712_RENESAS-ICL7660AIBAZA-T_C7881.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOIC-8 Charge Pumps ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7881"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1072"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.902USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Power Management ICs,DC-DC Converters"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Intersil(Renesas Electronics)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "ICL7660AIBAZA-T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number Of Outputs" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current (Max)" "45mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Synchronous Rectification" "NO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Switching Frequency" "3kHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage" "1.5V~12V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Type" "Fixed"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-40°C~+85°C@(TA)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C7881"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DC-DC, Charge Pump, 12VIN, _0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DC-DC, Charge Pump, 12VIN, _1_1"
+			(pin unspecified line
+				(at -10.16 5.08 0)
+				(length 2.56)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 2.54 0)
+				(length 2.56)
+				(name "CAP+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 0 0)
+				(length 2.56)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -2.54 0)
+				(length 2.56)
+				(name "CAP-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -2.54 180)
+				(length 2.56)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 2.56)
+				(name "LV"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 2.54 180)
+				(length 2.56)
+				(name "OSC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 5.08 180)
+				(length 2.56)
+				(name "V+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "DC-DC, Driver"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5168,7 +5539,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5547,7 @@
 			)
 		)
 		(property "Value" "LM317AG"
-			(at 0 6.096 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5769,7 @@
 		)
 		(symbol "LDO, 1-37V, 1.5A_1_1"
 			(pin unspecified line
-				(at -7.62 0 0)
+				(at 7.62 0 180)
 				(length 2.56)
 				(name "ADJ"
 					(effects
@@ -5436,7 +5807,7 @@
 			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.56)
-				(name "OUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -5458,7 +5829,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.318 8.382 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5837,7 @@
 			)
 		)
 		(property "Value" "SCJT1117B"
-			(at 0.254 6.35 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,10 +6056,12 @@
 					)
 				)
 			)
+		)
+		(symbol "LDO, 1.2V, 1A_1_1"
 			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "OUTPUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -5706,7 +6079,7 @@
 			(pin unspecified line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "IN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -5728,7 +6101,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.508 2.794 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6391,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.254 2.794 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,10 +6564,12 @@
 					)
 				)
 			)
+		)
+		(symbol "LDO, 2.5V, 0.3A_1_1"
 			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "OUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -6212,7 +6587,7 @@
 			(pin unspecified line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "IN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -6234,7 +6609,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 3.048 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6617,7 @@
 			)
 		)
 		(property "Value" "HT7533"
-			(at 0 6.096 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6850,7 @@
 			(pin unspecified line
 				(at -7.62 2.54 0)
 				(length 2.56)
-				(name "Vin"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -6493,7 +6868,7 @@
 			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.56)
-				(name "Vout"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -6515,7 +6890,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 2.286 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6898,7 @@
 			)
 		)
 		(property "Value" "XC6206P332MR"
-			(at -0.508 6.604 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +7140,7 @@
 			(pin unspecified line
 				(at -7.62 2.54 0)
 				(length 2.56)
-				(name "Vin"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -6783,7 +7158,7 @@
 			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.56)
-				(name "Vout"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -6805,7 +7180,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.508 2.794 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +7188,7 @@
 			)
 		)
 		(property "Value" "AMS1117"
-			(at -0.254 6.35 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,24 +7426,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VOUT"
@@ -7106,6 +7463,24 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 		)
 	)
 	(symbol "LDO, 3V, 0.3A"
@@ -7113,7 +7488,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.762 3.048 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7496,7 @@
 			)
 		)
 		(property "Value" "CJ6330A30M"
-			(at -0.254 6.096 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,10 +7661,12 @@
 					)
 				)
 			)
+		)
+		(symbol "LDO, 3V, 0.3A_1_1"
 			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "OUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -7307,7 +7684,7 @@
 			(pin unspecified line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "IN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -7329,7 +7706,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7714,7 @@
 			)
 		)
 		(property "Value" "78L05G"
-			(at -0.254 6.096 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7938,7 @@
 			(pin power_in line
 				(at 7.62 2.54 180)
 				(length 2.56)
-				(name "OUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -7597,7 +7974,7 @@
 			(pin power_in line
 				(at -7.62 2.54 0)
 				(length 2.56)
-				(name "IN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -7619,7 +7996,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.254 2.54 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +8004,7 @@
 			)
 		)
 		(property "Value" "HT7550"
-			(at -0.254 6.096 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,7 +8237,7 @@
 			(pin unspecified line
 				(at -7.62 2.54 0)
 				(length 2.56)
-				(name "Vin"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -7878,7 +8255,7 @@
 			(pin unspecified line
 				(at 7.62 2.54 180)
 				(length 2.56)
-				(name "Vout"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -7900,7 +8277,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.762 3.048 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +8285,7 @@
 			)
 		)
 		(property "Value" "L78M05ABDT-TR"
-			(at 0 6.604 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8536,7 @@
 			(pin power_in line
 				(at -7.62 2.54 0)
 				(length 2.56)
-				(name "IN"
+				(name "VIN"
 					(effects
 						(font
 							(size 1 1)
@@ -8177,7 +8554,7 @@
 			(pin power_in line
 				(at 7.62 2.54 180)
 				(length 2.56)
-				(name "OUT"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1 1)
@@ -8217,7 +8594,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.508 3.048 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,377 +9238,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "DC-DC, Charge Pump, 12VIN, "
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ICL7660AIBAZA-T"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811051712_RENESAS-ICL7660AIBAZA-T_C7881.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOIC-8 Charge Pumps ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7881"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "1072"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.902USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Power Management ICs,DC-DC Converters"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Intersil(Renesas Electronics)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "ICL7660AIBAZA-T"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Of Outputs" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Output Current (Max)" "45mA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Synchronous Rectification" "NO"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switching Frequency" "3kHz"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Input Voltage" "1.5V~12V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Output Type" "Fixed"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-40°C~+85°C@(TA)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C7881"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "DC-DC, Charge Pump, 12VIN, _0_1"
-			(rectangle
-				(start -7.62 7.62)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "DC-DC, Charge Pump, 12VIN, _1_1"
-			(pin unspecified line
-				(at -10.16 5.08 0)
-				(length 2.56)
-				(name "NC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
-				(length 2.56)
-				(name "CAP+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 0 0)
-				(length 2.56)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 2.56)
-				(name "CAP-"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -2.54 180)
-				(length 2.56)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 0 180)
-				(length 2.56)
-				(name "LV"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 2.54 180)
-				(length 2.56)
-				(name "OSC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 5.08 180)
-				(length 2.56)
-				(name "V+"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1 1)
