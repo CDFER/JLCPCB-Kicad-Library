@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "OP"
-			(at 0 1.27 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "6N137S1(TA)"
-			(at 0 -7.62 0)
+			(at 0.254 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,7 +468,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "OP"
-			(at 0 1.27 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +476,7 @@
 			)
 		)
 		(property "Value" "EL357N(B)(TA)-G"
-			(at 0.254 -5.588 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,10 +721,10 @@
 		)
 		(symbol "Phototransistor, 2.7khz, EL357N(B)(TA)-G_0_1"
 			(rectangle
-				(start -6.35 4.318)
-				(end 6.35 -4.318)
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -733,7 +733,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -1.27) (xy -5.08 -1.27)
+					(xy -3.175 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.635) (xy 4.445 2.54)
 				)
 				(stroke
 					(width 0)
@@ -745,7 +757,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -0.254) (xy 0.762 -2.032)
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -757,7 +781,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.254 0.762) (xy 1.524 -1.016)
+					(xy 4.445 2.54) (xy 5.08 2.54)
 				)
 				(stroke
 					(width 0)
@@ -769,7 +793,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -0.762) (xy 6.35 -2.54)
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -781,7 +805,19 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 2.286) (xy 3.81 -2.286)
+					(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
 				)
 				(stroke
 					(width 0)
@@ -793,7 +829,19 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 2.54) (xy 3.81 0.762)
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0)
@@ -805,7 +853,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 2.54) (xy -3.048 2.54) (xy -3.048 -2.54) (xy -6.35 -2.54)
+					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 				)
 				(stroke
 					(width 0)
@@ -817,122 +865,828 @@
 			)
 			(polyline
 				(pts
-					(xy -4.826 1.27) (xy -3.048 -1.27) (xy -1.27 1.27) (xy -4.826 1.27)
+					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 -2.032) (xy 0.254 -1.016) (xy -0.254 -1.524) (xy 0.762 -2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.524 -1.016) (xy 1.016 0) (xy 0.508 -0.508) (xy 1.524 -1.016)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -2.54) (xy 5.588 -1.27) (xy 4.826 -2.286) (xy 6.35 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at 11.43 -2.54 180)
-				(length 5.08)
-				(name "EM"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 11.43 2.54 180)
-				(length 5.08)
-				(name "COL"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
+					(type outline)
 				)
 			)
 		)
 		(symbol "Phototransistor, 2.7khz, EL357N(B)(TA)-G_1_1"
-			(pin unspecified line
-				(at -11.43 2.54 0)
-				(length 5.08)
-				(name "AN"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at -11.43 -2.54 0)
-				(length 5.08)
-				(name "CAT"
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Phototransistor, 2.7khz, EL357N(B)(TA)-G(2)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "OP"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL357N(B)(TA)-G"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOP-4_L4.4-W2.8-P1.27-LS7.0-TL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411131414_Everlight-Elec-EL357N-B-TA-G_C42381015.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOP-4-2.54mm Transistor, Photovoltaic Output Optoisolators ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42381015"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "406475"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.059USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoisolators,Transistor, Photovoltaic Output Optoisolators"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Everlight Elec"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "EL357N(B)(TA)-G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Phototransistor, 2.7khz, EL357N(B)(TA)-G(2)_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.635) (xy 4.445 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Phototransistor, 2.7khz, EL357N(B)(TA)-G(2)_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Phototransistor, 2.7khz, EL357N(C)(TA)-G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "OP"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL357N(C)(TA)-G"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOP-4_L4.4-W2.8-P1.27-LS7.0-TL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411191006_Everlight-Elec-EL357N-C-TA-G_C42379244.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOP-4-2.54mm Transistor, Photovoltaic Output Optoisolators ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42379244"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "419942"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.059USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoisolators,Transistor, Photovoltaic Output Optoisolators"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Everlight Elec"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "EL357N(C)(TA)-G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Phototransistor, 2.7khz, EL357N(C)(TA)-G_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.635) (xy 4.445 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Phototransistor, 2.7khz, EL357N(C)(TA)-G_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -944,7 +1698,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "OP"
-			(at 0 1.27 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +1706,7 @@
 			)
 		)
 		(property "Value" "EL3H7(B)(TA)-G"
-			(at 0 -5.842 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,10 +1951,10 @@
 		)
 		(symbol "Phototransistor, 2.7khz, EL3H7(B)(TA)-G_0_1"
 			(rectangle
-				(start -7.62 4.318)
-				(end 7.62 -4.318)
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -1209,7 +1963,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -1.27) (xy -5.08 -1.27)
+					(xy -3.175 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.635) (xy 4.445 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1221,7 +1987,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -0.254) (xy 0.762 -2.032)
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1233,7 +2011,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.254 0.762) (xy 1.524 -1.016)
+					(xy 4.445 2.54) (xy 5.08 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1245,7 +2023,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -0.762) (xy 6.35 -2.54)
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1257,7 +2035,19 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 2.286) (xy 3.81 -2.286)
+					(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
 				)
 				(stroke
 					(width 0)
@@ -1269,7 +2059,19 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 2.54) (xy 3.81 0.762)
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0)
@@ -1281,7 +2083,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -2.54) (xy 6.35 -2.54)
+					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 				)
 				(stroke
 					(width 0)
@@ -1293,146 +2095,86 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 2.54) (xy 6.35 2.54)
+					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -3.048 2.54) (xy -3.048 -2.54) (xy -7.62 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.572 1.27) (xy -3.048 -1.27) (xy -1.27 1.27) (xy -4.572 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 -2.032) (xy 0.254 -1.016) (xy -0.254 -1.524) (xy 0.762 -2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.524 -1.016) (xy 1.016 0) (xy 0.508 -0.508) (xy 1.524 -1.016)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -2.54) (xy 5.588 -1.27) (xy 4.826 -2.286) (xy 6.35 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
+					(type outline)
 				)
 			)
 		)
 		(symbol "Phototransistor, 2.7khz, EL3H7(B)(TA)-G_1_1"
-			(pin unspecified line
-				(at -10.16 2.54 0)
+			(pin passive line
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "AN"
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
+			(pin passive line
+				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "CAT"
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 -2.54 180)
+			(pin passive line
+				(at 7.62 -2.54 180)
 				(length 2.54)
-				(name "EM"
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 2.54 180)
+			(pin passive line
+				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "COL"
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -1444,7 +2186,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "OP"
-			(at 0 1.27 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +2194,7 @@
 			)
 		)
 		(property "Value" "EL817S1(C)(TU)-F"
-			(at 0 -2.54 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,10 +2439,10 @@
 		)
 		(symbol "Phototransistor, 2.7khz, EL817S1(C)(TU)-F_0_1"
 			(rectangle
-				(start -6.35 4.318)
-				(end 6.35 -4.318)
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -1709,7 +2451,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -1.27) (xy -5.08 -1.27)
+					(xy -3.175 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.635) (xy 4.445 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1721,7 +2475,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -0.254) (xy 0.762 -2.032)
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1733,7 +2499,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.254 0.762) (xy 1.524 -1.016)
+					(xy 4.445 2.54) (xy 5.08 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1745,7 +2511,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -0.762) (xy 6.35 -2.54)
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1757,7 +2523,19 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 2.286) (xy 3.81 -2.286)
+					(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
 				)
 				(stroke
 					(width 0)
@@ -1769,7 +2547,19 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 2.54) (xy 3.81 0.762)
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0)
@@ -1781,7 +2571,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 2.54) (xy -3.048 2.54) (xy -3.048 -2.54) (xy -6.35 -2.54)
+					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 				)
 				(stroke
 					(width 0)
@@ -1793,120 +2583,86 @@
 			)
 			(polyline
 				(pts
-					(xy -4.572 1.27) (xy -3.048 -1.27) (xy -1.27 1.27) (xy -4.572 1.27)
+					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0.762 -2.032) (xy 0.254 -1.016) (xy -0.254 -1.524) (xy 0.762 -2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.524 -1.016) (xy 1.016 0) (xy 0.508 -0.508) (xy 1.524 -1.016)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -2.54) (xy 5.588 -1.27) (xy 4.826 -2.286) (xy 6.35 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -11.43 2.54 0)
-				(length 5.08)
-				(name "AN"
+		)
+		(symbol "Phototransistor, 2.7khz, EL817S1(C)(TU)-F_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at -11.43 -2.54 0)
-				(length 5.08)
-				(name "CAT"
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 11.43 -2.54 180)
-				(length 5.08)
-				(name "EM"
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin unspecified line
-				(at 11.43 2.54 180)
-				(length 5.08)
-				(name "COL"
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
