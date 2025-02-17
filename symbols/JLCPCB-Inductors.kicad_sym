@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1014551"
+		(property "Stock" "1004633"
 			(at 0 0 0)
 			(effects
 				(font
@@ -346,7 +346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "332850"
+		(property "Stock" "328200"
 			(at 0 0 0)
 			(effects
 				(font
@@ -619,7 +619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "498900"
+		(property "Stock" "487804"
 			(at 0 0 0)
 			(effects
 				(font
@@ -901,7 +901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "86300"
+		(property "Stock" "85980"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1195,7 +1195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "69839"
+		(property "Stock" "69704"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1498,7 +1498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "44865"
+		(property "Stock" "44645"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1801,7 +1801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6106"
+		(property "Stock" "29696"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2104,7 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "159599"
+		(property "Stock" "158751"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "68826"
+		(property "Stock" "67626"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "64192"
+		(property "Stock" "63906"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2995,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "84746"
+		(property "Stock" "84581"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "187634"
+		(property "Stock" "186771"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3583,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "13453"
+		(property "Stock" "13375"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "22944"
+		(property "Stock" "21747"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18192"
+		(property "Stock" "18106"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4474,7 +4474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "77832"
+		(property "Stock" "75322"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4677,6 +4677,255 @@
 			)
 		)
 		(symbol "10uH,25mA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "12nH,1.24A"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 1.2673 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12nH,1.24A"
+			(at 1.2673 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:L_0402"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204211700_Murata-Electronics-LQW15AN12NJ80D_C2986278.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.24A 12nH ±5% 0402 Power Inductors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2986278"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "10000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.119USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "Hand-Soldered"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Inductors/Coils/Transformers,Power Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "LQW15AN12NJ80D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "12nH,1.24A_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "12nH,1.24A_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
@@ -5275,7 +5524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "349"
+		(property "Stock" "344"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5773,7 +6022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "625"
+		(property "Stock" "613"
 			(at 0 0 0)
 			(effects
 				(font
