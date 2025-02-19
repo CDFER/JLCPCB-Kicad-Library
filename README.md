@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs.  I’m not affiliated or sponsored by jlcpcb, just another customer.
+A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. This Library is focused on components from JLCPCB's **basic and preferred** parts list, ensuring no extra setup costs.  I’m not affiliated or sponsored by jlcpcb, just another customer.
 
 ## Screenshots
 
@@ -23,7 +23,7 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 * Utilizes .step files for seamless SolidWorks and Fusion 360 integration
 * 99% of components include 3D models
 * Datasheet links
-* Supports JLCPCB Tools Plugin
+* Supports Bouni's [JLCPCB Tools Plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
 * Built for KiCad 8+ (Currently seems to be stable with KiCad 9.0.0-RC2 too :)
 * Allows you to export price to BOM
 
