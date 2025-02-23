@@ -164,6 +164,7 @@ def extract_diode_type(description, pins, lcsc_id):
         "Zener": {"pins": 2, "type": "Zener"},
         "Bidirectional": {"pins": 2, "type": "TVS-Bi"},
         "Unidirectional": {"pins": 2, "type": "TVS-Uni"},
+        "TVS": {"pins": 2, "type": "TVS-Uni"},
     }
     for keyword, diode_info in diode_types.items():
         if keyword.casefold() in description.casefold():
