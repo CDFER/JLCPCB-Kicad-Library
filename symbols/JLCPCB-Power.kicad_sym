@@ -2,334 +2,6 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "AC-DC, 500kHz"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UC3842N"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204181745_HGSEMI-UC3842N_C2987356.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIP-8 AC-DC Controllers and Regulators ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2987356"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6490"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.298USD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "Hand-Soldered"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Power Management,AC-DC Controllers & Regulators"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "HGSEMI"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "UC3842N"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C2987356"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AC-DC, 500kHz_0_1"
-			(rectangle
-				(start -10.16 8.128)
-				(end 10.16 -5.588)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 6.858)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 6.858)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 5.08 0)
-				(length 2.54)
-				(name "COMP"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 2.54 0)
-				(length 2.54)
-				(name "VFB"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 0 0)
-				(length 2.54)
-				(name "ISENSE"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "RT/CT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "VREF"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Battery, Li-Ion, 0.5A, TP4057"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -388,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "37856"
+		(property "Stock" "37836"
 			(at 0 0 0)
 			(effects
 				(font
@@ -660,7 +332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19123"
+		(property "Stock" "19109"
 			(at 0 0 0)
 			(effects
 				(font
@@ -912,7 +584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "109177"
+		(property "Stock" "108954"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1238,7 +910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "53999"
+		(property "Stock" "50712"
 			(at -1.27 0 0)
 			(effects
 				(font
@@ -1607,7 +1279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "321283"
+		(property "Stock" "312623"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2032,7 +1704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "100725"
+		(property "Stock" "100506"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2410,7 +2082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "211737"
+		(property "Stock" "199709"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2826,7 +2498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10516"
+		(property "Stock" "10291"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3215,7 +2887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "16024"
+		(property "Stock" "15655"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3604,7 +3276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "210437"
+		(property "Stock" "182462"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3613,7 +3285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.291USD"
+		(property "Price" "0.284USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4038,7 +3710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "49655"
+		(property "Stock" "49492"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5221,7 +4893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "243"
+		(property "Stock" "219"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5511,7 +5183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3532"
+		(property "Stock" "3522"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5729,7 +5401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "69417"
+		(property "Stock" "69412"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6010,7 +5682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "409420"
+		(property "Stock" "405456"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6300,7 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "817981"
+		(property "Stock" "790674"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6826,7 +6498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "134970"
+		(property "Stock" "134827"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7116,7 +6788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "238188"
+		(property "Stock" "237359"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7397,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "182446"
+		(property "Stock" "176865"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7714,7 +7386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "71904"
+		(property "Stock" "68269"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8031,7 +7703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "141772"
+		(property "Stock" "91656"
 			(at 0 0 0)
 			(effects
 				(font
