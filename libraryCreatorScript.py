@@ -372,8 +372,8 @@ def generate_kicad_symbol_libs(symbols):
         lib_content += ")\n"
 
         lib_content = lib_content.replace("℃", "°C")
-        
-        library_filename = os.path.join("symbols", F"JLCPCB-{lib_name}.kicad_sym")
+
+        library_filename = os.path.join("symbols", f"JLCPCB-{lib_name}.kicad_sym")
 
         with open(library_filename, "w", encoding="utf-8") as f:  # TODO switch with OS.join
             f.write(lib_content)
