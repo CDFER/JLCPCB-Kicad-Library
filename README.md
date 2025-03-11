@@ -24,7 +24,7 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 * 99% of components include 3D models
 * Datasheet links
 * Supports Bouni's [JLCPCB Tools Plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
-* Built for KiCad 8+ (Currently seems to be stable with KiCad 9.0.0-RC2 too :)
+* Fully compatible with kicad 8.0+ and 9.0
 * Allows you to export price to BOM
 
 ## Install using the package manager
@@ -72,6 +72,15 @@ When you order parts, you need to buy **either**:
 
 **Example**:  
 If you’re making 5 circuit boards, and each needs 10 resistors, you’d need 50 resistors. But if you expect 2 parts to be wasted (attrition), order **52 resistors total** (or the JLCPCB minimum, if it’s higher).  
+
+## Editing this Library (for Pull Requests)
+
+1. Clone this repo to your own machine
+2. Install python
+3. Setup Python 3.13 .venv with the packages in `requirements.txt` [venv setup guide](venv_setup.md)
+4. Run ```libraryCreatorScript.py``` (use the run button in the top right hand corner)
+5. Don't commit changes to ```metadata.json``` (release metadata is handled by github actions)
+6. Avoid committing changes to automatically generated symbol libraries (avoids conflicts if you just commit changes to the python code)
 
 ## License
 
