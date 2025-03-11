@@ -372,8 +372,10 @@ def generate_kicad_symbol_libs(symbols):
         lib_content += ")\n"
 
         lib_content = lib_content.replace("℃", "°C")
+        
+        library_filename = os.path.join("symbols", F"JLCPCB-{lib_name}.kicad_sym")
 
-        with open(f"symbols/JLCPCB-{lib_name}.kicad_sym", "w") as f:  # TODO switch with OS.join
+        with open(library_filename, "w", encoding="utf-8") as f:  # TODO switch with OS.join
             f.write(lib_content)
 
 
@@ -409,7 +411,7 @@ def check_models():
     for footprint_name in footprint_names:
         footprint_file_path = os.path.join(footprints_folder_path, f"{footprint_name}.kicad_mod")
 
-        with open(footprint_file_path, "r") as file:
+        with open(footprint_file_path, "r", encoding="utf-8") as file:
             content = file.read()
             match = re.search(r'\(model "([^"]+)"', content)
 
@@ -465,7 +467,7 @@ def check_footprints():
         footprint_file_path = os.path.join(symbols_folder_path, symbol_lib_filename)
 
         if os.path.isfile(footprint_file_path) and symbol_lib_filename.endswith(".kicad_sym"):
-            with open(footprint_file_path, "r") as file:
+            with open(footprint_file_path, "r", encoding="utf-8") as file:
                 symbol_name = None
                 footprint_name = None
 

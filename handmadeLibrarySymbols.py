@@ -11,7 +11,7 @@ def generate_property(property, value):
 
 def update_component_inplace(lcsc, libraryName, properties):
     filename = os.path.join("symbols", f"JLCPCB-{libraryName}.kicad_sym")
-    with open(filename, "r") as file:
+    with open(filename, "r", encoding="utf-8") as file:
         lines = file.readlines()
 
     lcsc_found = False
@@ -68,7 +68,7 @@ def update_component_inplace(lcsc, libraryName, properties):
             )
         return False
     else:
-        with open(filename, "w") as file:
+        with open(filename, "w", encoding="utf-8") as file:
             file.writelines(lines)
             return True
 
@@ -89,7 +89,7 @@ def create_archived_symbol_file(symbol_start_line, symbol_end_line, lines, lcsc)
 
     # Write archived symbol to file
     archived_filename = os.path.join(archived_symbols_folder, f"{lcsc}.kicad_sym")
-    with open(archived_filename, "w") as archived_file:
+    with open(archived_filename, "w", encoding="utf-8") as archived_file:
         archived_file.writelines(symbol_header_lines)
         archived_file.writelines(archived_symbol_lines)
         archived_file.writelines(symbol_footer_lines)
@@ -99,7 +99,7 @@ def create_archived_symbol_file(symbol_start_line, symbol_end_line, lines, lcsc)
 def update_library_stock_inplace(libraryName):
     df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
     filename = os.path.join("symbols", f"JLCPCB-{libraryName}.kicad_sym")
-    with open(filename, "r") as file:
+    with open(filename, "r", encoding="utf-8") as file:
         lines = file.readlines()
 
     no_stock = False
@@ -130,6 +130,6 @@ def update_library_stock_inplace(libraryName):
         elif '(property "Stock"' in line and no_stock == True:
             lines[i] = f'		(property "Stock" "0"\n'
 
-    with open(filename, "w") as file:
+    with open(filename, "w", encoding="utf-8") as file:
         file.writelines(lines)
         return
