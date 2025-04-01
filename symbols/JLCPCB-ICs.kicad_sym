@@ -2250,24 +2250,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 15.24 0)
-				(length 5.08)
-				(name "VCCA"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "A8"
@@ -2520,42 +2502,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 12.7 180)
-				(length 5.08)
-				(name "VCCB"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 15.24 180)
-				(length 5.08)
-				(name "VCCB"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -12.7 10.16 0)
 				(length 5.08)
 				(name "A1"
@@ -2674,6 +2620,62 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Level Shifter, 8 Channel, TSN74LVC4245APWR_1_1"
+			(pin unspecified line
+				(at -12.7 15.24 0)
+				(length 5.08)
+				(name "VCCA(5V)"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 12.7 180)
+				(length 5.08)
+				(name "VCCB(3V)"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 15.24 180)
+				(length 5.08)
+				(name "VCCB(3V)"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1 1)
@@ -2996,6 +2998,8 @@
 					)
 				)
 			)
+		)
+		(symbol "Real Time Clock, I2C, 0.3uA, PCF8563T/5,518_1_1"
 			(pin unspecified line
 				(at -15.24 5.08 0)
 				(length 2.54)
@@ -3006,7 +3010,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "1"
 					(effects
 						(font
 							(size 1 1)
