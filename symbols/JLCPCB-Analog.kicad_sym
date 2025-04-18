@@ -60,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "26201"
+		(property "Stock" "23825"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -69,7 +69,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.103USD"
+		(property "Price" "0.102USD"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -371,395 +371,6 @@
 			)
 		)
 	)
-	(symbol "Digital Potentiometer, SPI, MCP4131-104E/SN"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP4131"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210172130_Microchip-Tech-MCP4131-104E-SN_C636034.pdf"
-			(at -2.286 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "±20% SPI 100kΩ 1.8V~5.5V SOIC-8-150mil Digital Potentiometers ROHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C636034"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "663"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.906USD"
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ADC/DAC/Data Conversion,Digital Potentiometers"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Microchip Tech"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "MCP4131-104E/SN"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface Type" "SPI"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supply Voltage" "1.8V~5.5V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Of Taps" "129"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient (Typ)" "150ppm/°C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Precision" "±20%"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Number Of Channels" "1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance Value (Ohms)" "100kΩ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-40°C~+125°C"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "C636034"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Digital Potentiometer, SPI, MCP4131-104E/SN_0_1"
-			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -8.89 6.35)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 5.08 0)
-				(length 2.54)
-				(name "CS#"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 2.54 0)
-				(length 2.54)
-				(name "SCK"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 0 0)
-				(length 2.54)
-				(name "SDI/SDO"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "P0A"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "P0W"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "P0B"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Op-Amp, LM2904DR2G"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -818,7 +429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "40834"
+		(property "Stock" "32429"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -1200,7 +811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "53392"
+		(property "Stock" "53303"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1735,7 +1346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "174662"
+		(property "Stock" "75693"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2117,7 +1728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "60137"
+		(property "Stock" "37559"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2126,7 +1737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.094USD"
+		(property "Price" "0.095USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2459,7 +2070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "148000"
+		(property "Stock" "20979"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2837,7 +2448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "48532"
+		(property "Stock" "31345"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3236,7 +2847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "41513"
+		(property "Stock" "37440"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3668,7 +3279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "56779"
+		(property "Stock" "49134"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -3677,7 +3288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.133USD"
+		(property "Price" "0.119USD"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -4050,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8019"
+		(property "Stock" "7208"
 			(at 6.35 1.27 0)
 			(effects
 				(font
@@ -4527,7 +4138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18802"
+		(property "Stock" "21118"
 			(at 11.43 1.27 0)
 			(effects
 				(font
@@ -4536,7 +4147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.226USD"
+		(property "Price" "0.208USD"
 			(at 11.43 1.27 0)
 			(effects
 				(font
