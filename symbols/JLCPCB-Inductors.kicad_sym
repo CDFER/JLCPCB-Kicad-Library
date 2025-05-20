@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "625681"
+		(property "Stock" "597980"
 			(at 0 0 0)
 			(effects
 				(font
@@ -284,6 +284,288 @@
 			)
 		)
 	)
+	(symbol "Ferrite,0603,(2)"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FB"
+			(at 3.4036 1.2508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:FB_0603"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM18PG121SN1D_C14709.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mΩ ±25% 120Ω@100MHz 0603 Ferrite Beads ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1206861"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.009USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Filters/EMI Optimization,Ferrite Beads"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BLM18PG121SN1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Resistance" "50mΩ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Impedance @ Frequency" "120Ω@100MHz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Circuits" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Rating" "2A"
+			(at 3.4036 -1.5274 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±25%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "FB_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)		(symbol "Ferrite,0603,(2)_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.2192)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 1.2954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Ferrite,0603,(2)_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Ferrite,0805"
 		(pin_numbers hide)
 		(pin_names
@@ -346,7 +628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "224730"
+		(property "Stock" "206661"
 			(at 0 0 0)
 			(effects
 				(font
@@ -619,7 +901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "437833"
+		(property "Stock" "405851"
 			(at 0 0 0)
 			(effects
 				(font
@@ -901,7 +1183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "86952"
+		(property "Stock" "76362"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1195,7 +1477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "233941"
+		(property "Stock" "232277"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1498,7 +1780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "36437"
+		(property "Stock" "36287"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1801,7 +2083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "66307"
+		(property "Stock" "58845"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2104,7 +2386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "209375"
+		(property "Stock" "207398"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2407,7 +2689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "39994"
+		(property "Stock" "37775"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2710,7 +2992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "39123"
+		(property "Stock" "36626"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2995,7 +3277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "109311"
+		(property "Stock" "105321"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3298,7 +3580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "90588"
+		(property "Stock" "82192"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3583,7 +3865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17319"
+		(property "Stock" "17001"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3868,7 +4150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30921"
+		(property "Stock" "30228"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4171,7 +4453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "31650"
+		(property "Stock" "31505"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4474,7 +4756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "101852"
+		(property "Stock" "97152"
 			(at 0 0 0)
 			(effects
 				(font
