@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "27582"
+		(property "Stock" "27478"
 			(at 0 0 0)
 			(effects
 				(font
@@ -298,7 +298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "19596"
+		(property "Stock" "19506"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532,7 +532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "67282"
+		(property "Stock" "66688"
 			(at 0 0 0)
 			(effects
 				(font
@@ -837,7 +837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "20339"
+		(property "Stock" "13800"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1142,7 +1142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18593"
+		(property "Stock" "18307"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "499932"
+		(property "Stock" "495883"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6862"
+		(property "Stock" "6842"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1669"
+		(property "Stock" "1214"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2381,6 +2381,242 @@
 			)
 		)
 	)
+	(symbol "Schottky,SS515C"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS515C"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMC"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407121629_hongjiacheng-SS515C_C28646296.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nan"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646296"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2698"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.096USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS515C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Schottky,SS515C_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27)
+					(xy 0.00 -1.27)
+					(xy 1.27 1.27)
+					(xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky,SS515C_0_1"
+			(polyline
+				(pts
+					(xy 0.635 -1.905)
+					(xy 1.27 -1.905)
+					(xy 1.27 -1.27)
+					(xy -1.27 -1.27)
+					(xy -1.27 -0.635)
+					(xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky,SS515C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Schottky,DSK320"
 		(pin_numbers hide)
 		(pin_names
@@ -2679,7 +2915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "17727"
+		(property "Stock" "17703"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3196,7 +3432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "227440"
+		(property "Stock" "224623"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3464,7 +3700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "14584"
+		(property "Stock" "14544"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4047,7 +4283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5672"
+		(property "Stock" "5649"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5608,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "104850"
+		(property "Stock" "104616"
 			(at 0 0 0)
 			(effects
 				(font
