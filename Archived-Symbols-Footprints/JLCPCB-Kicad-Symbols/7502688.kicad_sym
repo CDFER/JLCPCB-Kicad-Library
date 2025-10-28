@@ -1,45 +1,39 @@
 (kicad_symbol_lib
-	(version 20231120)
-	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "LTV-217-B-G"
-		(pin_names
-			(offset 1.016)
-		)
+    (version 20231120)
+    (generator "CDFER_Archive_Tool")
+    (generator_version "0.0")
+ 	(symbol "Schottky, BAS40-04_C7502688"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -5.08 5.08 0)
+		(property "Reference" "D"
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LTV-217-B-G"
-			(at 0 5.08 0)
+		(property "Value" "BAS40-04_C7502688"
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:SOP-4_4.4x2.6mm_P1.27mm"
-			(at -5.08 -5.08 0)
+		(property "Footprint" "PCM_JLCPCB:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092010_Lite-On-LTV-217-B-G_C115450.pdf"
-			(at 0 0 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402010330_hongjiacheng-BAS40-04_C7502688.pdf"
+			(at -2.286 0.127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115450"
+		(property "LCSC" "C7502688"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "LTV-217-B-G"
+		(property "Stock" "0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75,43 +69,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-On"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics,Optocouplers - Phototransistor Output"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
+		(property "Price" "0.021USD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -129,7 +87,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "174341"
+		(property "Minimum Qty" "10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -138,7 +96,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.063USD"
+		(property "Attrition Qty" "4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -147,7 +105,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LTV-217-B-G"
+		(property "Class" "Preferred Component"
 			(at 0 0 0)
 			(effects
 				(font
@@ -156,7 +114,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIP*W7.62mm*"
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -165,12 +123,39 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTV-217-B-G_0_1"
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BAS40-04"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C7502688"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Schottky, BAS40-04_C7502688_0_1"
 			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -3.81)
+				(start -10.16 5.08)
+				(end 10.414 -5.08)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -179,19 +164,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 -0.635) (xy -1.905 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0.635) (xy 4.445 2.54)
+					(xy -5.08 2.794) (xy -5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -203,19 +176,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -2.54) (xy 2.54 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -2.54) (xy 5.08 -2.54)
+					(xy -5.08 2.794) (xy 5.08 2.794)
 				)
 				(stroke
 					(width 0)
@@ -227,7 +188,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 2.54) (xy 5.08 2.54)
+					(xy -2.286 0) (xy -2.286 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -239,7 +200,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					(xy 0 5.08) (xy 0 2.794)
 				)
 				(stroke
 					(width 0)
@@ -251,19 +212,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					(xy 5.08 2.794) (xy 5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -275,19 +224,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+					(xy 7.874 -1.778) (xy 7.874 -1.016)
 				)
 				(stroke
 					(width 0)
@@ -299,7 +236,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+					(xy 2.54 -2.54) (xy 2.54 -1.778) (xy 7.874 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -311,86 +248,90 @@
 			)
 			(polyline
 				(pts
-					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+					(xy -7.62 0.762) (xy -7.62 0) (xy -5.08 0) (xy -2.286 0)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
-		)
-		(symbol "LTV-217-B-G_1_1"
-			(pin passive line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "~"
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -5.08 0) (xy -7.62 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0.762) (xy 5.08 -1.778) (xy 2.54 0.762) (xy 7.62 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 -7.62 90)
+				(length 3.81)
+				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
-			(pin passive line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "~"
+			(pin input line
+				(at 5.08 -7.62 90)
+				(length 3.81)
+				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "~"
+			(pin input line
+				(at 0 7.62 270)
+				(length 3.81)
+				(name "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
