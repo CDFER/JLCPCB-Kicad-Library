@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "26056"
+		(property "Stock" "22925"
 			(at 0 0 0)
 			(effects
 				(font
@@ -298,7 +298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "18185"
+		(property "Stock" "18600"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532,7 +532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "37873"
+		(property "Stock" "117482"
 			(at 0 0 0)
 			(effects
 				(font
@@ -837,7 +837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7861"
+		(property "Stock" "40529"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1142,7 +1142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5189"
+		(property "Stock" "2351"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "324145"
+		(property "Stock" "295031"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "710"
+		(property "Stock" "688"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3410"
+		(property "Stock" "2705"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1470"
+		(property "Stock" "1392"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2443,7 +2443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "683"
+		(property "Stock" "9663"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2679,7 +2679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "7891"
+		(property "Stock" "7291"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2915,7 +2915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12388"
+		(property "Stock" "12234"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3151,7 +3151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "15064"
+		(property "Stock" "15044"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3432,7 +3432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "182250"
+		(property "Stock" "206922"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4283,7 +4283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9207"
+		(property "Stock" "9381"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5216,7 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12861"
+		(property "Stock" "12761"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5530,7 +5530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2843"
+		(property "Stock" "2242"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5844,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "48207"
+		(property "Stock" "41874"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6058,6 +6058,320 @@
 			)
 		)
 		(symbol "TVS-Bi,SMF6.0CA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TVS-Bi,SMF30CA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.032 0.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF30CA"
+			(at 2.032 -1.2122 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-123FL"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271608_Liown-SMF30CA_C2990493.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nan"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2990493"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15205"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.030USD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "15"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "TVS/Fuse/Board Level Protection,TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Liown"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMF30CA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "200W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "33.3V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "48.4V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "4.2A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "30V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TVS-Bi,SMF30CA_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54)
+					(xy 0 0)
+					(xy 1.27 2.54)
+					(xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMF30CA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54)
+					(xy 0 0)
+					(xy -1.27 -2.54)
+					(xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMF30CA_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -0.635)
+					(xy -1.27 0)
+					(xy 1.27 0)
+					(xy 1.905 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TVS-Bi,SMF30CA_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 3.81)
