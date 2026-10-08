@@ -7,6 +7,13 @@ import pandas as pd
 from autoLibrarySymbols import *  # librarySymbols.py
 from handmadeLibrarySymbols import *  # handmadeLibrarySymbols.py
 from packageTools import *  # packageTools.py
+from build_support import (
+    FOOTPRINT_REFERENCE_REPLACEMENTS,
+    atomic_write_text,
+    parse_attributes,
+    parse_base_price,
+    source_catalog_complete,
+)
 from datetime import datetime
 from datetime import timezone
 
@@ -20,11 +27,6 @@ def download_file(url, filename):
     :param filename: The local filename to save the downloaded file.
     """
     try:
-        # Check if the file already exists and delete it if it does
-        if os.path.exists(filename):
-            os.remove(filename)
-            print(f"Deleted existing file: {filename}")
-
         # Construct the full URL for the file
         full_url = f"{url}/{filename}"
 
@@ -32,10 +34,11 @@ def download_file(url, filename):
         response = requests.get(full_url, stream=True)
         response.raise_for_status()  # Raise an exception for bad status codes
 
-        # Write the content to a file in binary mode
-        with open(filename, "wb") as f:
+        temporary_filename = f"{filename}.part"
+        with open(temporary_filename, "wb") as f:
             for chunk in response.iter_content(chunk_size=None):
                 f.write(chunk)
+        os.replace(temporary_filename, filename)
 
         print(f"Downloaded {full_url} to {filename}")
     except requests.RequestException as e:
@@ -375,8 +378,7 @@ def generate_kicad_symbol_libs(symbols):
 
         library_filename = os.path.join("symbols", f"JLCPCB-{lib_name}.kicad_sym")
 
-        with open(library_filename, "w", encoding="utf-8") as f:  # TODO switch with OS.join
-            f.write(lib_content)
+        atomic_write_text(library_filename, lib_content)
 
 
 def check_models():
@@ -438,12 +440,8 @@ def check_models():
             elif footprint_name not in exempt_footprints:
                 print(f"Empty Model Field for Footprint: {footprint_name}")
 
-    for model in model_names:
-        if model not in model_names_used:
-            pre_move_file_path = os.path.join(models_folder_path, f"{model}.step")
-            post_move_file_path = os.path.join(archived_models_folder_path, f"{model}.step")
-            shutil.move(pre_move_file_path, post_move_file_path)
-            print(f"Archived unused model: {model}")
+    # Keep the complete model catalogue. A temporarily incomplete source feed must
+    # never make a valid model disappear from the released package.
 
 
 def check_footprints():
@@ -485,6 +483,13 @@ def check_footprints():
                         footprint_lib_match = re.search(r'PCM_JLCPCB:([^"]+)', footprint_name)
                         if footprint_lib_match:
                             footprint_name = footprint_lib_match.group(1)
+                            canonical_reference = FOOTPRINT_REFERENCE_REPLACEMENTS.get(
+                                f"PCM_JLCPCB:{footprint_name}"
+                            )
+                            if canonical_reference and canonical_reference.startswith("PCM_JLCPCB:"):
+                                footprint_name = canonical_reference.split(":", 1)[1]
+                            elif canonical_reference:
+                                continue
                             if footprint_name not in footprint_names:
                                 if footprint_name in archived_footprint_names:
                                     post_move_file_path = os.path.join(
@@ -507,18 +512,16 @@ def check_footprints():
                                 f"Incorrect Symbol Footprint Library For Symbol: {symbol_name} -> {footprint_name} ({footprint_file_path})"
                             )
 
-    for footprint in footprint_names:
-        if footprint not in footprint_names_used:
-            pre_move_file_path = os.path.join(footprints_folder_path, f"{footprint}.kicad_mod")
-            post_move_file_path = os.path.join(archived_footprints_folder_path, f"{footprint}.kicad_mod")
-            shutil.move(pre_move_file_path, post_move_file_path)
-            print(f"Archived unused footprint: {footprint}")
+    # Keep the complete footprint catalogue for the same reason as 3D models.
 
 
 # Download the latest basic/preferred csv file
 download_file("https://cdfer.github.io/jlcpcb-parts-database", "jlcpcb-components-basic-preferred.csv")
 
 df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
+catalog_complete = source_catalog_complete(df["category"])
+if not catalog_complete:
+    print("Source feed is partial; updating known components and retaining the complete symbol catalogue")
 
 footprints_dir = "3dmodels/JLCPCB.3dshapes"
 footprints_lookup = {os.path.splitext(file)[0] for file in os.listdir(footprints_dir)}
@@ -564,21 +567,14 @@ for index in range(0, len(df)):
     else:
         joint_cost = smt_joint_cost
 
-    try:
-        price_json = json.loads(df.loc[index, "price"])
-        if price_json and len(price_json) > 0 and "price" in price_json[0]:
-            base_price = float(price_json[0]["price"])
-            # Calculate the total price considering joints and joint cost
-            price = base_price + (joints * joint_cost)
-            price = round(price, 3)
-            price_str = f"{price:.3f}USD"
-
-        else:
-            price_str = f""
-            print(f"Error: Price is missing or invalid for https://jlcpcb.com/partdetail/C{lcsc} ({price_json})")
-    except (json.JSONDecodeError, ValueError, KeyError, TypeError):
-        price_str = f""
+    base_price = parse_base_price(df.loc[index, "price"])
+    if base_price is None:
+        price = 0.0
+        price_str = ""
         print(f"Error: Price cannot be parsed https://jlcpcb.com/partdetail/C{lcsc}")
+    else:
+        price = round(base_price + (joints * joint_cost), 3)
+        price_str = f"{price:.3f}USD"
 
     if price > 3.0 or footprint_name == "0201" or lcsc == 882967 or stock < min_order_qty:
         df.drop(index=index, inplace=True)
@@ -589,12 +585,8 @@ for index in range(0, len(df)):
 
         datasheet = df.loc[index, "datasheet"]
 
-        try:
-            extra_json = json.loads(df.loc[index, "extra"])
-            attributes = extra_json["attributes"]
-            attributes = {key: value for key, value in attributes.items() if value != "-"}
-        except:
-            attributes = {}
+        attribute_column = "attributes" if "attributes" in df.columns else "extra"
+        attributes = parse_attributes(df.loc[index, attribute_column])
 
         component_properties = {
             "price": price_str,
@@ -793,20 +785,21 @@ for index in range(0, len(df)):
 
 df.to_csv("leftover.csv", index=False)
 
-generate_kicad_symbol_libs(symbols)
+if catalog_complete:
+    generate_kicad_symbol_libs(symbols)
 
-update_library_stock_inplace("Analog")
-update_library_stock_inplace("Connectors_Buttons")
-update_library_stock_inplace("Crystals")
-update_library_stock_inplace("Diode-Packages")
-update_library_stock_inplace("ICs")
-update_library_stock_inplace("Interface")
-update_library_stock_inplace("Memory")
-update_library_stock_inplace("MCUs")
-update_library_stock_inplace("Optocouplers")
-update_library_stock_inplace("Power")
-update_library_stock_inplace("Transformers")
-update_library_stock_inplace("Transistor-Packages")
+update_library_stock_inplace("Analog", remove_missing=catalog_complete)
+update_library_stock_inplace("Connectors_Buttons", remove_missing=catalog_complete)
+update_library_stock_inplace("Crystals", remove_missing=catalog_complete)
+update_library_stock_inplace("Diode-Packages", remove_missing=catalog_complete)
+update_library_stock_inplace("ICs", remove_missing=catalog_complete)
+update_library_stock_inplace("Interface", remove_missing=catalog_complete)
+update_library_stock_inplace("Memory", remove_missing=catalog_complete)
+update_library_stock_inplace("MCUs", remove_missing=catalog_complete)
+update_library_stock_inplace("Optocouplers", remove_missing=catalog_complete)
+update_library_stock_inplace("Power", remove_missing=catalog_complete)
+update_library_stock_inplace("Transformers", remove_missing=catalog_complete)
+update_library_stock_inplace("Transistor-Packages", remove_missing=catalog_complete)
 
 check_footprints()
 check_models()
@@ -814,5 +807,4 @@ check_models()
 files_and_dirs = ["3dmodels", "footprints", "resources", "symbols", "metadata.json"]
 current_date = datetime.now(timezone.utc).strftime("%Y.%m.%d")
 
-update_version("metadata.json", current_date)
-create_zip_archive(f"JLCPCB-KiCad-Library-{current_date}.zip", files_and_dirs)
+create_target_archives(current_date, files_and_dirs)

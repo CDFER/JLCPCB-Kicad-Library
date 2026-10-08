@@ -24,7 +24,7 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 * 99% of components include 3D models
 * Datasheet links
 * Supports Bouni's [JLCPCB Tools Plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
-* Fully compatible with kicad 8.0+ and 9.0
+* Fully compatible with KiCad 8, 9 and 10
 * Allows you to export price to BOM
 
 ## Install using the package manager
