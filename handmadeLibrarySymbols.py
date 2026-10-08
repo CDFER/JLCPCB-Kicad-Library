@@ -96,7 +96,7 @@ def create_archived_symbol_file(symbol_start_line, symbol_end_line, lines, lcsc)
     print(f"Archived symbol as: {archived_filename}")
 
 
-def update_library_stock_inplace(libraryName):
+def update_library_stock_inplace(libraryName, remove_missing=False):
     df = pd.read_csv("jlcpcb-components-basic-preferred.csv")
     filename = os.path.join("symbols", f"JLCPCB-{libraryName}.kicad_sym")
     with open(filename, "r", encoding="utf-8") as file:
@@ -123,7 +123,7 @@ def update_library_stock_inplace(libraryName):
             lcsc = numbers[0]
 
             rows = df[df["lcsc"] == lcsc]
-            if len(rows) == 0:
+            if len(rows) == 0 and remove_missing:
                 no_stock = True
                 print(f"Error: No Stock found for https://jlcpcb.com/partdetail/C{lcsc}")
 

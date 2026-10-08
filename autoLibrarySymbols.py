@@ -196,7 +196,13 @@ def generate_kicad_symbol(
 
     names_lookup.append(name)
 
-    footprint = f"PCM_JLCPCB:{ref_designator}_{footprint}"
+    footprint = f"{ref_designator}_{footprint}"
+    footprint_aliases = {
+        "Q_SOT-89-3L": "PCM_JLCPCB:Q_SOT-89",
+        "D_DO-214AA(SMB)": "PCM_JLCPCB:D_SMB",
+        "D_P600": "Diode_THT:D_P600_R-6_P15.24mm_Horizontal",
+    }
+    footprint = footprint_aliases.get(footprint, f"PCM_JLCPCB:{footprint}")
     if mode == "Transistors":
         symbol = generate_header(name, False)
     else:
